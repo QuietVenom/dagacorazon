@@ -1,0 +1,508 @@
+[
+  {
+    "name": "Espada curta",
+    "category": "Secondary Weapon",
+    "tier": 1,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Emparelhado:** +2 no dano da arma primária a alvos dentro de alcance Corpo a corpo"
+    ],
+    "description": "Tier 1 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d8 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Escudo redondo",
+    "category": "Secondary Weapon",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Protetor:** +1 para Pontuação de Armadura"
+    ],
+    "description": "Tier 1 · Traço: Força · Alcance: Corpo a corpo · Dano: d4 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Escudo de torre",
+    "category": "Secondary Weapon",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Barreira:** +2 para Pontuação de Armadura; -1 a Evasão"
+    ],
+    "description": "Tier 1 · Traço: Força · Alcance: Corpo a corpo · Dano: d6 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Adaga pequena",
+    "category": "Secondary Weapon",
+    "tier": 1,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Emparelhado:** +2 no dano da arma primária a alvos dentro de alcance Corpo a corpo"
+    ],
+    "description": "Tier 1 · Traço: Finesse · Alcance: Corpo a corpo · Dano: d8 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Chicote",
+    "category": "Secondary Weapon",
+    "tier": 1,
+    "trait": "Presence",
+    "range": "Very Close",
+    "damage": "d6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Surpreendente:** Marque um Estresse para estalar o chicote e forçar todos os adversários dentro de alcance Corpo a corpo a voltarem para alcance Perto."
+    ],
+    "description": "Tier 1 · Traço: Presença · Alcance: Muito perto · Dano: d6 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Arpéu",
+    "category": "Secondary Weapon",
+    "tier": 1,
+    "trait": "Finesse",
+    "range": "Close",
+    "damage": "d6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Fisgante:** Com um ataque bem-sucedido, você pode puxar o alvo até alcance Corpo a corpo."
+    ],
+    "description": "Tier 1 · Traço: Finesse · Alcance: Perto · Dano: d6 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Besta de mão",
+    "category": "Secondary Weapon",
+    "tier": 1,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+1",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 1 · Traço: Finesse · Alcance: Longe · Dano: d6+1 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Espada curta aprimorada",
+    "category": "Secondary Weapon",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+2",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Emparelhado:** +3 no dano da arma primária a alvos dentro de alcance Corpo a corpo"
+    ],
+    "description": "Tier 2 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d8+2 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Escudo redondo aprimorado",
+    "category": "Secondary Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d4+2",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Protetor:** +2 para Pontuação de Armadura"
+    ],
+    "description": "Tier 2 · Traço: Força · Alcance: Corpo a corpo · Dano: d4+2 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Escudo de torre aprimorado",
+    "category": "Secondary Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d6+2",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Barreira:** +3 para Pontuação de Armadura; -1 a Evasão"
+    ],
+    "description": "Tier 2 · Traço: Força · Alcance: Corpo a corpo · Dano: d6+2 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Adaga pequena aprimorada",
+    "category": "Secondary Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8+2",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Emparelhado:** +3 no dano da arma primária a alvos dentro de alcance Corpo a corpo"
+    ],
+    "description": "Tier 2 · Traço: Finesse · Alcance: Corpo a corpo · Dano: d8+2 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Chicote aprimorado",
+    "category": "Secondary Weapon",
+    "tier": 2,
+    "trait": "Presence",
+    "range": "Very Close",
+    "damage": "d6+2",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Surpreendente:** Marque um Estresse para estalar o chicote e forçar todos os adversários dentro de alcance Corpo a corpo a voltarem para alcance Perto."
+    ],
+    "description": "Tier 2 · Traço: Presença · Alcance: Muito perto · Dano: d6+2 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Arpéu aprimorado",
+    "category": "Secondary Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Close",
+    "damage": "d6+2",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Fisgante:** Com um ataque bem-sucedido, você pode puxar o alvo até alcance Corpo a corpo."
+    ],
+    "description": "Tier 2 · Traço: Finesse · Alcance: Perto · Dano: d6+2 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Besta de mão aprimorada",
+    "category": "Secondary Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+3",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 2 · Traço: Finesse · Alcance: Longe · Dano: d6+3 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Espada curta avançada",
+    "category": "Secondary Weapon",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Emparelhado:** +4 no dano da arma primária a alvos dentro de alcance Corpo a corpo"
+    ],
+    "description": "Tier 3 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d8+4 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Escudo redondo avançado",
+    "category": "Secondary Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d4+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Protetor:** +3 para Pontuação de Armadura"
+    ],
+    "description": "Tier 3 · Traço: Força · Alcance: Corpo a corpo · Dano: d4+4 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Escudo de torre avançado",
+    "category": "Secondary Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d6+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Barreira:** +4 para Pontuação de Armadura; -1 a Evasão"
+    ],
+    "description": "Tier 3 · Traço: Força · Alcance: Corpo a corpo · Dano: d6+4 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Adaga pequena avançada",
+    "category": "Secondary Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Emparelhado:** +4 no dano da arma primária a alvos dentro de alcance Corpo a corpo"
+    ],
+    "description": "Tier 3 · Traço: Finesse · Alcance: Corpo a corpo · Dano: d8+4 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Chicote avançado",
+    "category": "Secondary Weapon",
+    "tier": 3,
+    "trait": "Presence",
+    "range": "Very Close",
+    "damage": "d6+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Surpreendente:** Marque um Estresse para estalar o chicote e forçar todos os adversários dentro de alcance Corpo a corpo a voltarem para alcance Perto."
+    ],
+    "description": "Tier 3 · Traço: Presença · Alcance: Muito perto · Dano: d6+4 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Arpéu avançado",
+    "category": "Secondary Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Close",
+    "damage": "d6+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Fisgante:** Com um ataque bem-sucedido, você pode puxar o alvo até alcance Corpo a corpo."
+    ],
+    "description": "Tier 3 · Traço: Finesse · Alcance: Perto · Dano: d6+4 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Besta de mão avançada",
+    "category": "Secondary Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+5",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 3 · Traço: Finesse · Alcance: Longe · Dano: d6+5 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Espada curta lendária",
+    "category": "Secondary Weapon",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Emparelhado:** +5 no dano da arma primária a alvos dentro de alcance Corpo a corpo"
+    ],
+    "description": "Tier 4 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d8+6 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Escudo redondo lendário",
+    "category": "Secondary Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d4+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Protetor:** +4 para Pontuação de Armadura"
+    ],
+    "description": "Tier 4 · Traço: Força · Alcance: Corpo a corpo · Dano: d4+6 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Escudo de torre lendário",
+    "category": "Secondary Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d6+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Barreira:** +5 para Pontuação de Armadura; -1 a Evasão."
+    ],
+    "description": "Tier 4 · Traço: Força · Alcance: Corpo a corpo · Dano: d6+6 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Adaga pequena lendária",
+    "category": "Secondary Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Emparelhado:** +5 no dano da arma primária a alvos dentro de alcance Corpo a corpo"
+    ],
+    "description": "Tier 4 · Traço: Finesse · Alcance: Corpo a corpo · Dano: d8+6 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Chicote lendário",
+    "category": "Secondary Weapon",
+    "tier": 4,
+    "trait": "Presence",
+    "range": "Very Close",
+    "damage": "d6+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Surpreendente:** Marque um Estresse para estalar o chicote e forçar todos os adversários dentro de alcance Corpo a corpo a voltarem para alcance Perto."
+    ],
+    "description": "Tier 4 · Traço: Presença · Alcance: Muito perto · Dano: d6+6 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Arpéu lendário",
+    "category": "Secondary Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Close",
+    "damage": "d6+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Fisgante:** Com um ataque bem-sucedido, você pode puxar o alvo até alcance Corpo a corpo."
+    ],
+    "description": "Tier 4 · Traço: Finesse · Alcance: Perto · Dano: d6+6 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Besta de mão lendária",
+    "category": "Secondary Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+7",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 4 · Traço: Finesse · Alcance: Longe · Dano: d6+7 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Escudo Cravado",
+    "category": "Secondary Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d6+2",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Função dupla:** +1 na Pontuação de Armadura; +1 ao dano da arma primária dentro de alcance Corpo a corpo"
+    ],
+    "description": "Tier 2 · Traço: Força · Alcance: Corpo a corpo · Dano: d6+2 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Adaga de Aparar",
+    "category": "Secondary Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d6+2",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Aparar:** Quando você for atacado, role os dados de dano desta arma. Se algum dos dados de dano do atacante mostrar o mesmo valor que os seus, os resultados correspondentes são descartados antes de totalizar o dano sofrido."
+    ],
+    "description": "Tier 2 · Traço: Finesse · Alcance: Corpo a corpo · Dano: d6+2 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Machado de retorno",
+    "category": "Secondary Weapon",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Close",
+    "damage": "d6+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Retornando:** Quando esta arma é lançada ao seu alcance, ela aparece em sua mão imediatamente após o ataque."
+    ],
+    "description": "Tier 2 · Traço: Agilidade · Alcance: Perto · Dano: d6+4 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Broquel",
+    "category": "Secondary Weapon",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d4+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Deflexão:** Quando você é atacado, pode marcar um Espaço de Armadura para ganhar um bônus na sua Evasão igual à sua Pontuação de Armadura disponível contra esse ataque."
+    ],
+    "description": "Tier 3 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d4+4 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Manopla Energizada",
+    "category": "Secondary Weapon",
+    "tier": 3,
+    "trait": "Knowledge",
+    "range": "Close",
+    "damage": "d6+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Carregado:** Marque um Estresse para ganhar um bônus de +1 para seu Proficiência em um ataque com arma primária."
+    ],
+    "description": "Tier 3 · Traço: Conhecimento · Alcance: Perto · Dano: d6+4 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Tipoia de mão",
+    "category": "Secondary Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Very Far",
+    "damage": "d6+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Versátil:** Esta arma também pode ser usada com estas estatísticas - Finesse, Perto, d8+4."
+    ],
+    "description": "Tier 3 · Traço: Finesse · Alcance: Muito longe · Dano: d6+4 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Escudo Bravo",
+    "category": "Secondary Weapon",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d4+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Abrigo:** Quando você marca um Espaço de Armadura, ele reduz o dano sofrido por você e por todos os aliados dentro de alcance Corpo a corpo que tenham sofrido esse mesmo dano."
+    ],
+    "description": "Tier 4 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d4+6 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Garras articuladas",
+    "category": "Secondary Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d6+8",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Duplicado:** Ao realizar um ataque com sua arma primária, você pode causar dano a outro alvo dentro de alcance Corpo a corpo."
+    ],
+    "description": "Tier 4 · Traço: Força · Alcance: Corpo a corpo · Dano: d6+8 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Fragmento de Primórdio",
+    "category": "Secondary Weapon",
+    "tier": 4,
+    "trait": "Instinct",
+    "range": "Very Close",
+    "damage": "d4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Travado:** Com um ataque bem-sucedido, seu próximo ataque contra esse mesmo alvo com sua arma primária será automaticamente bem-sucedido."
+    ],
+    "description": "Tier 4 · Traço: Instinto · Alcance: Muito perto · Dano: d4 físico · Carga: Uma mão"
+  }
+]

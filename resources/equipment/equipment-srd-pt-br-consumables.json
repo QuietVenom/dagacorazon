@@ -1,0 +1,362 @@
+[
+  {
+    "name": "Poção de Passo",
+    "category": "Consumable",
+    "roll": "01",
+    "description": "Você ganha um bônus de +1 em seu próximo teste de Agilidade."
+  },
+  {
+    "name": "Poção de Reforço",
+    "category": "Consumable",
+    "roll": "02",
+    "description": "Você ganha um bônus de +1 em seu próximo teste de Força."
+  },
+  {
+    "name": "Poção de Controle",
+    "category": "Consumable",
+    "roll": "03",
+    "description": "Você ganha um bônus de +1 em seu próximo teste de Finesse."
+  },
+  {
+    "name": "Poção de sintonia",
+    "category": "Consumable",
+    "roll": "04",
+    "description": "Você ganha um bônus de +1 no seu próximo teste de Instinto."
+  },
+  {
+    "name": "Poção de Charme",
+    "category": "Consumable",
+    "roll": "05",
+    "description": "Você ganha um bônus de +1 no seu próximo teste de Presença."
+  },
+  {
+    "name": "Poção Iluminadora",
+    "category": "Consumable",
+    "roll": "06",
+    "description": "Você ganha um bônus de +1 em seu próximo teste de Conhecimento."
+  },
+  {
+    "name": "Poção Menor de Saúde",
+    "category": "Consumable",
+    "roll": "07",
+    "description": "Limpe 1d4 PV."
+  },
+  {
+    "name": "Poção de Vigor Menor",
+    "category": "Consumable",
+    "roll": "08",
+    "description": "Limpe 1d4 Estresse."
+  },
+  {
+    "name": "Veneno de Grindletooth",
+    "category": "Consumable",
+    "roll": "09",
+    "description": "Você pode aplicar este veneno a uma arma que causa dano físico para adicionar um d6 à sua próxima jogada de dano com aquela arma."
+  },
+  {
+    "name": "Folhas Varik",
+    "category": "Consumable",
+    "roll": "10",
+    "description": "Você pode comer essas folhas emparelhadas para ganhar imediatamente 2 Esperança."
+  },
+  {
+    "name": "Frasco de Moondrip",
+    "category": "Consumable",
+    "roll": "11",
+    "description": "Ao beber o conteúdo deste frasco, você poderá ver na escuridão total até o próximo descanso."
+  },
+  {
+    "name": "Fragmento Arcano Instável",
+    "category": "Consumable",
+    "roll": "12",
+    "description": "Você pode fazer um teste de Finesse para lançar este fragmento em um grupo de adversários dentro de alcance Longe. Os alvos contra os quais você tiver sucesso recebem 1d20 dano mágico."
+  },
+  {
+    "name": "Poção de Estabilidade",
+    "category": "Consumable",
+    "roll": "13",
+    "description": "Você pode beber esta poção para escolher um movimento tempo de inatividade adicional."
+  },
+  {
+    "name": "Veneno de Grindletooth melhorado",
+    "category": "Consumable",
+    "roll": "14",
+    "description": "Você pode aplicar este veneno a uma arma que causa dano físico para adicionar um d8 à sua próxima jogada de dano com aquela arma."
+  },
+  {
+    "name": "Argila Morphing",
+    "category": "Consumable",
+    "roll": "15",
+    "description": "Você pode gastar um Esperança para usar essa argila, alterando seu rosto o suficiente para deixá-lo irreconhecível até o próximo descanso."
+  },
+  {
+    "name": "Frasco de Darksmoke",
+    "category": "Consumable",
+    "roll": "16",
+    "description": "Quando um adversário atacar você, use este frasco e role um número de d6s igual à sua Agilidade. Some o resultado mais alto à sua Evasão contra o ataque."
+  },
+  {
+    "name": "Raiz saltitante",
+    "category": "Consumable",
+    "roll": "17",
+    "description": "Coma esta raiz para saltar para alcance Longe uma vez sem precisar rolar."
+  },
+  {
+    "name": "Pó instantâneo",
+    "category": "Consumable",
+    "roll": "18",
+    "description": "Marque um Estresse e limpe um HP."
+  },
+  {
+    "name": "Poção de Saúde",
+    "category": "Consumable",
+    "roll": "19",
+    "description": "Limpe 1d4+1 PV."
+  },
+  {
+    "name": "Poção de Vigor",
+    "category": "Consumable",
+    "roll": "20",
+    "description": "Limpe 1d4+1 Estresse."
+  },
+  {
+    "name": "Costurador de Armadura",
+    "category": "Consumable",
+    "roll": "21",
+    "description": "Você pode usar este costurador para gastar qualquer número de Esperança e limpar esse número de Espaços de Armadura."
+  },
+  {
+    "name": "pomada de guelras",
+    "category": "Consumable",
+    "roll": "22",
+    "description": "Você pode aplicar esta pomada no pescoço para respirar debaixo d'água por um número de minutos igual ao seu nível."
+  },
+  {
+    "name": "Pergaminho de replicação",
+    "category": "Consumable",
+    "roll": "23",
+    "description": "Ao encostar este pedaço de pergaminho em outro, você pode copiar perfeitamente o conteúdo do segundo pergaminho. Uma vez usado, este pergaminho se torna um papel comum."
+  },
+  {
+    "name": "Fragmento Arcano Melhorado",
+    "category": "Consumable",
+    "roll": "24",
+    "description": "Você pode fazer um teste de Finesse para lançar este fragmento em um grupo de adversários dentro de alcance Longe. Os alvos contra os quais você tiver sucesso recebem 2d20 dano mágico."
+  },
+  {
+    "name": "Poção de Passo Maior",
+    "category": "Consumable",
+    "roll": "25",
+    "description": "Você ganha um bônus de +1 em seu Agilidade até seu próximo descanso."
+  },
+  {
+    "name": "Poção de reforço principal",
+    "category": "Consumable",
+    "roll": "26",
+    "description": "Você ganha um bônus de +1 em seu Força até seu próximo descanso."
+  },
+  {
+    "name": "Poção de Controle Principal",
+    "category": "Consumable",
+    "roll": "27",
+    "description": "Você ganha um bônus de +1 em seu Finesse até seu próximo descanso."
+  },
+  {
+    "name": "Poção de sintonia principal",
+    "category": "Consumable",
+    "roll": "28",
+    "description": "Você ganha um bônus de +1 em seu Instinto até seu próximo descanso."
+  },
+  {
+    "name": "Poção de Charme Maior",
+    "category": "Consumable",
+    "roll": "29",
+    "description": "Você ganha um bônus de +1 em seu Presença até seu próximo descanso."
+  },
+  {
+    "name": "Poção Maior de Iluminação",
+    "category": "Consumable",
+    "roll": "30",
+    "description": "Você ganha um bônus de +1 em seu Conhecimento até seu próximo descanso."
+  },
+  {
+    "name": "Sangue do Yorgi",
+    "category": "Consumable",
+    "roll": "31",
+    "description": "Você pode beber esse sangue para desaparecer de onde está e reaparecer imediatamente em um ponto que você pode ver dentro de alcance Muito longe."
+  },
+  {
+    "name": "Poção Secreta de Homet",
+    "category": "Consumable",
+    "roll": "32",
+    "description": "Depois de beber esta poção, o próximo ataque bem-sucedido que você fizer será um sucesso crítico."
+  },
+  {
+    "name": "Saliva de espinheiro vermelho",
+    "category": "Consumable",
+    "roll": "33",
+    "description": "Você pode aplicar essa saliva a uma arma que causa dano físico para adicionar um d12 à sua próxima jogada de dano com aquela arma."
+  },
+  {
+    "name": "Pedra Angular",
+    "category": "Consumable",
+    "roll": "34",
+    "description": "Você pode usar esta pedra para pegar um feitiço ou grimório do seu cofre, usá-lo uma vez e devolvê-lo ao seu cofre."
+  },
+  {
+    "name": "Poeira Mítica",
+    "category": "Consumable",
+    "roll": "35",
+    "description": "Você pode aplicar esse pó a uma arma que causa dano mágico para adicionar um d12 à sua próxima jogada de dano com essa arma."
+  },
+  {
+    "name": "Pasta ácida",
+    "category": "Consumable",
+    "roll": "36",
+    "description": "Esta pasta corrói paredes e outras superfícies em flashes brilhantes."
+  },
+  {
+    "name": "Esperançahold Flare",
+    "category": "Consumable",
+    "roll": "37",
+    "description": "Quando você usa este sinalizador, os aliados dentro de alcance Perto rolam um d6 quando gastam um Esperança. Com um resultado 6, eles ganham o efeito daquele Esperança sem gastá-lo. O clarão dura até o final da cena."
+  },
+  {
+    "name": "Fragmento Arcano Maior",
+    "category": "Consumable",
+    "roll": "38",
+    "description": "Você pode fazer um teste de Finesse para lançar este fragmento em um grupo de adversários dentro de alcance Longe. Os alvos contra os quais você tiver sucesso recebem 4d20 dano mágico."
+  },
+  {
+    "name": "Osso de pena",
+    "category": "Consumable",
+    "roll": "39",
+    "description": "Você pode usar este osso para controlar sua velocidade de queda por um número de minutos igual ao seu nível."
+  },
+  {
+    "name": "Círculo do Vazio",
+    "category": "Consumable",
+    "roll": "40",
+    "description": "Marque um Estresse para criar um vazio que se estende até alcance Longe. Nenhuma magia pode ser lançada dentro do vazio, e as criaturas dentro do vazio são imunes a dano mágico."
+  },
+  {
+    "name": "Seiva da Árvore do Sol",
+    "category": "Consumable",
+    "roll": "41",
+    "description": "Consumir esta seiva para rolar um d6. Com um resultado de 5-6, limpe 2 HP. Com um resultado de 2-4, limpe 3 Estresse. Com um resultado 1, veja através do véu da morte e retorne mudado, ganhando uma cicatriz."
+  },
+  {
+    "name": "Veneno Presa Gotejante",
+    "category": "Consumable",
+    "roll": "42",
+    "description": "Uma criatura que consumir este veneno recebe 8d10 dano mágico direto."
+  },
+  {
+    "name": "Poção Principal de Saúde",
+    "category": "Consumable",
+    "roll": "43",
+    "description": "Limpe 1d4+2 PV."
+  },
+  {
+    "name": "Poção de Vigor Maior",
+    "category": "Consumable",
+    "roll": "44",
+    "description": "Limpe 1d4+2 Estresse."
+  },
+  {
+    "name": "Ogro Almíscar",
+    "category": "Consumable",
+    "roll": "45",
+    "description": "Você pode usar este almíscar para evitar que alguém o rastreie por meios mundanos ou mágicos até seu próximo descanso."
+  },
+  {
+    "name": "Broto de Asas",
+    "category": "Consumable",
+    "roll": "46",
+    "description": "Você ganha asas mágicas que lhe permitem voar por um número de minutos igual ao seu nível."
+  },
+  {
+    "name": "Pote de Vozes Perdidas",
+    "category": "Consumable",
+    "roll": "47",
+    "description": "Você pode abrir este frasco para liberar um eco ensurdecedor de vozes por um número de minutos igual ao do seu Instinto. Criaturas dentro de alcance Longe despreparadas para o som recebem 6d8 dano mágico."
+  },
+  {
+    "name": "Chá de Flor de Dragão",
+    "category": "Consumable",
+    "roll": "48",
+    "description": "Você pode beber este chá para desencadear um ataque de sopro de fogo. Faça um teste de Instinto contra todos os adversários à sua frente dentro de alcance Perto. Os alvos contra os quais você teve sucesso recebem d20 dano físico usando seu Proficiência."
+  },
+  {
+    "name": "Semente da Ponte",
+    "category": "Consumable",
+    "roll": "49",
+    "description": "Trepadeiras grossas crescem de sua localização até um ponto de sua escolha dentro do alcance Longe, permitindo que você suba ou atravesse-as. As vinhas se dissipam no seu próximo descanso curto."
+  },
+  {
+    "name": "Seiva adormecida",
+    "category": "Consumable",
+    "roll": "50",
+    "description": "Você pode beber esta poção para adormecer e ter uma noite inteira de descanso. Você limpa todos os Estresse ao acordar."
+  },
+  {
+    "name": "Festa de Xúria",
+    "category": "Consumable",
+    "roll": "51",
+    "description": "Você pode comer esta refeição para limpar todo o HP e Estresse e ganhar 1d4 Esperança."
+  },
+  {
+    "name": "Colando mel",
+    "category": "Consumable",
+    "roll": "52",
+    "description": "Este mel pode ser usado para colar dois objetos permanentemente."
+  },
+  {
+    "name": "Poção de Encolhimento",
+    "category": "Consumable",
+    "roll": "53",
+    "description": "Você pode beber esta poção para reduzir seu tamanho pela metade até decidir abandonar esta forma ou seu próximo descanso. Enquanto estiver nesta forma, você terá um bônus de +2 para Agilidade e uma penalidade de -1 para seu Proficiência."
+  },
+  {
+    "name": "Poção Crescente",
+    "category": "Consumable",
+    "roll": "54",
+    "description": "Você pode beber esta poção para dobrar de tamanho até decidir abandonar esta forma ou seu próximo descanso. Enquanto estiver nesta forma, você terá um bônus de +2 para Força e um bônus de +1 para seu Proficiência."
+  },
+  {
+    "name": "Pedra Conhecimento",
+    "category": "Consumable",
+    "roll": "55",
+    "description": "Se você morrer enquanto segura esta pedra, um aliado pode pegar uma carta do seu carregamento para colocar em seu carregamento ou cofre. Depois de adquirirem esse conhecimento, a pedra desmorona."
+  },
+  {
+    "name": "Doce Musgo",
+    "category": "Consumable",
+    "roll": "56",
+    "description": "Você pode consumir este musgo durante um descanso para limpar 1d10 HP ou 1d10 Estresse."
+  },
+  {
+    "name": "Orbe Cegante",
+    "category": "Consumable",
+    "roll": "57",
+    "description": "Você pode ativar este orbe para criar um flash de luz brilhante. Todos os alvos dentro de alcance Perto tornam-se Vulnerável até marcarem HP."
+  },
+  {
+    "name": "Chá da Morte",
+    "category": "Consumable",
+    "roll": "58",
+    "description": "Depois de beber este chá, seu alvo morre no mesmo instante quando você obtém um sucesso crítico em um ataque. Se você não obtiver um sucesso crítico em um ataque antes do seu próximo descanso longo, você morre."
+  },
+  {
+    "name": "Espelho de Calêndula",
+    "category": "Consumable",
+    "roll": "59",
+    "description": "Ao sofrer dano, você pode gastar um Esperança para negar o dano, após o qual o espelho se estilhaça."
+  },
+  {
+    "name": "Gota Estelar",
+    "category": "Consumable",
+    "roll": "60",
+    "description": "Você pode usar esta gota estelar para invocar uma tempestade de granizo de cometas que causa 8d20 dano físico a todos os alvos dentro de alcance Muito longe."
+  }
+]

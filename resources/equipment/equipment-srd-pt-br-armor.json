@@ -1,0 +1,364 @@
+[
+  {
+    "name": "Gibão acolchoado",
+    "category": "Armor",
+    "tier": 1,
+    "baseThresholds": "5 / 11",
+    "baseScore": "3",
+    "features": [
+      "**Flexível:** +1 para Evasão"
+    ],
+    "description": "Tier 1 · Limiares base: 5 / 11 · Pontuação base: 3"
+  },
+  {
+    "name": "Gibão acolchoado aprimorado",
+    "category": "Armor",
+    "tier": 2,
+    "baseThresholds": "7 / 16",
+    "baseScore": "4",
+    "features": [
+      "**Flexível:** +1 para Evasão"
+    ],
+    "description": "Tier 2 · Limiares base: 7 / 16 · Pontuação base: 4"
+  },
+  {
+    "name": "Gibão acolchoado avançado",
+    "category": "Armor",
+    "tier": 3,
+    "baseThresholds": "9 / 23",
+    "baseScore": "5",
+    "features": [
+      "**Flexível:** +1 para Evasão"
+    ],
+    "description": "Tier 3 · Limiares base: 9 / 23 · Pontuação base: 5"
+  },
+  {
+    "name": "Gibão acolchoado lendário",
+    "category": "Armor",
+    "tier": 4,
+    "baseThresholds": "11 / 32",
+    "baseScore": "6",
+    "features": [
+      "**Flexível:** +1 para Evasão"
+    ],
+    "description": "Tier 4 · Limiares base: 11 / 32 · Pontuação base: 6"
+  },
+  {
+    "name": "Armadura de couro",
+    "category": "Armor",
+    "tier": 1,
+    "baseThresholds": "6 / 13",
+    "baseScore": "3",
+    "description": "Tier 1 · Limiares base: 6 / 13 · Pontuação base: 3"
+  },
+  {
+    "name": "Armadura de couro aprimorada",
+    "category": "Armor",
+    "tier": 2,
+    "baseThresholds": "9 / 20",
+    "baseScore": "4",
+    "description": "Tier 2 · Limiares base: 9 / 20 · Pontuação base: 4"
+  },
+  {
+    "name": "Armadura de couro avançada",
+    "category": "Armor",
+    "tier": 3,
+    "baseThresholds": "11 / 27",
+    "baseScore": "5",
+    "description": "Tier 3 · Limiares base: 11 / 27 · Pontuação base: 5"
+  },
+  {
+    "name": "Armadura de couro lendária",
+    "category": "Armor",
+    "tier": 4,
+    "baseThresholds": "13 / 36",
+    "baseScore": "6",
+    "description": "Tier 4 · Limiares base: 13 / 36 · Pontuação base: 6"
+  },
+  {
+    "name": "Cota de malha",
+    "category": "Armor",
+    "tier": 1,
+    "baseThresholds": "7 / 15",
+    "baseScore": "4",
+    "features": [
+      "**Pesado:** -1 a Evasão"
+    ],
+    "description": "Tier 1 · Limiares base: 7 / 15 · Pontuação base: 4"
+  },
+  {
+    "name": "Cota de malha aprimorada",
+    "category": "Armor",
+    "tier": 2,
+    "baseThresholds": "11 / 24",
+    "baseScore": "5",
+    "features": [
+      "**Pesado:** -1 a Evasão"
+    ],
+    "description": "Tier 2 · Limiares base: 11 / 24 · Pontuação base: 5"
+  },
+  {
+    "name": "Cota de malha avançada",
+    "category": "Armor",
+    "tier": 3,
+    "baseThresholds": "13 / 31",
+    "baseScore": "6",
+    "features": [
+      "**Pesado:** -1 a Evasão"
+    ],
+    "description": "Tier 3 · Limiares base: 13 / 31 · Pontuação base: 6"
+  },
+  {
+    "name": "Cota de malha lendária",
+    "category": "Armor",
+    "tier": 4,
+    "baseThresholds": "15 / 40",
+    "baseScore": "7",
+    "features": [
+      "**Pesado:** -1 a Evasão"
+    ],
+    "description": "Tier 4 · Limiares base: 15 / 40 · Pontuação base: 7"
+  },
+  {
+    "name": "Armadura de placas completa",
+    "category": "Armor",
+    "tier": 1,
+    "baseThresholds": "8 / 17",
+    "baseScore": "4",
+    "features": [
+      "**Muito Pesado:** -2 a Evasão; -1 a Agilidade"
+    ],
+    "description": "Tier 1 · Limiares base: 8 / 17 · Pontuação base: 4"
+  },
+  {
+    "name": "Armadura de placas completa aprimorada",
+    "category": "Armor",
+    "tier": 2,
+    "baseThresholds": "13 / 28",
+    "baseScore": "5",
+    "features": [
+      "**Muito Pesado:** -2 a Evasão; -1 a Agilidade"
+    ],
+    "description": "Tier 2 · Limiares base: 13 / 28 · Pontuação base: 5"
+  },
+  {
+    "name": "Armadura de placas completa avançada",
+    "category": "Armor",
+    "tier": 3,
+    "baseThresholds": "15 / 35",
+    "baseScore": "6",
+    "features": [
+      "**Muito Pesado:** -2 a Evasão; -1 a Agilidade"
+    ],
+    "description": "Tier 3 · Limiares base: 15 / 35 · Pontuação base: 6"
+  },
+  {
+    "name": "Armadura de placas completa lendária",
+    "category": "Armor",
+    "tier": 4,
+    "baseThresholds": "17 / 44",
+    "baseScore": "7",
+    "features": [
+      "**Muito Pesado:** -2 a Evasão; -1 a Agilidade"
+    ],
+    "description": "Tier 4 · Limiares base: 17 / 44 · Pontuação base: 7"
+  },
+  {
+    "name": "Armadura de Corrente Elundriana",
+    "category": "Armor",
+    "tier": 2,
+    "baseThresholds": "9 / 21",
+    "baseScore": "4",
+    "features": [
+      "**Protegido:** Você reduz o dano mágico recebido em seu Pontuação de Armadura antes de aplicá-lo aos seus limites de dano."
+    ],
+    "description": "Tier 2 · Limiares base: 9 / 21 · Pontuação base: 4"
+  },
+  {
+    "name": "Armadura de Osso Angular",
+    "category": "Armor",
+    "tier": 2,
+    "baseThresholds": "9 / 21",
+    "baseScore": "4",
+    "features": [
+      "**Resiliente:** Antes de marcar seu último Espaço de Armadura, role um d6. Com um resultado 6, reduza a gravidade em um limite sem marcar um Espaço de Armadura."
+    ],
+    "description": "Tier 2 · Limiares base: 9 / 21 · Pontuação base: 4"
+  },
+  {
+    "name": "Armadura Peitoral de Irontree",
+    "category": "Armor",
+    "tier": 2,
+    "baseThresholds": "9 / 20",
+    "baseScore": "4",
+    "features": [
+      "**Reforçado:** Ao marcar seu último Espaço de Armadura, aumente seus limites de dano em +2 até eliminar pelo menos 1 Espaço de Armadura."
+    ],
+    "description": "Tier 2 · Limiares base: 9 / 20 · Pontuação base: 4"
+  },
+  {
+    "name": "Armadura Flutuante Runetana",
+    "category": "Armor",
+    "tier": 2,
+    "baseThresholds": "9 / 20",
+    "baseScore": "4",
+    "features": [
+      "**Cambiante:** Quando você é alvo de um ataque, pode marcar um Espaço de Armadura para impor desvantagem à rolagem de ataque contra você."
+    ],
+    "description": "Tier 2 · Limiares base: 9 / 20 · Pontuação base: 4"
+  },
+  {
+    "name": "Armadura Macia Tyris",
+    "category": "Armor",
+    "tier": 2,
+    "baseThresholds": "8 / 18",
+    "baseScore": "5",
+    "features": [
+      "**Silenciosa:** Você ganha +2 nas rolagens feitas para se mover em silêncio."
+    ],
+    "description": "Tier 2 · Limiares base: 8 / 18 · Pontuação base: 5"
+  },
+  {
+    "name": "Armadura da Rosa Selvagem",
+    "category": "Armor",
+    "tier": 2,
+    "baseThresholds": "11 / 23",
+    "baseScore": "5",
+    "features": [
+      "**Esperançosa:** Quando você fosse gastar uma Esperança, pode marcar um Espaço de Armadura em vez disso."
+    ],
+    "description": "Tier 2 · Limiares base: 11 / 23 · Pontuação base: 5"
+  },
+  {
+    "name": "Armadura Fina Bellamoi",
+    "category": "Armor",
+    "tier": 3,
+    "baseThresholds": "11 / 27",
+    "baseScore": "5",
+    "features": [
+      "**Dourado:** +1 para Presença"
+    ],
+    "description": "Tier 3 · Limiares base: 11 / 27 · Pontuação base: 5"
+  },
+  {
+    "name": "Armadura de Escama de Dragão",
+    "category": "Armor",
+    "tier": 3,
+    "baseThresholds": "11 / 27",
+    "baseScore": "5",
+    "features": [
+      "**Impenetrável:** Uma vez por descanso curto, quando você marcaria seu último Ponto de Vida, você pode marcar um Estresse."
+    ],
+    "description": "Tier 3 · Limiares base: 11 / 27 · Pontuação base: 5"
+  },
+  {
+    "name": "Armadura de Placas Cravadas",
+    "category": "Armor",
+    "tier": 3,
+    "baseThresholds": "10 / 25",
+    "baseScore": "5",
+    "features": [
+      "**Afiado:** Em um ataque bem-sucedido contra um alvo dentro de alcance Corpo a corpo, adicione um d4 à jogada de dano."
+    ],
+    "description": "Tier 3 · Limiares base: 10 / 25 · Pontuação base: 5"
+  },
+  {
+    "name": "Armadura de Lâmina",
+    "category": "Armor",
+    "tier": 3,
+    "baseThresholds": "16 / 39",
+    "baseScore": "6",
+    "features": [
+      "**Físico:** Você não pode marcar um Espaço de Armadura para reduzir dano mágico."
+    ],
+    "description": "Tier 3 · Limiares base: 16 / 39 · Pontuação base: 6"
+  },
+  {
+    "name": "Manto de Monett",
+    "category": "Armor",
+    "tier": 3,
+    "baseThresholds": "16 / 39",
+    "baseScore": "6",
+    "features": [
+      "**Mágica:** Você não pode marcar um Espaço de Armadura para reduzir dano físico."
+    ],
+    "description": "Tier 3 · Limiares base: 16 / 39 · Pontuação base: 6"
+  },
+  {
+    "name": "Runas de Fortificação",
+    "category": "Armor",
+    "tier": 3,
+    "baseThresholds": "17 / 43",
+    "baseScore": "6",
+    "features": [
+      "**Doloroso:** Cada vez que você marca um Espaço de Armadura, você deve marcar um Estresse."
+    ],
+    "description": "Tier 3 · Limiares base: 17 / 43 · Pontuação base: 6"
+  },
+  {
+    "name": "Corrente de Seda Dunamis",
+    "category": "Armor",
+    "tier": 4,
+    "baseThresholds": "13 / 36",
+    "baseScore": "7",
+    "features": [
+      "**Retardo temporal:** Marque um Espaço de Armadura para rolar um d4 e somar o resultado à sua Evasão contra um ataque."
+    ],
+    "description": "Tier 4 · Limiares base: 13 / 36 · Pontuação base: 7"
+  },
+  {
+    "name": "Canalizando Armadura",
+    "category": "Armor",
+    "tier": 4,
+    "baseThresholds": "13 / 36",
+    "baseScore": "5",
+    "features": [
+      "**Canalização:** +1 para testes de Conjuração"
+    ],
+    "description": "Tier 4 · Limiares base: 13 / 36 · Pontuação base: 5"
+  },
+  {
+    "name": "Armadura tecida em brasa",
+    "category": "Armor",
+    "tier": 4,
+    "baseThresholds": "13 / 36",
+    "baseScore": "6",
+    "features": [
+      "**Queima:** Quando um adversário ataca você dentro de alcance Corpo a corpo, ele marca um Estresse."
+    ],
+    "description": "Tier 4 · Limiares base: 13 / 36 · Pontuação base: 6"
+  },
+  {
+    "name": "Armadura Completamente Fortificada",
+    "category": "Armor",
+    "tier": 4,
+    "baseThresholds": "15 / 40",
+    "baseScore": "4",
+    "features": [
+      "**Fortalecido:** Ao marcar um Espaço de Armadura, você reduz a gravidade de um ataque em dois limites em vez de um."
+    ],
+    "description": "Tier 4 · Limiares base: 15 / 40 · Pontuação base: 4"
+  },
+  {
+    "name": "Armadura de Opala Veritas",
+    "category": "Armor",
+    "tier": 4,
+    "baseThresholds": "13 / 36",
+    "baseScore": "6",
+    "features": [
+      "**Busca-verdades:** Esta armadura brilha quando outra criatura dentro de alcance Perto conta uma mentira."
+    ],
+    "description": "Tier 4 · Limiares base: 13 / 36 · Pontuação base: 6"
+  },
+  {
+    "name": "Cota de malha salvadora",
+    "category": "Armor",
+    "tier": 4,
+    "baseThresholds": "18 / 48",
+    "baseScore": "8",
+    "features": [
+      "**Difícil:** -1 para todos os traços de caráter e Evasão"
+    ],
+    "description": "Tier 4 · Limiares base: 18 / 48 · Pontuação base: 8"
+  }
+]

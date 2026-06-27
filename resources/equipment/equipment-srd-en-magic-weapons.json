@@ -1,0 +1,789 @@
+[
+  {
+    "name": "Arcane Gauntlets",
+    "category": "Magic Weapon",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+3",
+    "damageType": "mag",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Hallowed Axe",
+    "category": "Magic Weapon",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+1",
+    "damageType": "mag",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Glowing Rings",
+    "category": "Magic Weapon",
+    "tier": 1,
+    "trait": "Agility",
+    "range": "Very Close",
+    "damage": "d10+2",
+    "damageType": "mag",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Hand Runes",
+    "category": "Magic Weapon",
+    "tier": 1,
+    "trait": "Instinct",
+    "range": "Very Close",
+    "damage": "d10",
+    "damageType": "mag",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Returning Blade",
+    "category": "Magic Weapon",
+    "tier": 1,
+    "trait": "Finesse",
+    "range": "Close",
+    "damage": "d8",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Returning:** When this weapon is thrown within its range, it appears in your hand immediately after the attack."
+    ]
+  },
+  {
+    "name": "Shortstaff",
+    "category": "Magic Weapon",
+    "tier": 1,
+    "trait": "Instinct",
+    "range": "Close",
+    "damage": "d8+1",
+    "damageType": "mag",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Dualstaff",
+    "category": "Magic Weapon",
+    "tier": 1,
+    "trait": "Instinct",
+    "range": "Far",
+    "damage": "d6+3",
+    "damageType": "mag",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Scepter",
+    "category": "Magic Weapon",
+    "tier": 1,
+    "trait": "Presence",
+    "range": "Far",
+    "damage": "d6",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Versatile:** This weapon can also be used with these statistics - Presence, Melee, d8."
+    ]
+  },
+  {
+    "name": "Wand",
+    "category": "Magic Weapon",
+    "tier": 1,
+    "trait": "Knowledge",
+    "range": "Far",
+    "damage": "d6+1",
+    "damageType": "mag",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Greatstaff",
+    "category": "Magic Weapon",
+    "tier": 1,
+    "trait": "Knowledge",
+    "range": "Very Far",
+    "damage": "d6",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Powerful:** On a successful attack, roll an additional damage die and discard the lowest result."
+    ]
+  },
+  {
+    "name": "Improved Arcane Gauntlets",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+6",
+    "damageType": "mag",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Improved Hallowed Axe",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+4",
+    "damageType": "mag",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Improved Glowing Rings",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Very Close",
+    "damage": "d10+5",
+    "damageType": "mag",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Improved Hand Runes",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Instinct",
+    "range": "Very Close",
+    "damage": "d10+3",
+    "damageType": "mag",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Improved Returning Blade",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Close",
+    "damage": "d8+3",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Returning:** When this weapon is thrown within its range, it appears in your hand immediately after the attack."
+    ]
+  },
+  {
+    "name": "Improved Shortstaff",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Instinct",
+    "range": "Close",
+    "damage": "d8+4",
+    "damageType": "mag",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Improved Dualstaff",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Instinct",
+    "range": "Far",
+    "damage": "d6+6",
+    "damageType": "mag",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Improved Scepter",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Presence",
+    "range": "Far",
+    "damage": "d6+3",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Versatile:** This weapon can also be used with these statistics - Presence, Melee, d8+3."
+    ]
+  },
+  {
+    "name": "Improved Wand",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Knowledge",
+    "range": "Far",
+    "damage": "d6+4",
+    "damageType": "mag",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Improved Greatstaff",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Knowledge",
+    "range": "Very Far",
+    "damage": "d6+3",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Powerful:** On a successful attack, roll an additional damage die and discard the lowest result."
+    ]
+  },
+  {
+    "name": "Advanced Arcane Gauntlets",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+9",
+    "damageType": "mag",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Advanced Hallowed Axe",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+7",
+    "damageType": "mag",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Advanced Glowing Rings",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Very Close",
+    "damage": "d10+8",
+    "damageType": "mag",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Advanced Hand Runes",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Instinct",
+    "range": "Very Close",
+    "damage": "d10+6",
+    "damageType": "mag",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Advanced Returning Blade",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Close",
+    "damage": "d8+6",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Returning:** When this weapon is thrown within its range, it appears in your hand immediately after the attack."
+    ]
+  },
+  {
+    "name": "Advanced Shortstaff",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Instinct",
+    "range": "Close",
+    "damage": "d8+7",
+    "damageType": "mag",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Advanced Dualstaff",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Instinct",
+    "range": "Far",
+    "damage": "d6+9",
+    "damageType": "mag",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Advanced Scepter",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Presence",
+    "range": "Far",
+    "damage": "d6+6",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Versatile:** This weapon can also be used with these statistics - Presence, Melee, d8+4."
+    ]
+  },
+  {
+    "name": "Advanced Wand",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Knowledge",
+    "range": "Far",
+    "damage": "d6+7",
+    "damageType": "mag",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Advanced Greatstaff",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Knowledge",
+    "range": "Very Far",
+    "damage": "d6+6",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Powerful:** On a successful attack, roll an additional damage die and discard the lowest result."
+    ]
+  },
+  {
+    "name": "Legendary Arcane Gauntlets",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+12",
+    "damageType": "mag",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Legendary Hallowed Axe",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+10",
+    "damageType": "mag",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Legendary Glowing Rings",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Very Close",
+    "damage": "d10+11",
+    "damageType": "mag",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Legendary Hand Runes",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Instinct",
+    "range": "Very Close",
+    "damage": "d10+9",
+    "damageType": "mag",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Legendary Returning Blade",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Close",
+    "damage": "d8+9",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Returning:** When this weapon is thrown within its range, it appears in your hand immediately after the attack."
+    ]
+  },
+  {
+    "name": "Legendary Shortstaff",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Instinct",
+    "range": "Close",
+    "damage": "d8+10",
+    "damageType": "mag",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Legendary Dualstaff",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Instinct",
+    "range": "Far",
+    "damage": "d8+12",
+    "damageType": "mag",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Legendary Scepter",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Presence",
+    "range": "Far",
+    "damage": "d6+9",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Versatile:** This weapon can also be used with these statistics - Presence, Melee, d8+6."
+    ]
+  },
+  {
+    "name": "Legendary Wand",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Knowledge",
+    "range": "Far",
+    "damage": "d6+10",
+    "damageType": "mag",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Legendary Greatstaff",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Knowledge",
+    "range": "Very Far",
+    "damage": "d6+9",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Powerful:** On a successful attack, roll an additional damage die and discard the lowest result."
+    ]
+  },
+  {
+    "name": "Ego Blade",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d12+4",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Pompous:** You must have a Presence of 0 or lower to use this weapon."
+    ]
+  },
+  {
+    "name": "Casting Sword",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+4",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Versatile:** This weapon can also be used with these statistics - Knowledge, Far, d6+3."
+    ]
+  },
+  {
+    "name": "Devouring Dagger",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8+4",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Scary:** On a successful attack, the target must mark a Stress."
+    ]
+  },
+  {
+    "name": "Hammer of Exota",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Instinct",
+    "range": "Melee",
+    "damage": "d8+6",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Eruptive:** On a successful attack against a target within Melee range, all other adversaries within Very Close range must succeed on a reaction roll (14) or take half damage."
+    ]
+  },
+  {
+    "name": "Yutari Bloodbow",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+4",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Brutal:** When you roll the maximum value on a damage die, roll an additional damage die."
+    ]
+  },
+  {
+    "name": "Elder Bow",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Instinct",
+    "range": "Far",
+    "damage": "d6+4",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Powerful:** On a successful attack, roll an additional damage die and discard the lowest result."
+    ]
+  },
+  {
+    "name": "Scepter of Elias",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Presence",
+    "range": "Far",
+    "damage": "d6+3",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Invigorating:** On a successful attack, roll a d4. On a result of 4, clear a Stress."
+    ]
+  },
+  {
+    "name": "Wand of Enthrallment",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Presence",
+    "range": "Far",
+    "damage": "d6+4",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Persuasive:** Before you make a Presence Roll, you can mark a Stress to gain a +2 bonus to the result."
+    ]
+  },
+  {
+    "name": "Keeper's Staff",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Knowledge",
+    "range": "Far",
+    "damage": "d6+4",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Reliable:** +1 to attack rolls"
+    ]
+  },
+  {
+    "name": "Axe of Fortunis",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+8",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Lucky:** On a failed attack, you can mark a Stress to reroll your attack."
+    ]
+  },
+  {
+    "name": "Blessed Anlace",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Instinct",
+    "range": "Melee",
+    "damage": "d10+6",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Healing:** During downtime, automatically clear a Hit Point."
+    ]
+  },
+  {
+    "name": "Ghostblade",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d10+7",
+    "damageType": "phy or mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Otherworldly:** On a successful attack, you can deal physical or magic damage."
+    ]
+  },
+  {
+    "name": "Runes of Ruination",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Knowledge",
+    "range": "Very Close",
+    "damage": "d20+4",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Painful:** Each time you make a successful attack, you must mark a Stress."
+    ]
+  },
+  {
+    "name": "Widogast Pendant",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Knowledge",
+    "range": "Close",
+    "damage": "d10+5",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Timebending:** You choose the target of your attack after making your attack roll."
+    ]
+  },
+  {
+    "name": "Gilded Bow",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+7",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Self-Correcting:** When you roll a 1 on a damage die, it deals 6 damage instead."
+    ]
+  },
+  {
+    "name": "Firestaff",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Instinct",
+    "range": "Far",
+    "damage": "d6+7",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Burning:** When you roll a 6 on a damage die, the target must mark a Stress."
+    ]
+  },
+  {
+    "name": "Mage Orb",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Knowledge",
+    "range": "Far",
+    "damage": "d6+7",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Powerful:** On a successful attack, roll an additional damage die and discard the lowest result."
+    ]
+  },
+  {
+    "name": "Ilmari's Rifle",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Very Far",
+    "damage": "d6+6",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Reloading:** After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again."
+    ]
+  },
+  {
+    "name": "Sword of Light & Flame",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+11",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Hot:** This weapon cuts through solid material."
+    ]
+  },
+  {
+    "name": "Siphoning Gauntlets",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d10+9",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Lifestealing:** On a successful attack, roll a d6. On a result of 6, clear a Hit Point or clear a Stress."
+    ]
+  },
+  {
+    "name": "Midas Scythe",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Knowledge",
+    "range": "Melee",
+    "damage": "d10+9",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Greedy:** Spend a handful of gold to gain a +1 bonus to your Proficiency on a damage roll."
+    ]
+  },
+  {
+    "name": "Floating Bladeshards",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Instinct",
+    "range": "Close",
+    "damage": "d8+9",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Powerful:** On a successful attack, roll an additional damage die and discard the lowest result."
+    ]
+  },
+  {
+    "name": "Bloodstaff",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Instinct",
+    "range": "Far",
+    "damage": "d20+7",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Painful:** Each time you make a successful attack, you must mark a Stress."
+    ]
+  },
+  {
+    "name": "Thistlebow",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Instinct",
+    "range": "Far",
+    "damage": "d6+13",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Reliable:** +1 to attack rolls"
+    ]
+  },
+  {
+    "name": "Wand of Essek",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Knowledge",
+    "range": "Far",
+    "damage": "d8+13",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Timebending:** You can choose the target of your attack after making your attack roll."
+    ]
+  },
+  {
+    "name": "Magus Revolver",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Very Far",
+    "damage": "d6+13",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Reloading:** After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again."
+    ]
+  },
+  {
+    "name": "Fusion Gloves",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Knowledge",
+    "range": "Very Far",
+    "damage": "d6+9",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Bonded:** Gain a bonus to your damage rolls equal to your level."
+    ]
+  }
+]

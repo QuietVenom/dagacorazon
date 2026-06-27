@@ -1,0 +1,1038 @@
+[
+  {
+    "name": "Broadsword",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Reliable:** +1 to attack rolls"
+    ]
+  },
+  {
+    "name": "Longsword",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d10+3",
+    "damageType": "phy",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Battleaxe",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+3",
+    "damageType": "phy",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Greatsword",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+3",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Massive:** -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result."
+    ]
+  },
+  {
+    "name": "Mace",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+1",
+    "damageType": "phy",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Warhammer",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+3",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Heavy:** -1 to Evasion"
+    ]
+  },
+  {
+    "name": "Dagger",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8+1",
+    "damageType": "phy",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Quarterstaff",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Instinct",
+    "range": "Melee",
+    "damage": "d10+3",
+    "damageType": "phy",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Cutlass",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d8+1",
+    "damageType": "phy",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Rapier",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d8",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Quick:** When you make an attack, you can mark a Stress to target another creature within range."
+    ]
+  },
+  {
+    "name": "Halberd",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Very Close",
+    "damage": "d10+2",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Cumbersome:** -1 to Finesse"
+    ]
+  },
+  {
+    "name": "Spear",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Finesse",
+    "range": "Very Close",
+    "damage": "d8+3",
+    "damageType": "phy",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Shortbow",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Agility",
+    "range": "Far",
+    "damage": "d6+3",
+    "damageType": "phy",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Crossbow",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+1",
+    "damageType": "phy",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Longbow",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Agility",
+    "range": "Very Far",
+    "damage": "d8+3",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Cumbersome:** -1 to Finesse"
+    ]
+  },
+  {
+    "name": "Improved Broadsword",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+3",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Reliable:** +1 to attack rolls"
+    ]
+  },
+  {
+    "name": "Improved Longsword",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d10+6",
+    "damageType": "phy",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Improved Battleaxe",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+6",
+    "damageType": "phy",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Improved Greatsword",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+6",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Massive:** -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result."
+    ]
+  },
+  {
+    "name": "Improved Mace",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+4",
+    "damageType": "phy",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Improved Warhammer",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+6",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Heavy:** -1 to Evasion"
+    ]
+  },
+  {
+    "name": "Improved Dagger",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8+4",
+    "damageType": "phy",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Improved Quarterstaff",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Instinct",
+    "range": "Melee",
+    "damage": "d10+6",
+    "damageType": "phy",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Improved Cutlass",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d8+4",
+    "damageType": "phy",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Improved Rapier",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d8+3",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Quick:** When you make an attack, you can mark a Stress to target another creature within range."
+    ]
+  },
+  {
+    "name": "Improved Halberd",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Very Close",
+    "damage": "d10+5",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Cumbersome:** -1 to Finesse"
+    ]
+  },
+  {
+    "name": "Improved Spear",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Very Close",
+    "damage": "d8+6",
+    "damageType": "phy",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Improved Shortbow",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Far",
+    "damage": "d6+6",
+    "damageType": "phy",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Improved Crossbow",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+4",
+    "damageType": "phy",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Improved Longbow",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Very Far",
+    "damage": "d8+6",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Cumbersome:** -1 to Finesse"
+    ]
+  },
+  {
+    "name": "Advanced Broadsword",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Reliable:** +1 to attack rolls"
+    ]
+  },
+  {
+    "name": "Advanced Longsword",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d10+9",
+    "damageType": "phy",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Advanced Battleaxe",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+9",
+    "damageType": "phy",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Advanced Greatsword",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+9",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Massive:** -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result."
+    ]
+  },
+  {
+    "name": "Advanced Mace",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+7",
+    "damageType": "phy",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Advanced Warhammer",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+9",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Heavy:** -1 to Evasion"
+    ]
+  },
+  {
+    "name": "Advanced Dagger",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8+7",
+    "damageType": "phy",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Advanced Quarterstaff",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Instinct",
+    "range": "Melee",
+    "damage": "d10+9",
+    "damageType": "phy",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Advanced Cutlass",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d8+7",
+    "damageType": "phy",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Advanced Rapier",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d8+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Quick:** When you make an attack, you can mark a Stress to target another creature within range."
+    ]
+  },
+  {
+    "name": "Advanced Halberd",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Very Close",
+    "damage": "d10+8",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Cumbersome:** -1 to Finesse"
+    ]
+  },
+  {
+    "name": "Advanced Spear",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Very Close",
+    "damage": "d8+9",
+    "damageType": "phy",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Advanced Shortbow",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Far",
+    "damage": "d6+9",
+    "damageType": "phy",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Advanced Crossbow",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+7",
+    "damageType": "phy",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Advanced Longbow",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Very Far",
+    "damage": "d8+9",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Cumbersome:** -1 to Finesse"
+    ]
+  },
+  {
+    "name": "Legendary Broadsword",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+9",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Reliable:** +1 to attack rolls"
+    ]
+  },
+  {
+    "name": "Legendary Longsword",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d10+12",
+    "damageType": "phy",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Legendary Battleaxe",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+12",
+    "damageType": "phy",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Legendary Greatsword",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+12",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Massive:** -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result."
+    ]
+  },
+  {
+    "name": "Legendary Mace",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+10",
+    "damageType": "phy",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Legendary Warhammer",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+12",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Heavy:** -1 to Evasion"
+    ]
+  },
+  {
+    "name": "Legendary Dagger",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8+10",
+    "damageType": "phy",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Legendary Quarterstaff",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Instinct",
+    "range": "Melee",
+    "damage": "d10+12",
+    "damageType": "phy",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Legendary Cutlass",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d8+10",
+    "damageType": "phy",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Legendary Rapier",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d8+9",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Quick:** When you make an attack, you can mark a Stress to target another creature within range."
+    ]
+  },
+  {
+    "name": "Legendary Halberd",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Very Close",
+    "damage": "d10+11",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Cumbersome:** -1 to Finesse"
+    ]
+  },
+  {
+    "name": "Legendary Spear",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Very Close",
+    "damage": "d8+12",
+    "damageType": "phy",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Legendary Shortbow",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Far",
+    "damage": "d6+12",
+    "damageType": "phy",
+    "burden": "Two-Handed"
+  },
+  {
+    "name": "Legendary Crossbow",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+10",
+    "damageType": "phy",
+    "burden": "One-Handed"
+  },
+  {
+    "name": "Legendary Longbow",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Very Far",
+    "damage": "d8+12",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Cumbersome:** -1 to Finesse"
+    ]
+  },
+  {
+    "name": "Gilded Falchion",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Powerful:** On a successful attack, roll an additional damage die and discard the lowest result."
+    ]
+  },
+  {
+    "name": "Knuckle Blades",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+6",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Brutal:** When you roll the maximum value on a damage die, roll an additional damage die."
+    ]
+  },
+  {
+    "name": "Urok Broadsword",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8+3",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Deadly:** When you deal Severe damage, the target must mark an additional HP."
+    ]
+  },
+  {
+    "name": "Bladed Whip",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Very Close",
+    "damage": "d8+3",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Quick:** When you make an attack, you can mark a Stress to target another creature within range."
+    ]
+  },
+  {
+    "name": "Steelforged Halberd",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Very Close",
+    "damage": "d8+4",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Scary:** On a successful attack, the target must mark a Stress."
+    ]
+  },
+  {
+    "name": "War Scythe",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Very Close",
+    "damage": "d8+5",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Reliable:** +1 to attack rolls"
+    ]
+  },
+  {
+    "name": "Blunderbuss",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Close",
+    "damage": "d8+6",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Reloading:** After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again."
+    ]
+  },
+  {
+    "name": "Greatbow",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Far",
+    "damage": "d6+6",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Powerful:** On a successful attack, roll an additional damage die and discard the lowest result."
+    ]
+  },
+  {
+    "name": "Finehair Bow",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Very Far",
+    "damage": "d6+5",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Reliable:** +1 to attack rolls"
+    ]
+  },
+  {
+    "name": "Flickerfly Blade",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+5",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Sharpwing:** Gain a bonus to your damage rolls equal to your Agility."
+    ]
+  },
+  {
+    "name": "Bravesword",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+7",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Brave:** -1 to Evasion; +3 to Severe damage threshold"
+    ]
+  },
+  {
+    "name": "Hammer of Wrath",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+7",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Devastating:** Before you make an attack roll, you can mark a Stress to use a d20 as your damage die."
+    ]
+  },
+  {
+    "name": "Labrys Axe",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+7",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Protective:** +1 to Armor Score"
+    ]
+  },
+  {
+    "name": "Meridian Cutlass",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d10+5",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Dueling:** When there are no other creatures within Close range of the target, gain advantage on your attack roll against them."
+    ]
+  },
+  {
+    "name": "Retractable Saber",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d10+7",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Retractable:** The blade can be hidden in the hilt to avoid detection."
+    ]
+  },
+  {
+    "name": "Double Flail",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Very Close",
+    "damage": "d10+8",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Powerful:** On a successful attack, roll an additional damage die and discard the lowest result."
+    ]
+  },
+  {
+    "name": "Talon Blades",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Close",
+    "damage": "d10+7",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Brutal:** When you roll the maximum value on a damage die, roll an additional damage die."
+    ]
+  },
+  {
+    "name": "Black Powder Revolver",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+8",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Reloading:** After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again."
+    ]
+  },
+  {
+    "name": "Spiked Bow",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Very Far",
+    "damage": "d6+7",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Versatile:** This weapon can also be used with these statistics - Agility, Melee, d10+5."
+    ]
+  },
+  {
+    "name": "Dual-Ended Sword",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d10+9",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Quick:** When you make an attack, you can mark a Stress to target another creature within range."
+    ]
+  },
+  {
+    "name": "Impact Gauntlet",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+11",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Concussive:** On a successful attack, you can spend a Hope to knock the target back to Far range."
+    ]
+  },
+  {
+    "name": "Sledge Axe",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+13",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Destructive:** -1 to Agility; on a successful attack, all adversaries within Very Close range must mark a Stress."
+    ]
+  },
+  {
+    "name": "Curved Dagger",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8+9",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Serrated:** When you roll a 1 on a damage die, it deals 8 damage instead."
+    ]
+  },
+  {
+    "name": "Extended Polearm",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Very Close",
+    "damage": "d8+10",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Long:** This weapon's attack targets all adversaries in a line within range."
+    ]
+  },
+  {
+    "name": "Swinging Ropeblade",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Presence",
+    "range": "Close",
+    "damage": "d8+9",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Grappling:** On a successful attack, you can spend a Hope to Restrain the target or pull them into Melee range with you."
+    ]
+  },
+  {
+    "name": "Ricochet Axes",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Far",
+    "damage": "d6+11",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Bouncing:** Mark 1 or more Stress to hit that many targets in range of the attack."
+    ]
+  },
+  {
+    "name": "Aantari Bow",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+11",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Reliable:** +1 to attack rolls"
+    ]
+  },
+  {
+    "name": "Hand Cannon",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Very Far",
+    "damage": "d6+12",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Reloading:** After you make an attack, roll a d6. On a 1, you must mark a Stress to reload this weapon before you can fire it again."
+    ]
+  }
+]

@@ -1,0 +1,1126 @@
+[
+  {
+    "name": "Espada larga",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Confiável:** +1 nas rolagens de ataque"
+    ],
+    "description": "Tier 1 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d8 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Espada longa",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d10+3",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "description": "Tier 1 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d10+3 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Machado de batalha",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+3",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "description": "Tier 1 · Traço: Força · Alcance: Corpo a corpo · Dano: d10+3 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Montante",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+3",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Massivo:** -1 na Evasão; com um ataque bem-sucedido, role um dado de dano adicional e descarte o menor resultado."
+    ],
+    "description": "Tier 1 · Traço: Força · Alcance: Corpo a corpo · Dano: d10+3 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Maça",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+1",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 1 · Traço: Força · Alcance: Corpo a corpo · Dano: d8+1 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Martelo de guerra",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+3",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Pesado:** -1 a Evasão"
+    ],
+    "description": "Tier 1 · Traço: Força · Alcance: Corpo a corpo · Dano: d12+3 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Adaga",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8+1",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 1 · Traço: Finesse · Alcance: Corpo a corpo · Dano: d8+1 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Bastão longo",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Instinct",
+    "range": "Melee",
+    "damage": "d10+3",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "description": "Tier 1 · Traço: Instinto · Alcance: Corpo a corpo · Dano: d10+3 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Cutelo",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d8+1",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 1 · Traço: Presença · Alcance: Corpo a corpo · Dano: d8+1 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Rapieira",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d8",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Rápido:** Ao realizar um ataque, você pode marcar um Estresse para escolher outra criatura dentro do alcance como alvo."
+    ],
+    "description": "Tier 1 · Traço: Presença · Alcance: Corpo a corpo · Dano: d8 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Alabarda",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Very Close",
+    "damage": "d10+2",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Pesado:** -1 a Finesse"
+    ],
+    "description": "Tier 1 · Traço: Força · Alcance: Muito perto · Dano: d10+2 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Lança",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Finesse",
+    "range": "Very Close",
+    "damage": "d8+3",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "description": "Tier 1 · Traço: Finesse · Alcance: Muito perto · Dano: d8+3 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Arco curto",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Agility",
+    "range": "Far",
+    "damage": "d6+3",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "description": "Tier 1 · Traço: Agilidade · Alcance: Longe · Dano: d6+3 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Besta",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+1",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 1 · Traço: Finesse · Alcance: Longe · Dano: d6+1 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Arco longo",
+    "category": "Physical Weapon",
+    "tier": 1,
+    "trait": "Agility",
+    "range": "Very Far",
+    "damage": "d8+3",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Pesado:** -1 a Finesse"
+    ],
+    "description": "Tier 1 · Traço: Agilidade · Alcance: Muito longe · Dano: d8+3 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Espada larga aprimorada",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+3",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Confiável:** +1 nas rolagens de ataque"
+    ],
+    "description": "Tier 2 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d8+3 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Espada longa aprimorada",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d10+6",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "description": "Tier 2 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d10+6 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Machado de batalha aprimorado",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+6",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "description": "Tier 2 · Traço: Força · Alcance: Corpo a corpo · Dano: d10+6 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Montante aprimorado",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+6",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Massivo:** -1 na Evasão; com um ataque bem-sucedido, role um dado de dano adicional e descarte o menor resultado."
+    ],
+    "description": "Tier 2 · Traço: Força · Alcance: Corpo a corpo · Dano: d10+6 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Maça aprimorada",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 2 · Traço: Força · Alcance: Corpo a corpo · Dano: d8+4 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Martelo de guerra aprimorado",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+6",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Pesado:** -1 a Evasão"
+    ],
+    "description": "Tier 2 · Traço: Força · Alcance: Corpo a corpo · Dano: d12+6 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Adaga aprimorada",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 2 · Traço: Finesse · Alcance: Corpo a corpo · Dano: d8+4 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Bastão longo aprimorado",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Instinct",
+    "range": "Melee",
+    "damage": "d10+6",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "description": "Tier 2 · Traço: Instinto · Alcance: Corpo a corpo · Dano: d10+6 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Cutelo aprimorado",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d8+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 2 · Traço: Presença · Alcance: Corpo a corpo · Dano: d8+4 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Rapieira aprimorada",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d8+3",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Rápido:** Ao realizar um ataque, você pode marcar um Estresse para escolher outra criatura dentro do alcance como alvo."
+    ],
+    "description": "Tier 2 · Traço: Presença · Alcance: Corpo a corpo · Dano: d8+3 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Alabarda aprimorada",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Very Close",
+    "damage": "d10+5",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Pesado:** -1 a Finesse"
+    ],
+    "description": "Tier 2 · Traço: Força · Alcance: Muito perto · Dano: d10+5 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Lança aprimorada",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Very Close",
+    "damage": "d8+6",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "description": "Tier 2 · Traço: Finesse · Alcance: Muito perto · Dano: d8+6 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Arco curto aprimorado",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Far",
+    "damage": "d6+6",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "description": "Tier 2 · Traço: Agilidade · Alcance: Longe · Dano: d6+6 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Besta aprimorada",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 2 · Traço: Finesse · Alcance: Longe · Dano: d6+4 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Arco longo aprimorado",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Very Far",
+    "damage": "d8+6",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Pesado:** -1 a Finesse"
+    ],
+    "description": "Tier 2 · Traço: Agilidade · Alcance: Muito longe · Dano: d8+6 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Espada larga avançada",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Confiável:** +1 nas rolagens de ataque"
+    ],
+    "description": "Tier 3 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d8+6 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Espada longa avançada",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d10+9",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "description": "Tier 3 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d10+9 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Machado de batalha avançado",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+9",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "description": "Tier 3 · Traço: Força · Alcance: Corpo a corpo · Dano: d10+9 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Montante avançado",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+9",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Massivo:** -1 na Evasão; com um ataque bem-sucedido, role um dado de dano adicional e descarte o menor resultado."
+    ],
+    "description": "Tier 3 · Traço: Força · Alcance: Corpo a corpo · Dano: d10+9 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Maça avançada",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+7",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 3 · Traço: Força · Alcance: Corpo a corpo · Dano: d8+7 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Martelo de guerra avançado",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+9",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Pesado:** -1 a Evasão"
+    ],
+    "description": "Tier 3 · Traço: Força · Alcance: Corpo a corpo · Dano: d12+9 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Adaga avançada",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8+7",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 3 · Traço: Finesse · Alcance: Corpo a corpo · Dano: d8+7 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Bastão longo avançado",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Instinct",
+    "range": "Melee",
+    "damage": "d10+9",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "description": "Tier 3 · Traço: Instinto · Alcance: Corpo a corpo · Dano: d10+9 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Cutelo avançado",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d8+7",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 3 · Traço: Presença · Alcance: Corpo a corpo · Dano: d8+7 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Rapieira avançada",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d8+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Rápido:** Ao realizar um ataque, você pode marcar um Estresse para escolher outra criatura dentro do alcance como alvo."
+    ],
+    "description": "Tier 3 · Traço: Presença · Alcance: Corpo a corpo · Dano: d8+6 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Alabarda avançada",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Very Close",
+    "damage": "d10+8",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Pesado:** -1 a Finesse"
+    ],
+    "description": "Tier 3 · Traço: Força · Alcance: Muito perto · Dano: d10+8 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Lança avançada",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Very Close",
+    "damage": "d8+9",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "description": "Tier 3 · Traço: Finesse · Alcance: Muito perto · Dano: d8+9 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Arco curto avançado",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Far",
+    "damage": "d6+9",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "description": "Tier 3 · Traço: Agilidade · Alcance: Longe · Dano: d6+9 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Besta avançada",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+7",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 3 · Traço: Finesse · Alcance: Longe · Dano: d6+7 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Arco longo avançado",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Very Far",
+    "damage": "d8+9",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Pesado:** -1 a Finesse"
+    ],
+    "description": "Tier 3 · Traço: Agilidade · Alcance: Muito longe · Dano: d8+9 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Espada larga lendária",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+9",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Confiável:** +1 nas rolagens de ataque"
+    ],
+    "description": "Tier 4 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d8+9 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Espada longa lendária",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d10+12",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "description": "Tier 4 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d10+12 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Machado de batalha lendário",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+12",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "description": "Tier 4 · Traço: Força · Alcance: Corpo a corpo · Dano: d10+12 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Montante lendário",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+12",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Massivo:** -1 na Evasão; com um ataque bem-sucedido, role um dado de dano adicional e descarte o menor resultado."
+    ],
+    "description": "Tier 4 · Traço: Força · Alcance: Corpo a corpo · Dano: d10+12 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Maça lendária",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+10",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 4 · Traço: Força · Alcance: Corpo a corpo · Dano: d8+10 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Martelo de guerra lendário",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+12",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Pesado:** -1 a Evasão"
+    ],
+    "description": "Tier 4 · Traço: Força · Alcance: Corpo a corpo · Dano: d12+12 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Adaga lendária",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8+10",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 4 · Traço: Finesse · Alcance: Corpo a corpo · Dano: d8+10 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Bastão longo lendário",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Instinct",
+    "range": "Melee",
+    "damage": "d10+12",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "description": "Tier 4 · Traço: Instinto · Alcance: Corpo a corpo · Dano: d10+12 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Cutelo lendário",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d8+10",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 4 · Traço: Presença · Alcance: Corpo a corpo · Dano: d8+10 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Rapieira lendária",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d8+9",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Rápido:** Ao realizar um ataque, você pode marcar um Estresse para escolher outra criatura dentro do alcance como alvo."
+    ],
+    "description": "Tier 4 · Traço: Presença · Alcance: Corpo a corpo · Dano: d8+9 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Alabarda lendária",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Very Close",
+    "damage": "d10+11",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Pesado:** -1 a Finesse"
+    ],
+    "description": "Tier 4 · Traço: Força · Alcance: Muito perto · Dano: d10+11 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Lança lendária",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Very Close",
+    "damage": "d8+12",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "description": "Tier 4 · Traço: Finesse · Alcance: Muito perto · Dano: d8+12 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Arco curto lendário",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Far",
+    "damage": "d6+12",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "description": "Tier 4 · Traço: Agilidade · Alcance: Longe · Dano: d6+12 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Besta lendária",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+10",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 4 · Traço: Finesse · Alcance: Longe · Dano: d6+10 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Arco longo lendário",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Very Far",
+    "damage": "d8+12",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Pesado:** -1 a Finesse"
+    ],
+    "description": "Tier 4 · Traço: Agilidade · Alcance: Muito longe · Dano: d8+12 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Falchion Dourado",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Poderoso:** Com um ataque bem-sucedido, role um dado de dano adicional e descarte o menor resultado."
+    ],
+    "description": "Tier 2 · Traço: Força · Alcance: Corpo a corpo · Dano: d10+4 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Lâminas articuladas",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+6",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Brutal:** Quando você rolar o valor máximo em um dado de dano, jogue um dado de dano adicional."
+    ],
+    "description": "Tier 2 · Traço: Força · Alcance: Corpo a corpo · Dano: d10+6 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Espada Urok",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8+3",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Mortal:** Quando você causa dano Severo, o alvo deve marcar um HP adicional."
+    ],
+    "description": "Tier 2 · Traço: Finesse · Alcance: Corpo a corpo · Dano: d8+3 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Chicote Lâmina",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Very Close",
+    "damage": "d8+3",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Rápido:** Ao realizar um ataque, você pode marcar um Estresse para escolher outra criatura dentro do alcance como alvo."
+    ],
+    "description": "Tier 2 · Traço: Agilidade · Alcance: Muito perto · Dano: d8+3 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Alabarda Forjada em Aço",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Very Close",
+    "damage": "d8+4",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Assustador:** Em um ataque bem-sucedido, o alvo deve marcar um Estresse."
+    ],
+    "description": "Tier 2 · Traço: Força · Alcance: Muito perto · Dano: d8+4 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Foice de Guerra",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Very Close",
+    "damage": "d8+5",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Confiável:** +1 nas rolagens de ataque"
+    ],
+    "description": "Tier 2 · Traço: Finesse · Alcance: Muito perto · Dano: d8+5 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Bacamarte",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Close",
+    "damage": "d8+6",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Recarregando:** Depois de fazer um ataque, role um d6. Se o resultado for 1, você deve marcar um Estresse para recarregar esta arma antes de poder dispará-la novamente."
+    ],
+    "description": "Tier 2 · Traço: Finesse · Alcance: Perto · Dano: d8+6 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Arco Grande",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Far",
+    "damage": "d6+6",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Poderoso:** Com um ataque bem-sucedido, role um dado de dano adicional e descarte o menor resultado."
+    ],
+    "description": "Tier 2 · Traço: Força · Alcance: Longe · Dano: d6+6 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Arco de cabelo fino",
+    "category": "Physical Weapon",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Very Far",
+    "damage": "d6+5",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Confiável:** +1 nas rolagens de ataque"
+    ],
+    "description": "Tier 2 · Traço: Agilidade · Alcance: Muito longe · Dano: d6+5 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Lâmina Cintilante",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+5",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Asa afiada:** Ganhe um bônus em suas rolagens de dano igual à sua Agilidade."
+    ],
+    "description": "Tier 3 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d8+5 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Espada Valente",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+7",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Corajoso:** -1 a Evasão; +3 ao limite de dano severo"
+    ],
+    "description": "Tier 3 · Traço: Força · Alcance: Corpo a corpo · Dano: d12+7 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Martelo da Ira",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+7",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Devastador:** Antes de fazer uma jogada de ataque, você pode marcar um Estresse para usar um d20 como seu dado de dano."
+    ],
+    "description": "Tier 3 · Traço: Força · Alcance: Corpo a corpo · Dano: d10+7 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Machado de Labrys",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+7",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Protetor:** +1 para Pontuação de Armadura"
+    ],
+    "description": "Tier 3 · Traço: Força · Alcance: Corpo a corpo · Dano: d10+7 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Cutelo Meridiano",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d10+5",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Duelo:** Quando não houver outras criaturas dentro de alcance Perto do alvo, ganhe vantagem em sua jogada de ataque contra elas."
+    ],
+    "description": "Tier 3 · Traço: Presença · Alcance: Corpo a corpo · Dano: d10+5 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Sabre retrátil",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d10+7",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Retrátil:** A lâmina pode ser escondida no punho para evitar detecção."
+    ],
+    "description": "Tier 3 · Traço: Presença · Alcance: Corpo a corpo · Dano: d10+7 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Mangual Duplo",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Very Close",
+    "damage": "d10+8",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Poderoso:** Com um ataque bem-sucedido, role um dado de dano adicional e descarte o menor resultado."
+    ],
+    "description": "Tier 3 · Traço: Agilidade · Alcance: Muito perto · Dano: d10+8 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Lâminas de Garra",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Close",
+    "damage": "d10+7",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Brutal:** Quando você rolar o valor máximo em um dado de dano, jogue um dado de dano adicional."
+    ],
+    "description": "Tier 3 · Traço: Finesse · Alcance: Perto · Dano: d10+7 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Revólver de Pólvora Negra",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+8",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Recarregando:** Depois de fazer um ataque, role um d6. Se o resultado for 1, você deve marcar um Estresse para recarregar esta arma antes de poder dispará-la novamente."
+    ],
+    "description": "Tier 3 · Traço: Finesse · Alcance: Longe · Dano: d6+8 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Arco Cravado",
+    "category": "Physical Weapon",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Very Far",
+    "damage": "d6+7",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Versátil:** Esta arma também pode ser usada com estas estatísticas - Agilidade, Corpo a corpo, d10+5."
+    ],
+    "description": "Tier 3 · Traço: Agilidade · Alcance: Muito longe · Dano: d6+7 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Espada de Ponta Dupla",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d10+9",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Rápido:** Ao realizar um ataque, você pode marcar um Estresse para escolher outra criatura dentro do alcance como alvo."
+    ],
+    "description": "Tier 4 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d10+9 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Manopla de Impacto",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+11",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Concussivo:** Em um ataque bem-sucedido, você pode gastar Esperança para empurrar o alvo de volta para alcance Longe."
+    ],
+    "description": "Tier 4 · Traço: Força · Alcance: Corpo a corpo · Dano: d10+11 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Machado de trenó",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+13",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Destrutivo:** -1 a Agilidade; em um ataque bem-sucedido, todos os adversários dentro de alcance Muito perto devem marcar Estresse."
+    ],
+    "description": "Tier 4 · Traço: Força · Alcance: Corpo a corpo · Dano: d12+13 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Adaga Curva",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8+9",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Serrilhado:** Quando você obtém 1 em um dado de dano, ele causa 8 de dano."
+    ],
+    "description": "Tier 4 · Traço: Finesse · Alcance: Corpo a corpo · Dano: d8+9 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Arma Estendida",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Very Close",
+    "damage": "d8+10",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Longo:** O ataque desta arma tem como alvo todos os adversários em uma linha dentro do alcance."
+    ],
+    "description": "Tier 4 · Traço: Finesse · Alcance: Muito perto · Dano: d8+10 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Lâmina Balançante",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Presence",
+    "range": "Close",
+    "damage": "d8+9",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Agarrar:** Em um ataque bem-sucedido, você pode gastar um Esperança para conter o alvo ou puxá-lo para alcance Corpo a corpo com você."
+    ],
+    "description": "Tier 4 · Traço: Presença · Alcance: Perto · Dano: d8+9 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Machados de Ricochete",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Far",
+    "damage": "d6+11",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Ricochete:** Marque 1 ou mais Estresse para atingir essa mesma quantidade de alvos ao alcance do ataque."
+    ],
+    "description": "Tier 4 · Traço: Agilidade · Alcance: Longe · Dano: d6+11 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Arco Aantari",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+11",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Confiável:** +1 nas rolagens de ataque"
+    ],
+    "description": "Tier 4 · Traço: Finesse · Alcance: Longe · Dano: d6+11 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Canhão de mão",
+    "category": "Physical Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Very Far",
+    "damage": "d6+12",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Recarregando:** Depois de fazer um ataque, role um d6. Com 1, você deve marcar um Estresse para recarregar esta arma antes de poder dispará-la novamente."
+    ],
+    "description": "Tier 4 · Traço: Finesse · Alcance: Muito longe · Dano: d6+12 físico · Carga: Uma mão"
+  }
+]

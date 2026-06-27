@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Silla de ruedas de armazón ligero",
+    "category": "Wheelchair",
+    "tier": 1,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Rápido:** Cuando realizas un ataque, puedes marcar un Estrés para elegir a otra criatura dentro del alcance como objetivo."
+    ],
+    "description": "Tier 1 · Rasgo: Agilidad · Rango: Cuerpo a cuerpo · Daño: d8 físico · Carga: Una mano"
+  },
+  {
+    "name": "Silla de ruedas de armazón ligero mejorada",
+    "category": "Wheelchair",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+3",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Rápido:** Cuando realizas un ataque, puedes marcar un Estrés para elegir a otra criatura dentro del alcance como objetivo."
+    ],
+    "description": "Tier 2 · Rasgo: Agilidad · Rango: Cuerpo a cuerpo · Daño: d8+3 físico · Carga: Una mano"
+  },
+  {
+    "name": "Silla de ruedas de armazón ligero avanzada",
+    "category": "Wheelchair",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Rápido:** Cuando realizas un ataque, puedes marcar un Estrés para elegir a otra criatura dentro del alcance como objetivo."
+    ],
+    "description": "Tier 3 · Rasgo: Agilidad · Rango: Cuerpo a cuerpo · Daño: d8+6 físico · Carga: Una mano"
+  },
+  {
+    "name": "Silla de ruedas de armazón ligero legendaria",
+    "category": "Wheelchair",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+9",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Rápido:** Cuando realizas un ataque, puedes marcar un Estrés para elegir a otra criatura dentro del alcance como objetivo."
+    ],
+    "description": "Tier 4 · Rasgo: Agilidad · Rango: Cuerpo a cuerpo · Daño: d8+9 físico · Carga: Una mano"
+  },
+  {
+    "name": "Silla de ruedas de armazón pesado",
+    "category": "Wheelchair",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+3",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Pesado:** -1 a Evasión"
+    ],
+    "description": "Tier 1 · Rasgo: Fuerza · Rango: Cuerpo a cuerpo · Daño: d12+3 físico · Carga: Dos manos"
+  },
+  {
+    "name": "Silla de ruedas de armazón pesado mejorada",
+    "category": "Wheelchair",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+6",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Pesado:** -1 a Evasión"
+    ],
+    "description": "Tier 2 · Rasgo: Fuerza · Rango: Cuerpo a cuerpo · Daño: d12+6 físico · Carga: Dos manos"
+  },
+  {
+    "name": "Silla de ruedas de armazón pesado avanzada",
+    "category": "Wheelchair",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+9",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Pesado:** -1 a Evasión"
+    ],
+    "description": "Tier 3 · Rasgo: Fuerza · Rango: Cuerpo a cuerpo · Daño: d12+9 físico · Carga: Dos manos"
+  },
+  {
+    "name": "Silla de ruedas de armazón pesado legendaria",
+    "category": "Wheelchair",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+12",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Pesado:** -1 a Evasión"
+    ],
+    "description": "Tier 4 · Rasgo: Fuerza · Rango: Cuerpo a cuerpo · Daño: d12+12 físico · Carga: Dos manos"
+  },
+  {
+    "name": "Silla de ruedas de armazón arcano",
+    "category": "Wheelchair",
+    "tier": 1,
+    "trait": "Spellcast",
+    "range": "Far",
+    "damage": "d6",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Fiable:** +1 a las tiradas de ataque"
+    ],
+    "description": "Tier 1 · Rasgo: Hechicería · Rango: Lejos · Daño: d6 mágico · Carga: Una mano"
+  },
+  {
+    "name": "Silla de ruedas de armazón arcano mejorada",
+    "category": "Wheelchair",
+    "tier": 2,
+    "trait": "Spellcast",
+    "range": "Far",
+    "damage": "d6+3",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Fiable:** +1 a las tiradas de ataque"
+    ],
+    "description": "Tier 2 · Rasgo: Hechicería · Rango: Lejos · Daño: d6+3 mágico · Carga: Una mano"
+  },
+  {
+    "name": "Silla de ruedas de armazón arcano avanzada",
+    "category": "Wheelchair",
+    "tier": 3,
+    "trait": "Spellcast",
+    "range": "Far",
+    "damage": "d6+6",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Fiable:** +1 a las tiradas de ataque"
+    ],
+    "description": "Tier 3 · Rasgo: Hechicería · Rango: Lejos · Daño: d6+6 mágico · Carga: Una mano"
+  },
+  {
+    "name": "Silla de ruedas de armazón arcano legendaria",
+    "category": "Wheelchair",
+    "tier": 4,
+    "trait": "Spellcast",
+    "range": "Far",
+    "damage": "d6+9",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Fiable:** +1 a las tiradas de ataque"
+    ],
+    "description": "Tier 4 · Rasgo: Hechicería · Rango: Lejos · Daño: d6+9 mágico · Carga: Una mano"
+  }
+]

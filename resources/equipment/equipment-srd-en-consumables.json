@@ -1,0 +1,362 @@
+[
+  {
+    "name": "Stride Potion",
+    "category": "Consumable",
+    "roll": "01",
+    "description": "You gain a +1 bonus to your next Agility Roll."
+  },
+  {
+    "name": "Bolster Potion",
+    "category": "Consumable",
+    "roll": "02",
+    "description": "You gain a +1 bonus to your next Strength Roll."
+  },
+  {
+    "name": "Control Potion",
+    "category": "Consumable",
+    "roll": "03",
+    "description": "You gain a +1 bonus to your next Finesse Roll."
+  },
+  {
+    "name": "Attune Potion",
+    "category": "Consumable",
+    "roll": "04",
+    "description": "You gain a +1 bonus to your next Instinct Roll."
+  },
+  {
+    "name": "Charm Potion",
+    "category": "Consumable",
+    "roll": "05",
+    "description": "You gain a +1 bonus to your next Presence Roll."
+  },
+  {
+    "name": "Enlighten Potion",
+    "category": "Consumable",
+    "roll": "06",
+    "description": "You gain a +1 bonus to your next Knowledge Roll."
+  },
+  {
+    "name": "Minor Health Potion",
+    "category": "Consumable",
+    "roll": "07",
+    "description": "Clear 1d4 HP."
+  },
+  {
+    "name": "Minor Stamina Potion",
+    "category": "Consumable",
+    "roll": "08",
+    "description": "Clear 1d4 Stress."
+  },
+  {
+    "name": "Grindletooth Venom",
+    "category": "Consumable",
+    "roll": "09",
+    "description": "You can apply this venom to a weapon that deals physical damage to add a d6 to your next damage roll with that weapon."
+  },
+  {
+    "name": "Varik Leaves",
+    "category": "Consumable",
+    "roll": "10",
+    "description": "You can eat these paired leaves to immediately gain 2 Hope."
+  },
+  {
+    "name": "Vial of Moondrip",
+    "category": "Consumable",
+    "roll": "11",
+    "description": "When you drink the contents of this vial, you can see in total darkness until your next rest."
+  },
+  {
+    "name": "Unstable Arcane Shard",
+    "category": "Consumable",
+    "roll": "12",
+    "description": "You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. Targets you succeed against take 1d20 magic damage."
+  },
+  {
+    "name": "Potion of Stability",
+    "category": "Consumable",
+    "roll": "13",
+    "description": "You can drink this potion to choose one additional downtime move."
+  },
+  {
+    "name": "Improved Grindletooth Venom",
+    "category": "Consumable",
+    "roll": "14",
+    "description": "You can apply this venom to a weapon that deals physical damage to add a d8 to your next damage roll with that weapon."
+  },
+  {
+    "name": "Morphing Clay",
+    "category": "Consumable",
+    "roll": "15",
+    "description": "You can spend a Hope to use this clay, altering your face enough to make you unrecognizable until your next rest."
+  },
+  {
+    "name": "Vial of Darksmoke",
+    "category": "Consumable",
+    "roll": "16",
+    "description": "When an adversary attacks you, use this vial and roll a number of d6s equal to your Agility. Add the highest result to your Evasion against the attack."
+  },
+  {
+    "name": "Jumping Root",
+    "category": "Consumable",
+    "roll": "17",
+    "description": "Eat this root to leap up to Far range once without needing to roll."
+  },
+  {
+    "name": "Snap Powder",
+    "category": "Consumable",
+    "roll": "18",
+    "description": "Mark a Stress and clear a HP."
+  },
+  {
+    "name": "Health Potion",
+    "category": "Consumable",
+    "roll": "19",
+    "description": "Clear 1d4+1 HP."
+  },
+  {
+    "name": "Stamina Potion",
+    "category": "Consumable",
+    "roll": "20",
+    "description": "Clear 1d4+1 Stress."
+  },
+  {
+    "name": "Armor Stitcher",
+    "category": "Consumable",
+    "roll": "21",
+    "description": "You can use this stitcher to spend any number of Hope and clear that many Armor Slots."
+  },
+  {
+    "name": "Gill Salve",
+    "category": "Consumable",
+    "roll": "22",
+    "description": "You can apply this salve to your neck to breathe underwater for a number of minutes equal to your level."
+  },
+  {
+    "name": "Replication Parchment",
+    "category": "Consumable",
+    "roll": "23",
+    "description": "By touching this piece of parchment to another, you can perfectly copy the second parchment's contents. Once used, this parchment becomes mundane paper."
+  },
+  {
+    "name": "Improved Arcane Shard",
+    "category": "Consumable",
+    "roll": "24",
+    "description": "You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. Targets you succeed against take 2d20 magic damage."
+  },
+  {
+    "name": "Major Stride Potion",
+    "category": "Consumable",
+    "roll": "25",
+    "description": "You gain a +1 bonus to your Agility until your next rest."
+  },
+  {
+    "name": "Major Bolster Potion",
+    "category": "Consumable",
+    "roll": "26",
+    "description": "You gain a +1 bonus to your Strength until your next rest."
+  },
+  {
+    "name": "Major Control Potion",
+    "category": "Consumable",
+    "roll": "27",
+    "description": "You gain a +1 bonus to your Finesse until your next rest."
+  },
+  {
+    "name": "Major Attune Potion",
+    "category": "Consumable",
+    "roll": "28",
+    "description": "You gain a +1 bonus to your Instinct until your next rest."
+  },
+  {
+    "name": "Major Charm Potion",
+    "category": "Consumable",
+    "roll": "29",
+    "description": "You gain a +1 bonus to your Presence until your next rest."
+  },
+  {
+    "name": "Major Enlighten Potion",
+    "category": "Consumable",
+    "roll": "30",
+    "description": "You gain a +1 bonus to your Knowledge until your next rest."
+  },
+  {
+    "name": "Blood of the Yorgi",
+    "category": "Consumable",
+    "roll": "31",
+    "description": "You can drink this blood to disappear from where you are and immediately reappear at a point you can see within Very Far range."
+  },
+  {
+    "name": "Homet's Secret Potion",
+    "category": "Consumable",
+    "roll": "32",
+    "description": "After drinking this potion, the next successful attack you make critically succeeds."
+  },
+  {
+    "name": "Redthorn Saliva",
+    "category": "Consumable",
+    "roll": "33",
+    "description": "You can apply this saliva to a weapon that deals physical damage to add a d12 to your next damage roll with that weapon."
+  },
+  {
+    "name": "Channelstone",
+    "category": "Consumable",
+    "roll": "34",
+    "description": "You can use this stone to take a spell or grimoire from your vault, use it once, and return it to your vault."
+  },
+  {
+    "name": "Mythic Dust",
+    "category": "Consumable",
+    "roll": "35",
+    "description": "You can apply this dust to a weapon that deals magic damage to add a d12 to your next damage roll with that weapon."
+  },
+  {
+    "name": "Acidpaste",
+    "category": "Consumable",
+    "roll": "36",
+    "description": "This paste eats away walls and other surfaces in bright flashes."
+  },
+  {
+    "name": "Hopehold Flare",
+    "category": "Consumable",
+    "roll": "37",
+    "description": "When you use this flare, allies within Close range roll a d6 when they spend a Hope. On a result of 6, they gain the effect of that Hope without spending it. The flare lasts until the end of the scene."
+  },
+  {
+    "name": "Major Arcane Shard",
+    "category": "Consumable",
+    "roll": "38",
+    "description": "You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. Targets you succeed against take 4d20 magic damage."
+  },
+  {
+    "name": "Featherbone",
+    "category": "Consumable",
+    "roll": "39",
+    "description": "You can use this bone to control your falling speed for a number of minutes equal to your level."
+  },
+  {
+    "name": "Circle of the Void",
+    "category": "Consumable",
+    "roll": "40",
+    "description": "Mark a Stress to create a void that extends up to Far range. No magic can be cast inside the void, and creatures within the void are immune to magic damage."
+  },
+  {
+    "name": "Sun Tree Sap",
+    "category": "Consumable",
+    "roll": "41",
+    "description": "Consume this sap to roll a d6. On a result of 5-6, clear 2 HP. On a result of 2-4, clear 3 Stress. On a result of 1, see through the veil of death and return changed, gaining one scar."
+  },
+  {
+    "name": "Dripfang Poison",
+    "category": "Consumable",
+    "roll": "42",
+    "description": "A creature who consumes this poison takes 8d10 direct magic damage."
+  },
+  {
+    "name": "Major Health Potion",
+    "category": "Consumable",
+    "roll": "43",
+    "description": "Clear 1d4+2 HP."
+  },
+  {
+    "name": "Major Stamina Potion",
+    "category": "Consumable",
+    "roll": "44",
+    "description": "Clear 1d4+2 Stress."
+  },
+  {
+    "name": "Ogre Musk",
+    "category": "Consumable",
+    "roll": "45",
+    "description": "You can use this musk to prevent anyone from tracking you by mundane or magical means until your next rest."
+  },
+  {
+    "name": "Wingsprout",
+    "category": "Consumable",
+    "roll": "46",
+    "description": "You gain magic wings that allow you to fly for a number of minutes equal to your level."
+  },
+  {
+    "name": "Jar of Lost Voices",
+    "category": "Consumable",
+    "roll": "47",
+    "description": "You can open this jar to release a deafening echo of voices for a number of minutes equal to your Instinct. Creatures within Far range unprepared for the sound take 6d8 magic damage."
+  },
+  {
+    "name": "Dragonbloom Tea",
+    "category": "Consumable",
+    "roll": "48",
+    "description": "You can drink this tea to unleash a fiery breath attack. Make an Instinct Roll against all adversaries in front of you within Close range. Targets you succeed against take d20 physical damage using your Proficiency."
+  },
+  {
+    "name": "Bridge Seed",
+    "category": "Consumable",
+    "roll": "49",
+    "description": "Thick vines grow from your location to a point of your choice within Far range, allowing you to climb up or across them. The vines dissipate on your next short rest."
+  },
+  {
+    "name": "Sleeping Sap",
+    "category": "Consumable",
+    "roll": "50",
+    "description": "You can drink this potion to fall asleep for a full night's rest. You clear all Stress upon waking."
+  },
+  {
+    "name": "Feast of Xuria",
+    "category": "Consumable",
+    "roll": "51",
+    "description": "You can eat this meal to clear all HP and Stress and gain 1d4 Hope."
+  },
+  {
+    "name": "Bonding Honey",
+    "category": "Consumable",
+    "roll": "52",
+    "description": "This honey can be used to glue two objects together permanently."
+  },
+  {
+    "name": "Shrinking Potion",
+    "category": "Consumable",
+    "roll": "53",
+    "description": "You can drink this potion to halve your size until you choose to drop this form or your next rest. While in this form, you have a +2 bonus to Agility and a -1 penalty to your Proficiency."
+  },
+  {
+    "name": "Growing Potion",
+    "category": "Consumable",
+    "roll": "54",
+    "description": "You can drink this potion to double your size until you choose to drop this form or your next rest. While in this form, you have a +2 bonus to Strength and a +1 bonus to your Proficiency."
+  },
+  {
+    "name": "Knowledge Stone",
+    "category": "Consumable",
+    "roll": "55",
+    "description": "If you die while holding this stone, an ally can take a card from your loadout to place in their loadout or vault. After they take this knowledge, the stone crumbles."
+  },
+  {
+    "name": "Sweet Moss",
+    "category": "Consumable",
+    "roll": "56",
+    "description": "You can consume this moss during a rest to clear 1d10 HP or 1d10 Stress."
+  },
+  {
+    "name": "Blinding Orb",
+    "category": "Consumable",
+    "roll": "57",
+    "description": "You can activate this orb to create a flash of bright light. All targets within Close range become Vulnerable until they mark HP."
+  },
+  {
+    "name": "Death Tea",
+    "category": "Consumable",
+    "roll": "58",
+    "description": "After you drink this tea, you instantly kill your target when you critically succeed on an attack. If you don't critically succeed on an attack before your next long rest, you die."
+  },
+  {
+    "name": "Mirror of Marigold",
+    "category": "Consumable",
+    "roll": "59",
+    "description": "When you take damage, you can spend a Hope to negate that damage, after which the mirror shatters."
+  },
+  {
+    "name": "Stardrop",
+    "category": "Consumable",
+    "roll": "60",
+    "description": "You can use this stardrop to summon a hailstorm of comets that deals 8d20 physical damage to all targets within Very Far range."
+  }
+]

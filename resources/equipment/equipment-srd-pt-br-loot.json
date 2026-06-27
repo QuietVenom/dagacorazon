@@ -1,0 +1,362 @@
+[
+  {
+    "name": "Saco de dormir premium",
+    "category": "Loot",
+    "roll": "01",
+    "description": "Durante tempo de inatividade, você limpa automaticamente um Estresse."
+  },
+  {
+    "name": "Apito de flautista",
+    "category": "Loot",
+    "roll": "02",
+    "description": "Este apito artesanal tem um som distinto. Quando você apita, seu tom penetrante pode ser ouvido em um raio de 1,6 km."
+  },
+  {
+    "name": "Aljava de Carregamento",
+    "category": "Loot",
+    "roll": "03",
+    "description": "Quando você tiver sucesso em um ataque com uma flecha armazenada nesta aljava, ganhe um bônus na jogada de dano igual ao seu nível atual."
+  },
+  {
+    "name": "Tocha de Alistair",
+    "category": "Loot",
+    "roll": "04",
+    "description": "Você pode acender esta tocha mágica à vontade. A luz da chama preenche um espaço muito maior do que deveria, o suficiente para iluminar uma caverna brilhante como o dia."
+  },
+  {
+    "name": "Orbes Falantes",
+    "category": "Loot",
+    "roll": "05",
+    "description": "Este par de orbes permite que qualquer criatura que os possua se comunique entre si a qualquer distância."
+  },
+  {
+    "name": "Algemas",
+    "category": "Loot",
+    "roll": "06",
+    "description": "Este par de algemas com trava vem com uma chave."
+  },
+  {
+    "name": "Manto Arcano",
+    "category": "Loot",
+    "roll": "07",
+    "description": "Uma criatura com característica Conjuração usando esta capa pode ajustar sua cor, textura e tamanho à vontade."
+  },
+  {
+    "name": "Rede tecida",
+    "category": "Loot",
+    "roll": "08",
+    "description": "Você pode fazer um teste de Finesse usando esta rede para capturar uma pequena criatura. Um alvo preso pode se libertar com um teste de Ataque (16) bem-sucedido."
+  },
+  {
+    "name": "Jarra de Fogo",
+    "category": "Loot",
+    "roll": "09",
+    "description": "Você pode derramar o estranho conteúdo líquido desta jarra para produzir fogo instantaneamente. O conteúdo é regenerado quando você pega um descanso longo."
+  },
+  {
+    "name": "Haste Suspensa",
+    "category": "Loot",
+    "roll": "10",
+    "description": "Esta haste plana está inscrita com runas. Quando você ativa a haste, ela fica imediatamente suspensa no lugar. Até que a haste seja desativada, ela não poderá se mover, não obedecerá às regras da gravidade e permanecerá no lugar."
+  },
+  {
+    "name": "Pedra Glamour",
+    "category": "Loot",
+    "roll": "11",
+    "description": "Ative esta pedra do tamanho de uma pedra para memorizar a aparência de alguém que você pode ver. Gaste um Esperança para recriar magicamente esse disfarce em você mesmo como uma ilusão."
+  },
+  {
+    "name": "Baú Vazio",
+    "category": "Loot",
+    "roll": "12",
+    "description": "Este baú mágico parece vazio. Quando você fala uma palavra ou ação específica e abre o baú, você pode ver os itens armazenados nele."
+  },
+  {
+    "name": "Caso complementar",
+    "category": "Loot",
+    "roll": "13",
+    "description": "Este estojo pode acomodar um pequeno companheiro animal. Enquanto o companheiro estiver dentro, o animal e a caixa ficam imunes a todos os danos e efeitos nocivos."
+  },
+  {
+    "name": "Flechas Perfurantes",
+    "category": "Loot",
+    "roll": "14",
+    "description": "Três vezes por descanso, quando você tiver sucesso em um ataque com uma dessas flechas, você pode adicionar seu Proficiência à jogada de dano."
+  },
+  {
+    "name": "Pedra Valor",
+    "category": "Loot",
+    "roll": "15",
+    "description": "Você pode anexar esta pedra a uma armadura que ainda não possui um recurso. A armadura ganha o seguinte recurso. Resiliente: Antes de marcar seu último Espaço de Armadura, role um d6. Com um resultado 6, reduza a gravidade em um limite sem marcar um Espaço de Armadura."
+  },
+  {
+    "name": "Chave Mestra",
+    "category": "Loot",
+    "roll": "16",
+    "description": "Ao usar esta chave para abrir uma porta trancada, você ganha vantagem no teste de Finesse."
+  },
+  {
+    "name": "Prisma Arcano",
+    "category": "Loot",
+    "roll": "17",
+    "description": "Posicione este prisma em um local de sua escolha e ative-o. Todos os aliados dentro de alcance Perto ganham um bônus de +1 em seu testes de Conjuração. Enquanto ativado, o prisma não pode ser movido. Uma vez desativado o prisma, ele não poderá ser ativado novamente até seu próximo descanso longo."
+  },
+  {
+    "name": "Receita de Poção de Vigor Menor",
+    "category": "Loot",
+    "roll": "18",
+    "description": "Como um movimento tempo de inatividade, você pode usar o osso de uma criatura para criar uma Poção de Vigor Menor."
+  },
+  {
+    "name": "Receita de Poção Menor de Saúde",
+    "category": "Loot",
+    "roll": "19",
+    "description": "Como um movimento tempo de inatividade, você pode usar um frasco de sangue para criar uma Poção de Saúde Menor."
+  },
+  {
+    "name": "Bússolas de retorno",
+    "category": "Loot",
+    "roll": "20",
+    "description": "Essas duas bússolas apontam uma para a outra, não importa quão distantes estejam."
+  },
+  {
+    "name": "Sprite Corretor",
+    "category": "Loot",
+    "roll": "21",
+    "description": "Este pequeno sprite fica na curva do seu canal auditivo e sussurra conselhos úteis durante o combate. Uma vez por descanso curto, você pode ganhar vantagem em uma jogada de ataque."
+  },
+  {
+    "name": "Luvas de lagartixa",
+    "category": "Loot",
+    "roll": "22",
+    "description": "Você pode escalar superfícies verticais e tetos."
+  },
+  {
+    "name": "Guardião do Conhecimento",
+    "category": "Loot",
+    "roll": "23",
+    "description": "Você pode armazenar o nome e os detalhes de até três criaturas hostis neste livro. Você ganha um bônus de +1 nas jogadas de ação contra essas criaturas."
+  },
+  {
+    "name": "Receita do frasco de Darksmoke",
+    "category": "Loot",
+    "roll": "24",
+    "description": "Como um movimento tempo de inatividade, você pode marcar um Estresse para criar um Vial of Darksmoke."
+  },
+  {
+    "name": "Pedra de Sangue",
+    "category": "Loot",
+    "roll": "25",
+    "description": "Você pode anexar esta pedra a uma arma que ainda não possui um recurso. A arma ganha o seguinte recurso. Brutal: Quando você rolar o valor máximo em um dado de dano, jogue um dado de dano adicional."
+  },
+  {
+    "name": "Pedra Grande",
+    "category": "Loot",
+    "roll": "26",
+    "description": "Você pode anexar esta pedra a uma arma que ainda não possui um recurso. A arma ganha o seguinte recurso. Poderoso: Em um ataque bem-sucedido, jogue um dado de dano adicional e descarte o resultado mais baixo."
+  },
+  {
+    "name": "Planador",
+    "category": "Loot",
+    "roll": "27",
+    "description": "Ao cair, você pode marcar um Estresse para abrir este pequeno pára-quedas e deslizar com segurança até o solo."
+  },
+  {
+    "name": "Anel do Silêncio",
+    "category": "Loot",
+    "roll": "28",
+    "description": "Gaste um Esperança para ativar este anel. Seus passos ficam em silêncio até o próximo descanso."
+  },
+  {
+    "name": "Pingente Calmante",
+    "category": "Loot",
+    "roll": "29",
+    "description": "Quando você marcar seu último Estresse, role um d6. Com um resultado de 5 ou superior, não marque."
+  },
+  {
+    "name": "Frasco duplo",
+    "category": "Loot",
+    "roll": "30",
+    "description": "Este frasco pode conter dois líquidos diferentes. Você pode alternar entre eles apertando um pequeno botão na lateral do frasco."
+  },
+  {
+    "name": "Saco de areia inconstante",
+    "category": "Loot",
+    "roll": "31",
+    "description": "Você pode convencer este pequeno saco de areia a ser muito mais pesado ou mais leve com um teste de Presença (10) de sucesso. Além disso, com um teste de Finesse (10) bem-sucedido, você pode soprar um pouco de areia no rosto do alvo para torná-lo temporariamente Vulnerável."
+  },
+  {
+    "name": "Anel de Resistência",
+    "category": "Loot",
+    "roll": "32",
+    "description": "Uma vez por descanso longo, você pode ativar este anel após um ataque bem-sucedido contra você para reduzir o dano pela metade."
+  },
+  {
+    "name": "Pena de Fênix",
+    "category": "Loot",
+    "roll": "33",
+    "description": "Se você tiver pelo menos uma Pena de Fênix com você quando cair inconsciente, você ganha um bônus de +1 no teste que fizer para determinar se ganhará uma cicatriz."
+  },
+  {
+    "name": "Caixa de muitos produtos",
+    "category": "Loot",
+    "roll": "34",
+    "description": "Uma vez por descanso longo, você pode abrir esta pequena caixa e rolar um d12. Com um resultado de 1 a 6, está vazio. Com um resultado de 7 a 10, ele contém um consumível comum aleatório. Com um resultado de 11 a 12, ele contém dois consumíveis comuns aleatórios."
+  },
+  {
+    "name": "Amuleto de Lâmina Aérea",
+    "category": "Loot",
+    "roll": "35",
+    "description": "Você pode anexar este amuleto a uma arma com um alcance Corpo a corpo. Três vezes por descanso, você pode ativar o feitiço e atacar um alvo dentro de alcance Perto."
+  },
+  {
+    "name": "Semente do Portal",
+    "category": "Loot",
+    "roll": "36",
+    "description": "Você pode plantar esta semente no solo para fazer crescer um portal naquele local. O portal está pronto para uso em 24 horas. Você pode usar este portal para viajar para qualquer outro local onde plantou uma semente de portal. Um portal pode ser destruído distribuindo qualquer quantidade de dano mágico nele."
+  },
+  {
+    "name": "Corrente do Paragon",
+    "category": "Loot",
+    "roll": "37",
+    "description": "Como um movimento tempo de inatividade, você pode meditar sobre um ideal ou princípio que lhe é caro e concentrar sua vontade nesta cadeia. Uma vez por descanso longo, você pode gastar um Esperança para rolar um d20 como seu Dado Esperança para jogadas que se alinhem diretamente com esse princípio."
+  },
+  {
+    "name": "Amuleto Elusivo",
+    "category": "Loot",
+    "roll": "38",
+    "description": "Uma vez por descanso longo, você pode ativar este amuleto para ficar Oculto até você se mover. Enquanto estiver oculto dessa forma, você permanecerá invisível mesmo que um adversário se mova para onde normalmente o veria."
+  },
+  {
+    "name": "EsperançaMedalhão de Guarda",
+    "category": "Loot",
+    "roll": "39",
+    "description": "Durante um descanso longo, se você tiver 6 Esperança, poderá gastar um Esperança para imbuir este medalhão com sua determinação generosa. Quando você tiver 0 Esperança, poderá usar o medalhão para ganhar imediatamente um Esperança. O medalhão deve ser imbuído novamente antes de poder ser usado desta forma novamente."
+  },
+  {
+    "name": "Bolsa Infinita",
+    "category": "Loot",
+    "roll": "40",
+    "description": "Quando você armazena itens nesta bolsa, eles são mantidos em um bolso que nunca fica sem espaço. Você pode recuperar um item a qualquer momento."
+  },
+  {
+    "name": "Relíquia do Passo",
+    "category": "Loot",
+    "roll": "41",
+    "description": "Você ganha um bônus de +1 em seu Agilidade. Você só pode carregar uma relíquia."
+  },
+  {
+    "name": "Reforçar Relíquia",
+    "category": "Loot",
+    "roll": "42",
+    "description": "Você ganha um bônus de +1 em seu Força. Você só pode carregar uma relíquia."
+  },
+  {
+    "name": "Relíquia de Controle",
+    "category": "Loot",
+    "roll": "43",
+    "description": "Você ganha um bônus de +1 em seu Finesse. Você só pode carregar uma relíquia."
+  },
+  {
+    "name": "Sintonizar Relíquia",
+    "category": "Loot",
+    "roll": "44",
+    "description": "Você ganha um bônus de +1 em seu Instinto. Você só pode carregar uma relíquia."
+  },
+  {
+    "name": "Relíquia de Charme",
+    "category": "Loot",
+    "roll": "45",
+    "description": "Você ganha um bônus de +1 em seu Presença. Você só pode carregar uma relíquia."
+  },
+  {
+    "name": "Relíquia Iluminada",
+    "category": "Loot",
+    "roll": "46",
+    "description": "Você ganha um bônus de +1 em seu Conhecimento. Você só pode carregar uma relíquia."
+  },
+  {
+    "name": "Aprimorando Relíquia",
+    "category": "Loot",
+    "roll": "47",
+    "description": "Você ganha um bônus de +1 em uma Experiência de sua escolha. Você só pode carregar uma relíquia."
+  },
+  {
+    "name": "Pingente Flickerfly",
+    "category": "Loot",
+    "roll": "48",
+    "description": "Enquanto você carrega este pingente, suas armas com um alcance Corpo a corpo que lida com dano físico têm um brilho transparente e podem atacar alvos dentro de alcance Muito perto."
+  },
+  {
+    "name": "Botas Lakestrider",
+    "category": "Loot",
+    "roll": "49",
+    "description": "Você pode andar na superfície da água como se fosse um solo macio."
+  },
+  {
+    "name": "Companheiro de Argila",
+    "category": "Loot",
+    "roll": "50",
+    "description": "Quando você esculpe esta bola de argila em um companheiro animal de argila, ela se comporta como esse animal. Por exemplo, uma aranha de argila pode tecer teias de argila, enquanto um pássaro de argila pode voar. O companheiro de argila mantém memória e identidade em diferentes formas, mas pode adotar novos maneirismos a cada forma."
+  },
+  {
+    "name": "Receita de Pó Mítico",
+    "category": "Loot",
+    "roll": "51",
+    "description": "Como um movimento tempo de inatividade, você pode usar um punhado de pó de ouro fino para criar Pó Mítico."
+  },
+  {
+    "name": "Fragmento de Memória",
+    "category": "Loot",
+    "roll": "52",
+    "description": "Uma vez por descanso longo, você pode gastar 2 Esperança para retirar um cartão de domínio de seu cofre em vez de pagar seu custo de recall."
+  },
+  {
+    "name": "Gema da Alacridade",
+    "category": "Loot",
+    "roll": "53",
+    "description": "Você pode anexar esta joia a uma arma, permitindo usar seu Agilidade ao fazer um ataque com aquela arma."
+  },
+  {
+    "name": "Gema do Poder",
+    "category": "Loot",
+    "roll": "54",
+    "description": "Você pode anexar esta gema a uma arma, permitindo usar seu Força ao fazer um ataque com aquela arma."
+  },
+  {
+    "name": "Gema de Precisão",
+    "category": "Loot",
+    "roll": "55",
+    "description": "Você pode anexar esta gema a uma arma, permitindo usar seu Finesse ao fazer um ataque com aquela arma."
+  },
+  {
+    "name": "Gema do Insight",
+    "category": "Loot",
+    "roll": "56",
+    "description": "Você pode anexar esta joia a uma arma, permitindo usar seu Instinto ao fazer um ataque com aquela arma."
+  },
+  {
+    "name": "Gema da Audácia",
+    "category": "Loot",
+    "roll": "57",
+    "description": "Você pode anexar esta gema a uma arma, permitindo usar seu Presença ao fazer um ataque com aquela arma."
+  },
+  {
+    "name": "Gema da Sagacidade",
+    "category": "Loot",
+    "roll": "58",
+    "description": "Você pode anexar esta gema a uma arma, permitindo usar seu Conhecimento ao fazer um ataque com aquela arma."
+  },
+  {
+    "name": "Anel da Determinação Inquebrável",
+    "category": "Loot",
+    "roll": "59",
+    "description": "Uma vez por sessão, quando o GM gasta um Medo, você pode gastar 4 Esperança para cancelar os efeitos daquele Medo gasto."
+  },
+  {
+    "name": "Cinto da Unidade",
+    "category": "Loot",
+    "roll": "60",
+    "description": "Uma vez por sessão, você pode gastar 5 Esperança para liderar um Tag Team Roll com três PCs em vez de dois."
+  }
+]

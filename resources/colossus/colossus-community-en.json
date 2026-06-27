@@ -1,0 +1,256 @@
+{
+  "MORA'AG, SOUL OF THE HUNT": {
+    "name": "MORA'AG, SOUL OF THE HUNT",
+    "tier": "Tier 2",
+    "description": "A colossal wolf with visible signs of Withering corruption.",
+    "motivestactics": "Blood madness",
+    "size": "30 m long, 12 m tall",
+    "thresholds": "15/30",
+    "stress": 6,
+    "experience": "Track +2",
+    "features": [
+      {
+        "title": "Creeping corruption",
+        "type": "Passive",
+        "description": "Start a countdown. Tic up when a limb or the head becomes corrupted. Mora'ag becomes unrecoverably corrupted when the clock reaches 4. If a Corrupted limb is destroyed, tic down."
+      },
+      {
+        "title": "Roll",
+        "type": "Action",
+        "description": "Spend a fear. Mora'ag drops to the ground and rolls. All PCs on him or within Close range must succeed an Instinct Reaction Roll (14) or take 2d20+5 physical damage. Succeed or fail, the PCs are thrown off Mora'ag onto the ground within melee range of the colossus."
+      },
+      {
+        "title": "The threat of death",
+        "type": "Passive",
+        "description": "When Mora'ag fails an attack, gain a fear."
+      }
+    ],
+    "segments": [
+      {
+        "name": "Head",
+        "difficulty": "16",
+        "hp": "5",
+        "adjacentSegments": ["Torso"],
+        "standardAttack": {
+          "modifier": "+3",
+          "name": "Bite",
+          "range": "Melee",
+          "damage": "2d20+8",
+          "damageType": "phy"
+        },
+        "features": [
+          {
+            "title": "Get through the teeth first",
+            "type": "Reaction",
+            "description": "If the Head is targeted by an attack, mark a stress. Mora'ag will make a bite attack first, and if it's successful, the PC cannot attack."
+          },
+          {
+            "title": "Devour",
+            "type": "Action",
+            "description": "Mark a stress and make a standard bite attack. If the attack is successful, the target must make a Strength or Agility Reaction Roll (15) or they will be Swallowed. While swallowed, they are restrained and each time Mora'ag takes an action they take 1HP direct damage. The Swallowed PC can make additional rolls to escape as an action on their turn, or as a Reaction when Mora'ag receives Major or Severe damage."
+          },
+          {
+            "title": "Corruption",
+            "type": "Passive",
+            "description": "When this segment is destroyed, Mora'ag collapses. After 2 PC turns the corruption creeps to the head, and Mora'ag gets back up. Mora'ag's corrupted Head has 4HP and its attacks gain an additional damage die. Creeping Corruption gains 2 tics. If the Corrupted Head is destroyed, Mora'ag dies."
+          }
+        ]
+      },
+      {
+        "name": "Torso",
+        "hp": "6",
+        "adjacentSegments": ["Head", "Foreleg", "Hindleg"],
+        "features": [
+          {
+            "title": "Fatal",
+            "type": "Passive",
+            "description": "When this segment is destroyed, Mora'ag dies."
+          },
+          {
+            "title": "Collapse",
+            "type": "Passive",
+            "description": "When two or more limbs are currently destroyed, Mora'ag collapses until the limbs regenerate. During this time the Torso can be targeted from the ground, and it can be climbed."
+          },
+          {
+            "title": "Core of the corruption",
+            "type": "Passive",
+            "description": "The Withering Corruption has spread from a point on Mora'ag's back. For the corruption to be destroyed the Core must be targeted directly. It can only be targeted by a PC currently on the Torso, since it's deep under Mora'ag's thick fur. The difficulty of targeting the Core is 16. The Core has 3HP. It gains an additional HP each time a limb or the Head is corrupted. It loses an HP once a corrupted limb is once more destroyed."
+          }
+        ]
+      },
+      {
+        "name": "Foreleg",
+        "pluralName": "Forelegs",
+        "count": 2,
+        "difficulty": "14",
+        "hp": "4",
+        "adjacentSegments": ["Torso"],
+        "standardAttack": {
+          "modifier": "+2",
+          "name": "Claws",
+          "range": "Close",
+          "damage": "2d12+6",
+          "damageType": "phy"
+        },
+        "features": [
+          {
+            "title": "Sweeping paw",
+            "type": "Action",
+            "description": "Spend a fear. Attack all PCs within Close range of the Foreleg. The damage from this attack is 2d10+4."
+          },
+          {
+            "title": "Corruption",
+            "type": "Passive",
+            "description": "Once the limb is destroyed, start a timer. When the PCs take an action, tic up. Once the timer reaches 3, the limb regenerates. The Corrupted Limb has 2 HP and the claw attack is 2d20+4."
+          }
+        ]
+      },
+      {
+        "name": "Hindleg",
+        "pluralName": "Hindlegs",
+        "count": 2,
+        "difficulty": "14",
+        "hp": "4",
+        "adjacentSegments": ["Torso"],
+        "features": [
+          {
+            "title": "Pounce",
+            "type": "Action",
+            "description": "Spend a stress. Mora'ag leaps into the air and comes down within Far range. At the end of this leap it can make a bite or a claw attack."
+          },
+          {
+            "title": "Corruption",
+            "type": "Passive",
+            "description": "Once the limb is destroyed, start a timer. When the PCs take an action, tic up. Once the timer reaches 3, the limb regenerates. The Corrupted Limb has 2 HP and it loses the Pounce feature."
+          }
+        ]
+      }
+    ]
+  },
+  "IKERI, INJURIES UNTOLD": {
+    "name": "IKERI, INJURIES UNTOLD",
+    "tier": "Tier 1",
+    "description": "This apelike creature has the face of a bird. They are made of stone and carry an enormous mesa upon their back.",
+    "motivestactics": "Entangle, intimidate, peck, stomp",
+    "size": "29 m tall, 18 m wide",
+    "thresholds": "11/22",
+    "stress": 6,
+    "experience": "Eagle Eyes +3, Huge +2",
+    "features": [
+      {
+        "title": "Colossal Power",
+        "type": "Reaction",
+        "description": "When Ikeri fails an attack, you gain a Fear."
+      },
+      {
+        "title": "Swatting Pests",
+        "type": "Reaction",
+        "description": "When Ikeri is attacked by a flying target within Far range, you can make a Peck (Head) or Punch (Arm) standard attack against the attacker. On a success, add a d20 to the damage roll and the target is knocked to the ground at the feet of the colossus."
+      }
+    ],
+    "segments": [
+      {
+        "name": "Head",
+        "difficulty": "16",
+        "hp": "5",
+        "adjacentSegments": ["Torso"],
+        "standardAttack": {
+          "modifier": "+2",
+          "name": "Peck",
+          "range": "Melee",
+          "damage": "1d10+1",
+          "damageType": "phy"
+        },
+        "features": [
+          {
+            "title": "Fatal",
+            "type": "Passive",
+            "description": "When the Head is Destroyed, Ikeri is defeated."
+          },
+          {
+            "title": "Strike (Melee)",
+            "type": "Passive",
+            "description": "The Head is immune to damage from attacks not made within Melee range."
+          },
+          {
+            "title": "Follow-Up",
+            "type": "Reaction",
+            "description": "When the Head succeeds on an attack against a target, it can immediately make an attack against another target it hasn't attacked during this GM turn."
+          }
+        ]
+      },
+      {
+        "name": "Torso",
+        "difficulty": "14",
+        "hp": "8",
+        "adjacentSegments": ["Head", "Arm", "Leg"],
+        "features": [
+          {
+            "title": "Fatal",
+            "type": "Passive",
+            "description": "When the Torso is Destroyed, Ikeri is defeated."
+          },
+          {
+            "title": "Shake Off",
+            "type": "Action",
+            "description": "Spend a Fear to throw off foes. All creatures on Ikeri must make a Strength Reaction Roll. Targets who fail fall to the ground and must mark a HP. Targets who succeed must mark a Stress."
+          }
+        ]
+      },
+      {
+        "name": "Arm",
+        "pluralName": "Arms",
+        "count": 2,
+        "difficulty": "13",
+        "hp": "3",
+        "adjacentSegments": ["Torso"],
+        "standardAttack": {
+          "modifier": "+2",
+          "name": "Punch",
+          "range": "Very Close",
+          "damage": "1d8+6",
+          "damageType": "phy"
+        },
+        "features": [
+          {
+            "title": "Chain (A)",
+            "type": "Passive",
+            "description": "When all segments in Chain A are Destroyed, Ikeri is defeated."
+          },
+          {
+            "title": "Crush",
+            "type": "Action",
+            "description": "Spend a Fear to make an attack against a target on another segment of Ikeri. On a success, Ikeri grabs and crushes the target, dealing 1d20+4 physical damage and Restraining them until this Arm takes Major or greater damage. When this Arm takes the spotlight while the target is still in Ikeri's hand, the target takes 1d20 physical damage."
+          }
+        ]
+      },
+      {
+        "name": "Leg",
+        "pluralName": "Legs",
+        "count": 2,
+        "difficulty": "13",
+        "hp": "3",
+        "adjacentSegments": ["Torso", "Leg"],
+        "standardAttack": {
+          "modifier": "+2",
+          "name": "Stomp",
+          "range": "Very Close",
+          "damage": "1d6+3",
+          "damageType": "phy"
+        },
+        "features": [
+          {
+            "title": "Chain (A)",
+            "type": "Passive",
+            "description": "When all segments in Chain A are Destroyed, Ikeri is defeated."
+          },
+          {
+            "title": "Massive Stomp",
+            "type": "Action",
+            "description": "Spend a Fear to make a standard attack with advantage against a group."
+          }
+        ]
+      }
+    ]
+  }
+}

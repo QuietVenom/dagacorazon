@@ -1,26 +1,177 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/*
+  Dagacorazón — design system
+  Visual direction: "night grimoire" — deep blue-tinted ink, dagger-edge
+  gold as primary accent, heart crimson as danger/action accent.
+*/
+@theme {
+  /* Surfaces */
+  --color-abyss: #0a0a13;
+  --color-ink: #11111f;
+  --color-card: #171728;
+  --color-field: #0e0e1b;
+  --color-edge: #2a2a45;
+  --color-edge-soft: #1e1e35;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Accents */
+  --color-gold: #d4a843;
+  --color-gold-bright: #f0d060;
+  --color-gold-dim: #8a7230;
+  --color-blood: #b03040;
+  --color-blood-bright: #e05060;
+  --color-hope: #d4a843;
+  --color-fear: #7b68c8;
+  --color-emerald: #2f9e6e;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  /* Text */
+  --color-bone: #e8e4dc;
+  --color-mist: #8a8698;
+  --color-haze: #5a5670;
+
+  /* Daggerheart statblock card (cream parchment, dark ink) */
+  --color-parchment: #f3eee1;
+  --color-parchment-line: #2a2a2a;
+  --color-iron: #1a1a22;
+  --color-iron-soft: #3a3a45;
+  --color-pip-hp: #d99a2b;
+  --color-pip-stress: #7b3fb5;
+
+  /* Typography */
+  --font-display: var(--font-cinzel), serif;
+  --font-body: var(--font-crimson), Georgia, serif;
+  --font-mono: var(--font-geist-mono), monospace;
+
+  --radius-card: 14px;
+
+  --animate-fade-in: fade-in 0.35s ease-out;
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background:
+    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(212, 168, 67, 0.05) 0%, transparent 55%),
+    radial-gradient(ellipse 60% 40% at 85% 100%, rgba(123, 104, 200, 0.06) 0%, transparent 55%),
+    var(--color-abyss);
+  color: var(--color-bone);
+  font-family: var(--font-body);
+  /* Guard against stray horizontal overflow on small screens. */
+  overflow-x: hidden;
+}
+
+/* Safe-area helpers for fixed bottom UI (FABs, sheets) on notched phones. */
+@utility pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@utility mb-safe {
+  margin-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+::selection {
+  background: rgba(212, 168, 67, 0.3);
+}
+
+/* Visible, consistent focus across the app */
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Discreet scrollbar matching the theme */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-edge) transparent;
+}
+
+/* Markdown rendering for the Workshop info dialogs (react-markdown output). */
+.info-prose {
+  color: var(--color-bone);
+  font-size: 14px;
+  line-height: 1.65;
+}
+.info-prose h2 {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+  margin: 1.25rem 0 0.5rem;
+}
+.info-prose h2:first-child {
+  margin-top: 0;
+}
+.info-prose h3 {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-bone);
+  margin: 1rem 0 0.4rem;
+}
+.info-prose p {
+  margin: 0.5rem 0;
+  color: var(--color-mist);
+}
+.info-prose ul {
+  margin: 0.5rem 0;
+  padding-left: 1.1rem;
+  list-style: disc;
+  color: var(--color-mist);
+}
+.info-prose li {
+  margin: 0.25rem 0;
+}
+.info-prose code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  color: var(--color-gold-bright);
+  background: rgba(212, 168, 67, 0.1);
+  padding: 0.05em 0.35em;
+  border-radius: 4px;
+}
+.info-prose blockquote {
+  margin: 0.75rem 0 0;
+  padding: 0.5rem 0.85rem;
+  border-left: 2px solid var(--color-gold-dim);
+  background: rgba(212, 168, 67, 0.06);
+  border-radius: 0 6px 6px 0;
+  color: var(--color-bone);
+  font-style: italic;
+}
+.info-prose blockquote p {
+  margin: 0;
+  color: var(--color-bone);
+}
+.info-prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.5rem 0 0.75rem;
+  font-size: 12.5px;
+}
+.info-prose th,
+.info-prose td {
+  border: 1px solid var(--color-edge);
+  padding: 0.3rem 0.5rem;
+  text-align: left;
+}
+.info-prose th {
+  background: var(--color-ink);
+  color: var(--color-gold);
+  font-family: var(--font-display);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.info-prose td {
+  color: var(--color-mist);
 }

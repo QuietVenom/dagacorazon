@@ -1,0 +1,856 @@
+[
+  {
+    "name": "Manoplas arcanas",
+    "category": "Magic Weapon",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+3",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "description": "Tier 1 · Traço: Força · Alcance: Corpo a corpo · Dano: d10+3 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Machado sagrado",
+    "category": "Magic Weapon",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+1",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "description": "Tier 1 · Traço: Força · Alcance: Corpo a corpo · Dano: d8+1 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Anéis brilhantes",
+    "category": "Magic Weapon",
+    "tier": 1,
+    "trait": "Agility",
+    "range": "Very Close",
+    "damage": "d10+2",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "description": "Tier 1 · Traço: Agilidade · Alcance: Muito perto · Dano: d10+2 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Runas de mão",
+    "category": "Magic Weapon",
+    "tier": 1,
+    "trait": "Instinct",
+    "range": "Very Close",
+    "damage": "d10",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "description": "Tier 1 · Traço: Instinto · Alcance: Muito perto · Dano: d10 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Lâmina retornante",
+    "category": "Magic Weapon",
+    "tier": 1,
+    "trait": "Finesse",
+    "range": "Close",
+    "damage": "d8",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Retornando:** Quando esta arma é lançada ao seu alcance, ela aparece em sua mão imediatamente após o ataque."
+    ],
+    "description": "Tier 1 · Traço: Finesse · Alcance: Perto · Dano: d8 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Bastão curto",
+    "category": "Magic Weapon",
+    "tier": 1,
+    "trait": "Instinct",
+    "range": "Close",
+    "damage": "d8+1",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "description": "Tier 1 · Traço: Instinto · Alcance: Perto · Dano: d8+1 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Bastão duplo",
+    "category": "Magic Weapon",
+    "tier": 1,
+    "trait": "Instinct",
+    "range": "Far",
+    "damage": "d6+3",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "description": "Tier 1 · Traço: Instinto · Alcance: Longe · Dano: d6+3 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Cetro",
+    "category": "Magic Weapon",
+    "tier": 1,
+    "trait": "Presence",
+    "range": "Far",
+    "damage": "d6",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Versátil:** Esta arma também pode ser usada com estas estatísticas - Presença, Corpo a corpo, d8."
+    ],
+    "description": "Tier 1 · Traço: Presença · Alcance: Longe · Dano: d6 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Varinha",
+    "category": "Magic Weapon",
+    "tier": 1,
+    "trait": "Knowledge",
+    "range": "Far",
+    "damage": "d6+1",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "description": "Tier 1 · Traço: Conhecimento · Alcance: Longe · Dano: d6+1 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Grande bastão",
+    "category": "Magic Weapon",
+    "tier": 1,
+    "trait": "Knowledge",
+    "range": "Very Far",
+    "damage": "d6",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Poderoso:** Com um ataque bem-sucedido, role um dado de dano adicional e descarte o menor resultado."
+    ],
+    "description": "Tier 1 · Traço: Conhecimento · Alcance: Muito longe · Dano: d6 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Manoplas arcanas aprimoradas",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+6",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "description": "Tier 2 · Traço: Força · Alcance: Corpo a corpo · Dano: d10+6 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Machado sagrado aprimorado",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+4",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "description": "Tier 2 · Traço: Força · Alcance: Corpo a corpo · Dano: d8+4 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Anéis brilhantes aprimorados",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Very Close",
+    "damage": "d10+5",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "description": "Tier 2 · Traço: Agilidade · Alcance: Muito perto · Dano: d10+5 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Runas de mão aprimoradas",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Instinct",
+    "range": "Very Close",
+    "damage": "d10+3",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "description": "Tier 2 · Traço: Instinto · Alcance: Muito perto · Dano: d10+3 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Lâmina retornante aprimorada",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Close",
+    "damage": "d8+3",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Retornando:** Quando esta arma é lançada ao seu alcance, ela aparece em sua mão imediatamente após o ataque."
+    ],
+    "description": "Tier 2 · Traço: Finesse · Alcance: Perto · Dano: d8+3 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Bastão curto aprimorado",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Instinct",
+    "range": "Close",
+    "damage": "d8+4",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "description": "Tier 2 · Traço: Instinto · Alcance: Perto · Dano: d8+4 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Bastão duplo aprimorado",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Instinct",
+    "range": "Far",
+    "damage": "d6+6",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "description": "Tier 2 · Traço: Instinto · Alcance: Longe · Dano: d6+6 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Cetro aprimorado",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Presence",
+    "range": "Far",
+    "damage": "d6+3",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Versátil:** Esta arma também pode ser usada com estas estatísticas - Presença, Corpo a corpo, d8+3."
+    ],
+    "description": "Tier 2 · Traço: Presença · Alcance: Longe · Dano: d6+3 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Varinha aprimorada",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Knowledge",
+    "range": "Far",
+    "damage": "d6+4",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "description": "Tier 2 · Traço: Conhecimento · Alcance: Longe · Dano: d6+4 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Grande bastão aprimorado",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Knowledge",
+    "range": "Very Far",
+    "damage": "d6+3",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Poderoso:** Com um ataque bem-sucedido, role um dado de dano adicional e descarte o menor resultado."
+    ],
+    "description": "Tier 2 · Traço: Conhecimento · Alcance: Muito longe · Dano: d6+3 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Manoplas arcanas avançadas",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+9",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "description": "Tier 3 · Traço: Força · Alcance: Corpo a corpo · Dano: d10+9 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Machado sagrado avançado",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+7",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "description": "Tier 3 · Traço: Força · Alcance: Corpo a corpo · Dano: d8+7 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Anéis brilhantes avançados",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Very Close",
+    "damage": "d10+8",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "description": "Tier 3 · Traço: Agilidade · Alcance: Muito perto · Dano: d10+8 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Runas de mão avançadas",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Instinct",
+    "range": "Very Close",
+    "damage": "d10+6",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "description": "Tier 3 · Traço: Instinto · Alcance: Muito perto · Dano: d10+6 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Lâmina retornante avançada",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Close",
+    "damage": "d8+6",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Retornando:** Quando esta arma é lançada ao seu alcance, ela aparece em sua mão imediatamente após o ataque."
+    ],
+    "description": "Tier 3 · Traço: Finesse · Alcance: Perto · Dano: d8+6 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Bastão curto avançado",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Instinct",
+    "range": "Close",
+    "damage": "d8+7",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "description": "Tier 3 · Traço: Instinto · Alcance: Perto · Dano: d8+7 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Bastão duplo avançado",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Instinct",
+    "range": "Far",
+    "damage": "d6+9",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "description": "Tier 3 · Traço: Instinto · Alcance: Longe · Dano: d6+9 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Cetro avançado",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Presence",
+    "range": "Far",
+    "damage": "d6+6",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Versátil:** Esta arma também pode ser usada com estas estatísticas - Presença, Corpo a corpo, d8+4."
+    ],
+    "description": "Tier 3 · Traço: Presença · Alcance: Longe · Dano: d6+6 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Varinha avançada",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Knowledge",
+    "range": "Far",
+    "damage": "d6+7",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "description": "Tier 3 · Traço: Conhecimento · Alcance: Longe · Dano: d6+7 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Grande bastão avançado",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Knowledge",
+    "range": "Very Far",
+    "damage": "d6+6",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Poderoso:** Com um ataque bem-sucedido, role um dado de dano adicional e descarte o menor resultado."
+    ],
+    "description": "Tier 3 · Traço: Conhecimento · Alcance: Muito longe · Dano: d6+6 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Manoplas arcanas lendárias",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+12",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "description": "Tier 4 · Traço: Força · Alcance: Corpo a corpo · Dano: d10+12 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Machado sagrado lendário",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d8+10",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "description": "Tier 4 · Traço: Força · Alcance: Corpo a corpo · Dano: d8+10 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Anéis brilhantes lendários",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Very Close",
+    "damage": "d10+11",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "description": "Tier 4 · Traço: Agilidade · Alcance: Muito perto · Dano: d10+11 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Runas de mão lendárias",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Instinct",
+    "range": "Very Close",
+    "damage": "d10+9",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "description": "Tier 4 · Traço: Instinto · Alcance: Muito perto · Dano: d10+9 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Lâmina retornante lendária",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Close",
+    "damage": "d8+9",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Retornando:** Quando esta arma é lançada ao seu alcance, ela aparece em sua mão imediatamente após o ataque."
+    ],
+    "description": "Tier 4 · Traço: Finesse · Alcance: Perto · Dano: d8+9 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Bastão curto lendário",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Instinct",
+    "range": "Close",
+    "damage": "d8+10",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "description": "Tier 4 · Traço: Instinto · Alcance: Perto · Dano: d8+10 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Bastão duplo lendário",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Instinct",
+    "range": "Far",
+    "damage": "d8+12",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "description": "Tier 4 · Traço: Instinto · Alcance: Longe · Dano: d8+12 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Cetro lendário",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Presence",
+    "range": "Far",
+    "damage": "d6+9",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Versátil:** Esta arma também pode ser usada com estas estatísticas - Presença, Corpo a corpo, d8+6."
+    ],
+    "description": "Tier 4 · Traço: Presença · Alcance: Longe · Dano: d6+9 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Varinha lendária",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Knowledge",
+    "range": "Far",
+    "damage": "d6+10",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "description": "Tier 4 · Traço: Conhecimento · Alcance: Longe · Dano: d6+10 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Grande bastão lendário",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Knowledge",
+    "range": "Very Far",
+    "damage": "d6+9",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Poderoso:** Com um ataque bem-sucedido, role um dado de dano adicional e descarte o menor resultado."
+    ],
+    "description": "Tier 4 · Traço: Conhecimento · Alcance: Muito longe · Dano: d6+9 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Lâmina do Ego",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d12+4",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Pomposo:** Você deve ter um Presença de 0 ou inferior para usar esta arma."
+    ],
+    "description": "Tier 2 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d12+4 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Espada de lançamento",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+4",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Versátil:** Esta arma também pode ser usada com estas estatísticas - Conhecimento, Longe, d6+3."
+    ],
+    "description": "Tier 2 · Traço: Força · Alcance: Corpo a corpo · Dano: d10+4 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Adaga Devoradora",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8+4",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Assustador:** Em um ataque bem-sucedido, o alvo deve marcar um Estresse."
+    ],
+    "description": "Tier 2 · Traço: Finesse · Alcance: Corpo a corpo · Dano: d8+4 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Martelo de Exota",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Instinct",
+    "range": "Melee",
+    "damage": "d8+6",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Eruptivo:** Em um ataque bem-sucedido contra um alvo dentro de alcance Corpo a corpo, todos os outros adversários dentro de alcance Muito perto devem ter sucesso em uma jogada de reação (14) ou sofrerão metade do dano."
+    ],
+    "description": "Tier 2 · Traço: Instinto · Alcance: Corpo a corpo · Dano: d8+6 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Arco Sangrento de Yutari",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+4",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Brutal:** Quando você rolar o valor máximo em um dado de dano, jogue um dado de dano adicional."
+    ],
+    "description": "Tier 2 · Traço: Finesse · Alcance: Longe · Dano: d6+4 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Arco Ancião",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Instinct",
+    "range": "Far",
+    "damage": "d6+4",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Poderoso:** Com um ataque bem-sucedido, role um dado de dano adicional e descarte o menor resultado."
+    ],
+    "description": "Tier 2 · Traço: Instinto · Alcance: Longe · Dano: d6+4 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Cetro de Elias",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Presence",
+    "range": "Far",
+    "damage": "d6+3",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Revigorante:** Em um ataque bem-sucedido, role um d4. Com um resultado 4, limpe um Estresse."
+    ],
+    "description": "Tier 2 · Traço: Presença · Alcance: Longe · Dano: d6+3 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Varinha do Encantamento",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Presence",
+    "range": "Far",
+    "damage": "d6+4",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Persuasivo:** Antes de fazer um teste de Presença, você pode marcar um Estresse para ganhar um bônus de +2 no resultado."
+    ],
+    "description": "Tier 2 · Traço: Presença · Alcance: Longe · Dano: d6+4 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Cajado do Guardião",
+    "category": "Magic Weapon",
+    "tier": 2,
+    "trait": "Knowledge",
+    "range": "Far",
+    "damage": "d6+4",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Confiável:** +1 nas rolagens de ataque"
+    ],
+    "description": "Tier 2 · Traço: Conhecimento · Alcance: Longe · Dano: d6+4 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Machado de Fortunis",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+8",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Sorte:** Em um ataque fracassado, você pode marcar um Estresse para rolar novamente seu ataque."
+    ],
+    "description": "Tier 3 · Traço: Força · Alcance: Corpo a corpo · Dano: d10+8 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Bem-aventurado Anlace",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Instinct",
+    "range": "Melee",
+    "damage": "d10+6",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Cura:** Durante tempo de inatividade, limpa automaticamente um Ponto de Vida."
+    ],
+    "description": "Tier 3 · Traço: Instinto · Alcance: Corpo a corpo · Dano: d10+6 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Lâmina Fantasma",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d10+7",
+    "damageType": "phy or mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Ultramundano:** Com um ataque bem-sucedido, você pode causar dano físico ou mágico."
+    ],
+    "description": "Tier 3 · Traço: Presença · Alcance: Corpo a corpo · Dano: d10+7 físico ou mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Runas da Ruína",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Knowledge",
+    "range": "Very Close",
+    "damage": "d20+4",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Doloroso:** Cada vez que você fizer um ataque bem-sucedido, você deve marcar um Estresse."
+    ],
+    "description": "Tier 3 · Traço: Conhecimento · Alcance: Muito perto · Dano: d20+4 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Pingente de Widogast",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Knowledge",
+    "range": "Close",
+    "damage": "d10+5",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Dobra temporal:** Você escolhe o alvo do seu ataque depois de fazer sua jogada de ataque."
+    ],
+    "description": "Tier 3 · Traço: Conhecimento · Alcance: Perto · Dano: d10+5 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Arco Dourado",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+7",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Autocorreção:** Quando você obtém 1 em um dado de dano, ele causa 6 de dano."
+    ],
+    "description": "Tier 3 · Traço: Finesse · Alcance: Longe · Dano: d6+7 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Corpo de Bombeiros",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Instinct",
+    "range": "Far",
+    "damage": "d6+7",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Queima:** Quando você obtém um 6 em um dado de dano, o alvo deve marcar um Estresse."
+    ],
+    "description": "Tier 3 · Traço: Instinto · Alcance: Longe · Dano: d6+7 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Orbe Mago",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Knowledge",
+    "range": "Far",
+    "damage": "d6+7",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Poderoso:** Com um ataque bem-sucedido, role um dado de dano adicional e descarte o menor resultado."
+    ],
+    "description": "Tier 3 · Traço: Conhecimento · Alcance: Longe · Dano: d6+7 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Rifle de Ilmari",
+    "category": "Magic Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Very Far",
+    "damage": "d6+6",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Recarregando:** Depois de fazer um ataque, role um d6. Se o resultado for 1, você deve marcar um Estresse para recarregar esta arma antes de poder dispará-la novamente."
+    ],
+    "description": "Tier 3 · Traço: Finesse · Alcance: Muito longe · Dano: d6+6 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Espada de Luz e Chama",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d10+11",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Quente:** Esta arma corta material sólido."
+    ],
+    "description": "Tier 4 · Traço: Força · Alcance: Corpo a corpo · Dano: d10+11 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Manoplas Sifonadoras",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Presence",
+    "range": "Melee",
+    "damage": "d10+9",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Roubo de vida:** Em um ataque bem-sucedido, jogue um d6. Com um resultado 6, limpe um Ponto de Vida ou limpe um Estresse."
+    ],
+    "description": "Tier 4 · Traço: Presença · Alcance: Corpo a corpo · Dano: d10+9 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Foice de Midas",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Knowledge",
+    "range": "Melee",
+    "damage": "d10+9",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Ganancioso:** Gaste um punhado de ouro para ganhar um bônus de +1 para seu Proficiência em uma jogada de dano."
+    ],
+    "description": "Tier 4 · Traço: Conhecimento · Alcance: Corpo a corpo · Dano: d10+9 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Fragmentos de Lâmina Flutuantes",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Instinct",
+    "range": "Close",
+    "damage": "d8+9",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Poderoso:** Com um ataque bem-sucedido, role um dado de dano adicional e descarte o menor resultado."
+    ],
+    "description": "Tier 4 · Traço: Instinto · Alcance: Perto · Dano: d8+9 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Cajado de Sangue",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Instinct",
+    "range": "Far",
+    "damage": "d20+7",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Doloroso:** Cada vez que você fizer um ataque bem-sucedido, você deve marcar um Estresse."
+    ],
+    "description": "Tier 4 · Traço: Instinto · Alcance: Longe · Dano: d20+7 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "arco de cardo",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Instinct",
+    "range": "Far",
+    "damage": "d6+13",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Confiável:** +1 nas rolagens de ataque"
+    ],
+    "description": "Tier 4 · Traço: Instinto · Alcance: Longe · Dano: d6+13 mágico · Carga: Duas mãos"
+  },
+  {
+    "name": "Varinha de Essek",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Knowledge",
+    "range": "Far",
+    "damage": "d8+13",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Dobra temporal:** Você pode escolher o alvo do seu ataque depois de fazer sua jogada de ataque."
+    ],
+    "description": "Tier 4 · Traço: Conhecimento · Alcance: Longe · Dano: d8+13 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Revólver Mago",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Very Far",
+    "damage": "d6+13",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Recarregando:** Depois de fazer um ataque, role um d6. Se o resultado for 1, você deve marcar um Estresse para recarregar esta arma antes de poder dispará-la novamente."
+    ],
+    "description": "Tier 4 · Traço: Finesse · Alcance: Muito longe · Dano: d6+13 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Luvas de fusão",
+    "category": "Magic Weapon",
+    "tier": 4,
+    "trait": "Knowledge",
+    "range": "Very Far",
+    "damage": "d6+9",
+    "damageType": "mag",
+    "burden": "Two-Handed",
+    "features": [
+      "**Vinculado:** Ganhe um bônus em suas rolagens de dano igual ao seu nível."
+    ],
+    "description": "Tier 4 · Traço: Conhecimento · Alcance: Muito longe · Dano: d6+9 mágico · Carga: Duas mãos"
+  }
+]

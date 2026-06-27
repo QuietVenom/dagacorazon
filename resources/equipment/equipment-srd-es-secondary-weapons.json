@@ -1,0 +1,508 @@
+[
+  {
+    "name": "Espada corta",
+    "category": "Secondary Weapon",
+    "tier": 1,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Emparejado:** +2 al daño del arma principal a objetivos dentro de alcance de Cuerpo a cuerpo"
+    ],
+    "description": "Tier 1 · Rasgo: Agilidad · Rango: Cuerpo a cuerpo · Daño: d8 físico · Carga: Una mano"
+  },
+  {
+    "name": "Escudo redondo",
+    "category": "Secondary Weapon",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Protección:** +1 a Puntuación de Armadura"
+    ],
+    "description": "Tier 1 · Rasgo: Fuerza · Rango: Cuerpo a cuerpo · Daño: d4 físico · Carga: Una mano"
+  },
+  {
+    "name": "Escudo torre",
+    "category": "Secondary Weapon",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Barrera:** +2 a Puntuación de Armadura; -1 a Evasión"
+    ],
+    "description": "Tier 1 · Rasgo: Fuerza · Rango: Cuerpo a cuerpo · Daño: d6 físico · Carga: Una mano"
+  },
+  {
+    "name": "Daga pequeña",
+    "category": "Secondary Weapon",
+    "tier": 1,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Emparejado:** +2 al daño del arma principal a objetivos dentro de alcance de Cuerpo a cuerpo"
+    ],
+    "description": "Tier 1 · Rasgo: Fineza · Rango: Cuerpo a cuerpo · Daño: d8 físico · Carga: Una mano"
+  },
+  {
+    "name": "Látigo",
+    "category": "Secondary Weapon",
+    "tier": 1,
+    "trait": "Presence",
+    "range": "Very Close",
+    "damage": "d6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Sorprendente:** Marca un Estrés para hacer restallar el látigo y obligar a todos los adversarios dentro de alcance de Cuerpo a cuerpo a regresar a alcance de Cerca."
+    ],
+    "description": "Tier 1 · Rasgo: Presencia · Rango: Muy cerca · Daño: d6 físico · Carga: Una mano"
+  },
+  {
+    "name": "Garfio",
+    "category": "Secondary Weapon",
+    "tier": 1,
+    "trait": "Finesse",
+    "range": "Close",
+    "damage": "d6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Ganchudo:** Con un ataque exitoso, puedes atraer al objetivo hasta alcance de Cuerpo a cuerpo."
+    ],
+    "description": "Tier 1 · Rasgo: Fineza · Rango: Cerca · Daño: d6 físico · Carga: Una mano"
+  },
+  {
+    "name": "Ballesta de mano",
+    "category": "Secondary Weapon",
+    "tier": 1,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+1",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 1 · Rasgo: Fineza · Rango: Lejos · Daño: d6+1 físico · Carga: Una mano"
+  },
+  {
+    "name": "Espada corta mejorada",
+    "category": "Secondary Weapon",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+2",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Emparejado:** +3 al daño del arma principal a objetivos dentro de alcance de Cuerpo a cuerpo"
+    ],
+    "description": "Tier 2 · Rasgo: Agilidad · Rango: Cuerpo a cuerpo · Daño: d8+2 físico · Carga: Una mano"
+  },
+  {
+    "name": "Escudo redondo mejorado",
+    "category": "Secondary Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d4+2",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Protección:** +2 a Puntuación de Armadura"
+    ],
+    "description": "Tier 2 · Rasgo: Fuerza · Rango: Cuerpo a cuerpo · Daño: d4+2 físico · Carga: Una mano"
+  },
+  {
+    "name": "Escudo torre mejorado",
+    "category": "Secondary Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d6+2",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Barrera:** +3 a Puntuación de Armadura; -1 a Evasión"
+    ],
+    "description": "Tier 2 · Rasgo: Fuerza · Rango: Cuerpo a cuerpo · Daño: d6+2 físico · Carga: Una mano"
+  },
+  {
+    "name": "Daga pequeña mejorada",
+    "category": "Secondary Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8+2",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Emparejado:** +3 al daño del arma principal a objetivos dentro de alcance de Cuerpo a cuerpo"
+    ],
+    "description": "Tier 2 · Rasgo: Fineza · Rango: Cuerpo a cuerpo · Daño: d8+2 físico · Carga: Una mano"
+  },
+  {
+    "name": "Látigo mejorado",
+    "category": "Secondary Weapon",
+    "tier": 2,
+    "trait": "Presence",
+    "range": "Very Close",
+    "damage": "d6+2",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Sorprendente:** Marca un Estrés para hacer restallar el látigo y obligar a todos los adversarios dentro de alcance de Cuerpo a cuerpo a regresar a alcance de Cerca."
+    ],
+    "description": "Tier 2 · Rasgo: Presencia · Rango: Muy cerca · Daño: d6+2 físico · Carga: Una mano"
+  },
+  {
+    "name": "Garfio mejorado",
+    "category": "Secondary Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Close",
+    "damage": "d6+2",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Ganchudo:** Con un ataque exitoso, puedes atraer al objetivo hasta alcance de Cuerpo a cuerpo."
+    ],
+    "description": "Tier 2 · Rasgo: Fineza · Rango: Cerca · Daño: d6+2 físico · Carga: Una mano"
+  },
+  {
+    "name": "Ballesta de mano mejorada",
+    "category": "Secondary Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+3",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 2 · Rasgo: Fineza · Rango: Lejos · Daño: d6+3 físico · Carga: Una mano"
+  },
+  {
+    "name": "Espada corta avanzada",
+    "category": "Secondary Weapon",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Emparejado:** +4 al daño del arma principal a objetivos dentro de alcance de Cuerpo a cuerpo"
+    ],
+    "description": "Tier 3 · Rasgo: Agilidad · Rango: Cuerpo a cuerpo · Daño: d8+4 físico · Carga: Una mano"
+  },
+  {
+    "name": "Escudo redondo avanzado",
+    "category": "Secondary Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d4+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Protección:** +3 a Puntuación de Armadura"
+    ],
+    "description": "Tier 3 · Rasgo: Fuerza · Rango: Cuerpo a cuerpo · Daño: d4+4 físico · Carga: Una mano"
+  },
+  {
+    "name": "Escudo torre avanzado",
+    "category": "Secondary Weapon",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d6+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Barrera:** +4 a Puntuación de Armadura; -1 a Evasión"
+    ],
+    "description": "Tier 3 · Rasgo: Fuerza · Rango: Cuerpo a cuerpo · Daño: d6+4 físico · Carga: Una mano"
+  },
+  {
+    "name": "Daga pequeña avanzada",
+    "category": "Secondary Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Emparejado:** +4 al daño del arma principal a objetivos dentro de alcance de Cuerpo a cuerpo"
+    ],
+    "description": "Tier 3 · Rasgo: Fineza · Rango: Cuerpo a cuerpo · Daño: d8+4 físico · Carga: Una mano"
+  },
+  {
+    "name": "Látigo avanzado",
+    "category": "Secondary Weapon",
+    "tier": 3,
+    "trait": "Presence",
+    "range": "Very Close",
+    "damage": "d6+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Sorprendente:** Marca un Estrés para hacer restallar el látigo y obligar a todos los adversarios dentro de alcance de Cuerpo a cuerpo a regresar a alcance de Cerca."
+    ],
+    "description": "Tier 3 · Rasgo: Presencia · Rango: Muy cerca · Daño: d6+4 físico · Carga: Una mano"
+  },
+  {
+    "name": "Garfio avanzado",
+    "category": "Secondary Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Close",
+    "damage": "d6+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Ganchudo:** Con un ataque exitoso, puedes atraer al objetivo hasta alcance de Cuerpo a cuerpo."
+    ],
+    "description": "Tier 3 · Rasgo: Fineza · Rango: Cerca · Daño: d6+4 físico · Carga: Una mano"
+  },
+  {
+    "name": "Ballesta de mano avanzada",
+    "category": "Secondary Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+5",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 3 · Rasgo: Fineza · Rango: Lejos · Daño: d6+5 físico · Carga: Una mano"
+  },
+  {
+    "name": "Espada corta legendaria",
+    "category": "Secondary Weapon",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Emparejado:** +5 al daño del arma principal a objetivos dentro de alcance de Cuerpo a cuerpo"
+    ],
+    "description": "Tier 4 · Rasgo: Agilidad · Rango: Cuerpo a cuerpo · Daño: d8+6 físico · Carga: Una mano"
+  },
+  {
+    "name": "Escudo redondo legendario",
+    "category": "Secondary Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d4+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Protección:** +4 a Puntuación de Armadura"
+    ],
+    "description": "Tier 4 · Rasgo: Fuerza · Rango: Cuerpo a cuerpo · Daño: d4+6 físico · Carga: Una mano"
+  },
+  {
+    "name": "Escudo torre legendario",
+    "category": "Secondary Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d6+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Barrera:** +5 a Puntuación de Armadura; -1 a Evasión."
+    ],
+    "description": "Tier 4 · Rasgo: Fuerza · Rango: Cuerpo a cuerpo · Daño: d6+6 físico · Carga: Una mano"
+  },
+  {
+    "name": "Daga pequeña legendaria",
+    "category": "Secondary Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d8+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Emparejado:** +5 al daño del arma principal a objetivos dentro de alcance de Cuerpo a cuerpo"
+    ],
+    "description": "Tier 4 · Rasgo: Fineza · Rango: Cuerpo a cuerpo · Daño: d8+6 físico · Carga: Una mano"
+  },
+  {
+    "name": "Látigo legendario",
+    "category": "Secondary Weapon",
+    "tier": 4,
+    "trait": "Presence",
+    "range": "Very Close",
+    "damage": "d6+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Sorprendente:** Marca un Estrés para hacer restallar el látigo y obligar a todos los adversarios dentro de alcance de Cuerpo a cuerpo a regresar a alcance de Cerca."
+    ],
+    "description": "Tier 4 · Rasgo: Presencia · Rango: Muy cerca · Daño: d6+6 físico · Carga: Una mano"
+  },
+  {
+    "name": "Garfio legendario",
+    "category": "Secondary Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Close",
+    "damage": "d6+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Ganchudo:** Con un ataque exitoso, puedes atraer al objetivo hasta alcance de Cuerpo a cuerpo."
+    ],
+    "description": "Tier 4 · Rasgo: Fineza · Rango: Cerca · Daño: d6+6 físico · Carga: Una mano"
+  },
+  {
+    "name": "Ballesta de mano legendaria",
+    "category": "Secondary Weapon",
+    "tier": 4,
+    "trait": "Finesse",
+    "range": "Far",
+    "damage": "d6+7",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "description": "Tier 4 · Rasgo: Fineza · Rango: Lejos · Daño: d6+7 físico · Carga: Una mano"
+  },
+  {
+    "name": "Escudo con púas",
+    "category": "Secondary Weapon",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d6+2",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Doble función:** +1 a Puntuación de Armadura; +1 al daño del arma principal dentro de alcance de Cuerpo a cuerpo"
+    ],
+    "description": "Tier 2 · Rasgo: Fuerza · Rango: Cuerpo a cuerpo · Daño: d6+2 físico · Carga: Una mano"
+  },
+  {
+    "name": "Daga de parada",
+    "category": "Secondary Weapon",
+    "tier": 2,
+    "trait": "Finesse",
+    "range": "Melee",
+    "damage": "d6+2",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Parada:** Cuando te ataquen, tira los dados de daño de esta arma. Si alguno de los dados de daño del atacante obtiene el mismo valor que tus dados, los resultados coincidentes se descartan de sus dados antes de totalizar el daño que recibes."
+    ],
+    "description": "Tier 2 · Rasgo: Fineza · Rango: Cuerpo a cuerpo · Daño: d6+2 físico · Carga: Una mano"
+  },
+  {
+    "name": "Hacha que regresa",
+    "category": "Secondary Weapon",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Close",
+    "damage": "d6+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Regresando:** Cuando esta arma se lanza dentro de su alcance, aparece en tu mano inmediatamente después del ataque."
+    ],
+    "description": "Tier 2 · Rasgo: Agilidad · Rango: Cerca · Daño: d6+4 físico · Carga: Una mano"
+  },
+  {
+    "name": "Broquel",
+    "category": "Secondary Weapon",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d4+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Desvío:** Cuando te atacan, puedes marcar un Espacio de Armadura para obtener una bonificación a tu Evasión igual a tu Puntuación de Armadura disponible contra ese ataque."
+    ],
+    "description": "Tier 3 · Rasgo: Agilidad · Rango: Cuerpo a cuerpo · Daño: d4+4 físico · Carga: Una mano"
+  },
+  {
+    "name": "Guantelete potenciado",
+    "category": "Secondary Weapon",
+    "tier": 3,
+    "trait": "Knowledge",
+    "range": "Close",
+    "damage": "d6+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Cargado:** Marca un Estrés para obtener una bonificación de +1 a tu Proficiencia en un ataque con arma principal."
+    ],
+    "description": "Tier 3 · Rasgo: Conocimiento · Rango: Cerca · Daño: d6+4 físico · Carga: Una mano"
+  },
+  {
+    "name": "Honda de mano",
+    "category": "Secondary Weapon",
+    "tier": 3,
+    "trait": "Finesse",
+    "range": "Very Far",
+    "damage": "d6+4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Versátil:** Esta arma también se puede usar con estas estadísticas: Fineza, Cerca, d8+4."
+    ],
+    "description": "Tier 3 · Rasgo: Fineza · Rango: Muy lejos · Daño: d6+4 físico · Carga: Una mano"
+  },
+  {
+    "name": "escudo valiente",
+    "category": "Secondary Weapon",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d4+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Refugio:** Cuando marcas un Espacio de Armadura, reduce el daño para ti y todos los aliados dentro de alcance de Cuerpo a cuerpo que recibieron el mismo daño."
+    ],
+    "description": "Tier 4 · Rasgo: Agilidad · Rango: Cuerpo a cuerpo · Daño: d4+6 físico · Carga: Una mano"
+  },
+  {
+    "name": "Garras de nudillos",
+    "category": "Secondary Weapon",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d6+8",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Duplicado:** Cuando realizas un ataque con tu arma principal, puedes infligir daño a otro objetivo dentro de alcance de Cuerpo a cuerpo."
+    ],
+    "description": "Tier 4 · Rasgo: Fuerza · Rango: Cuerpo a cuerpo · Daño: d6+8 físico · Carga: Una mano"
+  },
+  {
+    "name": "Fragmento cebador",
+    "category": "Secondary Weapon",
+    "tier": 4,
+    "trait": "Instinct",
+    "range": "Very Close",
+    "damage": "d4",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Fijación:** Con un ataque exitoso, tu siguiente ataque contra ese mismo objetivo con tu arma principal tendrá éxito automáticamente."
+    ],
+    "description": "Tier 4 · Rasgo: Instinto · Rango: Muy cerca · Daño: d4 físico · Carga: Una mano"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Cadeira de rodas de estrutura leve",
+    "category": "Wheelchair",
+    "tier": 1,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Rápido:** Ao realizar um ataque, você pode marcar um Estresse para escolher outra criatura dentro do alcance como alvo."
+    ],
+    "description": "Tier 1 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d8 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Cadeira de rodas de estrutura leve aprimorada",
+    "category": "Wheelchair",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+3",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Rápido:** Ao realizar um ataque, você pode marcar um Estresse para escolher outra criatura dentro do alcance como alvo."
+    ],
+    "description": "Tier 2 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d8+3 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Cadeira de rodas de estrutura leve avançada",
+    "category": "Wheelchair",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Rápido:** Ao realizar um ataque, você pode marcar um Estresse para escolher outra criatura dentro do alcance como alvo."
+    ],
+    "description": "Tier 3 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d8+6 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Cadeira de rodas de estrutura leve lendária",
+    "category": "Wheelchair",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+9",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Rápido:** Ao realizar um ataque, você pode marcar um Estresse para escolher outra criatura dentro do alcance como alvo."
+    ],
+    "description": "Tier 4 · Traço: Agilidade · Alcance: Corpo a corpo · Dano: d8+9 físico · Carga: Uma mão"
+  },
+  {
+    "name": "Cadeira de rodas de estrutura pesada",
+    "category": "Wheelchair",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+3",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Pesado:** -1 a Evasão"
+    ],
+    "description": "Tier 1 · Traço: Força · Alcance: Corpo a corpo · Dano: d12+3 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Cadeira de rodas de estrutura pesada aprimorada",
+    "category": "Wheelchair",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+6",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Pesado:** -1 a Evasão"
+    ],
+    "description": "Tier 2 · Traço: Força · Alcance: Corpo a corpo · Dano: d12+6 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Cadeira de rodas de estrutura pesada avançada",
+    "category": "Wheelchair",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+9",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Pesado:** -1 a Evasão"
+    ],
+    "description": "Tier 3 · Traço: Força · Alcance: Corpo a corpo · Dano: d12+9 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Cadeira de rodas de estrutura pesada lendária",
+    "category": "Wheelchair",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+12",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Pesado:** -1 a Evasão"
+    ],
+    "description": "Tier 4 · Traço: Força · Alcance: Corpo a corpo · Dano: d12+12 físico · Carga: Duas mãos"
+  },
+  {
+    "name": "Cadeira de rodas de estrutura arcana",
+    "category": "Wheelchair",
+    "tier": 1,
+    "trait": "Spellcast",
+    "range": "Far",
+    "damage": "d6",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Confiável:** +1 nas rolagens de ataque"
+    ],
+    "description": "Tier 1 · Traço: Conjuração · Alcance: Longe · Dano: d6 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Cadeira de rodas de estrutura arcana aprimorada",
+    "category": "Wheelchair",
+    "tier": 2,
+    "trait": "Spellcast",
+    "range": "Far",
+    "damage": "d6+3",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Confiável:** +1 nas rolagens de ataque"
+    ],
+    "description": "Tier 2 · Traço: Conjuração · Alcance: Longe · Dano: d6+3 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Cadeira de rodas de estrutura arcana avançada",
+    "category": "Wheelchair",
+    "tier": 3,
+    "trait": "Spellcast",
+    "range": "Far",
+    "damage": "d6+6",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Confiável:** +1 nas rolagens de ataque"
+    ],
+    "description": "Tier 3 · Traço: Conjuração · Alcance: Longe · Dano: d6+6 mágico · Carga: Uma mão"
+  },
+  {
+    "name": "Cadeira de rodas de estrutura arcana lendária",
+    "category": "Wheelchair",
+    "tier": 4,
+    "trait": "Spellcast",
+    "range": "Far",
+    "damage": "d6+9",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Confiável:** +1 nas rolagens de ataque"
+    ],
+    "description": "Tier 4 · Traço: Conjuração · Alcance: Longe · Dano: d6+9 mágico · Carga: Uma mão"
+  }
+]

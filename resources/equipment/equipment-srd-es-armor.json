@@ -1,0 +1,364 @@
+[
+  {
+    "name": "Gambesón",
+    "category": "Armor",
+    "tier": 1,
+    "baseThresholds": "5 / 11",
+    "baseScore": "3",
+    "features": [
+      "**Flexible:** +1 a Evasión"
+    ],
+    "description": "Tier 1 · Umbrales base: 5 / 11 · Puntuación base: 3"
+  },
+  {
+    "name": "Gambesón mejorado",
+    "category": "Armor",
+    "tier": 2,
+    "baseThresholds": "7 / 16",
+    "baseScore": "4",
+    "features": [
+      "**Flexible:** +1 a Evasión"
+    ],
+    "description": "Tier 2 · Umbrales base: 7 / 16 · Puntuación base: 4"
+  },
+  {
+    "name": "Gambesón avanzado",
+    "category": "Armor",
+    "tier": 3,
+    "baseThresholds": "9 / 23",
+    "baseScore": "5",
+    "features": [
+      "**Flexible:** +1 a Evasión"
+    ],
+    "description": "Tier 3 · Umbrales base: 9 / 23 · Puntuación base: 5"
+  },
+  {
+    "name": "Gambesón legendario",
+    "category": "Armor",
+    "tier": 4,
+    "baseThresholds": "11 / 32",
+    "baseScore": "6",
+    "features": [
+      "**Flexible:** +1 a Evasión"
+    ],
+    "description": "Tier 4 · Umbrales base: 11 / 32 · Puntuación base: 6"
+  },
+  {
+    "name": "Armadura de cuero",
+    "category": "Armor",
+    "tier": 1,
+    "baseThresholds": "6 / 13",
+    "baseScore": "3",
+    "description": "Tier 1 · Umbrales base: 6 / 13 · Puntuación base: 3"
+  },
+  {
+    "name": "Armadura de cuero mejorada",
+    "category": "Armor",
+    "tier": 2,
+    "baseThresholds": "9 / 20",
+    "baseScore": "4",
+    "description": "Tier 2 · Umbrales base: 9 / 20 · Puntuación base: 4"
+  },
+  {
+    "name": "Armadura de cuero avanzada",
+    "category": "Armor",
+    "tier": 3,
+    "baseThresholds": "11 / 27",
+    "baseScore": "5",
+    "description": "Tier 3 · Umbrales base: 11 / 27 · Puntuación base: 5"
+  },
+  {
+    "name": "Armadura de cuero legendaria",
+    "category": "Armor",
+    "tier": 4,
+    "baseThresholds": "13 / 36",
+    "baseScore": "6",
+    "description": "Tier 4 · Umbrales base: 13 / 36 · Puntuación base: 6"
+  },
+  {
+    "name": "Cota de malla",
+    "category": "Armor",
+    "tier": 1,
+    "baseThresholds": "7 / 15",
+    "baseScore": "4",
+    "features": [
+      "**Pesado:** -1 a Evasión"
+    ],
+    "description": "Tier 1 · Umbrales base: 7 / 15 · Puntuación base: 4"
+  },
+  {
+    "name": "Cota de malla mejorada",
+    "category": "Armor",
+    "tier": 2,
+    "baseThresholds": "11 / 24",
+    "baseScore": "5",
+    "features": [
+      "**Pesado:** -1 a Evasión"
+    ],
+    "description": "Tier 2 · Umbrales base: 11 / 24 · Puntuación base: 5"
+  },
+  {
+    "name": "Cota de malla avanzada",
+    "category": "Armor",
+    "tier": 3,
+    "baseThresholds": "13 / 31",
+    "baseScore": "6",
+    "features": [
+      "**Pesado:** -1 a Evasión"
+    ],
+    "description": "Tier 3 · Umbrales base: 13 / 31 · Puntuación base: 6"
+  },
+  {
+    "name": "Cota de malla legendaria",
+    "category": "Armor",
+    "tier": 4,
+    "baseThresholds": "15 / 40",
+    "baseScore": "7",
+    "features": [
+      "**Pesado:** -1 a Evasión"
+    ],
+    "description": "Tier 4 · Umbrales base: 15 / 40 · Puntuación base: 7"
+  },
+  {
+    "name": "Armadura de placas completa",
+    "category": "Armor",
+    "tier": 1,
+    "baseThresholds": "8 / 17",
+    "baseScore": "4",
+    "features": [
+      "**Muy pesado:** -2 a Evasión; -1 a Agilidad"
+    ],
+    "description": "Tier 1 · Umbrales base: 8 / 17 · Puntuación base: 4"
+  },
+  {
+    "name": "Armadura de placas completa mejorada",
+    "category": "Armor",
+    "tier": 2,
+    "baseThresholds": "13 / 28",
+    "baseScore": "5",
+    "features": [
+      "**Muy pesado:** -2 a Evasión; -1 a Agilidad"
+    ],
+    "description": "Tier 2 · Umbrales base: 13 / 28 · Puntuación base: 5"
+  },
+  {
+    "name": "Armadura de placas completa avanzada",
+    "category": "Armor",
+    "tier": 3,
+    "baseThresholds": "15 / 35",
+    "baseScore": "6",
+    "features": [
+      "**Muy pesado:** -2 a Evasión; -1 a Agilidad"
+    ],
+    "description": "Tier 3 · Umbrales base: 15 / 35 · Puntuación base: 6"
+  },
+  {
+    "name": "Armadura de placas completa legendaria",
+    "category": "Armor",
+    "tier": 4,
+    "baseThresholds": "17 / 44",
+    "baseScore": "7",
+    "features": [
+      "**Muy pesado:** -2 a Evasión; -1 a Agilidad"
+    ],
+    "description": "Tier 4 · Umbrales base: 17 / 44 · Puntuación base: 7"
+  },
+  {
+    "name": "Armadura de cadenas elundriana",
+    "category": "Armor",
+    "tier": 2,
+    "baseThresholds": "9 / 21",
+    "baseScore": "4",
+    "features": [
+      "**Protegido:** Reduces el daño mágico entrante en tu Puntuación de Armadura antes de aplicarlo a tus umbrales de daño."
+    ],
+    "description": "Tier 2 · Umbrales base: 9 / 21 · Puntuación base: 4"
+  },
+  {
+    "name": "Armadura de hueso rasgado",
+    "category": "Armor",
+    "tier": 2,
+    "baseThresholds": "9 / 21",
+    "baseScore": "4",
+    "features": [
+      "**Resiliente:** Antes de marcar tu último Espacio de Armadura, tira un d6. Con un resultado de 6, reduzca la gravedad en un umbral sin marcar un Espacio de Armadura."
+    ],
+    "description": "Tier 2 · Umbrales base: 9 / 21 · Puntuación base: 4"
+  },
+  {
+    "name": "Armadura de coraza de Árbol de Hierro",
+    "category": "Armor",
+    "tier": 2,
+    "baseThresholds": "9 / 20",
+    "baseScore": "4",
+    "features": [
+      "**Reforzado:** Cuando marques tu último Espacio de Armadura, aumenta tus umbrales de daño en +2 hasta que elimines al menos 1 Espacio de Armadura."
+    ],
+    "description": "Tier 2 · Umbrales base: 9 / 20 · Puntuación base: 4"
+  },
+  {
+    "name": "Armadura flotante runetana",
+    "category": "Armor",
+    "tier": 2,
+    "baseThresholds": "9 / 20",
+    "baseScore": "4",
+    "features": [
+      "**Cambio:** Cuando eres el objetivo de un ataque, puedes marcar un Espacio de Armadura para que la tirada de ataque te dé desventaja."
+    ],
+    "description": "Tier 2 · Umbrales base: 9 / 20 · Puntuación base: 4"
+  },
+  {
+    "name": "Armadura blanda de Tyris",
+    "category": "Armor",
+    "tier": 2,
+    "baseThresholds": "8 / 18",
+    "baseScore": "5",
+    "features": [
+      "**Silencio:** Obtienes una bonificación de +2 a las tiradas que hagas para moverte en silencio."
+    ],
+    "description": "Tier 2 · Umbrales base: 8 / 18 · Puntuación base: 5"
+  },
+  {
+    "name": "Armadura de rosa silvestre",
+    "category": "Armor",
+    "tier": 2,
+    "baseThresholds": "11 / 23",
+    "baseScore": "5",
+    "features": [
+      "**Esperanzadora:** Cuando fueras a gastar una Esperanza, puedes marcar un Espacio de Armadura en su lugar."
+    ],
+    "description": "Tier 2 · Umbrales base: 11 / 23 · Puntuación base: 5"
+  },
+  {
+    "name": "Armadura fina Bellamoi",
+    "category": "Armor",
+    "tier": 3,
+    "baseThresholds": "11 / 27",
+    "baseScore": "5",
+    "features": [
+      "**Dorado:** +1 a Presencia"
+    ],
+    "description": "Tier 3 · Umbrales base: 11 / 27 · Puntuación base: 5"
+  },
+  {
+    "name": "Armadura de escamas de dragón",
+    "category": "Armor",
+    "tier": 3,
+    "baseThresholds": "11 / 27",
+    "baseScore": "5",
+    "features": [
+      "**Impenetrable:** Una vez por descanso corto, cuando marcarías tu último Punto de Golpe, puedes marcar un Estrés."
+    ],
+    "description": "Tier 3 · Umbrales base: 11 / 27 · Puntuación base: 5"
+  },
+  {
+    "name": "Armadura de placas con púas",
+    "category": "Armor",
+    "tier": 3,
+    "baseThresholds": "10 / 25",
+    "baseScore": "5",
+    "features": [
+      "**Afilado:** En un ataque exitoso contra un objetivo dentro de alcance de Cuerpo a cuerpo, agrega un d4 a la tirada de daño."
+    ],
+    "description": "Tier 3 · Umbrales base: 10 / 25 · Puntuación base: 5"
+  },
+  {
+    "name": "Armadura de espada",
+    "category": "Armor",
+    "tier": 3,
+    "baseThresholds": "16 / 39",
+    "baseScore": "6",
+    "features": [
+      "**Físico:** No puedes marcar un Espacio de Armadura para reducir daño mágico."
+    ],
+    "description": "Tier 3 · Umbrales base: 16 / 39 · Puntuación base: 6"
+  },
+  {
+    "name": "La capa de Monett",
+    "category": "Armor",
+    "tier": 3,
+    "baseThresholds": "16 / 39",
+    "baseScore": "6",
+    "features": [
+      "**Magia:** No puedes marcar un Espacio de Armadura para reducir daño físico."
+    ],
+    "description": "Tier 3 · Umbrales base: 16 / 39 · Puntuación base: 6"
+  },
+  {
+    "name": "Runas de fortificación",
+    "category": "Armor",
+    "tier": 3,
+    "baseThresholds": "17 / 43",
+    "baseScore": "6",
+    "features": [
+      "**Doloroso:** Cada vez que marcas un Espacio de Armadura, debes marcar un Estrés."
+    ],
+    "description": "Tier 3 · Umbrales base: 17 / 43 · Puntuación base: 6"
+  },
+  {
+    "name": "Cadena de seda Dunamis",
+    "category": "Armor",
+    "tier": 4,
+    "baseThresholds": "13 / 36",
+    "baseScore": "7",
+    "features": [
+      "**Disminución del tiempo:** Marca un Espacio de Armadura para tirar un d4 y agregar su resultado como bonificación a tu Evasión contra un ataque entrante."
+    ],
+    "description": "Tier 4 · Umbrales base: 13 / 36 · Puntuación base: 7"
+  },
+  {
+    "name": "Armadura de canalización",
+    "category": "Armor",
+    "tier": 4,
+    "baseThresholds": "13 / 36",
+    "baseScore": "5",
+    "features": [
+      "**Canalización:** +1 a tiradas de Hechicería"
+    ],
+    "description": "Tier 4 · Umbrales base: 13 / 36 · Puntuación base: 5"
+  },
+  {
+    "name": "Armadura tejida con ascuas",
+    "category": "Armor",
+    "tier": 4,
+    "baseThresholds": "13 / 36",
+    "baseScore": "6",
+    "features": [
+      "**Quema:** Cuando un adversario te ataca dentro de alcance de Cuerpo a cuerpo, marca un Estrés."
+    ],
+    "description": "Tier 4 · Umbrales base: 13 / 36 · Puntuación base: 6"
+  },
+  {
+    "name": "Armadura fortificada completa",
+    "category": "Armor",
+    "tier": 4,
+    "baseThresholds": "15 / 40",
+    "baseScore": "4",
+    "features": [
+      "**Fortificado:** Cuando marcas un Espacio de Armadura, reduces la gravedad de un ataque en dos umbrales en lugar de uno."
+    ],
+    "description": "Tier 4 · Umbrales base: 15 / 40 · Puntuación base: 4"
+  },
+  {
+    "name": "Armadura de ópalo Veritas",
+    "category": "Armor",
+    "tier": 4,
+    "baseThresholds": "13 / 36",
+    "baseScore": "6",
+    "features": [
+      "**Buscador de la verdad:** Esta armadura brilla cuando otra criatura dentro de alcance de Cerca dice una mentira."
+    ],
+    "description": "Tier 4 · Umbrales base: 13 / 36 · Puntuación base: 6"
+  },
+  {
+    "name": "Cota de malla del salvador",
+    "category": "Armor",
+    "tier": 4,
+    "baseThresholds": "18 / 48",
+    "baseScore": "8",
+    "features": [
+      "**Difícil:** -1 a todos los rasgos del personaje y Evasión"
+    ],
+    "description": "Tier 4 · Umbrales base: 18 / 48 · Puntuación base: 8"
+  }
+]

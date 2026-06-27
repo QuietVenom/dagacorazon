@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Light-Frame Wheelchair",
+    "category": "Wheelchair",
+    "tier": 1,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Quick:** When you make an attack, you can mark a Stress to target another creature within range."
+    ]
+  },
+  {
+    "name": "Improved Light-Frame Wheelchair",
+    "category": "Wheelchair",
+    "tier": 2,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+3",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Quick:** When you make an attack, you can mark a Stress to target another creature within range."
+    ]
+  },
+  {
+    "name": "Advanced Light-Frame Wheelchair",
+    "category": "Wheelchair",
+    "tier": 3,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+6",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Quick:** When you make an attack, you can mark a Stress to target another creature within range."
+    ]
+  },
+  {
+    "name": "Legendary Light-Frame Wheelchair",
+    "category": "Wheelchair",
+    "tier": 4,
+    "trait": "Agility",
+    "range": "Melee",
+    "damage": "d8+9",
+    "damageType": "phy",
+    "burden": "One-Handed",
+    "features": [
+      "**Quick:** When you make an attack, you can mark a Stress to target another creature within range."
+    ]
+  },
+  {
+    "name": "Heavy-Frame Wheelchair",
+    "category": "Wheelchair",
+    "tier": 1,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+3",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Heavy:** -1 to Evasion"
+    ]
+  },
+  {
+    "name": "Improved Heavy-Frame Wheelchair",
+    "category": "Wheelchair",
+    "tier": 2,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+6",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Heavy:** -1 to Evasion"
+    ]
+  },
+  {
+    "name": "Advanced Heavy-Frame Wheelchair",
+    "category": "Wheelchair",
+    "tier": 3,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+9",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Heavy:** -1 to Evasion"
+    ]
+  },
+  {
+    "name": "Legendary Heavy-Frame Wheelchair",
+    "category": "Wheelchair",
+    "tier": 4,
+    "trait": "Strength",
+    "range": "Melee",
+    "damage": "d12+12",
+    "damageType": "phy",
+    "burden": "Two-Handed",
+    "features": [
+      "**Heavy:** -1 to Evasion"
+    ]
+  },
+  {
+    "name": "Arcane-Frame Wheelchair",
+    "category": "Wheelchair",
+    "tier": 1,
+    "trait": "Spellcast",
+    "range": "Far",
+    "damage": "d6",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Reliable:** +1 to attack rolls"
+    ]
+  },
+  {
+    "name": "Improved Arcane-Frame Wheelchair",
+    "category": "Wheelchair",
+    "tier": 2,
+    "trait": "Spellcast",
+    "range": "Far",
+    "damage": "d6+3",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Reliable:** +1 to attack rolls"
+    ]
+  },
+  {
+    "name": "Advanced Arcane-Frame Wheelchair",
+    "category": "Wheelchair",
+    "tier": 3,
+    "trait": "Spellcast",
+    "range": "Far",
+    "damage": "d6+6",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Reliable:** +1 to attack rolls"
+    ]
+  },
+  {
+    "name": "Legendary Arcane-Frame Wheelchair",
+    "category": "Wheelchair",
+    "tier": 4,
+    "trait": "Spellcast",
+    "range": "Far",
+    "damage": "d6+9",
+    "damageType": "mag",
+    "burden": "One-Handed",
+    "features": [
+      "**Reliable:** +1 to attack rolls"
+    ]
+  }
+]

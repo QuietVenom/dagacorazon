@@ -1,0 +1,4 @@
+interface:
+  display_name: "Daggerheart Localization"
+  short_description: "Canonical Daggerheart term equivalents"
+  default_prompt: "Use $daggerheart-localization to normalize Daggerheart terms between English, Spanish, and Brazilian Portuguese."

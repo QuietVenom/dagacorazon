@@ -1,0 +1,256 @@
+{
+  "MORA'AG, ALMA DA CAÇADA": {
+    "name": "MORA'AG, ALMA DA CAÇADA",
+    "tier": "Tier 2",
+    "description": "Um lobo colossal com sinais visíveis de corrupção Definhante.",
+    "motivestactics": "Loucura de sangue",
+    "size": "30 m de comprimento, 12 m de altura",
+    "thresholds": "15/30",
+    "stress": 6,
+    "experience": "Rastreio +2",
+    "features": [
+      {
+        "title": "Corrupção rastejante",
+        "type": "Passive",
+        "description": "Inicie uma contagem regressiva. Avance um tic quando um membro ou a cabeça é corrompido. Mora'ag fica corrompido de forma irrecuperável quando o relógio chega a 4. Se um membro Corrompido for destruído, recue um tic."
+      },
+      {
+        "title": "Rolar",
+        "type": "Action",
+        "description": "Gaste um medo. Mora'ag se joga ao chão e rola. Todos os PJs sobre ele ou dentro do alcance Perto devem ter sucesso em um teste de Reação de Instinto (14) ou sofrem 2d20+5 de dano físico. Com sucesso ou falha, os PJs são arremessados de Mora'ag ao chão, dentro do alcance Corpo a corpo do colosso."
+      },
+      {
+        "title": "A ameaça da morte",
+        "type": "Passive",
+        "description": "Quando Mora'ag falha um ataque, ganhe um medo."
+      }
+    ],
+    "segments": [
+      {
+        "name": "Cabeça",
+        "difficulty": "16",
+        "hp": "5",
+        "adjacentSegments": ["Torso"],
+        "standardAttack": {
+          "modifier": "+3",
+          "name": "Mordida",
+          "range": "Melee",
+          "damage": "2d20+8",
+          "damageType": "phy"
+        },
+        "features": [
+          {
+            "title": "Primeiro, os dentes",
+            "type": "Reaction",
+            "description": "Se a Cabeça for alvo de um ataque, marque um estresse. Mora'ag fará primeiro um ataque de mordida e, se tiver sucesso, o PJ não pode atacar."
+          },
+          {
+            "title": "Devorar",
+            "type": "Action",
+            "description": "Marque um estresse e faça um ataque padrão de mordida. Se o ataque tiver sucesso, o alvo deve fazer um teste de Reação de Força ou Agilidade (15) ou será Engolido. Enquanto engolido, fica Imobilizado e cada vez que Mora'ag realiza uma ação sofre 1 PV de dano direto. O PJ Engolido pode fazer testes adicionais para escapar como uma ação em seu turno, ou como Reação quando Mora'ag recebe dano Maior ou Severo."
+          },
+          {
+            "title": "Corrupção",
+            "type": "Passive",
+            "description": "Quando este segmento é destruído, Mora'ag desaba. Após 2 turnos dos PJs a corrupção rasteja até a cabeça e Mora'ag se levanta novamente. A Cabeça corrompida de Mora'ag tem 4 PV e seus ataques ganham um dado de dano adicional. A Corrupção rastejante ganha 2 tics. Se a Cabeça Corrompida for destruída, Mora'ag morre."
+          }
+        ]
+      },
+      {
+        "name": "Torso",
+        "hp": "6",
+        "adjacentSegments": ["Cabeça", "Pata dianteira", "Pata traseira"],
+        "features": [
+          {
+            "title": "Fatal",
+            "type": "Passive",
+            "description": "Quando este segmento é destruído, Mora'ag morre."
+          },
+          {
+            "title": "Colapso",
+            "type": "Passive",
+            "description": "Quando dois ou mais membros estão destruídos, Mora'ag desaba até que os membros se regenerem. Durante esse tempo o Torso pode ser alvo a partir do chão e pode ser escalado."
+          },
+          {
+            "title": "Núcleo da corrupção",
+            "type": "Passive",
+            "description": "A Corrupção Definhante se espalhou a partir de um ponto nas costas de Mora'ag. Para destruir a corrupção é preciso atacar o Núcleo diretamente. Ele só pode ser alvo de um PJ que esteja sobre o Torso, pois está escondido sob a pelagem espessa de Mora'ag. A dificuldade para atacar o Núcleo é 16. O Núcleo tem 3 PV. Ganha um PV adicional cada vez que um membro ou a Cabeça é corrompido. Perde um PV quando um membro corrompido é destruído novamente."
+          }
+        ]
+      },
+      {
+        "name": "Pata dianteira",
+        "pluralName": "Patas dianteiras",
+        "count": 2,
+        "difficulty": "14",
+        "hp": "4",
+        "adjacentSegments": ["Torso"],
+        "standardAttack": {
+          "modifier": "+2",
+          "name": "Garras",
+          "range": "Close",
+          "damage": "2d12+6",
+          "damageType": "phy"
+        },
+        "features": [
+          {
+            "title": "Pata varredora",
+            "type": "Action",
+            "description": "Gaste um medo. Ataque todos os PJs dentro do alcance Perto da Pata dianteira. O dano deste ataque é 2d10+4."
+          },
+          {
+            "title": "Corrupção",
+            "type": "Passive",
+            "description": "Quando o membro é destruído, inicie um temporizador. Quando os PJs realizam uma ação, avance um tic. Quando o temporizador chega a 3, o membro se regenera. O Membro Corrompido tem 2 PV e o ataque de garras é 2d20+4."
+          }
+        ]
+      },
+      {
+        "name": "Pata traseira",
+        "pluralName": "Patas traseiras",
+        "count": 2,
+        "difficulty": "14",
+        "hp": "4",
+        "adjacentSegments": ["Torso"],
+        "features": [
+          {
+            "title": "Bote",
+            "type": "Action",
+            "description": "Gaste um estresse. Mora'ag salta no ar e cai dentro do alcance Longe. Ao fim deste salto pode fazer um ataque de mordida ou de garras."
+          },
+          {
+            "title": "Corrupção",
+            "type": "Passive",
+            "description": "Quando o membro é destruído, inicie um temporizador. Quando os PJs realizam uma ação, avance um tic. Quando o temporizador chega a 3, o membro se regenera. O Membro Corrompido tem 2 PV e perde o traço Bote."
+          }
+        ]
+      }
+    ]
+  },
+  "IKERI, FERIDAS INCONTÁVEIS": {
+    "name": "IKERI, FERIDAS INCONTÁVEIS",
+    "tier": "Tier 1",
+    "description": "Esta criatura símia tem rosto de ave. É feita de pedra e carrega um enorme planalto sobre as costas.",
+    "motivestactics": "Enredar, intimidar, bicar, pisotear",
+    "size": "29 m de altura, 18 m de largura",
+    "thresholds": "11/22",
+    "stress": 6,
+    "experience": "Olhos de águia +3, Enorme +2",
+    "features": [
+      {
+        "title": "Poder colossal",
+        "type": "Reaction",
+        "description": "Quando Ikeri falha um ataque, você ganha um Medo."
+      },
+      {
+        "title": "Esmagar pragas",
+        "type": "Reaction",
+        "description": "Quando um alvo voador ataca Ikeri dentro do alcance Longe, você pode fazer um ataque padrão de Bicada (Cabeça) ou Soco (Braço) contra o atacante. Com sucesso, adicione um d20 à rolagem de dano e o alvo é derrubado ao chão aos pés do colosso."
+      }
+    ],
+    "segments": [
+      {
+        "name": "Cabeça",
+        "difficulty": "16",
+        "hp": "5",
+        "adjacentSegments": ["Torso"],
+        "standardAttack": {
+          "modifier": "+2",
+          "name": "Bicada",
+          "range": "Melee",
+          "damage": "1d10+1",
+          "damageType": "phy"
+        },
+        "features": [
+          {
+            "title": "Fatal",
+            "type": "Passive",
+            "description": "Quando a Cabeça é Destruída, Ikeri é derrotado."
+          },
+          {
+            "title": "Golpe (Corpo a corpo)",
+            "type": "Passive",
+            "description": "A Cabeça é imune a dano de ataques que não sejam feitos dentro do alcance Corpo a corpo."
+          },
+          {
+            "title": "Acompanhamento",
+            "type": "Reaction",
+            "description": "Quando a Cabeça tem sucesso em um ataque contra um alvo, pode fazer imediatamente um ataque contra outro alvo que não tenha atacado durante este turno do Mestre."
+          }
+        ]
+      },
+      {
+        "name": "Torso",
+        "difficulty": "14",
+        "hp": "8",
+        "adjacentSegments": ["Cabeça", "Braço", "Perna"],
+        "features": [
+          {
+            "title": "Fatal",
+            "type": "Passive",
+            "description": "Quando o Torso é Destruído, Ikeri é derrotado."
+          },
+          {
+            "title": "Sacudir",
+            "type": "Action",
+            "description": "Gaste um Medo para arremessar os inimigos. Todas as criaturas sobre Ikeri devem fazer um teste de Reação de Força. Os alvos que falham caem ao chão e devem marcar um PV. Os alvos que têm sucesso devem marcar um Estresse."
+          }
+        ]
+      },
+      {
+        "name": "Braço",
+        "pluralName": "Braços",
+        "count": 2,
+        "difficulty": "13",
+        "hp": "3",
+        "adjacentSegments": ["Torso"],
+        "standardAttack": {
+          "modifier": "+2",
+          "name": "Soco",
+          "range": "Very Close",
+          "damage": "1d8+6",
+          "damageType": "phy"
+        },
+        "features": [
+          {
+            "title": "Corrente (A)",
+            "type": "Passive",
+            "description": "Quando todos os segmentos da Corrente A são Destruídos, Ikeri é derrotado."
+          },
+          {
+            "title": "Triturar",
+            "type": "Action",
+            "description": "Gaste um Medo para fazer um ataque contra um alvo em outro segmento de Ikeri. Com sucesso, Ikeri agarra e esmaga o alvo, causando 1d20+4 de dano físico e o Imobilizando até que este Braço receba dano Maior ou superior. Quando este Braço entra em destaque enquanto o alvo ainda está na mão de Ikeri, o alvo sofre 1d20 de dano físico."
+          }
+        ]
+      },
+      {
+        "name": "Perna",
+        "pluralName": "Pernas",
+        "count": 2,
+        "difficulty": "13",
+        "hp": "3",
+        "adjacentSegments": ["Torso", "Perna"],
+        "standardAttack": {
+          "modifier": "+2",
+          "name": "Pisão",
+          "range": "Very Close",
+          "damage": "1d6+3",
+          "damageType": "phy"
+        },
+        "features": [
+          {
+            "title": "Corrente (A)",
+            "type": "Passive",
+            "description": "Quando todos os segmentos da Corrente A são Destruídos, Ikeri é derrotado."
+          },
+          {
+            "title": "Pisão massivo",
+            "type": "Action",
+            "description": "Gaste um Medo para fazer um ataque padrão com vantagem contra um grupo."
+          }
+        ]
+      }
+    ]
+  }
+}

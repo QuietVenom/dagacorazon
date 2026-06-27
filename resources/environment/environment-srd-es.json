@@ -1,0 +1,582 @@
+{
+  "ARBOLEDA ABANDONADA": {
+    "name": "ARBOLEDA ABANDONADA",
+    "tier": "Tier 1 Exploración",
+    "description": "Una antigua arboleda druídica en barbecho y totalmente recuperada por la naturaleza.",
+    "impulses": "Atrae a los curiosos, haz eco del pasado.",
+    "difficulty": 11,
+    "potentialadversaries": "Bestias (Oso, Lobo terrible, Serpiente de cristal), Guardianes de la arboleda (Treant menor, Soldado silvano, Dríada joven)",
+    "features": [
+      {
+        "title": "Campo de batalla cubierto de maleza",
+        "type": "Passive",
+        "description": "Ha habido una batalla aquí. Un PJ puede hacer una tirada de Instinto para identificar evidencia de esa pelea. Si tiene éxito con Esperanza, conozca los tres datos a continuación. Si tiene éxito con Miedo, aprende dos. En caso de falla, un PJ puede marcar un Estrés para aprender uno y obtener ventaja en la siguiente tirada de acción para investigar este entorno. Un PJ con los antecedentes o la experiencia adecuados puede descubrir un detalle adicional y hacer una pregunta de seguimiento sobre la escena y obtener una respuesta veraz, aunque no siempre completa. Detalles: rastros de una batalla cubren el suelo, el tronco de un árbol cubierto de musgo es en realidad el cadáver de un treant, y los árboles aún en pie están retorcidos de maneras extrañas, como por magia poderosa. Preguntas: ¿Por qué estos grupos llegaron a las manos? ¿Por qué la arboleda no se utiliza ahora?"
+      },
+      {
+        "title": "Enredaderas espinosas",
+        "type": "Action",
+        "description": "Elige un punto dentro de la arboleda. Todos los objetivos dentro del rango Muy cerca de ese punto deben tener éxito en una tirada de Reacción de Agilidad o sufrir 1d8+3 de daño físico y convertirse en Inmovilizado por enredaderas con púas. Inmovilizado dura hasta que son liberados con una tirada de Fineza o de Fuerza exitosa o al causar al menos 6 de daño a las enredaderas. Preguntas: ¿Cuántas enredaderas hay? ¿Dónde te agarran? ¿Te derriban o te levantan del suelo?"
+      },
+      {
+        "title": "No eres bienvenido aquí",
+        "type": "Action",
+        "description": "Una joven dríada, dos soldados silvanos y un número de treants menores igual al número de PJ aparecen para confrontar al grupo por su intrusión. Preguntas: ¿Qué esconden los guardianes de la arboleda? ¿Qué amenaza al bosque podría enfrentar el grupo para apaciguar a la Dríada?"
+      },
+      {
+        "title": "Profanador",
+        "type": "Action",
+        "description": "Gasta un Miedo para convocar a un Elemental del Caos Menor atraído por los ecos de la violencia y la discordia. Aparecen dentro del rango Lejos de un PJ elegido e inmediatamente toman el foco. Preguntas: ¿De qué color se vuelve la hierba cuando aparece el elemental? ¿Cómo deforma el caos a los insectos y la pequeña vida silvestre dentro de la arboleda?"
+      }
+    ]
+  },
+  "EMBOSCADOS": {
+    "name": "EMBOSCADOS",
+    "tier": "Tier 1 Evento",
+    "description": "Se prepara una emboscada para coger desprevenido a un grupo desprevenido.",
+    "impulses": "Abrumar, dispersar, rodear",
+    "difficulty": "Especial (ver Fuerza relativa)",
+    "potentialadversaries": "Cualquiera",
+    "features": [
+      {
+        "title": "Fuerza relativa",
+        "type": "Passive",
+        "description": "La dificultad de este entorno es igual a la del adversario con mayor dificultad. Preguntas: ¿Quién indica la emboscada? ¿Qué deja claro que ellos están a cargo?"
+      },
+      {
+        "title": "¡Sorpresa!",
+        "type": "Action",
+        "description": "Los emboscadores se revelan al grupo, ganas 2 Miedo y el foco cambia inmediatamente a uno de los adversarios emboscados. Preguntas: ¿Qué quieren los emboscadores del grupo? ¿Cómo reflejan eso sus tácticas en la emboscada?"
+      }
+    ]
+  },
+  "EMBOSCADORES": {
+    "name": "EMBOSCADORES",
+    "tier": "Tier 1 Evento",
+    "description": "Los PJ preparan una emboscada para coger desprevenidos a sus adversarios desprevenidos.",
+    "impulses": "Escapar, agruparse, proteger a los más vulnerables",
+    "difficulty": "Especial (ver Fuerza relativa)",
+    "potentialadversaries": "Cualquiera",
+    "features": [
+      {
+        "title": "Fuerza relativa",
+        "type": "Passive",
+        "description": "La dificultad de este entorno es igual a la del adversario con mayor dificultad. Preguntas: ¿Qué adversario está menos preparado? ¿Cuál es el más?"
+      },
+      {
+        "title": "¿De dónde vienen?",
+        "type": "Reaction",
+        "description": "Cuando un PJ inicia la emboscada a adversarios desprevenidos, pierdes 2 Miedo y la primera tirada de ataque que hace un PJ tiene ventaja. Preguntas: ¿Qué están haciendo los adversarios cuando comienza la emboscada? ¿Cómo afecta esto su enfoque de la lucha?"
+      }
+    ]
+  },
+  "MERCADO BULLICIOSO": {
+    "name": "MERCADO BULLICIOSO",
+    "tier": "Tier 1 Social",
+    "description": "El corazón económico del asentamiento, con artesanos locales, comerciantes ambulantes y patrocinadores de todas las clases sociales.",
+    "impulses": "Compra barato y vende caro, tiente y seduzca con productos cercanos y lejanos",
+    "difficulty": 10,
+    "potentialadversaries": "Guardias (Guardia espadachín, Guardia jefe), Ladrón enmascarado, Comerciante",
+    "features": [
+      {
+        "title": "Inclina la balanza",
+        "type": "Passive",
+        "description": "Un PJ puede ganar ventaja en una tirada de Presencia ofreciendo un puñado de oro como parte de la interacción. Preguntas: ¿Se aceptará alguna moneda o solo moneda local? ¿Qué tan abiertos son los PJ al ofrecer este soborno?"
+      },
+      {
+        "title": "Hallazgo inesperado",
+        "type": "Action",
+        "description": "Revela al PJ que uno de los comerciantes tiene algo que quiere o necesita, como comida de su casa, un libro raro, componentes mágicos, un mapa del tesoro dudoso o una llave mágica. Preguntas: ¿Qué costo además del oro pedirá el comerciante a cambio de esta rareza?"
+      },
+      {
+        "title": "Dedos ligeros",
+        "type": "Action",
+        "description": "Un ladrón intenta robar algo de un PJ. El PJ debe tener éxito en una tirada de Instinto para detectar al ladrón o perder un objeto elegido por el MJ mientras el ladrón escapa a una distancia de Cerca. Para recuperar el artículo robado, los PJ deben completar una Cuenta regresiva de progreso (6) para perseguir al ladrón antes de que el ladrón complete una Cuenta regresiva de consecuencia (4) y escape a su escondite. Preguntas: ¿Qué llevó a esta persona a robar carteras? ¿Dónde está el escondite del ladrón y cómo ha pasado desapercibido?"
+      },
+      {
+        "title": "La multitud se cierra",
+        "type": "Reaction",
+        "description": "Cuando uno de los PJ se separa del grupo, la multitud cambia y los separa del grupo. Preguntas: ¿Adónde los lleva el movimiento de la multitud? ¿Cómo se sienten al estar solos pero rodeados?"
+      }
+    ]
+  },
+  "ASCENSO POR EL ACANTILADO": {
+    "name": "ASCENSO POR EL ACANTILADO",
+    "tier": "Tier 1 Travesía",
+    "description": "Un acantilado rocoso y empinado lo suficientemente alto como para hacer que el cruce sea peligroso.",
+    "impulses": "Arroja a los que no están preparados a un destino rocoso, atrae a la gente con la promesa de lo que hay en la cima.",
+    "difficulty": 12,
+    "potentialadversaries": "Constructo, Defensor de raíz profunda, Escorpión gigante, Serpiente de cristal",
+    "features": [
+      {
+        "title": "La subida",
+        "type": "Passive",
+        "description": "Para escalar el acantilado se utiliza un Cuenta regresiva de progreso (12). Marca hacia abajo según los siguientes criterios cuando los PJ realizan una tirada de acción para subir: Éxito crítico, marca hacia abajo 3; Éxito con Esperanza, marque hacia abajo 2; Éxito con Miedo, marque hacia abajo 1; Fallo con Esperanza, sin avance; Fallo con Miedo, marca 1. Cuando se activa la cuenta regresiva, el grupo ha llegado a la cima del acantilado. Preguntas: ¿En qué extrañas formaciones están dispuestas las piedras? ¿Qué siniestras advertencias dejaron los aventureros anteriores?"
+      },
+      {
+        "title": "Pitones dejados atrás",
+        "type": "Passive",
+        "description": "Los escaladores anteriores dejaron grandes varillas de metal que los escaladores pueden usar para ayudar en su ascenso. Si un PJ que usa los pitones falla en una tirada de acción para escalar, puede marcar un Estrés en lugar de marcar la cuenta regresiva. Preguntas: ¿Qué te dice la forma y el material de estos pitones sobre los escaladores anteriores? ¿A qué distancia están uno del otro?"
+      },
+      {
+        "title": "Otoño",
+        "type": "Action",
+        "description": "Gasta un Miedo para que el asidero de un PJ falle y lo haga caer al suelo. Si no se salvan en la siguiente acción, caen al suelo y aumentan la cuenta atrás en 2. El PJ sufre 1d12 de daño físico si la cuenta atrás está entre 8 y 12, 2d12 entre 4 y 7, y 3d12 en 3 o menos. Preguntas: ¿Cómo puedes saber que muchos otros han caído aquí antes? ¿Qué vive en estas paredes que podría intentar asustar a los aventureros y hacerles caer en una comida fácil?"
+      }
+    ]
+  },
+  "TABERNA LOCAL": {
+    "name": "TABERNA LOCAL",
+    "tier": "Tier 1 Social",
+    "description": "Una taberna animada que sirve como centro social de su ciudad.",
+    "impulses": "Proporcionar oportunidades para los aventureros, nutrir la comunidad.",
+    "difficulty": 10,
+    "potentialadversaries": "Guardias (Guardia espadachín, Guardia jefe), Mercenarios (Hostigador, Mercenario, Espada hechicera, Maestro de armas), Comerciante",
+    "features": [
+      {
+        "title": "¿Cuál es la comidilla de la ciudad?",
+        "type": "Passive",
+        "description": "Un PJ puede preguntar al camarero, al personal o a los clientes sobre eventos locales, rumores y posibles trabajos con una tirada de Presencia. Si tienen éxito, pueden elegir dos de los siguientes detalles para aprender, o tres si tienen un éxito crítico. En caso de falla, pueden elegir uno y marcar un Estrés mientras el local continúa con algo irrelevante. Detalles: es un rumor fascinante con una conexión con los antecedentes de un PJ, un trabajo prometedor para el grupo que involucra una amenaza o situación cercana, folklore local que se relaciona con algo que han visto o chismes de la ciudad que insinúan un problema comunitario. Preguntas: ¿Quién tiene qué tipo de información? ¿Qué chismes empiezan a difundir los locales sobre la PJ?"
+      },
+      {
+        "title": "Canta para tu cena",
+        "type": "Passive",
+        "description": "Un PJ puede actuar una vez para los invitados haciendo una tirada de Presencia. Si tienen éxito, ganan 1d4 puñados de oro, o 2d4 si tienen un éxito crítico. En caso de avería, marcan un Estrés. Preguntas: ¿Qué pieza interpretas? ¿Qué significa esa pieza para ti? ¿Cuándo fue la última vez que lo interpretaste ante una multitud?"
+      },
+      {
+        "title": "Desconocido misterioso",
+        "type": "Action",
+        "description": "Revela a un extraño que oculta su identidad, acechando en una cabina con sombra. Preguntas: ¿Qué quieren? ¿Cuál es su impresión de los PJ? ¿Qué gestos o accesorios tienen?"
+      },
+      {
+        "title": "Alguien viene a la ciudad",
+        "type": "Action",
+        "description": "Presenta a un PNJ significativo que quiera contratar al grupo para algo o que se relacione con los antecedentes de un PJ. Preguntas: ¿Sabían que los PJ estaban aquí? ¿Qué quieren en este pueblo?"
+      },
+      {
+        "title": "¡Pelea de bar!",
+        "type": "Action",
+        "description": "Gasta un Miedo para que estalle una pelea en el bar de la taberna. Cuando un PJ intenta moverse por la taberna mientras la pelea persiste, debe tener éxito en una Agilidad o tirada de Presencia o recibir 1d6+2 daño físico de un golpe salvaje o un objeto arrojado. Un PJ puede intentar activar esta característica teniendo éxito en una tirada de acción que provocaría a los clientes de la taberna. Preguntas: ¿Quién empezó la pelea? ¿Qué hará falta para detenerlo?"
+      }
+    ]
+  },
+  "PUEBLO FRONTERIZO": {
+    "name": "PUEBLO FRONTERIZO",
+    "tier": "Tier 1 Social",
+    "description": "Un pequeño pueblo en las afueras de una nación o región, cerca de una mazmorra, tumbas u otros destinos de aventuras.",
+    "impulses": "Lleva a los desesperados a una perdición segura, saca provecho de la esperanza irregular",
+    "difficulty": 12,
+    "potentialadversaries": "Bandidos de la Daga Dentada (Hechicero, Romperrodillas, Secuaz, Teniente, Sombra, Francotirador), Ladrón enmascarado, Comerciante",
+    "features": [
+      {
+        "title": "Abundan los rumores",
+        "type": "Passive",
+        "description": "Los chismes son la moneda que viaja más rápido en el reino. Un PJ puede consultar sobre eventos importantes haciendo una tirada de Presencia. Lo que aprenden depende del resultado de su tirada. Éxito crítico: conozca dos eventos importantes y haga una pregunta de seguimiento sobre uno de los rumores para obtener una respuesta veraz, aunque no siempre completa. Éxito con Esperanza: aprende sobre dos eventos, al menos uno de los cuales es relevante para los antecedentes del personaje. Éxito con Miedo: conoce un rumor alarmante relacionado con los antecedentes del personaje. Cualquier fallo: los lugareños responden mal a sus consultas; El PJ debe marcar un Estrés para conocer un rumor relevante. Preguntas: ¿Qué novedades tiene los PJ puedan transmitir a los viajeros curiosos? ¿Qué piensan los lugareños sobre estos eventos?"
+      },
+      {
+        "title": "Sociedad de la Brújula Rota",
+        "type": "Passive",
+        "description": "Una sociedad aventurera mantiene una sala capitular aquí, donde los héroes intercambian alardes y rumores, beben por sus éxitos imaginados y planean socavar a sus rivales. Preguntas: ¿Qué alardes hacen los aventureros aquí y cuáles crees que son ciertos?"
+      },
+      {
+        "title": "Grupo rival",
+        "type": "Passive",
+        "description": "Otro grupo de aventureros está aquí, buscando el mismo tesoro o pistas que los PJ. Preguntas: ¿Qué PJ tiene una conexión con uno de los miembros del grupo rival? ¿Se acercan primero al PJ o esperan a que los PJ se muevan?"
+      },
+      {
+        "title": "Sería una lástima que algo le sucediera a tu tienda",
+        "type": "Action",
+        "description": "El PJ es testigo de cómo los agentes de un jefe criminal local saquean una tienda de artículos generales. Preguntas: ¿Qué problema causa si interviene los PJ?"
+      },
+      {
+        "title": "Lugar equivocado, momento equivocado",
+        "type": "Reaction",
+        "description": "Por la noche, o cuando el grupo está solo en un callejón, puedes gastar un Miedo para presentar a un grupo de ladrones que intentan robarles. Los ladrones aparecen en el rango Cerca de un PJ elegido e incluyen un Romperrodillas de la Daga Dentada, tantos lacayos como PJ y un teniente. Para un grupo más grande, agrega un Hechicero o Francotirador. Preguntas: ¿Qué detalles muestran al partido que estas personas son ex aventureros desesperados?"
+      }
+    ]
+  },
+  "RIO CAUDALOSO": {
+    "name": "RIO CAUDALOSO",
+    "tier": "Tier 1 Travesía",
+    "description": "Un río de corriente rápida sin puente que lo cruce, lo suficientemente profundo como para arrastrar a la mayoría de las personas.",
+    "impulses": "Cruzar barras, llevarse a los que no están listos, dividir la tierra",
+    "difficulty": 10,
+    "potentialadversaries": "Bestias (Oso, Serpiente de cristal), Bandidos de la Daga Dentada (Hechicero, Romperrodillas, Secuaz, Teniente, Sombra, Francotirador)",
+    "features": [
+      {
+        "title": "Cruce peligroso",
+        "type": "Passive",
+        "description": "Cruzar el río requiere que el grupo complete un Cuenta regresiva de progreso (4). Un PJ que obtiene un fallo con Miedo es inmediatamente objetivo de la acción Resaca sin necesidad de gastar un Miedo en la función. Preguntas: ¿Alguno de los PJ ha vadeado ríos como este antes? ¿Alguno de ellos tiene miedo de ahogarse?"
+      },
+      {
+        "title": "Resaca",
+        "type": "Action",
+        "description": "Gasta un Miedo para atrapar un PJ en la resaca. Deben hacer una tirada de Reacción de Agilidad. En caso de fallo, sufren 1d6+1 de daño físico y se mueven una distancia Cerca río abajo, convirtiéndose en Vulnerable hasta que salen del río. En caso de éxito, deben marcar un Estrés. Preguntas: ¿Qué baratijas y chucherías se encuentran en el fondo del lecho del río? ¿Los depredadores nadan en estos ríos?"
+      },
+      {
+        "title": "Cazador de pacientes",
+        "type": "Action",
+        "description": "Gasta un Miedo para invocar una serpiente de cristal dentro del rango Cerca de un PJ elegido. La Serpiente aparece en el río o cerca de él e inmediatamente toma el foco para usar su acción de Serpiente giratoria. Preguntas: ¿Qué tesoros tiene la bestia en su madriguera? ¿Qué viajeros han sido ya víctimas de este depredador?"
+      }
+    ]
+  },
+  "RITUAL DEL CULTO": {
+    "name": "RITUAL DEL CULTO",
+    "tier": "Tier 2 Evento",
+    "description": "Un culto a los Caídos se reúne alrededor de un sello de los dioses derrotados y una hoguera que arde con un enfermizo tono verde.",
+    "impulses": "Profanar la tierra, unir el Reino Mortal con los Círculos Inferiores",
+    "difficulty": 14,
+    "potentialadversaries": "Culto de los Caídos (Adepto del culto, Colmillo del culto, Iniciado del culto, Guardián de secretos)",
+    "features": [
+      {
+        "title": "Tierra Profanada",
+        "type": "Passive",
+        "description": "Los cultistas dedicaron este lugar a los Dioses Caídos, y su asquerosa influencia se filtra en él. Reduzca los Dado de Esperanza de los PJ a un d10 mientras se encuentra en este entorno. La profanación se puede eliminar con una Cuenta regresiva de progreso (6). Preguntas: ¿Cómo nota por primera vez los PJ que algo anda mal en este lugar? ¿Qué temores resurgen mientras la esperanza se mantiene a raya?"
+      },
+      {
+        "title": "Poder blasfemo",
+        "type": "Action",
+        "description": "Una parte del poder del ritual se desvía a un miembro de la secta para luchar contra los intrusos. Elige un adversario para que quede imbuido de una magia terrible hasta que termine la escena o sea derrotado. Un adversario Imbuido toma inmediatamente el foco y obtiene uno de los siguientes beneficios, o los tres si gastas un Miedo: ventaja en todos los ataques, 1d10 de daño adicional en un ataque exitoso e Implacable (2) – Pasiva: este adversario puede recibir foco hasta dos veces por cada turno del MJ y Miedo se gasta como de costumbre. para ponerlo en foco. Preguntas: ¿Cómo cambia la apariencia del enemigo? ¿Qué miedos sacan a la superficie sus golpes?"
+      },
+      {
+        "title": "La Invocación",
+        "type": "Reaction",
+        "description": "Cuenta atrás (6). Cuando los PJ entran en escena o el culto comience el ritual para convocar a un demonio, activa la cuenta atrás. Designe a un adversario para que dirija el ritual. La cuenta regresiva avanza cuando un PJ tira con Miedo. Cuando se active, invoca a un demonio menor dentro del alcance Muy cerca del líder del ritual. Si el líder es derrotado, la cuenta atrás termina sin efecto ya que el ritual falla. Preguntas: ¿Qué hará la secta con este demonio atado si tienen éxito? ¿Qué intentarán convocar a continuación?"
+      },
+      {
+        "title": "Completa el ritual",
+        "type": "Reaction",
+        "description": "Si el líder del ritual es el objetivo de un ataque o hechizo, un aliado dentro del alcance de Muy cerca puede marcar un Estrés para que sea el objetivo de ese ataque o hechizo. Preguntas: ¿Qué se siente al ver tal devoción convertida en búsqueda del miedo y la dominación?"
+      }
+    ]
+  },
+  "TEMPLO SAGRADO": {
+    "name": "TEMPLO SAGRADO",
+    "tier": "Tier 2 Social",
+    "description": "Un templo animado pero bien cuidado que brinda curación y alberga servicios regulares, supervisados por un sacerdote o serafín.",
+    "impulses": "Conecta el Reino Mortal con las Reliquias de Arriba, muestra el poder de lo divino, brinda ayuda y socorro a los fieles.",
+    "difficulty": 13,
+    "potentialadversaries": "Guardias (Guardia arquero, Guardia espadachín, Guardia jefe)",
+    "features": [
+      {
+        "title": "Un lugar de curación",
+        "type": "Passive",
+        "description": "Un PJ que descansa en el Templo Santificado elimina automáticamente todos los HP. Preguntas: ¿A qué huele el incienso? ¿Qué tipo de canciones cantan los acólitos?"
+      },
+      {
+        "title": "Guía Divina",
+        "type": "Passive",
+        "description": "Un PJ que reza a una deidad mientras está en el Templo Santificado puede hacer una tirada de Instinto para recibir respuestas. Si el dios al que suplican no es bienvenido en este templo, el rollo se realiza con desventaja. Éxito crítico: los PJ obtiene información clara y 1d4 Esperanza, que se pueden distribuir entre las partes si comparten la visión y la orientación que recibieron. Éxito con Esperanza: los PJ recibe información clara. Éxito con Miedo: los PJ recibe breves destellos de percepción y una impresión emocional que transmite una respuesta. Cualquier fallo: los PJ solo recibe destellos vagos, pero puede marcar un Estrés para recibir una imagen clara y sin contexto. Preguntas: ¿Qué se siente al ser conmovido por esta visión? ¿Qué sentimiento persiste después de que las imágenes han pasado?"
+      },
+      {
+        "title": "Esperanza implacable",
+        "type": "Reaction",
+        "description": "Una vez por escena, cada Un PJ puede marcar un Estrés para convertir un resultado con Miedo en un resultado con Esperanza. Preguntas: ¿Con qué emociones o recuerdos te conectas cuando el miedo te invade?"
+      },
+      {
+        "title": "Censura Divina",
+        "type": "Reaction",
+        "description": "Cuando los PJ han traspasado, blasfemado u ofendido al clero, puedes gastar un Miedo para convocar a un Alto Serafin y 1d4 Guardias con Espadas dentro del alcance de Cerca del sacerdote principal para reforzar su voluntad. Preguntas: ¿Qué símbolos o íconos llevan que señalan que son agentes ungidos de la divinidad? ¿Quién lidera el grupo y qué los llevó a este llamado?"
+      }
+    ]
+  },
+  "CIUDAD EMBRUJADA": {
+    "name": "CIUDAD EMBRUJADA",
+    "tier": "Tier 2 Exploración",
+    "description": "Una ciudad abandonada poblada por espíritus inquietos de épocas pasadas.",
+    "impulses": "Desorientar y desorientar, reproducir apocalipsis tanto públicos como personales",
+    "difficulty": 14,
+    "potentialadversaries": "Fantasmas (Arquero espectral, Capitán espectral, Guardián espectral), versiones fantasmales de otros adversarios (ver Forma fantasmal)",
+    "features": [
+      {
+        "title": "Conocimiento enterrado",
+        "type": "Passive",
+        "description": "La ciudad tiene innumerables misterios por revelar. Un PJ que busque conocimientos sobre la ciudad caída puede crear un Instinct o una tirada de Conocimiento para aprender sobre este lugar y descubrir un botín potencialmente embrujado. Éxito crítico: obtenga información valiosa y un elemento útil relacionado. Éxito con Esperanza: obtenga información valiosa. Éxito con Miedo: descubre información vaga o incompleta. Cualquier fallo: marque un Estrés para encontrar una pista después de una búsqueda exhaustiva. Preguntas: ¿Qué mayores secretos guarda la ciudad? ¿Por qué han permanecido aquí tantos fantasmas? ¿Qué aventureros condenados han tenido ya aquí una mala suerte?"
+      },
+      {
+        "title": "Forma fantasmal",
+        "type": "Passive",
+        "description": "Los adversarios que aparecen aquí tienen una forma fantasmal. Tienen resistencia hasta daño físico y pueden marcar un Estrés para desplazarse hasta el rango Cerca a través de objetos sólidos. Preguntas: ¿Qué lesiones en su forma física hablan de la causa de su muerte? ¿Qué propósito incumplido los retiene en el Plano Mortal?"
+      },
+      {
+        "title": "Callejones sin salida",
+        "type": "Action",
+        "description": "Los fantasmas de una era anterior manifiestan escenas de su época pasada, como un festival callejero, una revolución o un atraco. Estos fantasmas cambian el diseño de la ciudad alrededor de los PJ, bloqueando el camino detrás de ellos, forzándolos a desviarse o presentándoles un desafío, como confundirlos con ladrones rivales durante el atraco. Preguntas: ¿Qué quieren los fantasmas de ti? ¿Qué necesitas de ellos?"
+      },
+      {
+        "title": "Apocalipsis entonces",
+        "type": "Action",
+        "description": "Gasta un Miedo para manifestar el eco de un desastre pasado que asoló la ciudad. Activa una Cuenta regresiva de progreso (5) mientras el desastre se repite alrededor de los PJ. Para completar la cuenta regresiva y escapar de la catástrofe, los PJ deben superar amenazas como incendios devastadores, estampidas de civiles, edificios que se derrumban o calles en ruinas mientras recuerdan la historia y encuentran pistas para escapar de lo inevitable. Preguntas: ¿Es este el desastre que llevó a la ciudad al abandono? ¿Qué se sabe sobre este desastre y cómo podría ayudar eso a escapar de los PJ?"
+      }
+    ]
+  },
+  "PASO DE MONTANA": {
+    "name": "PASO DE MONTANA",
+    "tier": "Tier 2 Travesía",
+    "description": "Picos pedregosos que perforan las nubes, con un camino sinuoso que sube y pasa a través de muchas curvas.",
+    "impulses": "Exige un precio escalofriante en suministros y resistencia, revela manipulación mágica y ralentiza los viajes.",
+    "difficulty": 15,
+    "potentialadversaries": "Bestias (Oso, Águila gigante, Serpiente de cristal), Cráneo del caos, Demoledor minotauro, Cazador mortal",
+    "features": [
+      {
+        "title": "Sigilos grabados",
+        "type": "Passive",
+        "description": "Se han realizado grandes marcas y grabados en la ladera de la montaña. Un PJ con antecedentes o experiencia relevante los identifica como magia climática que aumenta el poder de los vientos helados. Un PJ que tenga éxito en una tirada de Conocimiento puede recordar información sobre los sigilos, información potencial sobre sus creadores y el conocimiento de cómo disiparlos. Si un PJ tiene un éxito crítico, reconoce que los sigilos son de un estilo creado por encantadores de las crestas y obtiene ventaja en una tirada para disipar los sigilos. Preguntas: ¿Quién puso este encantamiento? ¿Están cerca? ¿Por qué querían que el clima fuera más desalentador?"
+      },
+      {
+        "title": "Avalancha",
+        "type": "Action",
+        "description": "Gasta un Miedo para tallar la montaña con un torrente helado, provocando una avalancha. Todo PJ a su paso debe triunfar con un Agility o una tirada de Reacción de Fuerza o será derribado y arrastrado montaña abajo. Un PJ que utilice cuerdas, pitones u otro equipo de escalada gana ventaja en esta tirada. Los objetivos que fallan son derribados montaña abajo hasta el rango Lejos, toman 2d20 daño físico y deben marcar un Estrés. Los objetivos que tengan éxito deben marcar un Estrés. Preguntas: ¿Cómo intenta los PJ capear la avalancha? ¿Qué enfoque adoptan los personajes para encontrarse cuando sus compañeros se lanzan montaña abajo?"
+      },
+      {
+        "title": "Nido de rapaces",
+        "type": "Reaction",
+        "description": "Cuando los PJ ingresa a los terrenos de caza de las aves rapaces, dos águilas gigantes aparecen en el rango Muy lejos de un PJ elegido, identificando al PJ como una presa probable. Preguntas: ¿Cuánto tiempo ha pasado desde la última vez que las águilas encontraron presas? ¿Tienen huevos en su nido o crías aún no emplumadas?"
+      },
+      {
+        "title": "Vientos helados",
+        "type": "Reaction",
+        "description": "Cuenta atrás (bucle 4). Cuando los PJ entran en el puerto de montaña, activa la cuenta atrás. Cuando se activa, todos los personajes que viajan a través del paso deben tener éxito en una tirada de Reacción de Fuerza o marcar un Estrés. Un PJ con ropa adecuada para el frío extremo gana ventaja en estas tiradas. Preguntas: ¿Qué partes del cuerpo de los PJ se adormecen primero? ¿Cómo intentan mantenerse calientes mientras avanzan?"
+      }
+    ]
+  },
+  "CORAZON ARDIENTE DEL BOSQUE": {
+    "name": "CORAZON ARDIENTE DEL BOSQUE",
+    "tier": "Tier 3 Exploración",
+    "description": "Una espesa ceniza índigo llena el aire alrededor de un imponente árbol cubierto de musgo que arde eternamente con llamas de un enfermizo tono azul.",
+    "impulses": "Marca un ritmo extraño para que todos lo sigan, corrompe el bosque",
+    "difficulty": 16,
+    "potentialadversaries": "Bestias (Oso, Serpiente de cristal), Elementales (Chispa elemental), Defensores del verdor (Dríada, Treant roble, Caballero ciervo)",
+    "features": [
+      {
+        "title": "Locus mágico del caos",
+        "type": "Passive",
+        "description": "Cuando un PJ hace una tirada de Conjuro, debe tirar dos dados Miedo y obtener el resultado más alto. Preguntas: ¿Qué se siente al hacer magia en este lugar lleno de caos? ¿Qué temes que suceda si pierdes el control del hechizo?"
+      },
+      {
+        "title": "La Llama Índigo",
+        "type": "Passive",
+        "description": "PJ quien se acerque al árbol central puede hacer una tirada de Conocimiento para intentar identificar la magia que consumió este entorno. Si tienen éxito, aprenden tres de los siguientes detalles; Si tienen éxito con Miedo, aprenden dos. En caso de falla, pueden marcar un Estrés para aprender uno y obtener ventaja en la siguiente tirada de acción para investigar este entorno. Detalles: esto es el resultado de la magia caída; la corrupción se esparce por el musgo ceniciento; sólo puede limpiarse mediante un ritual de magia de la naturaleza con un Cuenta regresiva de progreso (8). Preguntas: ¿Qué culto a los Caídos corrompió estos bosques? ¿Qué han hecho ya con la madera maldita y la savia de este árbol?"
+      },
+      {
+        "title": "Enredaderas apresadoras",
+        "type": "Action",
+        "description": "Anima enredaderas erizadas de espinas que surgen de la maleza para atrapar los PJ. Un objetivo debe tener éxito en una tirada de Reacción de Agilidad o convertirse en Inmovilizado y Vulnerable hasta que se libere, eliminando ambas condiciones, con una tirada de Fineza o de Fuerza exitosa o infligiendo 10 de daño a las enredaderas. Cuando el objetivo hace una tirada para escapar, toma 1d8+4 daño físico y pierde un Esperanza. Preguntas: ¿Qué recuerdos dolorosos sacan a la superficie las enredaderas al perforar la carne?"
+      },
+      {
+        "title": "Construcciones de carbón",
+        "type": "Action",
+        "description": "Animales deformados envueltos en llamas índigo pisotean el punto que elijas. Todos los objetivos dentro del rango Cerca de ese punto deben formar una tirada de Reacción de Agilidad. Los objetivos que fallan toman 3d12+3 daño físico. Los objetivos que tienen éxito reciben la mitad del daño. Preguntas: ¿Estos animales reales son consumidos por la llama o simplemente construcciones de la magia corruptora?"
+      },
+      {
+        "title": "Ceniza asfixiante",
+        "type": "Reaction",
+        "description": "Cuenta atrás (bucle 6). Cuando los PJ entran en el Corazón Ardiente del Bosque, activa la cuenta atrás. Cuando se activa, todos los personajes deben tener una Fuerza o tirada de Reacción de Instinto. Los objetivos que fallan reciben 4d6+5 daño físico directo. Los objetivos que tienen éxito reciben la mitad del daño. Las máscaras o ropa protectora dan ventaja en la tirada de reacción. Preguntas: ¿Qué alucinaciones provoca la ceniza? ¿Qué sabor incongruente posee?"
+      }
+    ]
+  },
+  "ASEDIO AL CASTILLO": {
+    "name": "ASEDIO AL CASTILLO",
+    "tier": "Tier 3 Evento",
+    "description": "Un asedio activo con una fuerza atacante que lucha por entrar a un castillo fortificado.",
+    "impulses": "Sangrar la voluntad de luchar, romper los muros, generar tensión",
+    "difficulty": 17,
+    "potentialadversaries": "Mercenarios (Hostigador, Mercenario, Espada hechicera, Maestro de armas), Fuerzas nobles (Escuadrón de arqueros, Conscripto, Soldado de élite, Caballero del reino)",
+    "features": [
+      {
+        "title": "Entrada secreta",
+        "type": "Passive",
+        "description": "Un PJ puede encontrar o recuperar un camino secreto hacia el castillo con un Instinct o tirada de Conocimiento exitoso. Preguntas: ¿Cómo entran sin revelar el camino a los atacantes? ¿Alguno de los defensores está monitoreando este camino?"
+      },
+      {
+        "title": "Armas de asedio (Cambio de entorno)",
+        "type": "Action",
+        "description": "Cuenta regresiva de consecuencia (6). La fuerza atacante despliega armas de asedio para intentar arrasar las fortificaciones de los defensores. Active la cuenta regresiva cuando comience el asedio o conviértala en una cuenta regresiva a largo plazo para un asedio prolongado. Cuando se activa, las fortificaciones de los defensores han sido violadas y los atacantes entran en masa. Obtienes 2 Miedo, luego cambias al entorno de Batalla campal y lo foco. Preguntas: ¿Qué armas de asedio se están desplegando? ¿Son mágicos, mundanos o una mezcla de ambos? ¿Qué defensas deben superar los personajes para asaltar el castillo?"
+      },
+      {
+        "title": "¡Refuerzos!",
+        "type": "Action",
+        "description": "Invoca un Caballero del Reino, una cantidad de Minions Tier 3 igual a la cantidad de PJ y dos adversarios de tu elección dentro del alcance de Lejos de un PJ elegido como refuerzos. El Caballero del Reino se lleva inmediatamente el foco. Preguntas: ¿A quién se dirigen primero? ¿Qué formación toman?"
+      },
+      {
+        "title": "Daño colateral",
+        "type": "Reaction",
+        "description": "Cuando un adversario es derrotado, puedes gastar un Miedo para que un ataque perdido de un arma de asedio alcance un punto en el campo de batalla. Todos los objetivos dentro del rango Muy cerca de ese punto deben formar una tirada de Reacción de Agilidad. Los objetivos que fallan toman 3d8+3 físicos o daño mágico y deben marcar un Estrés. Los objetivos que tengan éxito deben marcar un Estrés. Preguntas: ¿Qué escombros esparció el ataque? ¿Qué es lo que se rompe con la huelga que no se puede reparar fácilmente?"
+      }
+    ]
+  },
+  "BATALLA CAMPAL": {
+    "name": "BATALLA CAMPAL",
+    "tier": "Tier 3 Evento",
+    "description": "Un combate multitudinario entre dos grandes grupos de combatientes armados.",
+    "impulses": "Apoderarse de personas, tierras y riquezas, derramar sangre por codicia y gloria.",
+    "difficulty": 17,
+    "potentialadversaries": "Mercenarios (Mercenario, Hostigador, Espada hechicera, Maestro de armas), Fuerzas nobles (Escuadrón de arqueros, Conscripto, Soldado de élite, Caballero del reino)",
+    "features": [
+      {
+        "title": "A la deriva en un mar de acero",
+        "type": "Passive",
+        "description": "Atravesar un campo de batalla durante un combate activo es extremadamente peligroso. Un PJ debe tener éxito en una tirada de Agilidad para moverse, y solo puede subir al rango Cerca si lo logra. Si un adversario está dentro del alcance de Cuerpo a cuerpo de ellos, debe marcar un Estrés para hacer una tirada de Agilidad para moverse. Preguntas: ¿Los combatientes os confunden con el enemigo o os consideran intrusos? ¿Puedes notar la diferencia entre amigos y enemigos en la refriega?"
+      },
+      {
+        "title": "Arrasamiento y pillaje",
+        "type": "Action",
+        "description": "La fuerza atacante aumenta las apuestas al encender un fuego, robar un activo valioso, secuestrar a una persona importante o matar a la población. Preguntas: ¿Qué es valioso aquí? ¿Quién es más vulnerable?"
+      },
+      {
+        "title": "Magia de guerra",
+        "type": "Action",
+        "description": "Gasta un Miedo mientras un mago de un lado usa magia destructiva a gran escala. Elige un punto en el campo de batalla dentro del alcance del mago. Todos los objetivos dentro del rango Cerca de ese punto deben formar una tirada de Reacción de Agilidad. Los objetivos que fallan toman 3d12+8 daño mágico y deben marcar un Estrés. Preguntas: ¿Qué forma adopta el ataque: bola de fuego, lluvia de ácido, tormenta de espadas? ¿Qué objetivo táctico pretende lograr este ataque y qué viene después?"
+      },
+      {
+        "title": "¡Refuerzos!",
+        "type": "Action",
+        "description": "Invoca un Caballero del Reino, una cantidad de Minions Tier 3 igual a la cantidad de PJ y dos adversarios de tu elección dentro del alcance de Lejos de un PJ elegido como refuerzos. El Caballero del Reino se lleva inmediatamente el foco. Preguntas: ¿A quién se dirigen primero? ¿Qué formación toman?"
+      }
+    ]
+  },
+  "REINO DEL CAOS": {
+    "name": "REINO DEL CAOS",
+    "tier": "Tier 4 Travesía",
+    "description": "Un espacio sobrenatural donde las leyes de la realidad son inestables y peligrosas.",
+    "impulses": "Aniquila la certeza, consume poder, desafía la lógica.",
+    "difficulty": 20,
+    "potentialadversaries": "Monstruosidades de los Reinos Exteriores (Abominación, Corruptor, Siervo)",
+    "features": [
+      {
+        "title": "Arquitectura imposible",
+        "type": "Passive",
+        "description": "Arriba está abajo, abajo está a la derecha, la derecha está hacia las estrellas. La gravedad y la direccionalidad en sí mismas están cambiando, y cualquier intento de moverse a través de este reino es una odisea en sí misma, que requiere un Cuenta regresiva de progreso (8). En caso de fallo, un PJ debe marcar un Estrés además de las demás consecuencias de la tirada. Preguntas: ¿Qué se siente al moverse en un espacio tan ajeno al Reino Mortal? ¿En qué hito o punto te fijas para mantener el equilibrio? ¿Qué puntos de referencia extraños atraviesas en tu viaje?"
+      },
+      {
+        "title": "Todo lo que eres, este lugar te lo quitará",
+        "type": "Action",
+        "description": "Cuenta atrás (bucle 1d4). activa la cuenta atrás. Cuando se activa, todos los PJ debenn tener éxito en una tirada de Reacción de Presencia o su rasgo más alto se reduce temporalmente en 1d4 a menos que marquen un número de Estrés igual a su valor. Cualquier punto de rasgo perdido se recupera si los PJ tiene un éxito crítico o escapa del Reino del Caos. Preguntas: ¿Cómo intenta este lugar robarte eso que te hace legendario? ¿Qué se siente cuando te quitan este poder?"
+      },
+      {
+        "title": "Deshacer",
+        "type": "Action",
+        "description": "Gasta un Miedo para forzar a un PJ a crear una tirada de Reacción de Fuerza. En caso de fallo, toman 4d10 daño mágico directo. En caso de éxito, deben marcar un Estrés. Preguntas: ¿Qué vislumbres de otros mundos captas mientras este lugar intenta deshacerte? ¿Qué faceta central de tu personalidad intenta borrar el desmantelamiento?"
+      },
+      {
+        "title": "Depredadores de los Reinos Exteriores",
+        "type": "Action",
+        "description": "Gasta un Miedo para invocar una Abominación de los Reinos Exteriores, un Corruptor de los Reinos Exteriores y 2d6 Esclavos de los Reinos Exteriores, que aparecen en el rango Cerca de un PJ elegido desafiando la lógica y la causalidad. Inmediatamente pon en foco a uno de estos adversarios, y puedes gastar un Miedo adicional para tener éxito automáticamente en el ataque estándar de ese adversario. Preguntas: ¿Qué restos medio consumidos del mundo destrozado desechan estas monstruosidades en busca de carne viva? ¿Qué reflejos irregulares de tu antigua personalidad captas entre momentos de malicia incuestionable?"
+      },
+      {
+        "title": "Realidad desorientadora",
+        "type": "Reaction",
+        "description": "En un resultado con Miedo, puedes pedirle al PJ que describa cuál de sus miedos evoca el Reino del Caos a medida que una visión de la realidad se deshace y reconstituye en los PJ. La PJ pierde una Esperanza. Si es su último Esperanza, obtendrás un Miedo. Preguntas: ¿Qué momento ven? Si es un recuerdo, ¿cómo lo deforma este lugar? ¿Qué tan difícil será aferrarse al recuerdo real?"
+      }
+    ]
+  },
+  "USURPACION DIVINA": {
+    "name": "USURPACION DIVINA",
+    "tier": "Tier 4 Evento",
+    "description": "Un ritual masivo diseñado para traspasar las puertas de las Reliquias de Arriba y derrocar a los propios Nuevos Dioses.",
+    "impulses": "Recoger poder, intimidar, silenciar la disidencia",
+    "difficulty": 20,
+    "potentialadversaries": "Archinecromante, Tropas de choque caídas, Cazador mortal, Oráculo de la perdición, Zombi perfeccionado",
+    "features": [
+      {
+        "title": "Preparativos finales",
+        "type": "Passive",
+        "description": "Cuando el entorno tome por primera vez el foco, designa a un adversario como el Usurpador que busca derrocar a los dioses. Activa un Cuenta regresiva a largo plazo (8) mientras el Usurpador reúne lo que necesita para llevar a cabo el ritual. Cuando se activa, foco este entorno utiliza la función Principio del final. Mientras este entorno permanezca en juego, puedes albergar hasta 15 Miedo. Preguntas: ¿Qué necesita todavía el Usurpador: el corazón de un Alto Serafin, la piedra imán de una antigua puerta, la lealtad de dos archienemigos o las lágrimas desconsoladas de un alma pura?"
+      },
+      {
+        "title": "Bendición Divina",
+        "type": "Passive",
+        "description": "Cuando un PJ tiene un éxito crítico, puede gastar 2 Esperanza para actualizar una habilidad normalmente limitada por usos, como una vez por descanso o una vez por sesión. Preguntas: ¿Qué dios te favorece mientras luchas contra esta usurpación? ¿Cómo refleja su poder renovado su influencia?"
+      },
+      {
+        "title": "Abundan los profanadores",
+        "type": "Action",
+        "description": "Gasta 2 Miedo para convocar a 1d4+2 tropas de choque caídas que aparecen dentro del alcance de Cerca del Usurpador para ayudar en su asedio divino. Inmediatamente foco las Tropas de Choque utilizarán una acción de Ataque Grupal. Preguntas: ¿A qué Altos Caídos sirven estas tropas? ¿De qué carne de dios desean darse un festín?"
+      },
+      {
+        "title": "Matadioses",
+        "type": "Action",
+        "description": "Si la cuenta regresiva del Asedio Divino se ha activado, puedes gastar 3 Miedo para describir al Usurpador matando a uno de los dioses de las Reliquias de Arriba, deleitándose con su poder y haciéndose más fuerte. El Usurpador borra 2 HP. Aumenta su dificultad, daño, modificador de ataque o dales una nueva característica del dios asesinado. Preguntas: ¿Qué dios encuentra su fin? ¿Cuáles son sus últimas palabras? ¿Cómo se manifiesta el nuevo poder robado del Usurpador?"
+      },
+      {
+        "title": "El principio del fin",
+        "type": "Reaction",
+        "description": "Cuando se activa la cuenta regresiva a largo plazo de los preparativos finales, el Usurpador comienza a martillar las puertas de las Reliquias. Activa una cuenta atrás del Asedio Divino (10). Destaca al Usurpador para describir el asalto y marca esta cuenta regresiva en 1. Si el Usurpador sufre un daño mayor o mayor, aumenta la cuenta regresiva en 1. Cuando se activa, el Usurpador rompe la barrera entre el Reino Mortal y las Reliquias de Arriba para matar a los dioses y tomar su lugar. Obtienes un Miedo por cada HP sin marcar que tenga el Usurpador. Puede usar inmediatamente la función Godslayer sin gastar Miedo para crear un movimiento del MJ adicional. Preguntas: ¿Cómo se retuerce el Reino Mortal cuando se viola el orden natural? ¿Qué mortales presencian desde lejos esta blasfemia?"
+      },
+      {
+        "title": "Nexo ritual",
+        "type": "Reaction",
+        "description": "En cualquier fallo con Miedo contra el Usurpador, los PJ deben marcar 1d4 Estrés de la reacción del poder mágico. Preguntas: ¿Qué visiones de fracasos del pasado te atormentan cuando tus esfuerzos fracasan? ¿Cómo tergiversa estos recuerdos el Usurpador?"
+      }
+    ]
+  },
+  "CORTE IMPERIAL": {
+    "name": "CORTE IMPERIAL",
+    "tier": "Tier 4 Social",
+    "description": "El majestuoso dominio de un imperio poderoso, lujosamente decorado con tesoros robados.",
+    "impulses": "Justificar y perpetuar el gobierno imperial, seducir a los rivales con promesas de poder y comodidad.",
+    "difficulty": 20,
+    "potentialadversaries": "Guardia espadachín, Cortesana, Caballero del reino, Monarca, Espía",
+    "features": [
+      {
+        "title": "Todos los caminos conducen aquí",
+        "type": "Passive",
+        "description": "Mientras esté en la Corte Imperial, un PJ tiene desventaja en tirada de Presencia hechos para realizar acciones que no se ajustan al estilo de vida imperial ni apoyan el dominio del imperio. Preguntas: ¿Cómo la forma en que se utiliza el lenguaje dificulta incluso discutir formas de vida alternativas? ¿Qué beneficios obvios para la lealtad crean fricción cuando se intenta discutir alternativas?"
+      },
+      {
+        "title": "Vasallos rivales",
+        "type": "Passive",
+        "description": "El Un PJ puede encontrar súbditos imperiales, vasallos y suplicantes en la corte, cada uno compitiendo por favores, buscando proximidad al poder, intercambiando favores por lealtad y elevando su estatus por encima de los demás. Algunos podrían estar desesperados por socavar a sus rivales, mientras que otros podrían incluso estar abiertos a discusiones que rocen la sedición. Preguntas: ¿Cómo se benefician del vasallaje y cuánto les ha costado? ¿Qué explotación los impulsa a considerar oponerse a lo imparable?"
+      },
+      {
+        "title": "La gravedad del imperio",
+        "type": "Action",
+        "description": "Gasta un Miedo para presentarle a un PJ una oportunidad de oro u ofrece satisfacer un objetivo importante a cambio de obedecer o apoyar al imperio. El objetivo debe realizar una tirada de Reacción de Presencia. En caso de fallo, deberán marcar todos sus Estrés o aceptar la oferta. Si ya han marcado todos sus Estrés, deberán aceptar la oferta o exiliarse del imperio. Si tienen éxito, deben marcar 1d4 Estrés ya que están afectados por la tentación. Preguntas: ¿Qué es lo que los PJ quieren tan desesperadamente que podrían considerar aportar este poder despiadado? ¿Cómo aprendieron los agentes imperiales los mayores deseos de los PJ?"
+      },
+      {
+        "title": "Decreto Imperial",
+        "type": "Action",
+        "description": "Gasta un Miedo para marcar una cuenta regresiva a largo plazo relacionada con la agenda del imperio en 1d4. Si esto desencadena la cuenta atrás, se anuncia en el tribunal una proclama relacionada con la agenda a medida que se ejecuta el plan. Preguntas: ¿Qué demostración de poder o transferencia de riqueza se necesitaba para acelerar este plan? ¿Las vidas de quiénes fueron perturbadas o trastocadas para que esto sucediera?"
+      },
+      {
+        "title": "Ojos por doquier",
+        "type": "Reaction",
+        "description": "En un resultado con Miedo, puedes gastar un Miedo para que alguien leal al imperio escuche conversaciones sediciosas dentro de la corte. Un PJ debe tener éxito en una tirada de Reacción de Instinto para darse cuenta de que el grupo ha sido escuchado y poder intentar interceptar al testigo antes de que los PJ quede expuesto. Preguntas: ¿Cómo ha comprometido el imperio este testimonio? ¿Por qué su primer impulso es proteger el imperio, incluso si este no los trata bien?"
+      }
+    ]
+  },
+  "OSARIO DEL NIGROMANTE": {
+    "name": "OSARIO DEL NIGROMANTE",
+    "tier": "Tier 4 Exploración",
+    "description": "Una cripta polvorienta con una biblioteca, pasillos tortuosos y abundantes sarcófagos, salpicados con la sangre de invasores desafortunados.",
+    "impulses": "Confunde a los intrusos, profundiza en los secretos que es mejor dejar enterrados, manifiesta la no-vida, desata una marea de no-muertos.",
+    "difficulty": 19,
+    "potentialadversaries": "Hueste del Archinecromante (Zombi perfeccionado, Legión zombi)",
+    "features": [
+      {
+        "title": "No hay lugar para vivir",
+        "type": "Passive",
+        "description": "Una característica o acción que borra HP requiere gastar un Esperanza para su uso. Si ya cuesta Esperanza, un PJ deberá gastar un Esperanza adicional. Preguntas: ¿Qué se siente al intentar sanar en un lugar tan antitético a la vida?"
+      },
+      {
+        "title": "Siglos de conocimiento",
+        "type": "Passive",
+        "description": "Un PJ puede investigar la biblioteca y el laboratorio y crear una tirada de Conocimiento para aprender información relacionada con los arcanos, la historia local y los planes del Nigromante. Preguntas: ¿Cuáles son los nombres de los tomos? ¿En qué proyecto está trabajando el nigromante y qué comunica sobre sus planes?"
+      },
+      {
+        "title": "Explosión esquelética",
+        "type": "Action",
+        "description": "Todos los objetivos dentro del alcance Cerca de un punto que elijas en este entorno deben tener éxito en una tirada de Reacción de Agilidad o tomar 4d8+8 daño físico de la metralla esquelética mientras parte del osario detona a su alrededor. Preguntas: ¿Qué arquitectura esquelética antigua se destruye? ¿Qué huesos se clavan en tu armadura?"
+      },
+      {
+        "title": "Aura de Muerte",
+        "type": "Action",
+        "description": "Una vez por escena, tira un d4. Cada no-muerto dentro del alcance Lejos del Nigromante puede eliminar HP y Estrés igual al resultado obtenido. Los no-muertos pueden elegir cómo se divide ese número entre HP y Estrés. Preguntas: ¿Cómo se manifiesta su renovado vigor? ¿Parecen más reales o, paradójicamente, están más deteriorados pero vigorosos?"
+      },
+      {
+        "title": "¡Siguen viniendo!",
+        "type": "Action",
+        "description": "Gasta un Miedo para convocar a 1d6 zombis podridos, dos zombis perfeccionados o una legión de zombis, que aparecen en el rango Cerca de un PJ elegido. Preguntas: ¿Quiénes eran estas personas antes de convertirse en peones del nigromante? ¿Qué vestigios de esas vidas quedan para que los héroes vean?"
+      }
+    ]
+  }
+}

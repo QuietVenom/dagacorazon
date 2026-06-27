@@ -1,0 +1,3972 @@
+{
+  "ESCAVADOR ACIDO": {
+    "name": "ESCAVADOR ACIDO",
+    "tier": "Tier 1 Solo",
+    "description": "Um inseto do tamanho de um cavalo com garras escavadoras e sangue ácido.",
+    "motivestactics": "Enterrar, arrastar, alimentar, reposicionar",
+    "difficulty": 14,
+    "thresholds": "8/15",
+    "hp": 8,
+    "stress": 3,
+    "atk": "+3",
+    "weapons": "Garras: Muito perto | 1d12+2 phy",
+    "experience": "Sentido de Tremor +2",
+    "features": [
+      {
+        "title": "Implacavel (3)",
+        "type": "Passive",
+        "description": "O Escavador Acido pode ser colocado em foco ate tres vezes por turno do MJ. Gaste Medo normalmente para coloca-lo em foco."
+      },
+      {
+        "title": "Erupcao de terra",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer o Escavador Acido explodir para fora do chao. Todas as criaturas a Muito perto devem passar em um teste de Reacao de Agilidade ou ser derrubadas e ficar Vulneraveis ate a proxima acao."
+      },
+      {
+        "title": "Cuspir acido",
+        "type": "Action",
+        "description": "Faca um ataque contra todos os alvos a frente do Escavador Acido em alcance Perto. Os alvos contra os quais ele tiver sucesso sofrem 2d6 de dano fisico e devem marcar um Espaco de Armadura sem receber seus beneficios (ainda podem usar armadura para reduzir o dano). Se nao puderem marcar um Espaco de Armadura, devem marcar 1 HP adicional e voce ganha um Medo."
+      },
+      {
+        "title": "Banho acido",
+        "type": "Reaction",
+        "description": "Quando o Escavador Acido sofre dano severo, todas as criaturas em alcance Perto sao banhadas por seu sangue acido e sofrem 1d10 de dano fisico. Esse respingo cobre o chao a Muito perto com sangue, e qualquer criatura que nao seja o Escavador Acido e atravesse a area sofre 1d6 de dano fisico."
+      }
+    ]
+  },
+  "URSO": {
+    "name": "URSO",
+    "tier": "Tier 1 Bruto",
+    "description": "Um grande urso com pêlo grosso e garras poderosas.",
+    "motivestactics": "Escale, defenda território, esmurre, rastreie",
+    "difficulty": 14,
+    "thresholds": "9/17",
+    "hp": 7,
+    "stress": 2,
+    "atk": "+1",
+    "weapons": "Garras: Corpo a corpo | 1d8+3 phy",
+    "experience": "Emboscador +3, Sentidos Aguçados +2",
+    "features": [
+      {
+        "title": "Força esmagadora",
+        "type": "Passive",
+        "description": "Os alvos que marcam HP do ataque padrão do Urso são empurrados de volta para o alcance de Muito perto."
+      },
+      {
+        "title": "Mordida",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer um ataque contra um alvo dentro do alcance do Corpo a corpo. Em caso de sucesso, distribua 3d4+10 dano físico e o alvo é Imobilizado até que eles se libertem com um teste de Força bem-sucedido."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando o Urso faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "OGRO DAS CAVERNAS": {
+    "name": "OGRO DAS CAVERNAS",
+    "tier": "Tier 1 Solo",
+    "description": "Um enorme humanóide que vê toda a vida sapiente como alimento.",
+    "motivestactics": "Morda cabeças, festeje, arranque membros, pise, jogue inimigos",
+    "difficulty": 13,
+    "thresholds": "8/15",
+    "hp": 8,
+    "stress": 3,
+    "atk": "+1",
+    "weapons": "Clube: Muito perto | 1d10+2 phy",
+    "experience": "Jogue +2",
+    "features": [
+      {
+        "title": "Avanço",
+        "type": "Passive",
+        "description": "Você deve gastar um Medo para foco, o Ogro. Enquanto colocado em foco, eles podem realizar seu ataque padrão contra todos os alvos dentro do alcance."
+      },
+      {
+        "title": "Bone Breaker",
+        "type": "Passive",
+        "description": "Os ataques do Ogro causam dano direto."
+      },
+      {
+        "title": "Hail of Boulders",
+        "type": "Action",
+        "description": "Marque um Estresse para pegar objetos pesados e jogá-los em todos os alvos na frente do Ogro dentro do alcance de Longe. Faça um ataque contra esses alvos. Os alvos contra os quais o Ogro consegue obter 1d10+2 dano físico. Se eles tiverem sucesso contra mais de um alvo, você ganha um Medo."
+      },
+      {
+        "title": "Fúria Furiosa",
+        "type": "Reaction",
+        "description": "Quando o Ogro marca 2 ou mais HP, ele pode atacar. Mova o Ogro para um ponto dentro do alcance de Perto e cause 2d6+3 dano físico direto a todos os alvos em seu caminho."
+      }
+    ]
+  },
+  "CONSTRUTO": {
+    "name": "CONSTRUTO",
+    "tier": "Tier 1 Solo",
+    "description": "Um ser aproximadamente humanóide de pedra e aço, montado e animado por magia.",
+    "motivestactics": "Destrua o ambiente, sirva o criador, esmague alvos, atropele grupos",
+    "difficulty": 13,
+    "thresholds": "7/15",
+    "hp": 9,
+    "stress": 4,
+    "atk": "+4",
+    "weapons": "Golpe de punho: Corpo a corpo | 1d20 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Implacável (2)",
+        "type": "Passive",
+        "description": "O Constructo pode ser colocado em foco até duas vezes por turno do MJ. Gaste Medo normalmente para foco."
+      },
+      {
+        "title": "Estrutura Fraca",
+        "type": "Passive",
+        "description": "Quando o Constructo marca HP de dano físico, ele deve marcar um HP adicional."
+      },
+      {
+        "title": "Atropelar",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer um ataque contra todos os alvos no caminho do Construto quando eles se moverem. Os alvos contra os quais o Construto obtém sucesso recebem 1d8 dano físico."
+      },
+      {
+        "title": "Sobrecarga",
+        "type": "Reaction",
+        "description": "Antes de rolar o dano para o ataque do Constructo, você pode marcar um Estresse para ganhar um bônus de +10 na jogada de dano. O Constructo pode então pegar o foco novamente."
+      },
+      {
+        "title": "Tremor mortal",
+        "type": "Reaction",
+        "description": "Quando o Constructo marca seu último HP, a magia que o alimenta se rompe em uma explosão de força. Faça um ataque com vantagem contra todos os alvos dentro do alcance do Muito perto. Os alvos contra os quais o Constructo obtém sucesso recebem 1d12+2 dano mágico."
+      }
+    ]
+  },
+  "CORTESÃO": {
+    "name": "CORTESÃO",
+    "tier": "Tier 1 Social",
+    "description": "Uma socialite ambiciosa e vestida ostensivamente.",
+    "motivestactics": "Desacreditar, ganhar favor, manobrar, esquematizar",
+    "difficulty": 12,
+    "thresholds": "4/8",
+    "hp": 3,
+    "stress": 4,
+    "atk": "−4",
+    "weapons": "Adagas: Corpo a corpo | 1d4+2 phy",
+    "experience": "Socialite +3",
+    "features": [
+      {
+        "title": "Zombaria",
+        "type": "Action",
+        "description": "Marque um Estresse para dizer algo zombeteiro e force um alvo dentro do alcance de Perto a fazer um teste de Reação de Presença (14) para ver se consegue salvar a face. Em caso de falha, o alvo deve marcar 2 Estresse e é Vulnerável até a cena terminar."
+      },
+      {
+        "title": "Bode expiatório",
+        "type": "Action",
+        "description": "Gaste um Medo e mire em um PJ. O Cortesão convence uma multidão ou indivíduo proeminente de que o alvo é a causa do seu conflito ou infortúnio atual."
+      }
+    ]
+  },
+  "DEFENSOR DE RAIZ PROFUNDA": {
+    "name": "DEFENSOR DE RAIZ PROFUNDA",
+    "tier": "Tier 1 Bruto",
+    "description": "Uma pessoa vegetal corpulenta com vinhas agarradoras.",
+    "motivestactics": "Emboscar, agarrar, proteger, esmurrar",
+    "difficulty": 10,
+    "thresholds": "8/14",
+    "hp": 7,
+    "stress": 3,
+    "atk": "+2",
+    "weapons": "Vinhas: Perto | 1d8+3 phy",
+    "experience": "Enorme +3",
+    "features": [
+      {
+        "title": "Ground Slam",
+        "type": "Action",
+        "description": "Bate no chão, jogando todos os alvos dentro do alcance de Muito perto de volta ao alcance de Longe. Cada alvo repelido desta forma deve marcar um Estresse."
+      },
+      {
+        "title": "Agarrar e arrastar",
+        "type": "Action",
+        "description": "Faça um ataque contra um alvo dentro do alcance de Perto. Em caso de sucesso, gaste um Medo para puxá-los para o alcance de Corpo a corpo, cause 1d6+2 dano físico e Contenha-os até que o Defensor tome dano severo."
+      }
+    ]
+  },
+  "LOBO TERRIVEL": {
+    "name": "LOBO TERRIVEL",
+    "tier": "Tier 1 Espreitador",
+    "description": "Um grande lobo com dentes ameaçadores, raramente encontrado sozinho.",
+    "motivestactics": "Defenda o território, Harry, proteja a matilha, cerque, rastreie",
+    "difficulty": 12,
+    "thresholds": "5/9",
+    "hp": 4,
+    "stress": 3,
+    "atk": "+2",
+    "weapons": "Garras: Corpo a corpo | 1d6+2 phy",
+    "experience": "Sentidos Aguçados +3",
+    "features": [
+      {
+        "title": "Táticas de matilha",
+        "type": "Passive",
+        "description": "Se o Lobo fizer um ataque padrão bem-sucedido e outro Lobo Terrível estiver dentro do alcance Corpo a corpo do alvo, cause 1d6+5 dano físico em vez do dano padrão e você ganhará um Medo."
+      },
+      {
+        "title": "Ataque Hobbling",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer um ataque contra um alvo dentro do alcance de Corpo a corpo. Em caso de sucesso, distribua 3d4+10 dano físico diretos e torne-os Vulnerável até que eles liberem pelo menos 1 HP."
+      }
+    ]
+  },
+  "MOSQUITOS GIGANTES": {
+    "name": "MOSQUITOS GIGANTES",
+    "tier": "Tier 1 Horda (5/CV)",
+    "description": "Dezenas de mosquitos do tamanho de um punho, voando juntos em busca de proteção.",
+    "motivestactics": "Voe para longe, assedie, roube sangue",
+    "difficulty": 10,
+    "thresholds": "5/9",
+    "hp": 6,
+    "stress": 3,
+    "atk": "−2",
+    "weapons": "Tromba: Corpo a corpo | 1d8+3 phy",
+    "experience": "Camuflagem +2",
+    "features": [
+      {
+        "title": "Horda (1d4+1)",
+        "type": "Passive",
+        "description": "Quando os Mosquitos marcaram metade ou mais de seu HP, seu ataque padrão causa 1d4+1 dano físico."
+      },
+      {
+        "title": "Voar",
+        "type": "Passive",
+        "description": "Enquanto voam, os Mosquitos recebem um bônus de +2 em sua Dificuldade."
+      },
+      {
+        "title": "Sugador de Sangue",
+        "type": "Reaction",
+        "description": "Quando o ataque dos Mosquitos faz com que um alvo marque HP, você pode marcar um Estresse para forçar o alvo a marcar um HP adicional."
+      }
+    ]
+  },
+  "RATO GIGANTE": {
+    "name": "RATO GIGANTE",
+    "tier": "Tier 1 Lacaio",
+    "description": "Um roedor do tamanho de um gato, hábil em catar lixo e sobreviver.",
+    "motivestactics": "Tocar, passar fome, vasculhar, desgastar",
+    "difficulty": 10,
+    "thresholds": "None",
+    "hp": 1,
+    "stress": 1,
+    "atk": "−4",
+    "weapons": "Garras: Corpo a corpo | 1 físico",
+    "experience": "Sentidos Aguçados +3",
+    "features": [
+      {
+        "title": "Lacaio (3)",
+        "type": "Passive",
+        "description": "O Rato é derrotado quando sofre algum dano. Para cada 3 danos que um PJ causa ao Rato, derrote um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso."
+      },
+      {
+        "title": "Ataque em Grupo",
+        "type": "Action",
+        "description": "Gaste um Medo para escolher um alvo e foco todos os Ratos Gigantes dentro do alcance de Perto deles. Esses Lacaios se movem para o alcance Corpo a corpo do alvo e fazem uma jogada de ataque compartilhada. Em caso de sucesso, eles negociam 1 dano físico cada. Combine esse dano."
+      }
+    ]
+  },
+  "ESCORPIÃO GIGANTE": {
+    "name": "ESCORPIÃO GIGANTE",
+    "tier": "Tier 1 Bruto",
+    "description": "Um aracnídeo de tamanho humano com garras dilacerantes e uma cauda dolorida.",
+    "motivestactics": "Emboscar, alimentar, agarrar, envenenar",
+    "difficulty": 13,
+    "thresholds": "7/13",
+    "hp": 6,
+    "stress": 3,
+    "atk": "+1",
+    "weapons": "Pinças: Corpo a corpo | 1d12+2 phy",
+    "experience": "Camuflagem +2",
+    "features": [
+      {
+        "title": "Golpe Duplo",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer um ataque padrão contra dois alvos dentro do alcance do Corpo a corpo."
+      },
+      {
+        "title": "Ferrão Venenoso",
+        "type": "Action",
+        "description": "Faça um ataque contra um alvo dentro do alcance de Muito perto. Com um sucesso, gaste um Medo para causar 1d4+4 dano físico e envenená-los até seu próximo descanso ou eles terão sucesso com um teste de Conhecimento (16). Enquanto Envenenado, o alvo deve rolar um d6 antes de fazer uma jogada de ação. Com um resultado igual ou inferior a 4, eles devem marcar Estresse."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando o Escorpião faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "SERPENTE DE VIDRO": {
+    "name": "SERPENTE DE VIDRO",
+    "tier": "Tier 1 Padrão",
+    "description": "Uma serpente transparente com uma cabeça enorme que deixa um rastro de cacos de vidro por onde passa.",
+    "motivestactics": "Suba, alimente, mantenha distância, assuste",
+    "difficulty": 14,
+    "thresholds": "6/10",
+    "hp": 5,
+    "stress": 3,
+    "atk": "+2",
+    "weapons": "Presas de vidro: Muito perto | 1d8+2 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Estilhacos que rasgam armadura",
+        "type": "Passive",
+        "description": "Quando alguem realiza um ataque bem-sucedido contra a Serpente de Vidro dentro de Corpo a corpo, o atacante deve marcar um Espaco de Armadura sem receber seus beneficios (ainda pode usar armadura para reduzir o dano). Se nao puder marcar um Espaco de Armadura, deve marcar 1 HP adicional."
+      },
+      {
+        "title": "Serpente giratoria",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer um ataque contra todos os alvos a Muito perto. Os alvos contra os quais a Serpente de Vidro tiver sucesso sofrem 1d6+1 de dano fisico."
+      },
+      {
+        "title": "Cuspidor",
+        "type": "Action",
+        "description": "Gaste um Medo para introduzir um dado Cuspidor d6. Quando a Serpente de Vidro estiver em foco, role esse dado. Com resultado 5 ou mais, todos os alvos a frente da Serpente de Vidro em alcance Longe devem passar em um teste de Reacao de Agilidade ou sofrer 1d4 de dano fisico. A Serpente de Vidro pode voltar a pegar o foco uma segunda vez neste turno do MJ."
+      }
+    ]
+  },
+  "HOSTIGADOR": {
+    "name": "HOSTIGADOR",
+    "tier": "Tier 1 Padrão",
+    "description": "Um lutador ágil armado com dardos.",
+    "motivestactics": "Flanco, Harry, pipa, lucro",
+    "difficulty": 12,
+    "thresholds": "5/9",
+    "hp": 3,
+    "stress": 3,
+    "atk": "+1",
+    "weapons": "Dardo: Perto | 1d6+2 phy",
+    "experience": "Camuflagem +2",
+    "features": [
+      {
+        "title": "Manter distancia",
+        "type": "Passive",
+        "description": "Depois de realizar um ataque padrao, o Hostigador pode se mover para qualquer lugar dentro de alcance Longe."
+      },
+      {
+        "title": "Recuar",
+        "type": "Reaction",
+        "description": "Quando uma criatura entra em Corpo a corpo para realizar um ataque, voce pode marcar um Estresse antes da jogada de ataque para se mover para qualquer lugar dentro de alcance Perto e fazer um ataque contra essa criatura. Em caso de sucesso, cause 1d10+2 de dano fisico."
+      }
+    ]
+  },
+  "GUARDA ARQUEIRO": {
+    "name": "GUARDA ARQUEIRO",
+    "tier": "Tier 1 À distância",
+    "description": "Um guarda alto carregando um arco longo e uma aljava com flechas decoradas com as cores do povoado.",
+    "motivestactics": "Prender, fechar portões, passar o dia, fixar",
+    "difficulty": 10,
+    "thresholds": "4/8",
+    "hp": 3,
+    "stress": 2,
+    "atk": "+1",
+    "weapons": "Arco longo: Longe | 1d8+3 phy",
+    "experience": "Conhecimento local +3",
+    "features": [
+      {
+        "title": "Tiro Hobbling",
+        "type": "Action",
+        "description": "Faça um ataque contra um alvo dentro do alcance de Longe. Em caso de sucesso, marque um Estresse para lidar com 1d12+3 dano físico. Se o alvo marcar HP com este ataque, ele terá desvantagem em teste de Agilidades até liberar pelo menos 1 HP."
+      }
+    ]
+  },
+  "GUARDA ESPADACHIM": {
+    "name": "GUARDA ESPADACHIM",
+    "tier": "Tier 1 Padrão",
+    "description": "Um guarda blindado portando espada e escudo pintados com as cores do assentamento.",
+    "motivestactics": "Prender, fechar portões, passar o dia, fixar",
+    "difficulty": 12,
+    "thresholds": "5/9",
+    "hp": 5,
+    "stress": 2,
+    "atk": "+1",
+    "weapons": "Espada longa: Corpo a corpo | 1d6+1 phy",
+    "experience": "Conhecimento local +3",
+    "features": [
+      {
+        "title": "Muralha de Escudos",
+        "type": "Passive",
+        "description": "Uma criatura que tentar se mover dentro do alcance Muito perto do Guarda deve ter sucesso em um teste de Agilidade. Se Guardas Laminados adicionais estiverem em uma fila ao lado do primeiro, e cada um estiver dentro do alcance Corpo a corpo de outro guarda na fila, a Dificuldade aumenta pelo número total de guardas naquela fila."
+      },
+      {
+        "title": "Deter",
+        "type": "Action",
+        "description": "Faça um ataque contra um alvo dentro do alcance de Muito perto. Em caso de sucesso, marque um Estresse para Restringir o alvo até que ele se liberte com um ataque bem-sucedido, teste de Finesse ou teste de Força."
+      }
+    ]
+  },
+  "GUARDA-CHEFE": {
+    "name": "GUARDA-CHEFE",
+    "tier": "Tier 1 Líder",
+    "description": "Um guarda experiente com uma maça, um apito e uma voz berrante.",
+    "motivestactics": "Prender, fechar portões, prender, buscar glória",
+    "difficulty": 15,
+    "thresholds": "7/13",
+    "hp": 7,
+    "stress": 3,
+    "atk": "+4",
+    "weapons": "Maça: Corpo a corpo | 1d10+4 phy",
+    "experience": "Comandante +2, Conhecimento Local +2",
+    "features": [
+      {
+        "title": "Guardas de Reunião",
+        "type": "Action",
+        "description": "Gaste 2 Medo para foco o Guarda Chefe e até 2d4 aliados dentro do alcance de Longe."
+      },
+      {
+        "title": "No meu sinal",
+        "type": "Reaction",
+        "description": "Contagem regressiva (5). Quando o Head Guard estiver no foco pela primeira vez, ative a contagem regressiva. Ele diminui quando um PJ faz uma jogada de ataque. Quando é acionado, todos os Guardas Arqueiros dentro do alcance de Longe fazem um ataque padrão com vantagem contra o alvo mais próximo dentro de seu alcance. Se algum ataque for bem-sucedido no mesmo alvo, combine seus danos."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando o Guarda Chefe faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "BANDIDO DA FACA SERRILHADA": {
+    "name": "BANDIDO DA FACA SERRILHADA",
+    "tier": "Tier 1 Padrão",
+    "description": "Um criminoso astuto com uma capa e uma das facas icônicas da gangue.",
+    "motivestactics": "Fugir, lucrar, roubar, jogar fumaça",
+    "difficulty": 12,
+    "thresholds": "8/14",
+    "hp": 5,
+    "stress": 3,
+    "atk": "+1",
+    "weapons": "Adagas: Corpo a corpo | 1d8+1 phy",
+    "experience": "Ladrão +2",
+    "features": [
+      {
+        "title": "Alpinista",
+        "type": "Passive",
+        "description": "O Bandido sobe com a mesma facilidade com que corre."
+      },
+      {
+        "title": "De cima",
+        "type": "Passive",
+        "description": "Quando o Bandido obtém sucesso em um ataque padrão vindo de cima de um alvo, ele causa 1d10+1 dano físico em vez do dano padrão."
+      }
+    ]
+  },
+  "BRUXO DA FACA SERRILHADA": {
+    "name": "BRUXO DA FACA SERRILHADA",
+    "tier": "Tier 1 Suporte",
+    "description": "Um bandido empunhando um bastão em uma capa adornada com parafernália mágica, usando maldições para irritar seus inimigos.",
+    "motivestactics": "Comando, hex, lucro",
+    "difficulty": 13,
+    "thresholds": "5/9",
+    "hp": 4,
+    "stress": 4,
+    "atk": "+2",
+    "weapons": "Equipe: Longe | 1d6+2 mágico",
+    "experience": "Conhecimento Mágico +2",
+    "features": [
+      {
+        "title": "Maldicao",
+        "type": "Action",
+        "description": "Escolha um alvo dentro de alcance Longe e Amaldicoe-o temporariamente. Enquanto o alvo estiver Amaldicoado, voce pode marcar um Estresse quando ele rolar com Esperanca para fazer a rolagem ser com Medo em vez disso."
+      },
+      {
+        "title": "Fluxo caotico",
+        "type": "Action",
+        "description": "Faca um ataque contra ate tres alvos dentro de Muito perto. Marque um Estresse para causar 2d6+3 de dano magico aos alvos contra os quais o Bruxo da Faca Serrilhada tiver sucesso."
+      }
+    ]
+  },
+  "QUEBRA-JOELHOS DA FACA SERRILHADA": {
+    "name": "QUEBRA-JOELHOS DA FACA SERRILHADA",
+    "tier": "Tier 1 Bruto",
+    "description": "Um lutador imponente carregando um grande porrete.",
+    "motivestactics": "Lutar, intimidar, lucrar, roubar",
+    "difficulty": 12,
+    "thresholds": "7/14",
+    "hp": 7,
+    "stress": 4,
+    "atk": "−3",
+    "weapons": "Clube: Corpo a corpo | 1d4+6 phy",
+    "experience": "Ladrão +2, Ameaças Reveladas +3",
+    "features": [
+      {
+        "title": "Eu seguro eles",
+        "type": "Passive",
+        "description": "Criaturas Imobilizadas pelo Quebra-joelhos da Faca Serrilhada sofrem dano dobrado de ataques feitos por outros adversarios."
+      },
+      {
+        "title": "Segure-os no chao",
+        "type": "Action",
+        "description": "Faca um ataque contra um alvo dentro de Corpo a corpo. Em caso de sucesso, o alvo nao sofre dano, mas fica Imobilizado e Vulneravel. O alvo pode se libertar e remover ambas as condicoes com um teste de Forca bem-sucedido, ou e libertado automaticamente se o Quebra-joelhos da Faca Serrilhada sofrer dano maior ou superior."
+      }
+    ]
+  },
+  "LACAIO DA FACA SERRILHADA": {
+    "name": "LACAIO DA FACA SERRILHADA",
+    "tier": "Tier 1 Lacaio",
+    "description": "Um ladrão com roupas simples e pequenas adagas, ansioso para provar seu valor.",
+    "motivestactics": "Fuja, lucre, jogue fumaça",
+    "difficulty": 9,
+    "thresholds": "None",
+    "hp": 1,
+    "stress": 1,
+    "atk": "−2",
+    "weapons": "Adagas: Corpo a corpo | 2 phy",
+    "experience": "Ladrão +2",
+    "features": [
+      {
+        "title": "Lacaio (3)",
+        "type": "Passive",
+        "description": "O Lacaio é derrotado quando sofre algum dano. Para cada 3 danos que um PJ causa ao Lacaio, derrote um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso."
+      },
+      {
+        "title": "Ataque em Grupo",
+        "type": "Action",
+        "description": "Gaste um Medo para escolher um alvo e foco todos os Lacaios de Faca Dentada dentro do alcance Perto deles. Esses Lacaios se movem para o alcance Corpo a corpo do alvo e fazem uma jogada de ataque compartilhada. Em caso de sucesso, eles negociam 2 dano físico cada. Combine esse dano."
+      }
+    ]
+  },
+  "TENENTE DA FACA SERRILHADA": {
+    "name": "TENENTE DA FACA SERRILHADA",
+    "tier": "Tier 1 Líder",
+    "description": "Um bandido experiente em couro de qualidade, com voz forte e olhos astutos.",
+    "motivestactics": "Intimidar, comandar, lucrar, reforçar",
+    "difficulty": 13,
+    "thresholds": "7/14",
+    "hp": 6,
+    "stress": 3,
+    "atk": "+2",
+    "weapons": "Dardo: Perto | 1d8+3 phy",
+    "experience": "Conhecimento local +2",
+    "features": [
+      {
+        "title": "Tático",
+        "type": "Action",
+        "description": "Quando você foco, o Tenente, marque um Estresse para também foco dois aliados dentro do alcance de Perto."
+      },
+      {
+        "title": "Mais de onde isso veio",
+        "type": "Action",
+        "description": "Evoque três lacaios de faca irregular, que aparecem no alcance de Longe."
+      },
+      {
+        "title": "Coup de Grace",
+        "type": "Action",
+        "description": "Gaste um Medo para fazer um ataque contra um alvo Vulnerável dentro do alcance de Perto. Em caso de sucesso, distribua 2d6+12 dano físico e o alvo deve marcar um Estresse."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando o Tenente faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "SOMBRA DA FACA SERRILHADA": {
+    "name": "SOMBRA DA FACA SERRILHADA",
+    "tier": "Tier 1 Espreitador",
+    "description": "Um canalha ágil carregando uma faca maligna e utilizando magia sombria para isolar alvos.",
+    "motivestactics": "Emboscar, esconder, dividir, lucrar",
+    "difficulty": 12,
+    "thresholds": "4/8",
+    "hp": 3,
+    "stress": 3,
+    "atk": "+1",
+    "weapons": "Adagas: Corpo a corpo | 1d4+4 phy",
+    "experience": "Intrusão +3",
+    "features": [
+      {
+        "title": "Backstab",
+        "type": "Passive",
+        "description": "Quando a Sombra tem sucesso em um ataque padrão que tem vantagem, ela causa 1d6+6 dano físico em vez de seu dano padrão."
+      },
+      {
+        "title": "Cloaked",
+        "type": "Action",
+        "description": "Torne-se Escondido até depois do próximo ataque da Sombra. Os ataques feitos enquanto Escondido deste recurso possuem vantagem."
+      }
+    ]
+  },
+  "ATIRADOR DE ELITE DA FACA SERRILHADA": {
+    "name": "ATIRADOR DE ELITE DA FACA SERRILHADA",
+    "tier": "Tier 1 À distância",
+    "description": "Um bandido esguio atacando com um arco curto.",
+    "motivestactics": "Emboscar, esconder, lucrar, reposicionar",
+    "difficulty": 13,
+    "thresholds": "4/7",
+    "hp": 3,
+    "stress": 2,
+    "atk": "−1",
+    "weapons": "Arco curto: Longe | 1d10+2 phy",
+    "experience": "Furtividade +2",
+    "features": [
+      {
+        "title": "Ataque Invisível",
+        "type": "Passive",
+        "description": "Se o Atirador de elite for Escondido quando fizer um ataque padrão bem-sucedido contra um alvo, ele causará 1d10+4 dano físico em vez de seu dano padrão."
+      }
+    ]
+  },
+  "COMERCIANTE": {
+    "name": "COMERCIANTE",
+    "tier": "Tier 1 Social",
+    "description": "Um comerciante bem vestido com um olhar aguçado para ganhos financeiros.",
+    "motivestactics": "Compre na baixa e venda na alta, crie demanda, infle preços, busque lucro",
+    "difficulty": 12,
+    "thresholds": "4/8",
+    "hp": 3,
+    "stress": 3,
+    "atk": "−4",
+    "weapons": "Clube: Corpo a corpo | 1d4+1 phy",
+    "experience": "Negociador Astuto +3",
+    "features": [
+      {
+        "title": "Tratamento Preferencial",
+        "type": "Passive",
+        "description": "Um PJ que obtiver sucesso em um teste de Presença contra o Comerciante ganha desconto nas compras. Um PJ que falhar em um teste de Presença contra o Comerciante deverá pagar mais e terá desvantagem em futuros teste de Presenças contra o Comerciante."
+      },
+      {
+        "title": "The Runaround",
+        "type": "Passive",
+        "description": "Quando um PJ obtém um 14 ou menos em um teste de Presença feito contra o Comerciante, ele deve marcar um Estresse."
+      }
+    ]
+  },
+  "ELEMENTAL DO CAOS MENOR": {
+    "name": "ELEMENTAL DO CAOS MENOR",
+    "tier": "Tier 1 Solo",
+    "description": "Uma massa cintilante de magia incontrolável.",
+    "motivestactics": "Confundir, desestabilizar, transmogrificar",
+    "difficulty": 14,
+    "thresholds": "7/14",
+    "hp": 7,
+    "stress": 3,
+    "atk": "+3",
+    "weapons": "Explosão de dobra: Perto | 1d12+6 mágico",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Forma Arcana",
+        "type": "Passive",
+        "description": "O Elemental é resistente a dano mágico."
+      },
+      {
+        "title": "Fluxo repugnante",
+        "type": "Action",
+        "description": "Marque um HP para forçar todos os alvos dentro do alcance de Perto a marcar um Estresse e se tornarem Vulnerável até seu próximo descanso ou eles liberarem um HP."
+      },
+      {
+        "title": "Remake Reality",
+        "type": "Action",
+        "description": "Gaste um Medo para transformar a área dentro do alcance de Muito perto em um bioma diferente. Todos os alvos nesta área recebem 2d6+3 dano mágico direto."
+      },
+      {
+        "title": "Reflexo Mágico",
+        "type": "Reaction",
+        "description": "Quando o Elemental sofre dano de um ataque dentro do alcance de Perto, causa uma quantidade de dano ao atacante igual à metade do dano causado."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando o Elemental faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "ELEMENTAL DE FOGO MENOR": {
+    "name": "ELEMENTAL DE FOGO MENOR",
+    "tier": "Tier 1 Solo",
+    "description": "Uma chama viva do tamanho de uma grande fogueira.",
+    "motivestactics": "Cerque inimigos, aumente de tamanho, intimide, inicie incêndios",
+    "difficulty": 13,
+    "thresholds": "7/15",
+    "hp": 9,
+    "stress": 3,
+    "atk": "+3",
+    "weapons": "Explosão Elemental: Longe | 1d10+4 mágico",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Implacável (2)",
+        "type": "Passive",
+        "description": "O Elemental pode ser colocado em foco até duas vezes por turno do MJ. Gaste Medo normalmente para foco."
+      },
+      {
+        "title": "Terra Arrasada",
+        "type": "Action",
+        "description": "Marque um Estresse para escolher um ponto dentro do alcance de Longe. O solo dentro do alcance do Muito perto daquele ponto imediatamente explode em chamas. Todas as criaturas dentro desta área devem fazer um teste de Reação de Agilidade. Os alvos que falham recebem 2d8 dano mágico das chamas. Os alvos bem-sucedidos sofrem metade do dano."
+      },
+      {
+        "title": "Explosão",
+        "type": "Action",
+        "description": "Gaste um Medo para explodir em uma explosão de fogo. Faça um ataque contra todos os alvos dentro do alcance do Perto. Os alvos contra os quais o Elemental obtém sucesso recebem 1d8 dano mágico e são repelidos para o alcance de Longe."
+      },
+      {
+        "title": "Consumir Kindling",
+        "type": "Reaction",
+        "description": "Três vezes por cena, quando o Elemental se move em direção a objetos altamente inflamáveis, consuma-os para limpar um HP ou um Estresse."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando o Elemental faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "DEMÔNIO MENOR": {
+    "name": "DEMÔNIO MENOR",
+    "tier": "Tier 1 Solo",
+    "description": "Uma criatura de cor carmesim dos Círculos Abaixo, consumida pela raiva contra todos os mortais.",
+    "motivestactics": "Agir de forma errática, encurralar alvos, saborear a dor, o tormento",
+    "difficulty": 14,
+    "thresholds": "8/15",
+    "hp": 8,
+    "stress": 4,
+    "atk": "+3",
+    "weapons": "Garras: Corpo a corpo | 1d8+6 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Implacável (2)",
+        "type": "Passive",
+        "description": "O Demônio pode ser colocado em foco até duas vezes por turno do MJ. Gaste Medo normalmente para foco."
+      },
+      {
+        "title": "Todos devem cair",
+        "type": "Passive",
+        "description": "Quando um PJ falha com Medo enquanto está dentro do alcance de Perto do Demônio, ele perde uma Esperança."
+      },
+      {
+        "title": "Fogo do Inferno",
+        "type": "Action",
+        "description": "Gaste um Medo para fazer chover fogo do inferno dentro do alcance do Longe. Todos os alvos dentro da área devem fazer um teste de Reação de Agilidade. Os alvos que falharem recebem 1d20+3 dano mágico. Os alvos bem-sucedidos sofrem metade do dano."
+      },
+      {
+        "title": "Reaper",
+        "type": "Reaction",
+        "description": "Antes de rolar o dano para o ataque do Demônio, você pode marcar um Estresse para ganhar um bônus na jogada de dano igual ao número atual de HP marcado do Demônio."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando o Demônio faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "TREANT MENOR": {
+    "name": "TREANT MENOR",
+    "tier": "Tier 1 Lacaio",
+    "description": "Uma muda ambulante levantando-se para defender sua floresta.",
+    "motivestactics": "Esmague, oprima, proteja",
+    "difficulty": 10,
+    "thresholds": "None",
+    "hp": 1,
+    "stress": 1,
+    "atk": "−2",
+    "weapons": "Ramo com garras: Corpo a corpo | 4 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Lacaio (5)",
+        "type": "Passive",
+        "description": "O Treant Menor e derrotado quando sofre qualquer dano. Para cada 5 de dano que um PJ causar ao Treant Menor, derrote um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso."
+      },
+      {
+        "title": "Ataque em grupo",
+        "type": "Action",
+        "description": "Gaste um Medo para escolher um alvo e colocar em foco todos os Treants Menores dentro de Perto desse alvo. Esses Lacaios se movem para Corpo a corpo e fazem uma unica jogada de ataque compartilhada. Em caso de sucesso, causam 4 de dano fisico cada um. Some esse dano."
+      }
+    ]
+  },
+  "LODO VERDE": {
+    "name": "LODO VERDE",
+    "tier": "Tier 1 Espreitador",
+    "description": "Um monte móvel de limo verde translúcido.",
+    "motivestactics": "Camuflar, consumir e multiplicar, rastejar, envolver",
+    "difficulty": 8,
+    "thresholds": "5/10",
+    "hp": 5,
+    "stress": 2,
+    "atk": "+1",
+    "weapons": "Apêndice Ooze: Corpo a corpo | 1d6+1 mágico",
+    "experience": "Camuflagem +3",
+    "features": [
+      {
+        "title": "Lento",
+        "type": "Passive",
+        "description": "Quando você foco o Ooze e ele não tem um token em seu bloco de estatísticas, ele ainda não pode agir. Coloque uma ficha no bloco de estatísticas e descreva o que eles estão se preparando para fazer. Quando você foco o Ooze e ele tiver um token em seu bloco de estatísticas, limpe o token e ele poderá agir."
+      },
+      {
+        "title": "Forma Ácida",
+        "type": "Passive",
+        "description": "Quando o Ooze faz um ataque bem-sucedido, o alvo deve marcar um Espaço de Armadura sem receber seus benefícios (ele ainda pode usar armadura para reduzir o dano). Se não conseguirem marcar um Espaço de Armadura, deverão marcar um HP adicional."
+      },
+      {
+        "title": "Envelop",
+        "type": "Action",
+        "description": "Faça um ataque padrão contra um alvo dentro do alcance de Corpo a corpo. Em caso de sucesso, o Lodo os envolve e o alvo deve marcar 2 Estresse. O alvo deve marcar um Estresse adicional ao fazer uma jogada de ação. Se o Ooze pegar dano severo, o alvo será libertado."
+      },
+      {
+        "title": "Dividir",
+        "type": "Reaction",
+        "description": "Quando o Ooze tem 3 ou mais HP marcados, você pode gastar um Medo para dividi-los em dois Tiny Green Oozes (sem HP marcado ou Estresse). Imediatamente foco ambos."
+      }
+    ]
+  },
+  "PEQUENA LAMA VERDE": {
+    "name": "PEQUENA LAMA VERDE",
+    "tier": "Tier 1 Espreitador",
+    "description": "Um pequeno monte móvel de limo verde translúcido.",
+    "motivestactics": "Camuflagem, rastejamento",
+    "difficulty": 14,
+    "thresholds": "4/None",
+    "hp": 2,
+    "stress": 1,
+    "atk": "−1",
+    "weapons": "Apêndice Ooze: Corpo a corpo | 1d4+1 mágico",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Forma Ácida",
+        "type": "Passive",
+        "description": "Quando o Ooze faz um ataque bem-sucedido, o alvo deve marcar um Espaço de Armadura sem receber seus benefícios (ele ainda pode usar armadura para reduzir o dano). Se não conseguirem marcar um Espaço de Armadura, deverão marcar um HP adicional."
+      }
+    ]
+  },
+  "LODO VERMELHO": {
+    "name": "LODO VERMELHO",
+    "tier": "Tier 1 Espreitador",
+    "description": "Um monte em movimento de lodo vermelho flamejante translúcido.",
+    "motivestactics": "Camuflar, consumir e multiplicar, acender, iniciar incêndios",
+    "difficulty": 10,
+    "thresholds": "6/11",
+    "hp": 5,
+    "stress": 3,
+    "atk": "+1",
+    "weapons": "Apêndice Ooze: Corpo a corpo | 1d8+3 mágico",
+    "experience": "Camuflagem +3",
+    "features": [
+      {
+        "title": "Creeping Fire",
+        "type": "Passive",
+        "description": "O Ooze só pode se mover dentro do alcance de Muito perto como seu movimento normal. Eles incendeiam qualquer objeto inflamável que tocam."
+      },
+      {
+        "title": "Incendiar",
+        "type": "Action",
+        "description": "Faça um ataque contra um alvo dentro do alcance de Muito perto. Com um sucesso, o alvo recebe 1d8 dano mágico e é Incendiado até ser extinto com um teste de Finesse (14) bem-sucedido. Enquanto Incendiado, o alvo sofre 1d4 dano mágico quando faz uma jogada de ação."
+      },
+      {
+        "title": "Dividir",
+        "type": "Reaction",
+        "description": "Quando o Ooze tem 3 ou mais HP marcados, você pode gastar um Medo para dividi-los em dois Tiny Red Oozes (sem HP marcado ou Estresse). Imediatamente foco ambos."
+      }
+    ]
+  },
+  "PEQUENA LAMA VERMELHA": {
+    "name": "PEQUENA LAMA VERMELHA",
+    "tier": "Tier 1 Espreitador",
+    "description": "Um pequeno monte móvel de lodo vermelho flamejante translúcido",
+    "motivestactics": "Chama, camuflagem",
+    "difficulty": 11,
+    "thresholds": "5/None",
+    "hp": 2,
+    "stress": 1,
+    "atk": "−1",
+    "weapons": "Apêndice Ooze: Corpo a corpo | 1d4+2 mágico",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Queimando",
+        "type": "Reaction",
+        "description": "Quando uma criatura dentro do alcance de Corpo a corpo causa dano ao Lodo, ela sofre 1d6 dano mágico direto."
+      }
+    ]
+  },
+  "PEQUENO NOBRE": {
+    "name": "PEQUENO NOBRE",
+    "tier": "Tier 1 Social",
+    "description": "Um aristocrata ricamente vestido e adornado, cheio de arrogância.",
+    "motivestactics": "Abuse do poder, reúna recursos, mobilize lacaios",
+    "difficulty": 14,
+    "thresholds": "6/10",
+    "hp": 3,
+    "stress": 5,
+    "atk": "−3",
+    "weapons": "Espada: Corpo a corpo | 1d6+1 phy",
+    "experience": "Aristocrata +3",
+    "features": [
+      {
+        "title": "Minha Terra, Minhas Regras",
+        "type": "Passive",
+        "description": "Todas as ações sociais feitas contra os Nobres em suas terras têm desvantagem."
+      },
+      {
+        "title": "Guardas, aproveitem-nos!",
+        "type": "Action",
+        "description": "Uma vez por cena, marque um Estresse para convocar 1d4 Guardas Laminados, que aparecem ao alcance de Longe para impor a vontade do Nobre."
+      },
+      {
+        "title": "Exílio",
+        "type": "Action",
+        "description": "Gaste um Medo e mire em um PJ. O Nobre proclama que o alvo e seus aliados estão exilados do território do nobre. Enquanto exilados, o alvo e seus aliados possuem desvantagem durante situações sociais dentro do domínio do Nobre."
+      }
+    ]
+  },
+  "CAPITÃO PIRATA": {
+    "name": "CAPITÃO PIRATA",
+    "tier": "Tier 1 Líder",
+    "description": "Um cão marinho carismático com um chapéu impressionante, ansioso para atacar e saquear.",
+    "motivestactics": "Comande, faça-os andar na prancha, saquear, atacar",
+    "difficulty": 14,
+    "thresholds": "7/14",
+    "hp": 7,
+    "stress": 5,
+    "atk": "+4",
+    "weapons": "Cutelo: Corpo a corpo | 1d12+2 phy",
+    "experience": "Comandante +2, Marinheiro +3",
+    "features": [
+      {
+        "title": "Swashbuckler",
+        "type": "Passive",
+        "description": "Quando o Capitão marca 2 ou menos HP em um ataque dentro do alcance de Corpo a corpo, o atacante deve marcar um Estresse."
+      },
+      {
+        "title": "Reforços",
+        "type": "Action",
+        "description": "Uma vez por cena, marque um Estresse para invocar uma Horda de Piratas Saqueadores, que aparece no alcance de Longe."
+      },
+      {
+        "title": "Sem Trimestre",
+        "type": "Action",
+        "description": "Gaste um Medo para escolher um alvo que tenha três ou mais Piratas dentro do alcance de Corpo a corpo deles. O Capitão lidera os Piratas lançando ameaças e promessas de uma sepultura aquosa. O alvo deve fazer um teste de Reação de Presença. Em caso de falha, o alvo marca 1d4+1 Estresse. Em caso de sucesso, eles devem marcar um Estresse."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando o Capitão faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "SAQUEADORES PIRATAS": {
+    "name": "SAQUEADORES PIRATAS",
+    "tier": "Tier 1 Horda (3/CV)",
+    "description": "Canalhas marítimos movendo-se em bando devastador.",
+    "motivestactics": "Agrupar, saquear, invadir",
+    "difficulty": 12,
+    "thresholds": "5/11",
+    "hp": 4,
+    "stress": 3,
+    "atk": "+1",
+    "weapons": "Cutelo: Corpo a corpo | 1d8+2 phy",
+    "experience": "Marinheiro +3",
+    "features": [
+      {
+        "title": "Horda (1d4+1)",
+        "type": "Passive",
+        "description": "Quando os Saqueadores marcaram metade ou mais de seu HP, seu ataque padrão causa 1d4+1 dano físico."
+      },
+      {
+        "title": "Swashbuckler",
+        "type": "Passive",
+        "description": "Quando os Raiders marcam 2 ou menos HP em um ataque dentro do alcance de Corpo a corpo, o atacante deve marcar um Estresse."
+      }
+    ]
+  },
+  "PIRATA RESISTENTE": {
+    "name": "PIRATA RESISTENTE",
+    "tier": "Tier 1 Bruto",
+    "description": "Um pirata musculoso e tatuado com punhos do tamanho de um melão.",
+    "motivestactics": "Saquear, invadir, destruir, aterrorizar",
+    "difficulty": 13,
+    "thresholds": "8/15",
+    "hp": 5,
+    "stress": 3,
+    "atk": "+1",
+    "weapons": "Punhos enormes: Corpo a corpo | 2d6 phy",
+    "experience": "Marinheiro +2",
+    "features": [
+      {
+        "title": "Swashbuckler",
+        "type": "Passive",
+        "description": "Quando o Tough marca 2 ou menos HP em um ataque dentro do alcance de Corpo a corpo, o atacante deve marcar um Estresse."
+      },
+      {
+        "title": "Limpe os decks",
+        "type": "Action",
+        "description": "Faça um ataque contra um alvo dentro do alcance de Muito perto. Em caso de sucesso, marque um Estresse para mover-se para o alcance Corpo a corpo do alvo, causando 3d4 dano físico e empurrando o alvo de volta para o alcance Perto."
+      }
+    ]
+  },
+  "MERCENARIO": {
+    "name": "MERCENARIO",
+    "tier": "Tier 1 Lacaio",
+    "description": "Um mercenário armado testando a sorte.",
+    "motivestactics": "Carregar, dilacerar, sobrecarregar, lucrar",
+    "difficulty": 10,
+    "thresholds": "None",
+    "hp": 1,
+    "stress": 1,
+    "atk": "+3",
+    "weapons": "Espada longa: Corpo a corpo | 3 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Lacaio (4)",
+        "type": "Passive",
+        "description": "O Mercenario é derrotado quando sofre qualquer dano. Para cada 4 de dano que um PJ causa ao Vendedor, derrote um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso."
+      },
+      {
+        "title": "Ataque em Grupo",
+        "type": "Action",
+        "description": "Gaste um Medo para escolher um alvo e foco todos os Sellswords dentro do alcance Perto deles. Esses Lacaios se movem para o alcance Corpo a corpo do alvo e fazem uma jogada de ataque compartilhada. Em caso de sucesso, eles negociam 3 dano físico cada. Combine esse dano."
+      }
+    ]
+  },
+  "ARQUEIRO ESQUELETO": {
+    "name": "ARQUEIRO ESQUELETO",
+    "tier": "Tier 1 À distância",
+    "description": "Um esqueleto frágil com arco curto e flechas.",
+    "motivestactics": "Perfure alvos distraídos, finja-se de morto, roube pele",
+    "difficulty": 9,
+    "thresholds": "4/7",
+    "hp": 3,
+    "stress": 2,
+    "atk": "+2",
+    "weapons": "Arco curto: Longe | 1d8+1 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Oportunista",
+        "type": "Passive",
+        "description": "Quando dois ou mais adversários estão dentro do alcance Muito perto de uma criatura, todo o dano que o Arqueiro causar a essa criatura é dobrado."
+      },
+      {
+        "title": "Tiro Mortal",
+        "type": "Action",
+        "description": "Faça um ataque contra um alvo Vulnerável dentro do alcance de Longe. Em caso de sucesso, marque um Estresse para lidar com 3d4+8 dano físico."
+      }
+    ]
+  },
+  "DRAGA DE ESQUELETO": {
+    "name": "DRAGA DE ESQUELETO",
+    "tier": "Tier 1 Lacaio",
+    "description": "Uma pilha barulhenta de ossos.",
+    "motivestactics": "Desmoronar, sobrecarregar, fingir-se de morto, roubar pele",
+    "difficulty": 8,
+    "thresholds": "None",
+    "hp": 1,
+    "stress": 1,
+    "atk": "−1",
+    "weapons": "Garras ósseas: Corpo a corpo | 1 físico",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Lacaio (4)",
+        "type": "Passive",
+        "description": "O Dredge é derrotado quando sofre algum dano. Para cada 4 de dano que um PJ causa à Draga, derrote um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso."
+      },
+      {
+        "title": "Ataque em Grupo",
+        "type": "Action",
+        "description": "Gaste um Medo para escolher um alvo e foco todas as Dragas dentro do alcance Perto deles. Esses Lacaios se movem para o alcance Corpo a corpo do alvo e fazem uma jogada de ataque compartilhada. Em caso de sucesso, eles negociam 1 dano físico cada. Combine esse dano."
+      }
+    ]
+  },
+  "CAVALEIRO ESQUELETO": {
+    "name": "CAVALEIRO ESQUELETO",
+    "tier": "Tier 1 Bruto",
+    "description": "Um grande esqueleto blindado com uma lâmina enorme.",
+    "motivestactics": "Cortar os vivos, roubar pele, causar estragos",
+    "difficulty": 13,
+    "thresholds": "7/13",
+    "hp": 5,
+    "stress": 2,
+    "atk": "+2",
+    "weapons": "Espada Grande Enferrujada: Corpo a corpo | 1d10+2 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Aterrorizante",
+        "type": "Passive",
+        "description": "Quando o Cavaleiro faz um ataque bem-sucedido, todos os PJs dentro do alcance de Perto perdem uma Esperança e você ganha um Medo."
+      },
+      {
+        "title": "Corte direto",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer um ataque contra todos os alvos dentro do alcance do Muito perto. Os alvos contra os quais o Cavaleiro obtém sucesso recebem 1d8+2 dano físico e devem marcar um Estresse."
+      },
+      {
+        "title": "Cavar duas sepulturas",
+        "type": "Reaction",
+        "description": "Quando o Cavaleiro é derrotado, ele ataca um alvo dentro do alcance de Muito perto (priorizando a criatura que o matou). Se obtiver sucesso, o alvo recebe 1d4+8 dano físico e perde 1d4 de Esperança."
+      }
+    ]
+  },
+  "GUERREIRO ESQUELETO": {
+    "name": "GUERREIRO ESQUELETO",
+    "tier": "Tier 1 Padrão",
+    "description": "Um esqueleto coberto de terra armado com uma lâmina enferrujada.",
+    "motivestactics": "Finja a morte, junte-se, roube pele",
+    "difficulty": 10,
+    "thresholds": "4/8",
+    "hp": 3,
+    "stress": 2,
+    "atk": "+0",
+    "weapons": "Espada: Corpo a corpo | 1d6+2 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Apenas Ossos",
+        "type": "Passive",
+        "description": "O Guerreiro é resistente a dano físico."
+      },
+      {
+        "title": "Não permanecerá morto",
+        "type": "Reaction",
+        "description": "Quando o Guerreiro for derrotado, você pode foco e rolar um d6. Com um resultado 6, se houver outros adversários no campo de batalha, o Guerreiro se reforma sem nenhum HP marcado."
+      }
+    ]
+  },
+  "LAMINA ARCANA": {
+    "name": "LAMINA ARCANA",
+    "tier": "Tier 1 Líder",
+    "description": "Um mercenário que combina esgrima e magia com efeitos mortais.",
+    "motivestactics": "Explodir, comandar, suportar",
+    "difficulty": 14,
+    "thresholds": "8/14",
+    "hp": 6,
+    "stress": 3,
+    "atk": "+3",
+    "weapons": "Espada Longa Empoderada: Corpo a corpo | 1d8+4 phy/mag",
+    "experience": "Conhecimento Mágico +2",
+    "features": [
+      {
+        "title": "Arcane Steel",
+        "type": "Passive",
+        "description": "O dano causado pelo ataque padrão do Lamina Arcana é considerado tanto físico quanto mágico."
+      },
+      {
+        "title": "Explosão Supressora",
+        "type": "Action",
+        "description": "Marque um Estresse e mire em um grupo dentro do alcance do Longe. Todos os alvos devem ter sucesso em um teste de Reação de Agilidade ou receber 1d8+2 dano mágico. Você ganha um Medo para cada alvo que marcou HP neste ataque."
+      },
+      {
+        "title": "Mova-se como uma unidade",
+        "type": "Action",
+        "description": "Gaste 2 Medo a foco com até cinco aliados dentro do alcance de Longe."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando o Lamina Arcana faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "ENXAME DE RATOS": {
+    "name": "ENXAME DE RATOS",
+    "tier": "Tier 1 Horda (10/CV)",
+    "description": "Uma massa saltitante de roedores comuns movendo-se como uma onda voraz.",
+    "motivestactics": "Consumir, obscurecer, enxamear",
+    "difficulty": 10,
+    "thresholds": "6/10",
+    "hp": 6,
+    "stress": 2,
+    "atk": "−3",
+    "weapons": "Garras: Corpo a corpo | 1d8+2 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Horda (1d4+1)",
+        "type": "Passive",
+        "description": "Quando o Enxame marca metade ou mais de seu HP, seu ataque padrão causa 1d4+1 dano físico."
+      },
+      {
+        "title": "Na sua cara",
+        "type": "Passive",
+        "description": "Todos os alvos dentro do alcance de Corpo a corpo têm desvantagem em ataques contra alvos que não sejam o Enxame."
+      }
+    ]
+  },
+  "SOLDADO SILVÃO": {
+    "name": "SOLDADO SILVÃO",
+    "tier": "Tier 1 Padrão",
+    "description": "Um guerreiro fada adornado com uma armadura feita de folhas e casca de árvore.",
+    "motivestactics": "Emboscar, esconder, dominar, proteger, rastrear",
+    "difficulty": 11,
+    "thresholds": "6/11",
+    "hp": 4,
+    "stress": 2,
+    "atk": "+0",
+    "weapons": "Foice: Corpo a corpo | 1d8+1 phy",
+    "experience": "Rastreador +2",
+    "features": [
+      {
+        "title": "Táticas de Pacote",
+        "type": "Passive",
+        "description": "Se o Soldado fizer um ataque padrão e outro Soldado Silvestre estiver dentro do alcance Corpo a corpo do alvo, cause 1d8+5 dano físico em vez do dano padrão."
+      },
+      {
+        "title": "Controle Florestal",
+        "type": "Action",
+        "description": "Gaste um Medo para derrubar uma árvore dentro do alcance do Perto. Uma criatura atingida pela árvore deve ter sucesso em um teste de Reação de Agilidade (15) ou sofrer 1d10 dano físico."
+      },
+      {
+        "title": "Mistura",
+        "type": "Reaction",
+        "description": "Quando o Soldado faz um ataque bem-sucedido, você pode marcar um Estresse para se tornar Escondido até o próximo ataque do Soldado ou um PJ ter sucesso em um teste de Instinto (14) para encontrá-los."
+      }
+    ]
+  },
+  "ENXAME DE BRAMBLE EMARANHADO": {
+    "name": "ENXAME DE BRAMBLE EMARANHADO",
+    "tier": "Tier 1 Horda (3/CV)",
+    "description": "Um aglomerado de ervas daninhas vivas e bebedoras de sangue, cada uma do tamanho de uma grande cabaça.",
+    "motivestactics": "Digerir, emaranhar, imobilizar",
+    "difficulty": 12,
+    "thresholds": "6/11",
+    "hp": 6,
+    "stress": 3,
+    "atk": "+0",
+    "weapons": "Espinhos: Corpo a corpo | 1d6+3 phy",
+    "experience": "Camuflagem +2",
+    "features": [
+      {
+        "title": "Horda (1d4+2)",
+        "type": "Passive",
+        "description": "Quando o Enxame marca metade ou mais de seu HP, seu ataque padrão causa 1d4+2 dano físico."
+      },
+      {
+        "title": "Esmagamento",
+        "type": "Action",
+        "description": "Marque um Estresse para causar 2d6+8 dano físico direto a um alvo com 3 ou mais fichas de espinheiro."
+      },
+      {
+        "title": "Encumber",
+        "type": "Reaction",
+        "description": "Quando o Enxame tiver sucesso em um ataque, dê ao alvo uma ficha de espinheiro. Se um alvo tiver algum token bramble, ele será Imobilizado. Se um alvo tiver 3 ou mais fichas de amoreira, elas também serão Vulnerável. Todas as fichas de espinheiro podem ser removidas obtendo sucesso em um teste de Finesse (12 + o número de fichas de espinheiro) ou causando dano Maior ou maior ao Enxame. Se fichas de espinheiro forem removidas de um alvo usando um teste de Finesse, um número de Lacaios de Tangle Bramble surgirá dentro do alcance de Corpo a corpo igual ao número de fichas removidas."
+      }
+    ]
+  },
+  "EMARANHADO BRAMBLE": {
+    "name": "EMARANHADO BRAMBLE",
+    "tier": "Tier 1 Lacaio",
+    "description": "Uma erva daninha animada e bebedora de sangue.",
+    "motivestactics": "Combinar, drenar, emaranhar",
+    "difficulty": 11,
+    "thresholds": "None",
+    "hp": 1,
+    "stress": 1,
+    "atk": "−1",
+    "weapons": "Espinhos: Corpo a corpo | 2 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Lacaio (4)",
+        "type": "Passive",
+        "description": "A Sarca Emaranhada e derrotada quando sofre qualquer dano. Para cada 4 de dano que um PJ causar a Sarca Emaranhada, derrote um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso."
+      },
+      {
+        "title": "Ataque em grupo",
+        "type": "Action",
+        "description": "Gaste um Medo para escolher um alvo e colocar em foco todas as Sarcas Emaranhadas dentro de Perto desse alvo. Esses Lacaios se movem para Corpo a corpo e fazem uma unica jogada de ataque compartilhada. Em caso de sucesso, causam 2 de dano fisico cada uma. Some esse dano."
+      },
+      {
+        "title": "Drenar e multiplicar",
+        "type": "Reaction",
+        "description": "Quando um ataque da Sarca Emaranhada faz um alvo marcar HP e houver tres ou mais Sarcas Emaranhadas em alcance Perto, voce pode combinar esses Lacaios em uma Horda de Enxame de Sarcas Emaranhadas. O HP da Horda e igual ao numero de Lacaios combinados."
+      }
+    ]
+  },
+  "MESTRE DE ARMAS": {
+    "name": "MESTRE DE ARMAS",
+    "tier": "Tier 1 Bruto",
+    "description": "Um mestre de armas empunhando uma espada com o dobro do seu tamanho.",
+    "motivestactics": "Aja primeiro, mire nos mais fracos, intimide",
+    "difficulty": 14,
+    "thresholds": "8/15",
+    "hp": 6,
+    "stress": 3,
+    "atk": "+2",
+    "weapons": "Claymore: Muito perto | 1d12+2 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Golpe Incitador",
+        "type": "Action",
+        "description": "Faça um ataque padrão contra um alvo. Em caso de sucesso, marque um Estresse para Provocar o alvo até seu próximo ataque bem-sucedido. Na próxima vez que o alvo Taunted atacar, ele terá desvantagem contra alvos que não sejam o Mestre de Armas."
+      },
+      {
+        "title": "Explosão de adrenalina",
+        "type": "Action",
+        "description": "Uma vez por cena, gaste um Medo para liberar 2 HP e 2 Estresse."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando o Mestre de Armas faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "JOVEM DRÍADE": {
+    "name": "JOVEM DRÍADE",
+    "tier": "Tier 1 Líder",
+    "description": "Uma pessoa-árvore imperiosa liderando as defesas de sua floresta.",
+    "motivestactics": "Comande, alimente, poda o indesejável",
+    "difficulty": 11,
+    "thresholds": "6/11",
+    "hp": 6,
+    "stress": 2,
+    "atk": "+0",
+    "weapons": "Foice: Corpo a corpo | 1d8+5 phy",
+    "experience": "Liderança +3",
+    "features": [
+      {
+        "title": "Voz da Floresta",
+        "type": "Action",
+        "description": "Marque de Estresse a foco 1d4 aliados dentro do alcance de um alvo que eles podem atacar sem se mover. Se obtiver sucesso, seus ataques causam metade do dano."
+      },
+      {
+        "title": "Gaiola Espinhosa",
+        "type": "Action",
+        "description": "Gaste um Medo para formar uma gaiola ao redor de um alvo dentro do alcance de Muito perto e Contenha-o até que ele seja libertado com um teste de Força bem-sucedido. Quando uma criatura faz uma jogada de ação contra a jaula, ela deve marcar um Estresse."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando a Dríade faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "ZUMBI MUSCULOSO": {
+    "name": "ZUMBI MUSCULOSO",
+    "tier": "Tier 1 Bruto",
+    "description": "Um grande cadáver, inchado e furioso.",
+    "motivestactics": "Esmagar, destruir, granizo detritos, bater",
+    "difficulty": 10,
+    "thresholds": "8/15",
+    "hp": 7,
+    "stress": 4,
+    "atk": "+2",
+    "weapons": "Batida: Muito perto | 1d12+3 phy",
+    "experience": "Dano Colateral +2, Arremesso +4",
+    "features": [
+      {
+        "title": "Lento",
+        "type": "Passive",
+        "description": "Quando você foco o Zumbi e ele não tem um token em seu bloco de estatísticas, ele ainda não pode agir. Coloque uma ficha no bloco de estatísticas e descreva o que eles estão se preparando para fazer. Quando você foco o Zumbi e ele tiver um token em seu bloco de estatísticas, limpe o token e ele poderá agir."
+      },
+      {
+        "title": "Rend Asunder",
+        "type": "Action",
+        "description": "Faça um ataque padrão com vantagem contra um alvo que o Zumbi tem Imobilizado. Em caso de sucesso, o ataque causa dano direto."
+      },
+      {
+        "title": "Rip and Tear",
+        "type": "Reaction",
+        "description": "Quando os zumbis fazem um ataque padrão bem-sucedido, você pode marcar um Estresse para restringir temporariamente o alvo e forçá-lo a marcar 2 Estresse."
+      }
+    ]
+  },
+  "HULK ZUMBI DE RETALHO": {
+    "name": "HULK ZUMBI DE RETALHO",
+    "tier": "Tier 1 Solo",
+    "description": "Uma enorme gestalt de cadáveres movendo-se como um só, com membros do tamanho de torsos e punhos do tamanho de um halfling adulto.",
+    "motivestactics": "Absorva cadáveres, agite, sinta fome, aterrorize",
+    "difficulty": 13,
+    "thresholds": "8/15",
+    "hp": 10,
+    "stress": 3,
+    "atk": "+4",
+    "weapons": "Muitos braços: Muito perto | 1d20 phy",
+    "experience": "Intimidação +2, Destruir Coisas +2",
+    "features": [
+      {
+        "title": "Destrutível",
+        "type": "Passive",
+        "description": "Quando o Zumbi sofre dano Maior ou maior, ele marca um HP adicional."
+      },
+      {
+        "title": "Membros Agitados",
+        "type": "Passive",
+        "description": "Quando o Zumbi faz um ataque padrão, ele pode atacar todos os alvos dentro do alcance de Muito perto."
+      },
+      {
+        "title": "Outro para a Pilha",
+        "type": "Action",
+        "description": "Quando o Zumbi está dentro do alcance Muito perto de um cadáver, ele pode incorporá-lo em si mesmo, limpando um HP e um Estresse."
+      },
+      {
+        "title": "Gritos Atormentados",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer com que todos os PJs dentro do alcance de Longe formem um teste de Reação de Presença (13). Os alvos que falham perdem uma Esperança e você ganha um Medo para cada um. Os alvos bem-sucedidos devem marcar um Estresse."
+      }
+    ]
+  },
+  "ZUMBI PODRE": {
+    "name": "ZUMBI PODRE",
+    "tier": "Tier 1 Lacaio",
+    "description": "Um cadáver em decomposição caminhando em direção à sua presa.",
+    "motivestactics": "Coma carne, tenha fome, maltrate, cerque",
+    "difficulty": 8,
+    "thresholds": "None",
+    "hp": 1,
+    "stress": 1,
+    "atk": "−3",
+    "weapons": "Mordida: Corpo a corpo | 2 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Lacaio (3)",
+        "type": "Passive",
+        "description": "O Zumbi é derrotado quando sofre algum dano. Para cada 3 danos que um PJ causa ao Zumbi, derrote um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso."
+      },
+      {
+        "title": "Ataque em Grupo",
+        "type": "Action",
+        "description": "Gaste um Medo para escolher um alvo e foco todos os Zumbis Apodrecidos dentro do alcance de Perto deles. Esses Lacaios se movem para o alcance Corpo a corpo do alvo e fazem uma jogada de ataque compartilhada. Em caso de sucesso, eles negociam 2 dano físico cada. Combine esse dano."
+      }
+    ]
+  },
+  "ESQUADRÃO DE ARQUEIRO": {
+    "name": "ESQUADRÃO DE ARQUEIRO",
+    "tier": "Tier 2 Horda (2/CV)",
+    "description": "Um grupo de arqueiros treinados com arcos enormes.",
+    "motivestactics": "Fiquem juntos, sobrevivam, disparos de saraivada",
+    "difficulty": 13,
+    "thresholds": "8/16",
+    "hp": 4,
+    "stress": 3,
+    "atk": "+0",
+    "weapons": "Arco longo: Longe | 2d6+3 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Horda (1d6+3)",
+        "type": "Passive",
+        "description": "Quando o Esquadrão marca metade ou mais de seu HP, seu ataque padrão causa 1d6+3 dano físico."
+      },
+      {
+        "title": "Voleio Focado",
+        "type": "Action",
+        "description": "Gaste um Medo para atingir um ponto dentro do alcance de Longe. Faça um ataque com vantagem contra todos os alvos dentro do alcance Perto daquele ponto. Os alvos contra os quais o Esquadrão obtém sucesso recebem 1d10+4 dano físico."
+      },
+      {
+        "title": "Supressão de Fogo",
+        "type": "Action",
+        "description": "Marque um Estresse para atingir um ponto dentro do alcance do Longe. Até a próxima rolagem com Medo, uma criatura que se mova dentro do alcance Perto daquele ponto deve fazer um teste de Reação de Agilidade. Em caso de falha, eles recebem 2d6+3 dano físico. Se obtiver sucesso, eles sofrem metade do dano."
+      }
+    ]
+  },
+  "APRENDIZ ASSASSINO": {
+    "name": "APRENDIZ ASSASSINO",
+    "tier": "Tier 2 Lacaio",
+    "description": "Um jovem estagiário ansioso para provar seu valor.",
+    "motivestactics": "Aja de forma imprudente, mate, prove seu valor, exiba-se",
+    "difficulty": 13,
+    "thresholds": "None",
+    "hp": 1,
+    "stress": 1,
+    "atk": "−1",
+    "weapons": "Adaga lançada: Muito perto | 4 phy",
+    "experience": "Intrusão +2",
+    "features": [
+      {
+        "title": "Lacaio (6)",
+        "type": "Passive",
+        "description": "O Assassino é derrotado quando sofre algum dano. Para cada 6 de dano que um PJ causa ao Assassino, derrote um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso."
+      },
+      {
+        "title": "Ataque em Grupo",
+        "type": "Action",
+        "description": "Gaste um Medo para escolher um alvo e foco todos os Aprendizes Assassinos dentro do alcance Perto deles. Esses Lacaios se movem para o alcance Corpo a corpo do alvo e fazem uma jogada de ataque compartilhada. Em caso de sucesso, eles negociam 4 dano físico cada. Combine esse dano."
+      }
+    ]
+  },
+  "ENVENENADOR ASSASSINO": {
+    "name": "ENVENENADOR ASSASSINO",
+    "tier": "Tier 2 Espreitador",
+    "description": "Um canalha astuto, hábil tanto em venenos quanto em emboscadas.",
+    "motivestactics": "Antecipe, receba o pagamento, mate, contamine a comida e a água",
+    "difficulty": 14,
+    "thresholds": "8/16",
+    "hp": 4,
+    "stress": 4,
+    "atk": "+3",
+    "weapons": "Adaga de arremesso Envenenado: Perto | 2d8+1 phy",
+    "experience": "Intrusão +2",
+    "features": [
+      {
+        "title": "Grindletooth Venom",
+        "type": "Passive",
+        "description": "Os alvos que marcam HP dos ataques do Assassino são Vulnerável até que liberem um HP."
+      },
+      {
+        "title": "Do nada",
+        "type": "Passive",
+        "description": "O Assassino tem vantagem em ataques se eles forem Escondido."
+      },
+      {
+        "title": "Fumigação",
+        "type": "Action",
+        "description": "Lança uma bomba de fumaça que enche o ar dentro do alcance de Perto com fumaça, deixando todos os alvos nesta área tontos. Alvos tontos têm desvantagem em sua próxima jogada de ação e, em seguida, eliminam a condição."
+      }
+    ]
+  },
+  "MESTRE ASSASSINO": {
+    "name": "MESTRE ASSASSINO",
+    "tier": "Tier 2 Líder",
+    "description": "Um assassino experiente com uma voz ameaçadora e uma lâmina mortal.",
+    "motivestactics": "Embosque, saia vivo, mate, prepare-se para todos os cenários",
+    "difficulty": 15,
+    "thresholds": "12/25",
+    "hp": 7,
+    "stress": 5,
+    "atk": "+5",
+    "weapons": "Adaga serrilhada: Perto | 2d10+2 phy",
+    "experience": "Comando +3, Intrusão +3",
+    "features": [
+      {
+        "title": "Não vejo isso chegando",
+        "type": "Passive",
+        "description": "O Assassino negocia dano direto enquanto eles são Escondido."
+      },
+      {
+        "title": "Ataque como Um",
+        "type": "Action",
+        "description": "Marque um Estresse para foco um número de outros Assassinos igual ao Estresse não marcado do Assassino."
+      },
+      {
+        "title": "A Lâmina Sutil",
+        "type": "Reaction",
+        "description": "Quando o Assassino realiza com sucesso um ataque padrão contra um alvo Vulnerável, você pode gastar um Medo para causar dano severo em vez do dano padrão."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando o Assassino faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "CAIXA DE BATALHA": {
+    "name": "CAIXA DE BATALHA",
+    "tier": "Tier 2 Solo",
+    "description": "Uma construção em forma de cubo com uma runa diferente em cada um dos seis lados.",
+    "motivestactics": "Mude de tática, atropele inimigos, espere disfarçado",
+    "difficulty": 15,
+    "thresholds": "10/20",
+    "hp": 8,
+    "stress": 6,
+    "atk": "+2",
+    "weapons": "Batida: Corpo a corpo | 2d6+3 phy",
+    "experience": "Camuflagem +2",
+    "features": [
+      {
+        "title": "Implacável (2)",
+        "type": "Passive",
+        "description": "A Caixa pode ser colocado em foco até duas vezes por turno do MJ. Gaste Medo normalmente para foco."
+      },
+      {
+        "title": "Táticas Randomizadas",
+        "type": "Action",
+        "description": "Marque um Estresse e role um d6. A Caixa usa o movimento correspondente:\n1. Feixe de Mana. A Caixa dispara um raio abrasador. Faça um ataque contra um alvo dentro do alcance de Longe. Em caso de sucesso, distribua 2d10+2 dano mágico.\n2. Jatos de Fogo. A Caixa dispara para o ar, girando e liberando jatos de chamas. Faça um ataque contra todos os alvos dentro do alcance do Perto. Os alvos contra os quais a Caixa consegue obter 2d8 dano físico.\n3. Atropelar. A Caixa dispara erraticamente. Faça um ataque contra todos os PJs dentro do alcance do Perto. Os alvos contra os quais a Caixa obtém sucesso recebem 1d6+5 dano físico e são Vulnerável até seu próximo lançamento com Esperança.\n4. Gás chocante. A Caixa libera um gás prateado que brilha com raios. Todos os alvos dentro do alcance Perto devem ter sucesso em um teste de Reação de Finesse ou marca 3 Estresse.\n5. Palmas impressionantes. A Caixa salta e suas laterais batem palmas, criando um pequeno estrondo sônico. Todos os alvos dentro do alcance de Muito perto devem ter sucesso em um teste de Reação de Força ou se tornarem Vulnerável até que o cubo seja derrotado.\n6. Lamento Psiônico. A Caixa libera um aglomerado de abelhas mecânicas cujo zumbido abala as mentes mortais. Todos os alvos dentro do alcance de Perto devem ter sucesso em um teste de Reação de Presença ou receber 2d4+9 dano mágico direto."
+      },
+      {
+        "title": "Sobrecarga",
+        "type": "Reaction",
+        "description": "Antes de rolar o dano para o ataque da Caixa, você pode marcar um Estresse para adicionar um d6 à jogada de dano. Além disso, você ganha um Medo."
+      },
+      {
+        "title": "Tremor mortal",
+        "type": "Reaction",
+        "description": "Quando a Caixa marca seu último HP, a magia que os alimenta se rompe em uma explosão de força. Todos os alvos dentro do alcance de Perto devem ter sucesso em um teste de Reação de Instinto ou receber 2d8+1 dano mágico."
+      }
+    ]
+  },
+  "CRÂNIO DO CAOS": {
+    "name": "CRÂNIO DO CAOS",
+    "tier": "Tier 2 À distância",
+    "description": "Um crânio humanóide flutuante animado por magia cintilante.",
+    "motivestactics": "Gargalhar, consumir magia, servir ao criador",
+    "difficulty": 15,
+    "thresholds": "8/16",
+    "hp": 5,
+    "stress": 4,
+    "atk": "+2",
+    "weapons": "Explosão de energia: Perto | 2d8+3 mágico",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Levitação",
+        "type": "Passive",
+        "description": "A Caveira levita a vários metros do chão e não pode ser Imobilizado."
+      },
+      {
+        "title": "Wards",
+        "type": "Passive",
+        "description": "A Caveira é resistente a dano mágico."
+      },
+      {
+        "title": "Explosão Mágica",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer um ataque contra todos os alvos dentro do alcance do Perto. Os alvos contra os quais a Caveira consegue obter 2d6+4 dano mágico."
+      },
+      {
+        "title": "Magia de Sifão",
+        "type": "Action",
+        "description": "Gaste um Medo para fazer um ataque contra um PJ com uma característica Spellcast dentro do alcance de Muito perto. Em caso de sucesso, o alvo marca 1d4 Estresse e a Caveira elimina essa quantidade de Estresse. Além disso, em caso de sucesso, a Caveira pode imediatamente ser colocado em foco novamente."
+      }
+    ]
+  },
+  "CONSCRITO": {
+    "name": "CONSCRITO",
+    "tier": "Tier 2 Lacaio",
+    "description": "Um civil mal treinado foi levado à guerra.",
+    "motivestactics": "Siga ordens, junte-se, sobreviva",
+    "difficulty": 12,
+    "thresholds": "None",
+    "hp": 1,
+    "stress": 1,
+    "atk": "+0",
+    "weapons": "Lanças: Muito perto | 6 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Lacaio (6)",
+        "type": "Passive",
+        "description": "O Conscrito é derrotado quando sofre algum dano. Para cada 6 de dano que um PJ causa ao Conscrito, derrote um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso."
+      },
+      {
+        "title": "Ataque em grupo",
+        "type": "Action",
+        "description": "Gaste um Medo para escolher um alvo e foco todos os recrutas dentro do alcance de Perto deles. Esses Lacaios se movem para o alcance Corpo a corpo do alvo e fazem uma jogada de ataque compartilhada. Em caso de sucesso, eles negociam 6 dano físico cada. Combine esse dano."
+      }
+    ]
+  },
+  "CORTESÃ": {
+    "name": "CORTESÃ",
+    "tier": "Tier 2 Social",
+    "description": "Um manipulador talentoso e mestre das artes sociais.",
+    "motivestactics": "Atrair, manobrar e proteger clientes",
+    "difficulty": 13,
+    "thresholds": "7/13",
+    "hp": 3,
+    "stress": 4,
+    "atk": "−3",
+    "weapons": "Adaga: Corpo a corpo | 1d4+3 phy",
+    "experience": "Manipulação +3, Socialite +3",
+    "features": [
+      {
+        "title": "Olhar Abrasador",
+        "type": "Reaction",
+        "description": "Quando um PJ dentro do alcance de Perto faz um teste de Presença, você pode marcar um Estresse para lançar um olhar em direção ao rescaldo. Caso o alvo falhe, ele deve marcar 2 Estresse e permanecer Vulnerável até a cena terminar ou terá sucesso em uma ação social contra a Cortesã. No sucesso do alvo, eles devem marcar um Estresse."
+      }
+    ]
+  },
+  "ADEPTO DO CULTO": {
+    "name": "ADEPTO DO CULTO",
+    "tier": "Tier 2 Suporte",
+    "description": "Um mago experiente que empunha sombra e medo.",
+    "motivestactics": "Obtenha favores, impeça inimigos, descubra conhecimento",
+    "difficulty": 14,
+    "thresholds": "9/18",
+    "hp": 4,
+    "stress": 6,
+    "atk": "+2",
+    "weapons": "Haste Coberta de Runas: Longe | 2d4+3 mágico",
+    "experience": "Conhecimento Caído +2, Rituais +2",
+    "features": [
+      {
+        "title": "Explosão Enervante",
+        "type": "Action",
+        "description": "Gaste um Medo para fazer um ataque padrão contra um alvo dentro do alcance. Em caso de sucesso, o alvo deve marcar um Estresse."
+      },
+      {
+        "title": "Mortalha dos Derrotados",
+        "type": "Action",
+        "description": "Marque um Estresse para envolver um aliado dentro do alcance de Perto em uma mortalha de Proteção até que o Adepto marque seu último HP. Enquanto Protegido, o alvo tem resistência a todos os danos."
+      },
+      {
+        "title": "Shadow Shackles",
+        "type": "Action",
+        "description": "Gaste um Medo e escolha um ponto dentro do alcance de Longe. Todos os alvos dentro do alcance de Perto naquele ponto são Imobilizado em correntes enfumaçadas até que se libertem com uma Força ou teste de Instinto bem-sucedida. Um alvo Imobilizado com esta característica deve gastar uma Esperança para fazer uma jogada de ação."
+      },
+      {
+        "title": "Medo é combustível",
+        "type": "Reaction",
+        "description": "Duas vezes por cena, quando um PJ falha com Medo, elimine um Estresse."
+      }
+    ]
+  },
+  "PRESA DO CULTO": {
+    "name": "PRESA DO CULTO",
+    "tier": "Tier 2 Espreitador",
+    "description": "Um assassino profissional que virou cultista.",
+    "motivestactics": "Capture sacrifícios, isole presas, suba na hierarquia",
+    "difficulty": 15,
+    "thresholds": "9/17",
+    "hp": 4,
+    "stress": 4,
+    "atk": "+2",
+    "weapons": "Faca Longa: Corpo a corpo | 2d8+4 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Abraço da Sombra",
+        "type": "Passive",
+        "description": "O Fang pode escalar e andar em superfícies verticais. Marque um Estresse para passar de uma sombra para outra dentro do alcance de Longe."
+      },
+      {
+        "title": "Escolha o Retardatário",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer com que um alvo dentro do alcance de Corpo a corpo faça um teste de Reação de Instinto. Em caso de falha, o alvo deve marcar 2 Estresse e é teletransportado com o Fang para uma sombra dentro do alcance de Longe, tornando-o temporariamente Vulnerável. Em caso de sucesso, o alvo deve marcar um Estresse."
+      }
+    ]
+  },
+  "INICIADO DE CULTO": {
+    "name": "INICIADO DE CULTO",
+    "tier": "Tier 2 Lacaio",
+    "description": "Um cultista de baixo escalão com vestes simples, ansioso por ganhar poder.",
+    "motivestactics": "Siga ordens, ganhe poder, busque conhecimento proibido",
+    "difficulty": 13,
+    "thresholds": "None",
+    "hp": 1,
+    "stress": 1,
+    "atk": "+0",
+    "weapons": "Adaga Ritual: Corpo a corpo | 5 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Lacaio (6)",
+        "type": "Passive",
+        "description": "O Iniciado é derrotado quando sofre qualquer dano. Para cada 6 de dano que um PJ causa ao Iniciado, derrote um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso."
+      },
+      {
+        "title": "Ataque em Grupo",
+        "type": "Action",
+        "description": "Gaste um Medo para escolher um alvo e foco todos os Iniciados do Culto dentro do alcance Perto deles. Esses Lacaios se movem para o alcance Corpo a corpo do alvo e fazem uma jogada de ataque compartilhada. Em caso de sucesso, eles negociam 5 dano físico cada. Combine esse dano."
+      }
+    ]
+  },
+  "PACOTE CÃO DEMONÍACO": {
+    "name": "PACOTE CÃO DEMONÍACO",
+    "tier": "Tier 2 Horda (1/CV)",
+    "description": "Cães não naturais iluminados por dentro pelo fogo do inferno.",
+    "motivestactics": "Causar medo, consumir carne, por favor, mestres",
+    "difficulty": 15,
+    "thresholds": "11/23",
+    "hp": 6,
+    "stress": 3,
+    "atk": "+0",
+    "weapons": "Garras e Presas: Corpo a corpo | 2d8+2 phy",
+    "experience": "Rastreamento de perfume +3",
+    "features": [
+      {
+        "title": "Horda (2d4+1)",
+        "type": "Passive",
+        "description": "Quando a Matilha marcou metade ou mais de seu HP, seu ataque padrão causa 2d4+1 dano físico."
+      },
+      {
+        "title": "Dreadhowl",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer com que todos os alvos dentro do alcance de Muito perto percam uma Esperança. Se um alvo não for capaz de perder uma Esperança, ele deverá marcar 2 Estresse."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando a Matilha faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "ENGUIAS ELÉTRICAS": {
+    "name": "ENGUIAS ELÉTRICAS",
+    "tier": "Tier 2 Horda (2/CV)",
+    "description": "Um enxame de enguias que cercam e eletrocutam.",
+    "motivestactics": "Evite predadores maiores, choque presas, destrua",
+    "difficulty": 14,
+    "thresholds": "10/20",
+    "hp": 5,
+    "stress": 3,
+    "atk": "+0",
+    "weapons": "Mordida chocante: Corpo a corpo | 2d6+4 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Horda (2d4+1)",
+        "type": "Passive",
+        "description": "Quando as Enguias marcaram metade ou mais de seu HP, seu ataque padrão causa 2d4+1 dano físico."
+      },
+      {
+        "title": "Choque Paralisante",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer um ataque padrão contra todos os alvos dentro do alcance do Muito perto. Você ganha um Medo para cada alvo que marca HP."
+      }
+    ]
+  },
+  "SOLDADO DE ELITE": {
+    "name": "SOLDADO DE ELITE",
+    "tier": "Tier 2 Padrão",
+    "description": "Um escudeiro blindado ou um plebeu experiente procurando avançar.",
+    "motivestactics": "Ganhe glória, mantenha a ordem, faça alianças",
+    "difficulty": 15,
+    "thresholds": "9/18",
+    "hp": 4,
+    "stress": 3,
+    "atk": "+1",
+    "weapons": "Lança: Muito perto | 2d8+4 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Reforçar",
+        "type": "Action",
+        "description": "Marque um Estresse para entrar no alcance Corpo a corpo de um aliado e fazer um ataque padrão contra um alvo dentro do alcance Muito perto. Em caso de sucesso, distribua 2d10+2 dano físico e o aliado pode eliminar um Estresse."
+      },
+      {
+        "title": "Lealdade do Vassalo",
+        "type": "Reaction",
+        "description": "Quando o Soldado está dentro do alcance Muito perto de um cavaleiro ou outro nobre que sofreria dano, você pode marcar um Estresse para se mover para o alcance Corpo a corpo dele e receber o dano."
+      }
+    ]
+  },
+  "EXPERIMENTO FALHADO": {
+    "name": "EXPERIMENTO FALHADO",
+    "tier": "Tier 2 Padrão",
+    "description": "Um experimento mágico necromântico deu errado, deixando-os deformados e desajeitados.",
+    "motivestactics": "Devorar, caçar, rastrear",
+    "difficulty": 13,
+    "thresholds": "12/23",
+    "hp": 3,
+    "stress": 3,
+    "atk": "+1",
+    "weapons": "Mordida e Garra: Corpo a corpo | 2d6+5 phy",
+    "experience": "Imitador +3",
+    "features": [
+      {
+        "title": "Fortitude Distorcida",
+        "type": "Passive",
+        "description": "O Experimento é resistente a dano físico."
+      },
+      {
+        "title": "Oprimir",
+        "type": "Passive",
+        "description": "Quando um alvo que o Experimento ataca tem outros adversários dentro do alcance de Muito perto, o Experimento causa dano duplo."
+      },
+      {
+        "title": "Investida cambaleante",
+        "type": "Action",
+        "description": "Marque um Estresse para foco do Experimento como um movimento adicional do MJ em vez de gastar Medo."
+      }
+    ]
+  },
+  "MESTRE GIGANTE": {
+    "name": "MESTRE GIGANTE",
+    "tier": "Tier 2 Líder",
+    "description": "Um guerreiro vestido de couro com um chicote e um arco enorme.",
+    "motivestactics": "Comande, ganhe a vida, manobre, controle, proteja animais de companhia",
+    "difficulty": 16,
+    "thresholds": "12/24",
+    "hp": 6,
+    "stress": 5,
+    "atk": "+2",
+    "weapons": "Arco longo: Longe | 2d8+4 phy",
+    "experience": "Manejo de Animais +3",
+    "features": [
+      {
+        "title": "Dois em Um",
+        "type": "Passive",
+        "description": "Quando o Beastmaster é colocado em foco, você também pode foco um adversário animal de Nível 1 atualmente sob seu controle."
+      },
+      {
+        "title": "Golpe Fixante",
+        "type": "Action",
+        "description": "Faça um ataque padrão contra um alvo. Em caso de sucesso, você pode marcar um Estresse para fixá-lo em uma superfície próxima. O alvo fixado é Imobilizado até que eles se libertem com um Finesse ou teste de Força bem-sucedido."
+      },
+      {
+        "title": "Companheiro Mortal",
+        "type": "Action",
+        "description": "Duas vezes por cena, convoque um Urso, Lobo Terrível ou adversário animal semelhante de Nível 1 sob o controle do Mestre das Feras. O adversário aparece na faixa Perto e é imediatamente colocado em foco."
+      }
+    ]
+  },
+  "BRIGAO GIGANTE": {
+    "name": "BRIGAO GIGANTE",
+    "tier": "Tier 2 Bruto",
+    "description": "Um gigante especialmente musculoso empunhando um martelo de guerra maior que um humano.",
+    "motivestactics": "Ganhar a vida, sobrecarregar, bater, derrubar",
+    "difficulty": 15,
+    "thresholds": "14/28",
+    "hp": 7,
+    "stress": 4,
+    "atk": "+2",
+    "weapons": "Martelo de guerra: Muito perto | 2d12+3 phy",
+    "experience": "Intrusão +2",
+    "features": [
+      {
+        "title": "Ariete",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer o Brigao Gigante investir contra um objeto inanimado dentro de Perto que ele poderia esmagar de forma plausivel, como uma parede, um carro ou uma barraca de mercado, e destrui-lo. Todos os alvos a Muito perto do objeto devem passar em um teste de Reacao de Agilidade ou sofrer 2d4+3 de dano fisico dos estilhacos."
+      },
+      {
+        "title": "Represalia sangrenta",
+        "type": "Reaction",
+        "description": "Quando o Brigao Gigante marca 2 ou mais HP com um ataque dentro de Muito perto, voce pode fazer um ataque padrao contra o atacante. Em caso de sucesso, o Brigao Gigante causa 2d6+15 de dano fisico em vez de seu dano padrao."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando o Brigao Gigante faz um ataque bem-sucedido contra um PJ, voce ganha um Medo."
+      }
+    ]
+  },
+  "RECRUTA GIGANTE": {
+    "name": "RECRUTA GIGANTE",
+    "tier": "Tier 2 Lacaio",
+    "description": "Um lutador gigante usando uma armadura emprestada.",
+    "motivestactics": "Bater, ganhar a vida, sobrecarregar, aterrorizar",
+    "difficulty": 13,
+    "thresholds": "None",
+    "hp": 1,
+    "stress": 2,
+    "atk": "+1",
+    "weapons": "Martelo de guerra: Muito perto | 5 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Lacaio (7)",
+        "type": "Passive",
+        "description": "O Recruta é derrotado quando sofre algum dano. Para cada 7 de dano que um PJ causa ao Recruta, derrote um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso."
+      },
+      {
+        "title": "Ataque em Grupo",
+        "type": "Action",
+        "description": "Gaste um Medo para escolher um alvo e foco todos os Recrutas Gigantes dentro do alcance de Perto deles. Esses Lacaios se movem para o alcance Corpo a corpo do alvo e fazem uma jogada de ataque compartilhada. Em caso de sucesso, eles negociam 5 dano físico cada. Combine esse dano."
+      }
+    ]
+  },
+  "ÁGUIA GIGANTE": {
+    "name": "ÁGUIA GIGANTE",
+    "tier": "Tier 2 Espreitador",
+    "description": "Uma ave de rapina gigante com garras manchadas de sangue.",
+    "motivestactics": "Cace presas, mantenha-se móvel, ataque com decisão",
+    "difficulty": 14,
+    "thresholds": "8/19",
+    "hp": 4,
+    "stress": 4,
+    "atk": "+1",
+    "weapons": "Garras e Bico: Muito perto | 2d6+3 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Vôo",
+        "type": "Passive",
+        "description": "Enquanto voa, a Águia ganha um bônus de +3 em sua dificuldade."
+      },
+      {
+        "title": "Mergulho Mortal",
+        "type": "Action",
+        "description": "Marque um Estresse para atacar um alvo dentro do alcance do Longe. Se obtiver sucesso, cause 2d10+2 dano físico e derrube o alvo, tornando-o Vulnerável até o próximo ato."
+      },
+      {
+        "title": "Decolagem",
+        "type": "Action",
+        "description": "Faça um ataque contra um alvo dentro do alcance de Muito perto. Em caso de sucesso, cause 2d4+3 dano físico e o alvo deverá ter sucesso em um teste de Reação de Agilidade ou se tornar temporariamente Imobilizado dentro das enormes garras da Águia. Se o alvo for Imobilizado, a Águia imediatamente se eleva no ar até o alcance Muito Longe acima do campo de batalha enquanto a segura."
+      },
+      {
+        "title": "Deadly Drop",
+        "type": "Action",
+        "description": "Enquanto voa, a Águia pode derrubar um alvo Imobilizado que esteja segurando. Quando largado, o alvo não é mais Imobilizado, mas começa a cair. Se sua queda não for evitada durante a próxima ação dos PJs, o alvo sofre 2d20 dano físico quando pousar."
+      }
+    ]
+  },
+  "GÓRGONA": {
+    "name": "GÓRGONA",
+    "tier": "Tier 2 Solo",
+    "description": "Um humanóide com cabeça de cobra e escamas com um arco dourado, enfurecido porque sua paz foi perturbada.",
+    "motivestactics": "Canto, atropelamento, petrificação, busca vingança",
+    "difficulty": 15,
+    "thresholds": "13/25",
+    "hp": 9,
+    "stress": 3,
+    "atk": "+4",
+    "weapons": "Arco Curto Sunsear: Longe | 2d20+3 mágico",
+    "experience": "Furtividade +3",
+    "features": [
+      {
+        "title": "Implacável (2)",
+        "type": "Passive",
+        "description": "O Gorgon pode ser colocado em foco até duas vezes por turno do MJ. Gaste Medo normalmente para foco."
+      },
+      {
+        "title": "Sunsear Arrows",
+        "type": "Passive",
+        "description": "Quando a Górgona faz um ataque padrão bem-sucedido, o alvo brilha até o final da cena e não pode se tornar Escondido. As jogadas de ataque feitas contra um alvo brilhante têm vantagem."
+      },
+      {
+        "title": "Coroa de Serpentes",
+        "type": "Action",
+        "description": "Faça uma jogada de ataque contra um alvo dentro do alcance de Corpo a corpo usando as cobras protetoras da Górgona. Em caso de sucesso, marque um Estresse para distribuir 2d10+4 dano físico e o alvo deve marcar um Estresse."
+      },
+      {
+        "title": "Olhar Petrificante",
+        "type": "Reaction",
+        "description": "Quando a Górgona sofre dano de um ataque dentro do alcance de Perto, você pode gastar um Medo para forçar o atacante a fazer um teste de Reação de Instinto. Em caso de falha, eles começam a virar pedra, marcando um HP e iniciando uma Contagem Regressiva de Petrificação (4). Esta contagem regressiva diminui quando a Górgona é atacada. Quando acionado, o alvo deve fazer um movimento mortal. Se a Górgona for derrotada, todas as contagens regressivas de petrificação terminam."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando a Górgona faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "MOSCA CINTILANTE JUVENIL": {
+    "name": "MOSCA CINTILANTE JUVENIL",
+    "tier": "Tier 2 Solo",
+    "description": "Um inseto do tamanho de um cavalo, com escamas iridescentes e asas cristalinas, movendo-se mais rápido do que a vista consegue ver.",
+    "motivestactics": "Colete coisas brilhantes, cace, ataque",
+    "difficulty": 14,
+    "thresholds": "13/26",
+    "hp": 10,
+    "stress": 5,
+    "atk": "+3",
+    "weapons": "Corte de asa: Muito perto | 2d10+4 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Implacavel (3)",
+        "type": "Passive",
+        "description": "A Mosca Cintilante Juvenil pode ser colocada em foco ate tres vezes por turno do MJ. Gaste Medo normalmente para coloca-la em foco."
+      },
+      {
+        "title": "Precisao impecavel",
+        "type": "Passive",
+        "description": "Antes de a Mosca Cintilante Juvenil fazer um ataque, role um d6. Com resultado 4 ou mais, a Evasao do alvo e reduzida pela metade contra esse ataque."
+      },
+      {
+        "title": "Danca mental",
+        "type": "Action",
+        "description": "Marque um Estresse para criar uma exibicao magica deslumbrante que prende as mentes dos inimigos proximos. Todos os alvos em alcance Perto devem fazer um teste de Reacao de Instinto. Para cada alvo que falhar, voce ganha um Medo e a Mosca Cintilante Juvenil aprende um dos medos desse alvo."
+      },
+      {
+        "title": "Sopro alucinatorio",
+        "type": "Reaction",
+        "description": "Contagem regressiva (ciclo 1d6). Quando a Mosca Cintilante Juvenil sofrer dano pela primeira vez, ative a contagem regressiva. Quando ela disparar, a Mosca Cintilante Juvenil exala gas alucinatorio sobre todos os alvos a sua frente ate alcance Longe. Os alvos devem passar em um teste de Reacao de Instinto ou ser atormentados por alucinacoes aterradoras. Alvos cujos medos sejam conhecidos pela Mosca Cintilante Juvenil tem desvantagem nessa rolagem. Os alvos que falharem devem marcar um Estresse e perder uma Esperanca."
+      }
+    ]
+  },
+  "CAVALEIRO DO REINO": {
+    "name": "CAVALEIRO DO REINO",
+    "tier": "Tier 2 Líder",
+    "description": "Um soldado condecorado com armadura pesada e um cavalo poderoso.",
+    "motivestactics": "Corra, busque a glória, mostre domínio",
+    "difficulty": 15,
+    "thresholds": "13/26",
+    "hp": 6,
+    "stress": 4,
+    "atk": "+4",
+    "weapons": "Espada longa: Corpo a corpo | 2d10+4 phy",
+    "experience": "Conhecimento Antigo +3, Alta Sociedade +2, Táticas +2",
+    "features": [
+      {
+        "title": "Chevalier",
+        "type": "Passive",
+        "description": "Enquanto o Cavaleiro estiver montado, ele ganha um bônus de +2 em sua dificuldade. Quando eles pegam dano severo, eles são derrubados da montaria e perdem esse benefício até o próximo colocado em foco."
+      },
+      {
+        "title": "Fortemente Blindado",
+        "type": "Passive",
+        "description": "Quando o Cavaleiro pega dano físico, reduza em 3."
+      },
+      {
+        "title": "Carga de Cavalaria",
+        "type": "Action",
+        "description": "Se o Cavaleiro estiver montado, mova-se até o alcance de Longe e faça um ataque padrão contra um alvo. Em caso de sucesso, distribua 2d8+4 dano físico e o alvo deve marcar um Estresse."
+      },
+      {
+        "title": "Para o Reino!",
+        "type": "Action",
+        "description": "Marque um Estresse para foco 1d4+1 aliados. Os ataques que eles fazem enquanto colocado em foco causam metade do dano."
+      }
+    ]
+  },
+  "LADRÃO MASCARADO": {
+    "name": "LADRÃO MASCARADO",
+    "tier": "Tier 2 Espreitador",
+    "description": "Um ladrão astuto com habilidade acrobática e talento para o dramático.",
+    "motivestactics": "Fugir, esconder, roubar, lucrar",
+    "difficulty": 14,
+    "thresholds": "8/17",
+    "hp": 4,
+    "stress": 5,
+    "atk": "+3",
+    "weapons": "Espada invertida: Corpo a corpo | 2d8+3 phy",
+    "experience": "Acrobacia +3",
+    "features": [
+      {
+        "title": "Mãos Rápidas",
+        "type": "Action",
+        "description": "Faça um ataque contra um alvo dentro do alcance de Corpo a corpo. Se obtiver sucesso, distribua 1d8+2 dano físico e o Ladrão roubará um item ou consumível do inventário do alvo."
+      },
+      {
+        "title": "Plano de Fuga",
+        "type": "Action",
+        "description": "Marque um Estresse para revelar uma armadilha colocada em qualquer lugar do campo de batalha pelo Ladrão. Todos os alvos dentro do alcance Muito perto da armadilha devem ter sucesso em um teste de Reação de Agilidade (13) ou serão levantados e suspensos de cabeça para baixo. Um alvo é Imobilizado e Vulnerável até que eles se libertem, encerrando ambas as condições, com um Finesse ou teste de Força (13) bem-sucedido."
+      }
+    ]
+  },
+  "BARÃO MERCADOR": {
+    "name": "BARÃO MERCADOR",
+    "tier": "Tier 2 Social",
+    "description": "Um comerciante talentoso com uma grande operação sob seu comando.",
+    "motivestactics": "Abuse do poder, reúna recursos, mobilize lacaios",
+    "difficulty": 15,
+    "thresholds": "9/19",
+    "hp": 5,
+    "stress": 3,
+    "atk": "−2",
+    "weapons": "Espada: Corpo a corpo | 1d6+2 phy",
+    "experience": "Nobreza +2, Comércio +2",
+    "features": [
+      {
+        "title": "Todo mundo tem um preço",
+        "type": "Action",
+        "description": "Gaste um Medo para oferecer a um alvo uma pechincha perigosa por algo que ele deseja ou precisa. Se usados ​​em um PJ, devem fazer um teste de Reação de Presença (17). Em caso de falha, eles devem marcar 2 Estresse ou aceitar o acordo."
+      },
+      {
+        "title": "O melhor músculo que o dinheiro pode comprar",
+        "type": "Action",
+        "description": "Uma vez por cena, marque um Estresse para convocar 1d4+1 adversários de Nível 1, que aparecem no alcance de Longe, para impor a vontade do Barão."
+      }
+    ]
+  },
+  "MINOTAURO DESTRUIDOR": {
+    "name": "MINOTAURO DESTRUIDOR",
+    "tier": "Tier 2 Bruto",
+    "description": "Um enorme firbolg com cabeça de touro e temperamento explosivo.",
+    "motivestactics": "Consumir, sangrar, navegar, dominar, perseguir",
+    "difficulty": 16,
+    "thresholds": "14/27",
+    "hp": 7,
+    "stress": 5,
+    "atk": "+2",
+    "weapons": "Machado de Batalha: Muito perto | 2d8+5 phy",
+    "experience": "Navegação +2",
+    "features": [
+      {
+        "title": "Avanço",
+        "type": "Passive",
+        "description": "Você deve gastar um Medo para foco, o Minotauro. Enquanto colocado em foco, eles podem realizar seu ataque padrão contra todos os alvos dentro do alcance."
+      },
+      {
+        "title": "Touro em Carga",
+        "type": "Action",
+        "description": "Marque um Estresse para atacar um grupo dentro do alcance do Perto e fazer um ataque contra todos os alvos no caminho do Minotauro. Os alvos contra os quais o Minotauro tem sucesso recebem 2d6+8 dano físico e são repelidos para o alcance Muito Longe. Se um alvo for atingido por um objeto sólido ou outra criatura, ele sofrerá 1d6 de dano extra (combine o dano)."
+      },
+      {
+        "title": "Gore",
+        "type": "Action",
+        "description": "Faça um ataque contra um alvo dentro do alcance de Muito perto, movendo o Minotauro para o alcance de Corpo a corpo dele. Em caso de sucesso, distribua 2d8 direto dano físico."
+      }
+    ]
+  },
+  "CAÇADOR MORTAL": {
+    "name": "CAÇADOR MORTAL",
+    "tier": "Tier 2 Líder",
+    "description": "Uma figura morta-viva vestindo um casaco de couro pesado, com olhos penetrantes e um comportamento casualmente cruel.",
+    "motivestactics": "Devorar, caçar, rastrear",
+    "difficulty": 16,
+    "thresholds": "15/27",
+    "hp": 6,
+    "stress": 4,
+    "atk": "+5",
+    "weapons": "Rasgar a carne: Muito perto | 2d12+1 phy",
+    "experience": "Cão de caça +3",
+    "features": [
+      {
+        "title": "Aterrorizante",
+        "type": "Passive",
+        "description": "Quando o Caçador faz um ataque bem-sucedido, todos os PJs dentro do alcance de Longe perdem uma Esperança e você ganha um Medo."
+      },
+      {
+        "title": "Deathlock",
+        "type": "Action",
+        "description": "Gaste um Medo para amaldiçoar um alvo dentro do alcance de Muito perto com um Deathlock necrótico até o final da cena. Ataques feitos pelo Caçador contra um alvo Deathlocked causam dano direto. O Caçador só pode manter um Deathlock por vez."
+      },
+      {
+        "title": "Morte inevitável",
+        "type": "Action",
+        "description": "Marque um Estresse para foco 1d4 aliados. Os ataques que eles fazem enquanto colocado em foco causam metade do dano."
+      },
+      {
+        "title": "Fúria",
+        "type": "Reaction",
+        "description": "Contagem regressiva (ciclo 1d6). Quando o Cacador estiver no foco pela primeira vez, ative a contagem regressiva. Quando for acionado, mova o Caçador em linha reta até um ponto dentro do alcance de Longe e ataque todos os alvos em seu caminho. Os alvos contra os quais o Caçador obtém sucesso recebem 2d8+2 dano físico."
+      }
+    ]
+  },
+  "CONSULTOR REAL": {
+    "name": "CONSULTOR REAL",
+    "tier": "Tier 2 Social",
+    "description": "Um cortesão de alto escalão, ouvido pela nobreza local.",
+    "motivestactics": "Obter favores, fabricar provas, esquema",
+    "difficulty": 14,
+    "thresholds": "8/15",
+    "hp": 3,
+    "stress": 3,
+    "atk": "−3",
+    "weapons": "Varinha: Longe | 1d4+3 phy",
+    "experience": "Administração +3, Cortesão +3",
+    "features": [
+      {
+        "title": "Retorta Devastadora",
+        "type": "Passive",
+        "description": "Um PJ que obtiver menos de 17 em uma jogada de ação visando o Conselheiro deve marcar um Estresse."
+      },
+      {
+        "title": "Bend Ears",
+        "type": "Action",
+        "description": "Marque um Estresse para influenciar um NPJ dentro do alcance de Corpo a corpo com palavras sussurradas. A opinião desse alvo sobre um assunto muda em direção à preferência do Conselheiro, a menos que esteja em oposição direta aos motivos do alvo."
+      },
+      {
+        "title": "Bode expiatório",
+        "type": "Action",
+        "description": "Gaste um Medo para convencer uma multidão ou indivíduo notável de que uma pessoa ou grupo é responsável por algum problema enfrentado pelo alvo. O alvo torna-se hostil ao bode expiatório até ser convencido de sua inocência com um teste de Presença (17) bem-sucedido."
+      }
+    ]
+  },
+  "GUARDIÃO DE SEGREDOS": {
+    "name": "GUARDIÃO DE SEGREDOS",
+    "tier": "Tier 2 Líder",
+    "description": "Um líder clandestino com canal direto para os Deuses Caídos.",
+    "motivestactics": "Acumule grande poder, planeje, assuma o comando",
+    "difficulty": 16,
+    "thresholds": "13/26",
+    "hp": 7,
+    "stress": 4,
+    "atk": "+3",
+    "weapons": "Cajado carregado de sigilos: Longe | 2d12 mágico",
+    "experience": "Coerção +2, Conhecimento Caído +2",
+    "features": [
+      {
+        "title": "Aproveite o seu momento",
+        "type": "Action",
+        "description": "Gaste 2 Medo para foco 1d4 aliados. Os ataques que eles fazem enquanto colocado em foco causam metade do dano."
+      },
+      {
+        "title": "A Vontade do Nosso Mestre",
+        "type": "Reaction",
+        "description": "Quando você foco for um aliado dentro do alcance de Longe, marque um Estresse para ganhar um Medo."
+      },
+      {
+        "title": "Ritual de Invocação",
+        "type": "Reaction",
+        "description": "Contagem regressiva (6). Quando o Secret-Keeper estiver no foco pela primeira vez, ative a contagem regressiva. Quando eles marcarem HP, marque esta contagem regressiva pelo número de HP marcado. Quando for ativado, convoque um Demônio Menor que aparece no alcance de Perto."
+      },
+      {
+        "title": "Cães Caídos",
+        "type": "Reaction",
+        "description": "Uma vez por cena, quando o Guardião do Segredo marca 2 ou mais HP, você pode marcar um Estresse para invocar um Pacote de Cão Demoníaco, que aparece no alcance de Perto e é imediatamente colocado em foco."
+      }
+    ]
+  },
+  "TUBARÃO": {
+    "name": "TUBARÃO",
+    "tier": "Tier 2 Bruto",
+    "description": "Um grande predador aquático, sempre em movimento.",
+    "motivestactics": "Encontre o sangue, isole a presa, mire nos fracos",
+    "difficulty": 14,
+    "thresholds": "14/28",
+    "hp": 7,
+    "stress": 3,
+    "atk": "+2",
+    "weapons": "Boca Dentuosa: Muito perto | 2d12+1 phy",
+    "experience": "Sentido do Olfato +3",
+    "features": [
+      {
+        "title": "Aterrorizante",
+        "type": "Passive",
+        "description": "Quando o Tubarão faz um ataque bem-sucedido, todos os PJs dentro do alcance de Longe perdem uma Esperança e você ganha um Medo."
+      },
+      {
+        "title": "Mordida Dilacerante",
+        "type": "Passive",
+        "description": "Quando o Tubarão faz um ataque bem-sucedido, o alvo deve marcar um Espaço de Armadura sem receber seus benefícios (ele ainda pode usar armadura para reduzir o dano). Se não conseguirem marcar um Espaço de Armadura, deverão marcar um HP adicional."
+      },
+      {
+        "title": "Sangue na Água",
+        "type": "Reaction",
+        "description": "Quando uma criatura dentro do alcance Perto do Tubarão marca HP do ataque de outra criatura, você pode marcar um Estresse para foco imediatamente o Tubarão, movendo-o para o alcance Corpo a corpo do alvo e fazendo um ataque padrão."
+      }
+    ]
+  },
+  "SIRENE": {
+    "name": "SIRENE",
+    "tier": "Tier 2 Espreitador",
+    "description": "Uma pessoa meio peixe com escamas brilhantes e uma voz irresistível.",
+    "motivestactics": "Consumir, atrair presas, subjugar com música",
+    "difficulty": 14,
+    "thresholds": "9/18",
+    "hp": 5,
+    "stress": 3,
+    "atk": "+2",
+    "weapons": "Mordida de mandíbula distendida: Corpo a corpo | 2d6+3 phy",
+    "experience": "Repertório de músicas +3",
+    "features": [
+      {
+        "title": "Público Cativo",
+        "type": "Passive",
+        "description": "Se a Sereia fizer um ataque padrão contra um alvo fascinado por sua música, o ataque causa 2d10+1 de dano em vez do dano padrão."
+      },
+      {
+        "title": "Canção Encantadora",
+        "type": "Action",
+        "description": "Gaste uma Medo para cantar uma música que afeta todos os alvos dentro do alcance de Perto. Os alvos devem ter sucesso em um teste de Reação de Instinto ou ficarão em transe até marcarem 2 Estresse. Outras Sirenes dentro do alcance Perto do alvo podem marcar um Estresse para cada uma adicionar um bônus de +1 à Dificuldade do teste de reação. Enquanto estiver em transe, o alvo não pode agir e fica Vulnerável."
+      }
+    ]
+  },
+  "ARQUEIRO ESPECTRAL": {
+    "name": "ARQUEIRO ESPECTRAL",
+    "tier": "Tier 2 À distância",
+    "description": "Um lutador fantasmagórico com um arco etéreo, incapaz de seguir em frente enquanto seu pupilo estiver vulnerável.",
+    "motivestactics": "Mova-se através de objetos sólidos, fique fora da briga, repita batalhas antigas",
+    "difficulty": 13,
+    "thresholds": "6/14",
+    "hp": 3,
+    "stress": 3,
+    "atk": "+3",
+    "weapons": "Arco longo: Longe | 2d10+2 phy",
+    "experience": "Conhecimento Antigo +2",
+    "features": [
+      {
+        "title": "Fantasma",
+        "type": "Passive",
+        "description": "O Arqueiro tem resistência a dano físico. Marque um Estresse para mover até o intervalo Perto através de objetos sólidos."
+      },
+      {
+        "title": "Escolha seu alvo",
+        "type": "Action",
+        "description": "Gaste um Medo para fazer um ataque dentro do alcance de Longe contra um PJ que esteja dentro do alcance de Muito perto de pelo menos dois outros PJs. Em caso de sucesso, o alvo sofre 2d8+12 dano físico."
+      }
+    ]
+  },
+  "CAPITÃO ESPECTRAL": {
+    "name": "CAPITÃO ESPECTRAL",
+    "tier": "Tier 2 Líder",
+    "description": "Um comandante fantasmagórico liderando suas tropas além da morte.",
+    "motivestactics": "Mova-se através de objetos sólidos, reúna tropas, repita batalhas antigas",
+    "difficulty": 16,
+    "thresholds": "13/26",
+    "hp": 6,
+    "stress": 4,
+    "atk": "+3",
+    "weapons": "Arco longo: Longe | 2d10+3 phy",
+    "experience": "Conhecimento Antigo +3",
+    "features": [
+      {
+        "title": "Fantasma",
+        "type": "Passive",
+        "description": "O Capitão tem resistência a dano físico. Marque um Estresse para mover até o intervalo Perto através de objetos sólidos."
+      },
+      {
+        "title": "Batalha sem fim",
+        "type": "Action",
+        "description": "Gaste 2 Medo para retornar até 1d4+1 aliados Espectrais derrotados para a batalha nos pontos onde eles apareceram pela primeira vez (sem HP ou Estresse marcados)."
+      },
+      {
+        "title": "Segure firme",
+        "type": "Reaction",
+        "description": "Quando os aliados Espectrais do Capitão são forçados a fazer uma jogada de reação, você pode marcar um Estresse para dar a esses aliados um bônus de +2 na jogada."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando o Capitão faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "GUARDIÃO ESPECTRAL": {
+    "name": "GUARDIÃO ESPECTRAL",
+    "tier": "Tier 2 Padrão",
+    "description": "Um lutador fantasmagórico com lanças e espadas, ancorado no dever.",
+    "motivestactics": "Mova-se através de objetos sólidos, proteja tesouros, repita batalhas antigas",
+    "difficulty": 15,
+    "thresholds": "7/15",
+    "hp": 4,
+    "stress": 3,
+    "atk": "+1",
+    "weapons": "Lança: Muito perto | 2d8+1 phy",
+    "experience": "Conhecimento Antigo +2",
+    "features": [
+      {
+        "title": "Fantasma",
+        "type": "Passive",
+        "description": "O Guardião tem resistência a dano físico. Marque um Estresse para mover até o intervalo Perto através de objetos sólidos."
+      },
+      {
+        "title": "Lâmina Grave",
+        "type": "Action",
+        "description": "Gaste um Medo para fazer um ataque contra um alvo dentro do alcance de Muito perto. Em caso de sucesso, distribua 2d10+6 dano físico e o alvo deve marcar um Estresse."
+      }
+    ]
+  },
+  "ESPIÃO": {
+    "name": "ESPIÃO",
+    "tier": "Tier 2 Social",
+    "description": "Um agente de espionagem habilidoso com talento para estar no lugar certo para ouvir segredos.",
+    "motivestactics": "Cortar e correr, disfarçar a aparência, escutar",
+    "difficulty": 15,
+    "thresholds": "8/17",
+    "hp": 4,
+    "stress": 3,
+    "atk": "−2",
+    "weapons": "Adaga: Corpo a corpo | 2d6+3 phy",
+    "experience": "Espionagem +3",
+    "features": [
+      {
+        "title": "Reunindo Segredos",
+        "type": "Action",
+        "description": "Gaste um Medo para descrever como o Spy sabe um segredo sobre um PJ na cena."
+      },
+      {
+        "title": "Fly on the Wall",
+        "type": "Reaction",
+        "description": "Quando um PJ ou grupo está discutindo algo delicado, você pode marcar um Estresse para revelar que o Spy está presente na cena, observando-o. Se o Spy escapar da cena para relatar suas descobertas, você ganha 1d4 Medo."
+      }
+    ]
+  },
+  "ESPECTRO DE PEDRA": {
+    "name": "ESPECTRO DE PEDRA",
+    "tier": "Tier 2 Espreitador",
+    "description": "Um caçador rondante, como um leão da montanha furtivo, com um corpo de pedra cinza-ardósia.",
+    "motivestactics": "Defenda o território, isole a presa, persiga",
+    "difficulty": 13,
+    "thresholds": "11/22",
+    "hp": 6,
+    "stress": 3,
+    "atk": "+3",
+    "weapons": "Mordida e Garras: Corpo a corpo | 2d8+6 phy",
+    "experience": "Sentido da Pedra +3",
+    "features": [
+      {
+        "title": "Stonestrider",
+        "type": "Passive",
+        "description": "O Stonewraith pode se mover através da pedra e da terra tão facilmente quanto o ar. Enquanto estiverem dentro de pedra ou terra, eles são Escondido e imunes a todos os danos."
+      },
+      {
+        "title": "Emboscada Rochosa",
+        "type": "Action",
+        "description": "Enquanto estiver em Escondido, marque um Estresse para saltar para o alcance de Corpo a corpo com um alvo dentro do alcance de Muito perto. O alvo deve ter sucesso em Agilidade ou teste de Reação de Instinto (15) ou sofrer 2d8 dano físico e se tornar temporariamente Imobilizado."
+      },
+      {
+        "title": "Avalanche Roar",
+        "type": "Action",
+        "description": "Gaste um Medo para rugir dentro de uma caverna e causar um desabamento. Todos os alvos dentro do alcance de Perto devem ter sucesso em um teste de Reação de Agilidade (14) ou receber 2d10 dano físico. Os escombros podem ser removidos com uma contagem regressiva de progresso (8)."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando o Stonewraith faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "MAGO DE GUERRA": {
+    "name": "MAGO DE GUERRA",
+    "tier": "Tier 2 À distância",
+    "description": "Um mago endurecido pela batalha e treinado em magia destrutiva.",
+    "motivestactics": "Desenvolva novos feitiços, busque poder, destrua formações",
+    "difficulty": 16,
+    "thresholds": "11/23",
+    "hp": 5,
+    "stress": 6,
+    "atk": "+4",
+    "weapons": "Equipe: Longe | 2d10+4 mágico",
+    "experience": "Conhecimento Mágico +2, Estratégia +2",
+    "features": [
+      {
+        "title": "Teleporte de batalha",
+        "type": "Passive",
+        "description": "Antes ou depois de realizar um ataque padrao, voce pode marcar um Estresse para se teletransportar para um ponto dentro de alcance Longe."
+      },
+      {
+        "title": "Renovar esfera de protecao",
+        "type": "Action",
+        "description": "Marque um Estresse para renovar a reacao \"Esfera de Protecao\" do Mago de Guerra."
+      },
+      {
+        "title": "Erupcao",
+        "type": "Action",
+        "description": "Gaste um Medo e escolha um ponto dentro de alcance Longe. Uma area de Muito perto ao redor desse ponto entra em erupcao e se torna terreno intransponivel. Todos os alvos dentro da area devem fazer um teste de Reacao de Agilidade (14). Os alvos que falharem sofrem 2d10 de dano fisico e sao arremessados para fora da area. Os alvos que tiverem sucesso sofrem metade do dano e nao se movem."
+      },
+      {
+        "title": "Artilharia arcana",
+        "type": "Action",
+        "description": "Gaste um Medo para desferir uma chuva precisa de explosoes magicas. Todos os alvos na cena devem fazer um teste de Reacao de Agilidade. Os alvos que falharem sofrem 2d12 de dano magico. Os alvos que tiverem sucesso sofrem metade do dano."
+      },
+      {
+        "title": "Esfera de protecao",
+        "type": "Reaction",
+        "description": "Quando o Mago de Guerra sofre dano de um ataque dentro de alcance Perto, cause 2d6 de dano magico ao atacante. Esta reacao nao pode ser usada novamente ate que o Mago de Guerra a renove com sua acao \"Renovar esfera de protecao\"."
+      }
+    ]
+  },
+  "MOSCA CINTILANTE ADULTA": {
+    "name": "MOSCA CINTILANTE ADULTA",
+    "tier": "Tier 3 Solo",
+    "description": "Um inseto alado do tamanho de uma casa grande com escamas iridescentes e asas que se movem rápido demais para serem rastreadas.",
+    "motivestactics": "Colete coisas brilhantes, cace, aninhe, ataque",
+    "difficulty": 17,
+    "thresholds": "20/35",
+    "hp": 12,
+    "stress": 6,
+    "atk": "+3",
+    "weapons": "Corte de asa: Muito perto | 3d20 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Implacavel (4)",
+        "type": "Passive",
+        "description": "A Mosca Cintilante Adulta pode ser colocada em foco ate quatro vezes por turno do MJ. Gaste Medo normalmente para coloca-la em foco."
+      },
+      {
+        "title": "Nunca erra",
+        "type": "Passive",
+        "description": "Quando a Mosca Cintilante Adulta faz um ataque, a Evasao do alvo e reduzida pela metade contra esse ataque."
+      },
+      {
+        "title": "Voo letal",
+        "type": "Passive",
+        "description": "Enquanto voa, a Mosca Cintilante Adulta pode se mover ate alcance Longe em vez de alcance Perto antes de realizar uma acao."
+      },
+      {
+        "title": "Redemoinho",
+        "type": "Action",
+        "description": "Gaste um Medo para girar e fazer um ataque contra todos os alvos a Muito perto. Os alvos contra os quais a Mosca Cintilante Adulta tiver sucesso sofrem 3d8 de dano fisico direto."
+      },
+      {
+        "title": "Danca mental",
+        "type": "Action",
+        "description": "Marque um Estresse para criar uma exibicao magica deslumbrante que prende as mentes dos inimigos proximos. Todos os alvos em alcance Perto devem fazer um teste de Reacao de Instinto. Para cada alvo que falhar, voce ganha um Medo e a Mosca Cintilante Adulta aprende um dos medos desse alvo."
+      },
+      {
+        "title": "Sopro alucinatorio",
+        "type": "Action",
+        "description": "Contagem regressiva (ciclo 1d6). Quando a Mosca Cintilante Adulta sofrer dano pela primeira vez, ative a contagem regressiva. Quando ela disparar, a Mosca Cintilante Adulta exala gas alucinatorio sobre todos os alvos a sua frente ate alcance Longe. Os alvos devem fazer um teste de Reacao de Instinto ou ser atormentados por alucinacoes aterradoras. Alvos cujos medos sejam conhecidos pela Mosca Cintilante Adulta tem desvantagem nessa rolagem. Os alvos que falharem perdem 2 de Esperanca e sofrem 3d8+3 de dano magico direto."
+      },
+      {
+        "title": "Reflexos sobrenaturais",
+        "type": "Reaction",
+        "description": "Quando a Mosca Cintilante Adulta sofrer dano de um ataque dentro de alcance Perto, voce pode marcar um Estresse para sofrer apenas metade do dano."
+      }
+    ]
+  },
+  "DEMONIO DA AVAREZA": {
+    "name": "DEMONIO DA AVAREZA",
+    "tier": "Tier 3 Suporte",
+    "description": "Uma monstruosidade majestosa encapuzada com chifres circulares adornados com tesouros.",
+    "motivestactics": "Consumir, alimentar a ganância, semear dissidência",
+    "difficulty": 17,
+    "thresholds": "15/29",
+    "hp": 6,
+    "stress": 5,
+    "atk": "+2",
+    "weapons": "Boca Faminta: Corpo a corpo | 3d6+5 mágico",
+    "experience": "Manipulação +3",
+    "features": [
+      {
+        "title": "Conversas sobre dinheiro",
+        "type": "Passive",
+        "description": "Os ataques contra o Demônio são feitos com desvantagem, a menos que o atacante gaste um punhado de ouro. Este Demônio começa com um número de punhados igual ao número de PJs. Quando um alvo marca HP do ataque padrão do Demônio, ele pode gastar um punhado de ouro em vez de marcar HP (1 punhado por HP). Adicione um punhado de ouro ao Demônio para cada punhado de ouro gasto por PJs neste recurso."
+      },
+      {
+        "title": "Os números devem subir",
+        "type": "Passive",
+        "description": "Adicione um bônus às jogadas de ataque do Demônio igual ao número de punhados de ouro que ele possui."
+      },
+      {
+        "title": "Dinheiro é Tempo",
+        "type": "Action",
+        "description": "Gaste 3 punhados de ouro (ou um Medo) para foco 1d4+1 aliados."
+      }
+    ]
+  },
+  "DEMÔNIO DO DESESPERO": {
+    "name": "DEMÔNIO DO DESESPERO",
+    "tier": "Tier 3 Espreitador",
+    "description": "Uma criatura demoníaca encapuzada com membros longos, infiltrando sombras.",
+    "motivestactics": "Tornar o medo contagioso, ficar nas sombras, minar a resolução",
+    "difficulty": 17,
+    "thresholds": "18/35",
+    "hp": 6,
+    "stress": 5,
+    "atk": "+3",
+    "weapons": "Parafuso de miasma: Longe | 3d6+1 mágico",
+    "experience": "Manipulação +3",
+    "features": [
+      {
+        "title": "Profundezas do Desespero",
+        "type": "Passive",
+        "description": "O Demônio causa o dobro de dano a PJs com 0 de Esperança."
+      },
+      {
+        "title": "Sua luta é inútil",
+        "type": "Action",
+        "description": "Gaste um Medo para abater o ânimo de todos os PJs dentro do alcance do Longe. Todos os alvos afetados substituem seu Dado de Esperança por um d8 até obterem sucesso com Esperança ou seu próximo descanso."
+      },
+      {
+        "title": "Seus amigos irão falhar com você",
+        "type": "Reaction",
+        "description": "Quando um PJ falha com Medo, você pode marcar um Estresse para fazer com que todos os outros PJs dentro do alcance de Perto percam uma Esperança."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando o Demônio faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "DEMONIO DA SOBERBA": {
+    "name": "DEMONIO DA SOBERBA",
+    "tier": "Tier 3 Líder",
+    "description": "Um demônio perfeitamente belo e infinitamente cruel com uma lança brilhante e vestes elegantes.",
+    "motivestactics": "Condescender, declarar vitória prematura, provar superioridade",
+    "difficulty": 18,
+    "thresholds": "18/36",
+    "hp": 7,
+    "stress": 5,
+    "atk": "+4",
+    "weapons": "Lança Perfeita: Muito perto | 3d10 phy",
+    "experience": "Manipulação +2",
+    "features": [
+      {
+        "title": "Aterrorizante",
+        "type": "Passive",
+        "description": "Quando o Demônio faz um ataque bem-sucedido, todos os PJs dentro do alcance de Longe devem perder uma Esperança e você ganha um Medo."
+      },
+      {
+        "title": "Duplo ou Nada",
+        "type": "Passive",
+        "description": "Quando um PJ dentro do alcance de Longe falha em um lançamento, ele pode optar por rolar novamente seu Dado Medo e obter o novo resultado. Se ainda falharem, eles marcam 2 Estresse e o Demônio elimina um Estresse."
+      },
+      {
+        "title": "Habilidade incomparável",
+        "type": "Action",
+        "description": "Marque um Estresse para causar o dano de ataque padrão do Demônio a um alvo dentro do alcance de Perto."
+      },
+      {
+        "title": "A Raiz da Vilania",
+        "type": "Action",
+        "description": "Gaste um Medo para foco dois outros Demônios dentro do alcance de Longe."
+      },
+      {
+        "title": "Você é pálido em comparação",
+        "type": "Reaction",
+        "description": "Quando um PJ falha em um teste dentro do alcance de Perto do Demônio, ele deve marcar um Estresse."
+      }
+    ]
+  },
+  "DEMÔNIO DO CIÚME": {
+    "name": "DEMÔNIO DO CIÚME",
+    "tier": "Tier 3 À distância",
+    "description": "Uma criatura inconstante de membros finos e desejos insaciáveis.",
+    "motivestactics": "Junte-se ao sucesso dos outros, pegue o que pertence aos outros, guarde rancor",
+    "difficulty": 17,
+    "thresholds": "17/30",
+    "hp": 6,
+    "stress": 6,
+    "atk": "+4",
+    "weapons": "Ataque Psíquico: Longe | 3d8+3 mágico",
+    "experience": "Manipulação +3",
+    "features": [
+      {
+        "title": "Mente Desprotegida",
+        "type": "Passive",
+        "description": "O ataque padrão do Demônio causa dano direto."
+      },
+      {
+        "title": "Minha vez",
+        "type": "Reaction",
+        "description": "Quando o Demônio marca HP em um ataque, gaste um número de Medo igual ao HP marcado pelo Demônio para fazer com que o atacante marque o mesmo número de HP."
+      },
+      {
+        "title": "Rivalidade",
+        "type": "Reaction",
+        "description": "Quando uma criatura dentro do alcance de Perto sofre dano de um adversário diferente, você pode marcar um Estresse para adicionar um d4 à jogada de dano."
+      },
+      {
+        "title": "O que é seu é meu",
+        "type": "Reaction",
+        "description": "Quando um PJ leva dano severo ao alcance de Muito perto do Demônio, você pode gastar um Medo para fazer com que o alvo faça um teste de Reação de Finesse. Em caso de falha, o Demônio apreende um item ou consumível de sua escolha do inventário do alvo."
+      }
+    ]
+  },
+  "DEMÔNIO DA IRA": {
+    "name": "DEMÔNIO DA IRA",
+    "tier": "Tier 3 Bruto",
+    "description": "Um demônio enorme com punhos do tamanho de pedras, movido por uma raiva sem fim.",
+    "motivestactics": "Alimente a raiva, impressione rivais, cause estragos",
+    "difficulty": 17,
+    "thresholds": "22/40",
+    "hp": 7,
+    "stress": 5,
+    "atk": "+3",
+    "weapons": "Punhos: Muito perto | 3d8+1 mágico",
+    "experience": "Intimidação +2",
+    "features": [
+      {
+        "title": "Raiva Implacável",
+        "type": "Passive",
+        "description": "Os ataques do Demônio causam dano direto."
+      },
+      {
+        "title": "Lust de Batalha",
+        "type": "Action",
+        "description": "Gaste um Medo para ferver o sangue de todos os PJs dentro do alcance de Longe. Eles usam um d20 como dado Medo até o final da cena."
+      },
+      {
+        "title": "Retaliação",
+        "type": "Reaction",
+        "description": "Quando o Demônio sofre dano de um ataque dentro do alcance de Perto, você pode marcar um Estresse para fazer um ataque padrão contra o atacante."
+      },
+      {
+        "title": "Blood and Souls",
+        "type": "Reaction",
+        "description": "Contagem regressiva (ciclo 6). Ative na primeira vez que um ataque for feito à vista do Demônio. Ele diminui quando um PJ realiza uma ação violenta. Quando for ativado, convoque 1d4 Demônios Menores, que aparecem no alcance de Perto."
+      }
+    ]
+  },
+  "DIRE BAT": {
+    "name": "DIRE BAT",
+    "tier": "Tier 3 Espreitador",
+    "description": "Um animal de estimação de asas largas, infinitamente leal ao seu dono vampiro.",
+    "motivestactics": "Mergulhe, esconda, proteja o líder",
+    "difficulty": 14,
+    "thresholds": "16/30",
+    "hp": 5,
+    "stress": 3,
+    "atk": "+2",
+    "weapons": "Garras e Dentes: Corpo a corpo | 2d6+7 phy",
+    "experience": "Sanguinário +3",
+    "features": [
+      {
+        "title": "Voar",
+        "type": "Passive",
+        "description": "Enquanto voa, o Morcego ganha um bônus de +3 em sua Dificuldade."
+      },
+      {
+        "title": "Grito",
+        "type": "Action",
+        "description": "Marque um Estresse para enviar um grito agudo em direção a todos os alvos na frente do Morcego dentro do alcance do Longe. Esses alvos devem marcar 1d4 Estresse."
+      },
+      {
+        "title": "Guardião",
+        "type": "Reaction",
+        "description": "Quando um Vampiro aliado marca HP, você pode marcar um Estresse para voar até o alcance Corpo a corpo do atacante e fazer um ataque com vantagem contra ele. Em caso de sucesso, distribua 2d6+2 dano físico."
+      }
+    ]
+  },
+  "DRIADE": {
+    "name": "DRIADE",
+    "tier": "Tier 3 Líder",
+    "description": "Um espírito da natureza na forma de uma árvore humanóide.",
+    "motivestactics": "Comande, cultive, expulse, preserve a floresta",
+    "difficulty": 16,
+    "thresholds": "24/38",
+    "hp": 8,
+    "stress": 5,
+    "atk": "+4",
+    "weapons": "Arco Curto Deadfall: Longe | 3d10+1 phy",
+    "experience": "Conhecimento Florestal +4",
+    "features": [
+      {
+        "title": "Arbusto de espinhos",
+        "type": "Action",
+        "description": "Marque um Estresse para atingir um ponto dentro do alcance de Longe. Crie um pedaço de espinhos que cubra uma área dentro do alcance Perto daquele ponto. Todos os alvos dentro dessa área recebem 2d6+2 dano físico quando agem. Um alvo deve ter sucesso em um teste de Finesse ou causar mais de 20 de dano à Dríade com um ataque para sair da área."
+      },
+      {
+        "title": "Crescer Mudas",
+        "type": "Action",
+        "description": "Gaste um Medo para cultivar três muda de treant Lacaios, que aparecem no alcance de Perto e imediatamente pegam o foco."
+      },
+      {
+        "title": "Somos todos um",
+        "type": "Reaction",
+        "description": "Quando um aliado morre dentro do alcance de Perto, você pode gastar um Medo para limpar 2 HP e 2 Estresse enquanto a força vital do aliado caído retorna à floresta."
+      }
+    ]
+  },
+  "FAÍSCA ELEMENTAL": {
+    "name": "FAÍSCA ELEMENTAL",
+    "tier": "Tier 3 Lacaio",
+    "description": "Uma partícula ardente de fogo elementar.",
+    "motivestactics": "Explodir, consumir, ganhar massa",
+    "difficulty": 15,
+    "thresholds": "None",
+    "hp": 1,
+    "stress": 1,
+    "atk": "+0",
+    "weapons": "Explosões de fogo: Perto | 5 mag",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Lacaio (9)",
+        "type": "Passive",
+        "description": "O Elemental é derrotado quando sofre algum dano. Para cada 9 de dano que um PJ causa ao Elemental, derrote um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso."
+      },
+      {
+        "title": "Ataque em Grupo",
+        "type": "Action",
+        "description": "Gaste um Medo para escolher um alvo e foco todas as Centelhas Elementais dentro do alcance de Perto deles. Esses Lacaios se movem para o alcance Corpo a corpo do alvo e fazem uma jogada de ataque compartilhada. Em caso de sucesso, eles negociam 5 dano físico cada. Combine esse dano."
+      }
+    ]
+  },
+  "ELEMENTAL DA TERRA MAIOR": {
+    "name": "ELEMENTAL DA TERRA MAIOR",
+    "tier": "Tier 3 Bruto",
+    "description": "Um deslizamento vivo de pedras e poeira, do tamanho de uma casa.",
+    "motivestactics": "Avalanche, derrubar, esmurrar",
+    "difficulty": 17,
+    "thresholds": "22/40",
+    "hp": 10,
+    "stress": 4,
+    "atk": "+7",
+    "weapons": "Punho de Pedra: Muito perto | 3d10+1 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Lento",
+        "type": "Passive",
+        "description": "Quando você foco o Elemental e ele não tem um token em seu bloco de estatísticas, ele ainda não pode agir. Coloque uma ficha no bloco de estatísticas e descreva o que eles estão se preparando para fazer. Quando você foco o Elemental e ele tiver um token em seu bloco de estatísticas, limpe o token e ele poderá agir."
+      },
+      {
+        "title": "Golpes Esmagadores",
+        "type": "Passive",
+        "description": "Quando o Elemental realiza um ataque bem-sucedido, o alvo deve marcar um Espaço de Armadura sem receber seus benefícios (ele ainda pode usar armadura para reduzir o dano). Se não conseguirem marcar um Espaço de Armadura, deverão marcar um HP adicional."
+      },
+      {
+        "title": "Objeto Imóvel",
+        "type": "Passive",
+        "description": "Um ataque que moveria o Elemental os move dois alcances a menos (por exemplo, Longe se torna Muito perto). Quando o Elemental tomar dano físico, reduza em 7."
+      },
+      {
+        "title": "Deslizamento de rochas",
+        "type": "Action",
+        "description": "Marque um Estresse para criar um deslizamento de rochas que enterra a terra na frente do Elemental dentro do alcance de Perto com queda de rochas. Todos os alvos nesta área devem fazer um teste de Reação de Agilidade (19). Os alvos que falham recebem 2d12+5 dano físico e se tornam Vulnerável até a próxima rolagem com Esperança. Os alvos bem-sucedidos sofrem metade do dano."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando o Elemental faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "ELEMENTAL DA ÁGUA MAIOR": {
+    "name": "ELEMENTAL DA ÁGUA MAIOR",
+    "tier": "Tier 3 Suporte",
+    "description": "Uma enorme onda viva que atinge os inimigos.",
+    "motivestactics": "Dilúvio, dispersar, afogar",
+    "difficulty": 17,
+    "thresholds": "17/34",
+    "hp": 5,
+    "stress": 5,
+    "atk": "+3",
+    "weapons": "Onda quebrando: Muito perto | 3d4+1 mágico",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Jato de Água",
+        "type": "Action",
+        "description": "Marque um Estresse para atacar um alvo dentro do alcance do Muito perto. Em caso de sucesso, distribua 2d4+7 dano físico e a próxima ação do alvo terá desvantagem. Em caso de falha, o alvo deve marcar Estresse."
+      },
+      {
+        "title": "Abraço Afogado",
+        "type": "Action",
+        "description": "Gaste um Medo para fazer um ataque contra todos os alvos dentro do alcance de Muito perto. Os alvos contra os quais o Elemental consegue se tornarem Imobilizado e Vulnerável quando começarem a se afogar. Um alvo pode se libertar, encerrando ambas as condições, com sucesso em Força ou teste de Instinto."
+      },
+      {
+        "title": "Maré Alta",
+        "type": "Reaction",
+        "description": "Quando o Elemental faz um ataque padrão bem-sucedido, você pode marcar um Estresse para empurrar o alvo de volta ao alcance Perto."
+      }
+    ]
+  },
+  "ENORME LAMA VERDE": {
+    "name": "ENORME LAMA VERDE",
+    "tier": "Tier 3 Espreitador",
+    "description": "Um monte verde translúcido de ácido mais alto que a maioria dos humanos.",
+    "motivestactics": "Camuflar, rastejar, envolver, multiplicar",
+    "difficulty": 15,
+    "thresholds": "15/30",
+    "hp": 7,
+    "stress": 4,
+    "atk": "+3",
+    "weapons": "Apêndice Ooze: Corpo a corpo | 3d8+1 mágico",
+    "experience": "Misture-se +3",
+    "features": [
+      {
+        "title": "Lento",
+        "type": "Passive",
+        "description": "Quando você foco o Ooze e ele não tem um token em seu bloco de estatísticas, ele ainda não pode agir. Coloque uma ficha no bloco de estatísticas e descreva o que eles estão se preparando para fazer. Quando você foco o Ooze e ele tiver um token em seu bloco de estatísticas, limpe o token e ele poderá agir."
+      },
+      {
+        "title": "Forma Ácida",
+        "type": "Passive",
+        "description": "Quando o Ooze faz um ataque bem-sucedido, o alvo deve marcar um Espaço de Armadura sem receber seus benefícios (ele ainda pode usar armadura para reduzir o dano). Se não conseguirem marcar um Espaço de Armadura, deverão marcar um HP adicional."
+      },
+      {
+        "title": "Envelop",
+        "type": "Action",
+        "description": "Faça um ataque contra um alvo dentro do alcance de Corpo a corpo. Em caso de sucesso, o Lodo os envolve e o alvo deve marcar 2 Estresse. Enquanto estiver Envolto, o alvo deve marcar um Estresse adicional toda vez que fizer uma jogada de ação. Quando o Ooze toma dano severo, todos os alvos Envelopados são liberados e a condição é eliminada."
+      },
+      {
+        "title": "Dividir",
+        "type": "Reaction",
+        "description": "Quando o Ooze tem 4 ou mais HP marcados, você pode gastar um Medo para dividi-los em dois Green Oozes (sem HP marcado ou Estresse). Imediatamente foco ambos."
+      }
+    ]
+  },
+  "HIDRA": {
+    "name": "HIDRA",
+    "tier": "Tier 3 Solo",
+    "description": "Uma fera quadrúpede com múltiplas cabeças de pescoço longo, cada uma cheia de presas ameaçadoras.",
+    "motivestactics": "Devorar, regenerar, aterrorizar",
+    "difficulty": 18,
+    "thresholds": "19/35",
+    "hp": 10,
+    "stress": 5,
+    "atk": "+3",
+    "weapons": "Mordida: Perto | 2d12+2 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Ameaça de Muitas Cabeças",
+        "type": "Passive",
+        "description": "A Hidra começa com três cabeças e pode ter até cinco. Quando a Hidra sofre dano maior ou maior, ela perde uma cabeça."
+      },
+      {
+        "title": "Implacável (X)",
+        "type": "Passive",
+        "description": "A Hidra pode ser colocado em foco X vezes por turno do MJ, onde X é o número de cabeças da Hidra. Gaste Medo normalmente para foco."
+      },
+      {
+        "title": "Regeneração",
+        "type": "Action",
+        "description": "Se a Hydra tiver algum HP marcado, gaste um Medo para limpar um HP e fazer crescer duas cabeças."
+      },
+      {
+        "title": "Refrão aterrorizante",
+        "type": "Action",
+        "description": "Todos os PJs dentro do alcance de Longe perdem 2 de esperança."
+      },
+      {
+        "title": "Fraqueza Mágica",
+        "type": "Reaction",
+        "description": "Quando a Hidra pega dano mágico, ela se torna Atordoado até a próxima rolagem com Medo. Enquanto Atordoado, eles não podem usar sua ação de Regeneração, mas são imunes a dano mágico."
+      }
+    ]
+  },
+  "MONARCA": {
+    "name": "MONARCA",
+    "tier": "Tier 3 Social",
+    "description": "O governante soberano de uma nação, envolto no privilégio da tradição e exercendo um poder incomparável em seu domínio.",
+    "motivestactics": "Controle vassalos, destrua rivais, forje um legado",
+    "difficulty": 16,
+    "thresholds": "16/32",
+    "hp": 6,
+    "stress": 5,
+    "atk": "+0",
+    "weapons": "Martelo de guerra: Corpo a corpo | 3d6+3 phy",
+    "experience": "História +3, Nobreza +3",
+    "features": [
+      {
+        "title": "Execute-os!",
+        "type": "Action",
+        "description": "Gaste um Medo por PJ na festa para que o grupo seja condenado por crimes reais ou imaginários. Um PJ que obtiver sucesso em um teste de Presença pode exigir julgamento por combate ou outra forma especial de julgamento."
+      },
+      {
+        "title": "Crownsguard",
+        "type": "Action",
+        "description": "Uma vez por cena, marque um Estresse para invocar seis Tier 3 Lacaios, que aparecem ao alcance de Perto para impor a vontade do Monarca."
+      },
+      {
+        "title": "Casus Belli",
+        "type": "Reaction",
+        "description": "Contagem regressiva de longo prazo (8). Gaste um Medo para ativar depois que o desejo de guerra do Monarca for revelado pela primeira vez. Quando esta é desencadeada, o Monarca tem uma razão para reunir a nação para a guerra e o apoio para agir de acordo com essa razão. Você ganha 1d4 Medo."
+      }
+    ]
+  },
+  "CAVALEIRO DE VEADO": {
+    "name": "CAVALEIRO DE VEADO",
+    "tier": "Tier 3 Padrão",
+    "description": "Um cavaleiro com chifres enormes e majestosos usando uma armadura feita de espinhos perigosos.",
+    "motivestactics": "Isolar, manobrar, proteger a floresta, eliminar ervas daninhas",
+    "difficulty": 17,
+    "thresholds": "19/36",
+    "hp": 7,
+    "stress": 5,
+    "atk": "+3",
+    "weapons": "Espada Bramble: Corpo a corpo | 3d8+3 phy",
+    "experience": "Conhecimento Florestal +3",
+    "features": [
+      {
+        "title": "De cima",
+        "type": "Passive",
+        "description": "Quando o Cavaleiro obtém sucesso em um ataque padrão vindo de cima de um alvo, ele causa 3d12+3 dano físico em vez do dano padrão."
+      },
+      {
+        "title": "Lâmina da Floresta",
+        "type": "Action",
+        "description": "Gaste um Medo para fazer um ataque contra todos os alvos dentro do alcance de Muito perto. Os alvos contra os quais o Cavaleiro tiver sucesso recebem dano físico igual a 3d4 + o limite Maior do alvo."
+      },
+      {
+        "title": "Armadura Espinhosa",
+        "type": "Reaction",
+        "description": "Quando o Cavaleiro sofre dano de um ataque dentro do alcance de Corpo a corpo, você pode marcar um Estresse para causar 1d10+5 dano físico ao atacante."
+      }
+    ]
+  },
+  "TREANT DE CARVALHO": {
+    "name": "TREANT DE CARVALHO",
+    "tier": "Tier 3 Bruto",
+    "description": "Uma árvore antiga e robusta.",
+    "motivestactics": "Esconda-se à vista de todos, preserve a floresta, crie raízes, balance galhos",
+    "difficulty": 17,
+    "thresholds": "22/40",
+    "hp": 7,
+    "stress": 4,
+    "atk": "+2",
+    "weapons": "Filial: Muito perto | 3d8+2 phy",
+    "experience": "Conhecimento Florestal +3",
+    "features": [
+      {
+        "title": "Apenas uma arvore",
+        "type": "Passive",
+        "description": "Antes de fazer seu primeiro ataque em um combate ou depois de ficar Escondido, o Treant de Carvalho e indistinguivel de outras arvores ate sua proxima acao ou ate que um PJ o identifique com um teste de Instinto bem-sucedido."
+      },
+      {
+        "title": "Barragem de sementes",
+        "type": "Action",
+        "description": "Marque um Estresse e faca um ataque contra ate tres alvos dentro de alcance Perto, golpeando-os com bolotas gigantes. Os alvos contra os quais o Treant de Carvalho tiver sucesso sofrem 2d10+5 de dano fisico."
+      },
+      {
+        "title": "Criar raizes",
+        "type": "Action",
+        "description": "Marque um Estresse para criar raizes no lugar. O Treant de Carvalho fica Imobilizado enquanto estiver enraizado e pode encerrar esse efeito em vez de se mover enquanto estiver em foco. Enquanto estiver enraizado, o Treant de Carvalho tem resistencia a dano fisico."
+      }
+    ]
+  },
+  "MUDA DE TREANT": {
+    "name": "MUDA DE TREANT",
+    "tier": "Tier 3 Lacaio",
+    "description": "Uma muda de árvore pequena e senciente.",
+    "motivestactics": "Misture-se, preserve a floresta, esmurre, cerque",
+    "difficulty": 14,
+    "thresholds": "None",
+    "hp": 1,
+    "stress": 1,
+    "atk": "+0",
+    "weapons": "Filiais: Corpo a corpo | 8 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Lacaio (6)",
+        "type": "Passive",
+        "description": "A Muda de Treant e derrotada quando sofre qualquer dano. Para cada 6 de dano que um PJ causar a ela, derrote um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso."
+      },
+      {
+        "title": "Ataque em grupo",
+        "type": "Action",
+        "description": "Gaste um Medo para escolher um alvo e colocar em foco todas as Mudas de Treant dentro de Perto desse alvo. Esses Lacaios se movem para Corpo a corpo e fazem uma unica jogada de ataque compartilhada. Em caso de sucesso, causam 8 de dano fisico cada um. Some esse dano."
+      }
+    ]
+  },
+  "VAMPIRO CABEÇA": {
+    "name": "VAMPIRO CABEÇA",
+    "tier": "Tier 3 Líder",
+    "description": "Um morto-vivo cativante vestido com roupas aristocráticas.",
+    "motivestactics": "Crie escravos, encante, comande, voe, intimide",
+    "difficulty": 17,
+    "thresholds": "22/42",
+    "hp": 6,
+    "stress": 6,
+    "atk": "+5",
+    "weapons": "Espada: Corpo a corpo | 2d20+4 phy",
+    "experience": "Aristocrata +3",
+    "features": [
+      {
+        "title": "Aterrorizante",
+        "type": "Passive",
+        "description": "Quando o Vampiro faz um ataque bem-sucedido, todos os PJs dentro do alcance de Longe perdem uma Esperança e você ganha um Medo."
+      },
+      {
+        "title": "Olhe nos meus olhos",
+        "type": "Passive",
+        "description": "Uma criatura que se move para o alcance Corpo a corpo do Vampiro deve fazer um teste de Reação de Instinto. Em caso de falha, você ganha 1d4 Medo."
+      },
+      {
+        "title": "Alimentar-se de Seguidores",
+        "type": "Action",
+        "description": "Quando o Vampiro está dentro do alcance Corpo a corpo de um aliado, ele pode fazer com que o aliado marque um HP. O Vampiro então limpa um HP."
+      },
+      {
+        "title": "A caça começou",
+        "type": "Action",
+        "description": "Gaste 2 Medo para invocar 1d4 vampiros, que aparecem ao alcance de Longe e imediatamente pegam o foco."
+      },
+      {
+        "title": "Lifesuck",
+        "type": "Reaction",
+        "description": "Quando o Vampiro for colocado em foco, role um d8. Com um resultado de 6 ou superior, todos os alvos dentro do alcance de Muito perto devem marcar um HP."
+      }
+    ]
+  },
+  "VAMPIRO": {
+    "name": "VAMPIRO",
+    "tier": "Tier 3 Padrão",
+    "description": "Um morto-vivo inteligente com lábios manchados de sangue e um sorriso de predador.",
+    "motivestactics": "Morder, encantar, enganar, alimentar, intimidar",
+    "difficulty": 16,
+    "thresholds": "18/35",
+    "hp": 5,
+    "stress": 4,
+    "atk": "+3",
+    "weapons": "Espada: Corpo a corpo | 3d8 phy",
+    "experience": "Caçador Noturno +3",
+    "features": [
+      {
+        "title": "Mordida Drenante",
+        "type": "Action",
+        "description": "Faça um ataque contra um alvo dentro do alcance de Corpo a corpo. Em caso de sucesso, distribua 5d4 dano físico. Um alvo que marcar HP com este ataque perde uma Esperança e deve marcar um Estresse. O Vampiro então limpa um HP."
+      },
+      {
+        "title": "Mistform",
+        "type": "Reaction",
+        "description": "Quando o Vampiro sofre dano físico, você pode gastar um Medo para sofrer metade do dano."
+      }
+    ]
+  },
+  "GUARDIAO DA ABOBADA: CARCEREIRO": {
+    "name": "GUARDIAO DA ABOBADA: CARCEREIRO",
+    "tier": "Tier 3 Suporte",
+    "description": "Uma construção quadrada e coberta de poeira com grossas portas giratórias metálicas em seu torso.",
+    "motivestactics": "Levar embora, prender, proteger, esmurrar",
+    "difficulty": 16,
+    "thresholds": "19/33",
+    "hp": 5,
+    "stress": 3,
+    "atk": "+2",
+    "weapons": "Golpe corporal: Muito perto | 3d6+2 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Escudo de Bloqueio",
+        "type": "Passive",
+        "description": "Criaturas dentro do alcance de Corpo a corpo do Carcereiro têm desvantagem em jogadas de ataque contra elas. Criaturas presas dentro do Carcereiro são imunes a esse recurso."
+      },
+      {
+        "title": "Lock Up",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer um ataque contra um alvo dentro do alcance do Muito perto. Em caso de sucesso, o alvo é Imobilizado dentro do Carcereiro até ser libertado com um teste de Força (18) bem-sucedido. Enquanto Imobilizado, o alvo só pode atacar o Carcereiro."
+      }
+    ]
+  },
+  "GUARDIAO DA ABOBADA: SENTINELA": {
+    "name": "GUARDIAO DA ABOBADA: SENTINELA",
+    "tier": "Tier 3 Bruto",
+    "description": "Uma construção dourada coberta de poeira com membros quadrados e uma enorme maça no lugar da mão.",
+    "motivestactics": "Destrua a qualquer custo, expurgue, proteja",
+    "difficulty": 17,
+    "thresholds": "21/40",
+    "hp": 6,
+    "stress": 3,
+    "atk": "+3",
+    "weapons": "Maça carregada: Muito perto | 2d12+1 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Kinetic Slam",
+        "type": "Passive",
+        "description": "Os alvos que sofrem dano do ataque padrão do Sentinela são empurrados para o alcance de Muito perto."
+      },
+      {
+        "title": "Box In",
+        "type": "Action",
+        "description": "Marque um Estresse para escolher um alvo dentro do alcance do Muito perto para focar. Esse alvo tem desvantagem nas jogadas de ataque quando está dentro do alcance Muito perto do Sentinela. O Sentinela só pode focar em um alvo por vez."
+      },
+      {
+        "title": "Raio de mana",
+        "type": "Action",
+        "description": "Gaste um Medo para lançar magia explosiva em um ponto dentro do alcance de Longe. Todos os alvos dentro do alcance Muito perto desse ponto devem fazer um teste de Reação de Agilidade. Os alvos que falharem recebem 2d8+20 dano mágico e são repelidos ao alcance de Perto. Os alvos bem-sucedidos sofrem metade do dano e não são repelidos."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando o Sentinela faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "GUARDIAO DA ABOBADA: TORRETA": {
+    "name": "GUARDIAO DA ABOBADA: TORRETA",
+    "tier": "Tier 3 À distância",
+    "description": "Uma enorme torre viva com blindagem reforçada e doze pernas mecânicas acionadas por pistão.",
+    "motivestactics": "Concentre o fogo, bloqueie, marque, proteja",
+    "difficulty": 16,
+    "thresholds": "20/32",
+    "hp": 5,
+    "stress": 4,
+    "atk": "+3",
+    "weapons": "Canhão Magitech: Longe | 3d10+3 mágico",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Disparo lento",
+        "type": "Passive",
+        "description": "Quando você foco a Torre e eles não têm um token em seu bloco de estatísticas, eles não podem fazer um ataque padrão. Coloque uma ficha no bloco de estatísticas e descreva o que eles estão se preparando para fazer. Quando você foco a Torre e eles tiverem um token em seu bloco de estatísticas, limpe o token e eles poderão atacar."
+      },
+      {
+        "title": "Marcar Alvo",
+        "type": "Action",
+        "description": "Gaste um Medo para Marcar um alvo dentro do alcance de Longe até que a Torre seja destruída ou o alvo Marcado se torne Escondido. Enquanto o alvo estiver Marcado, sua Evasão será reduzida pela metade."
+      },
+      {
+        "title": "Fogo concentrado",
+        "type": "Reaction",
+        "description": "Quando outro adversário causa dano a um alvo dentro do alcance Longe da Torre, você pode marcar um Estresse para adicionar o dano de ataque padrão da Torre à jogada de dano."
+      },
+      {
+        "title": "Detonação",
+        "type": "Reaction",
+        "description": "Quando a Torreta é destruída, ela explode. Todos os alvos dentro do alcance Perto devem fazer um teste de Reação de Agilidade. Os alvos que falharem recebem 3d20 dano físico. Os alvos bem-sucedidos sofrem metade do dano."
+      }
+    ]
+  },
+  "JOVEM DRAGÃO DE GELO": {
+    "name": "JOVEM DRAGÃO DE GELO",
+    "tier": "Tier 3 Solo",
+    "description": "Um dragão azul glacial com quatro membros poderosos e asas tingidas de gelo.",
+    "motivestactics": "Avalanche, defenda o covil, voe, congele, defenda o que é meu, maul",
+    "difficulty": 18,
+    "thresholds": "21/41",
+    "hp": 10,
+    "stress": 6,
+    "atk": "+7",
+    "weapons": "Mordida e Garras: Perto | 4d10 phy",
+    "experience": "Proteja o que é meu +3",
+    "features": [
+      {
+        "title": "Implacável (3)",
+        "type": "Passive",
+        "description": "O Dragão pode ser colocado em foco até três vezes por turno do MJ. Gaste Medo normalmente para foco."
+      },
+      {
+        "title": "Rend and Crush",
+        "type": "Passive",
+        "description": "Se um alvo danificado pelo Dragão não marcar um Espaço de Armadura para reduzir o dano, ele deverá marcar um Estresse."
+      },
+      {
+        "title": "Sem Esperança",
+        "type": "Passive",
+        "description": "Quando um PJ rola com Medo enquanto está dentro do alcance de Longe do Dragão, ele perde uma Esperança."
+      },
+      {
+        "title": "Sopro de Nevasca",
+        "type": "Action",
+        "description": "Gaste 2 Medo para liberar um redemoinho gelado na frente do Dragão dentro do alcance de Perto. Todos os alvos nesta área devem fazer um teste de Reação de Agilidade. Os alvos que falharem recebem 4d6+5 dano mágico e são Imobilizado pelo gelo até se libertarem com um teste de Força bem-sucedido. Os alvos bem-sucedidos devem marcar 2 Estresse ou sofrer metade do dano."
+      },
+      {
+        "title": "Avalanche",
+        "type": "Action",
+        "description": "Gaste um Medo para fazer o Dragão desencadear uma enorme queda de neve e gelo, cobrindo todas as outras criaturas dentro do alcance de Longe. Todos os alvos nesta área devem ter sucesso em um teste de Reação de Instinto ou serão enterrados na neve e nas rochas, tornando-se Vulnerável até que se retirem dos escombros. Para cada PJ que falhar no teste de reação, você ganha um Medo."
+      },
+      {
+        "title": "Escamas Congeladas",
+        "type": "Reaction",
+        "description": "Quando uma criatura faz um ataque bem-sucedido contra o Dragão dentro do alcance de Muito perto, ela deve marcar um Estresse e ficar Resfriada até seu próximo descanso ou eliminar um Estresse. Enquanto estão resfriados, eles têm desvantagem nas jogadas de ataque."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando o Dragão faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "ARQUINECROMANTE": {
+    "name": "ARQUINECROMANTE",
+    "tier": "Tier 4 Líder",
+    "description": "Um mago decadente adornado com vestes escuras e esfarrapadas.",
+    "motivestactics": "Corromper, decair, fugir para lutar outro dia, ressuscitar",
+    "difficulty": 21,
+    "thresholds": "33/66",
+    "hp": 9,
+    "stress": 8,
+    "atk": "+6",
+    "weapons": "Explosão Necrótica: Longe | 4d12+8 mágico",
+    "experience": "Conhecimento Proibido +3, Sabedoria de Séculos +3",
+    "features": [
+      {
+        "title": "Danca da morte",
+        "type": "Action",
+        "description": "Marque um Estresse para colocar 1d4 aliados em foco. Os ataques que eles fizerem enquanto estiverem em foco dessa forma causam metade do dano, ou dano total se voce gastar um Medo."
+      },
+      {
+        "title": "Raio da decadencia",
+        "type": "Action",
+        "description": "Marque 2 Estresses para fazer com que todos os alvos dentro de alcance Longe realizem um teste de Reacao de Forca. Os alvos que falharem sofrem 2d20+12 de dano magico e voce ganha um Medo. Os alvos que tiverem sucesso sofrem metade do dano. Um alvo que marcar 2 ou mais HP tambem deve marcar 2 Estresses e fica Vulneravel ate rolar com Esperanca."
+      },
+      {
+        "title": "Abrir os portoes da morte",
+        "type": "Action",
+        "description": "Gaste um Medo para invocar uma Legiao de Zumbis, que aparece em alcance Perto e imediatamente pega o foco."
+      },
+      {
+        "title": "Hoje nao, meus queridos",
+        "type": "Reaction",
+        "description": "Quando o Arquinecromante tiver marcado 7 ou mais de seus HP, voce pode gastar um Medo para faze-lo se teletransportar para um local seguro e se recuperar. Um PJ que tiver sucesso em um teste de Instinto pode rastrear a magia de teletransporte ate o destino."
+      },
+      {
+        "title": "Sua vida e minha",
+        "type": "Reaction",
+        "description": "Contagem regressiva (ciclo 2d6). Quando o Arquinecromante tiver marcado 6 ou mais de seus HP, ative a contagem regressiva. Quando ela disparar, cause 2d10+6 de dano magico direto a um alvo dentro de alcance Perto. O Arquinecromante entao remove uma quantidade de Estresse ou HP igual ao numero de HP marcado pelo alvo com esse ataque."
+      }
+    ]
+  },
+  "TROPA DE CHOQUE CAÍDA": {
+    "name": "TROPA DE CHOQUE CAÍDA",
+    "tier": "Tier 4 Lacaio",
+    "description": "Uma alma amaldiçoada ligada à vontade dos Decaídos.",
+    "motivestactics": "Esmagar, dominar, obter alívio, punir",
+    "difficulty": 18,
+    "thresholds": "None",
+    "hp": 1,
+    "stress": 1,
+    "atk": "+2",
+    "weapons": "Machado Amaldiçoado: Muito perto | 12 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Lacaio (12)",
+        "type": "Passive",
+        "description": "A Tropa de Choque é derrotada quando sofre algum dano. Para cada 12 danos que um PJ causa à Tropa de Choque, derrote um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso."
+      },
+      {
+        "title": "Aura of Doom",
+        "type": "Passive",
+        "description": "Quando um PJ marca HP de um ataque da Tropa de Choque, ele perde uma Esperança."
+      },
+      {
+        "title": "Ataque em grupo",
+        "type": "Action",
+        "description": "Gaste um Medo para escolher um alvo e foco todas as tropas de choque caídas dentro do alcance Perto deles. Esses Lacaios se movem para o alcance Corpo a corpo do alvo e fazem uma jogada de ataque compartilhada. Em caso de sucesso, eles negociam 12 dano físico cada. Combine esse dano."
+      }
+    ]
+  },
+  "FEITICEIRO CAÍDO": {
+    "name": "FEITICEIRO CAÍDO",
+    "tier": "Tier 4 Suporte",
+    "description": "Um mago poderoso vinculado às barganhas que fez na vida.",
+    "motivestactics": "Adquirir, desanimar, dominar, atormentar",
+    "difficulty": 19,
+    "thresholds": "26/42",
+    "hp": 6,
+    "stress": 5,
+    "atk": "+4",
+    "weapons": "Equipe Corrompida: Longe | 4d6+10 mágico",
+    "experience": "Conhecimento Antigo +2",
+    "features": [
+      {
+        "title": "Conflagração",
+        "type": "Action",
+        "description": "Gaste um Medo para desencadear uma tempestade de fogo devastadora e fazer um ataque contra todos os alvos dentro do alcance do Perto. Os alvos contra os quais o Feiticeiro consegue obter 2d10+6 diretos dano mágico."
+      },
+      {
+        "title": "Quadro de Pesadelo",
+        "type": "Action",
+        "description": "Marque um Estresse para prender um alvo dentro do alcance de Longe em uma ilusão poderosa de seus piores medos. Enquanto preso, o alvo é Imobilizado e Vulnerável até que se libertem, encerrando ambas as condições, com um teste de Instinto bem-sucedido."
+      },
+      {
+        "title": "Escorregadio",
+        "type": "Reaction",
+        "description": "Quando o Feiticeiro sofre dano de um ataque, ele pode se teletransportar até o alcance de Longe."
+      },
+      {
+        "title": "Algemas da Culpa",
+        "type": "Reaction",
+        "description": "Contagem regressiva (ciclo 2d6). Quando o Feiticeiro estiver no foco pela primeira vez, ative a contagem regressiva. Quando ativado, todos os alvos dentro do alcance de Longe se tornam Vulnerável e devem marcar um Estresse enquanto revivem seus maiores arrependimentos. Um alvo pode se libertar de seu arrependimento com uma Presença ou teste de Força bem-sucedida. Quando um PJ não consegue se libertar, ele perde uma Esperança."
+      }
+    ]
+  },
+  "SENHOR DA GUERRA CAÍDO: QUEBRADOR DE REINO": {
+    "name": "SENHOR DA GUERRA CAÍDO: QUEBRADOR DE REINO",
+    "tier": "Tier 4 Solo",
+    "description": "Um Deus Caído, envolto em raiva e ressentimento, com milênios de experiência em quebrar o espírito de heróis.",
+    "motivestactics": "Corromper, dominar, punir, quebrar os fracos",
+    "difficulty": 20,
+    "thresholds": "36/66",
+    "hp": 8,
+    "stress": 5,
+    "atk": "+7",
+    "weapons": "Chicote Farpado: Perto | 4d8+7 phy",
+    "experience": "Conquista +3, História +2, Intimidação +3",
+    "features": [
+      {
+        "title": "Implacável (2)",
+        "type": "Passive",
+        "description": "O Realm-Breaker pode ser colocado em foco até duas vezes por turno do MJ. Gaste Medo normalmente para foco."
+      },
+      {
+        "title": "Firespite Plate Armor",
+        "type": "Passive",
+        "description": "Quando o Realm-Breaker sofre dano, reduza-o em 2d10."
+      },
+      {
+        "title": "Açoite Tormentante",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer um ataque padrão contra todos os alvos dentro do alcance do Muito perto. Quando um alvo usa armadura para reduzir o dano deste ataque, ele deve marcar 2 Espaço de Armaduras."
+      },
+      {
+        "title": "Fúria que tudo consome",
+        "type": "Reaction",
+        "description": "Contagem regressiva (diminuindo 8). Quando o Realm-Breaker estiver no foco pela primeira vez, ative a contagem regressiva. Quando for ativado, crie uma torrente de raiva encarnada que dilacera a carne dos ossos. Todos os alvos dentro do alcance Longe devem fazer um teste de Reação de Presença. Os alvos que falharem recebem 2d6+10 dano mágico direto. Os alvos bem-sucedidos sofrem metade do dano. Para cada HP marcado com este dano, convoque uma Tropa de Choque Caída dentro do alcance Muito perto do alvo que marcou aquele HP. Se a contagem regressiva diminuir seu valor máximo para 0, o Realm-Breaker marca seu HP restante e todos os alvos dentro do alcance de Longe devem marcar todos os HP restantes e fazer um movimento mortal."
+      },
+      {
+        "title": "Doombringer",
+        "type": "Reaction",
+        "description": "Quando um alvo marca HP de um ataque do Realm-Breaker, todos os PJs dentro do alcance de Longe do alvo devem perder uma Esperança."
+      },
+      {
+        "title": "Eu nunca conheci a derrota (mudança de fase)",
+        "type": "Reaction",
+        "description": "Quando o Realm-Breaker marcar seu último HP, substitua-o pelo Campeão Invicto e imediatamente foco."
+      }
+    ]
+  },
+  "SENHOR DA GUERRA CAÍDO: CAMPEÃO INDEFECIDO": {
+    "name": "SENHOR DA GUERRA CAÍDO: CAMPEÃO INDEFECIDO",
+    "tier": "Tier 4 Solo",
+    "description": "Aquilo que só os mais temidos têm chance de temer.",
+    "motivestactics": "Despache a morte impiedosa, puna os desafiadores, garanta a vitória a qualquer custo",
+    "difficulty": 18,
+    "thresholds": "35/58",
+    "hp": 11,
+    "stress": 5,
+    "atk": "+8",
+    "weapons": "Espada Destruidora de Corações: Muito perto | 4d12+13 phy",
+    "experience": "Conquista +3, História +2, Intimidação +3",
+    "features": [
+      {
+        "title": "Implacável (3)",
+        "type": "Passive",
+        "description": "O Campeão Invicto pode ser colocado em foco até três vezes por turno do MJ. Gaste Medo normalmente para foco."
+      },
+      {
+        "title": "Armadura Vacilante",
+        "type": "Passive",
+        "description": "Quando o Campeão Invicto sofrer dano, reduza-o em 1d10."
+      },
+      {
+        "title": "Golpe Destruidor",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer um ataque padrão contra todos os alvos dentro do alcance do Muito perto. PJs contra os quais o Campeão consegue perder um número de Esperança igual ao HP que marcou neste ataque."
+      },
+      {
+        "title": "Legiões Infinitas",
+        "type": "Action",
+        "description": "Gaste um Medo para convocar um número de Tropas de Choque Caídas igual ao dobro do número de PJs. As tropas de choque aparecem na faixa Longe."
+      },
+      {
+        "title": "Círculo de Profanação",
+        "type": "Reaction",
+        "description": "Contagem regressiva (1d8). Quando o Campeão Invicto estiver no foco pela primeira vez, ative a contagem regressiva. Quando for acionado, ative um círculo mágico cobrindo uma área dentro do alcance Longe do Campeão. Um alvo dentro dessa área é Vulnerável até sair do círculo. O círculo pode ser removido distribuindo dano severo ao Campeão Invicto."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando o Campeão Invicto faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      },
+      {
+        "title": "Doombringer",
+        "type": "Reaction",
+        "description": "Quando um alvo marca HP de um ataque do Campeão Invicto, todos os PJs dentro do alcance Longe do alvo perdem uma Esperança."
+      }
+    ]
+  },
+  "ARQUEIRO SANTIFICADO": {
+    "name": "ARQUEIRO SANTIFICADO",
+    "tier": "Tier 4 À distância",
+    "description": "Soldados espirituais com arcos santificados.",
+    "motivestactics": "Concentre o fogo, obedeça, reposicione, voleio",
+    "difficulty": 19,
+    "thresholds": "25/45",
+    "hp": 3,
+    "stress": 2,
+    "atk": "+4",
+    "weapons": "Arco Longo Santificado: Longe | 4d8+8 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Punir o Culpado",
+        "type": "Passive",
+        "description": "O Arqueiro causa o dobro de dano aos alvos marcados como Culpado por um Alto Serafim."
+      },
+      {
+        "title": "Voleio Divino",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer um ataque padrão contra até três alvos."
+      }
+    ]
+  },
+  "SOLDADO SANTIFICADO": {
+    "name": "SOLDADO SANTIFICADO",
+    "tier": "Tier 4 Lacaio",
+    "description": "Almas dos fiéis, elevadas com armamento divino.",
+    "motivestactics": "Obedecer, manobrar, punir, enxamear",
+    "difficulty": 18,
+    "thresholds": "None",
+    "hp": 1,
+    "stress": 2,
+    "atk": "+2",
+    "weapons": "Espada e Escudo: Corpo a corpo | 10 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Lacaio (13)",
+        "type": "Passive",
+        "description": "O Soldado é derrotado quando sofre qualquer dano. Para cada 13 danos que um PJ causa ao Soldado, derrote um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso."
+      },
+      {
+        "title": "Vôo Divino",
+        "type": "Passive",
+        "description": "Enquanto o Soldado estiver voando, gaste um Medo para mover-se até o alcance Longe em vez do alcance Perto antes de realizar uma ação."
+      },
+      {
+        "title": "Ataque em Grupo",
+        "type": "Action",
+        "description": "Gaste um Medo para escolher um alvo e foco todos os Soldados Sagrados dentro do alcance de Perto deles. Esses Lacaios se movem para o alcance Corpo a corpo do alvo e fazem uma jogada de ataque compartilhada. Em caso de sucesso, eles negociam 10 dano físico cada. Combine esse dano."
+      }
+    ]
+  },
+  "ALTO SERAFA": {
+    "name": "ALTO SERAFA",
+    "tier": "Tier 4 Líder",
+    "description": "Um campeão divino, chefe de uma legião sagrada de guerreiros que fazem cumprir a vontade de seu deus.",
+    "motivestactics": "Imponha dogmas, voe, pronuncie julgamento, destrua",
+    "difficulty": 20,
+    "thresholds": "37/70",
+    "hp": 7,
+    "stress": 5,
+    "atk": "+8",
+    "weapons": "Espada Sagrada: Muito perto | 4d10+10 phy",
+    "experience": "Conhecimento Divino +3",
+    "features": [
+      {
+        "title": "Implacável (3)",
+        "type": "Passive",
+        "description": "O Serafim pode ser colocado em foco até três vezes por turno do MJ. Gaste Medo normalmente para foco."
+      },
+      {
+        "title": "Vôo Divino",
+        "type": "Passive",
+        "description": "Enquanto o Serafim estiver voando, gaste um Medo para mover-se até o alcance Longe em vez do alcance Perto antes de realizar uma ação."
+      },
+      {
+        "title": "Julgamento",
+        "type": "Action",
+        "description": "Gaste um Medo para tornar um alvo Culpado aos olhos do deus do Serafim até que o Serafim seja derrotado. Enquanto Culpado, o alvo não ganha Esperança em um resultado com Esperança. Quando o Serafim obtém sucesso em um ataque padrão contra um alvo Culpado, ele causa dano severo em vez do dano padrão. O Serafim só pode marcar um alvo por vez."
+      },
+      {
+        "title": "Raios Divinos",
+        "type": "Action",
+        "description": "Marque um Estresse para refletir um pedaço de divindade como um feixe de luz abrasador que atinge até vinte alvos dentro do alcance do Very Longe. Os alvos devem fazer um teste de Reação de Presença, com desvantagem se forem marcados como Culpados. Os alvos que falham recebem 4d6+12 dano mágico. Os alvos bem-sucedidos sofrem metade do dano."
+      },
+      {
+        "title": "Nós somos um",
+        "type": "Action",
+        "description": "Uma vez por cena, gaste um Medo para foco todos os outros adversários dentro do alcance de Longe. Os ataques que eles fazem enquanto colocado em foco causam metade do dano."
+      }
+    ]
+  },
+  "KRAKEN": {
+    "name": "KRAKEN",
+    "tier": "Tier 4 Solo",
+    "description": "Uma fera lendária do mar, maior que o maior galeão, com tentáculos carregados de ventosas e uma bocarra aterrorizante.",
+    "motivestactics": "Consumir, esmagar, afogar, lutar",
+    "difficulty": 20,
+    "thresholds": "35/70",
+    "hp": 11,
+    "stress": 8,
+    "atk": "+7",
+    "weapons": "Tentáculos: Perto | 4d12+10 phy",
+    "experience": "Natação +3",
+    "features": [
+      {
+        "title": "Implacável (3)",
+        "type": "Passive",
+        "description": "O Kraken pode ser colocado em foco até três vezes por turno do MJ. Gaste Medo normalmente para foco."
+      },
+      {
+        "title": "Muitos Tentáculos",
+        "type": "Passive",
+        "description": "Embora o Kraken tenha 7 ou menos HP marcados, ele pode realizar seu ataque padrão contra dois alvos dentro do alcance."
+      },
+      {
+        "title": "Agarrar e Afogar",
+        "type": "Action",
+        "description": "Faça uma jogada de ataque contra um alvo dentro do alcance de Perto. Se obtiver sucesso, marque um Estresse para agarrá-los com um tentáculo e arrastá-los para baixo da água. O alvo é Imobilizado e Vulnerável até que eles se libertem com um teste de Força bem-sucedido ou o Kraken sofra dano maior ou maior. Enquanto Imobilizado e Vulnerável estiverem desta forma, um alvo deve marcar um Estresse quando fizer uma jogada de ação."
+      },
+      {
+        "title": "Boiling Blast",
+        "type": "Action",
+        "description": "Gaste um Medo para vomitar uma linha de água fervente em qualquer número de alvos em uma linha até o alcance de Longe. Todos os alvos devem ter sucesso em um teste de Reação de Agilidade ou receber 4d6+9 dano físico. Se um alvo marcar um Espaço de Armadura para reduzir o dano, ele também deverá marcar um Estresse."
+      },
+      {
+        "title": "Impeto",
+        "type": "Reaction",
+        "description": "Quando o Kraken faz um ataque bem-sucedido contra um PJ, você ganha um Medo."
+      }
+    ]
+  },
+  "ORACULO DA PERDICAO": {
+    "name": "ORACULO DA PERDICAO",
+    "tier": "Tier 4 Solo",
+    "description": "Um imponente imortal e encarnação do destino, amaldiçoado a ver apenas resultados ruins.",
+    "motivestactics": "Mude o ambiente, condene, desanime, deixe de lado",
+    "difficulty": 20,
+    "thresholds": "38/68",
+    "hp": 11,
+    "stress": 10,
+    "atk": "+8",
+    "weapons": "Ataque Psíquico: Longe | 4d8+9 mágico",
+    "experience": "Conhecimento ilimitado +4",
+    "features": [
+      {
+        "title": "Aterrorizante",
+        "type": "Passive",
+        "description": "Quando o Oráculo faz um ataque bem-sucedido, todos os PJs dentro do alcance de Longe perdem uma Esperança e você ganha um Medo."
+      },
+      {
+        "title": "Paredes se aproximando",
+        "type": "Passive",
+        "description": "Quando uma criatura falha enquanto está dentro do alcance Muito Longe do Oráculo, ela deve marcar um Estresse."
+      },
+      {
+        "title": "Pronunciar Destino",
+        "type": "Action",
+        "description": "Gaste um Medo para apresentar um alvo dentro do alcance de Longe com uma visão de seu pesadelo pessoal. O alvo deve fazer um teste de Reação de Conhecimento. Em caso de falha, eles perdem toda a Esperança e recebem 2d20+4 dano mágico direto. Em caso de sucesso, eles sofrem metade do dano e perdem uma Esperança."
+      },
+      {
+        "title": "Convocar Atormentadores",
+        "type": "Action",
+        "description": "Uma vez por dia, gaste 2 Medo para convocar 2d4 Lacaios de Nível 2 ou menos relevantes para um dos pesadelos pessoais do PJ. Eles aparecem na faixa Perto em relação ao PJ."
+      },
+      {
+        "title": "Conhecimento Sinistro",
+        "type": "Reaction",
+        "description": "Quando o Oráculo vê uma criatura mortal, ele conhece instantaneamente um de seus pesadelos pessoais."
+      },
+      {
+        "title": "Vengeful Fate",
+        "type": "Reaction",
+        "description": "Quando o Oráculo marca HP de um ataque dentro do alcance de Muito perto, você pode marcar um Estresse para empurrar o atacante de volta ao alcance de Longe e causar 2d10+4 dano físico."
+      }
+    ]
+  },
+  "ABOMINAÇÃO DOS REINOS EXTERIORES": {
+    "name": "ABOMINAÇÃO DOS REINOS EXTERIORES",
+    "tier": "Tier 4 Bruto",
+    "description": "Uma zombaria caótica da vida, em constante fluxo.",
+    "motivestactics": "Demolir, devorar, minar",
+    "difficulty": 19,
+    "thresholds": "35/71",
+    "hp": 7,
+    "stress": 5,
+    "atk": "+2d4",
+    "weapons": "Pseudópode maciço: Muito perto | 4d6+13 mágico",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Forma Caótica",
+        "type": "Passive",
+        "description": "Quando a Abominação ataca, role 2d4 e use o resultado como modificador de ataque."
+      },
+      {
+        "title": "Presença Desorientadora",
+        "type": "Passive",
+        "description": "Quando um alvo sofre dano da Abominação, ele deve fazer um teste de Reação de Instinto. Em caso de falha, eles ganham desvantagem em sua próxima jogada de ação e você ganha um Medo."
+      },
+      {
+        "title": "Reality Quake",
+        "type": "Action",
+        "description": "Gaste um Medo para sacudir os limites da realidade dentro do alcance Longe da Abominação. Todos os alvos dentro daquela área devem ter sucesso em um teste de Reação de Conhecimento ou se libertarão da realidade até o final da cena. Quando um alvo Unstuck gasta Esperança ou marca Espaço de Armaduras, HP ou Estresse, ele deve dobrar a quantia gasta ou marcada."
+      },
+      {
+        "title": "Forma Irreal",
+        "type": "Reaction",
+        "description": "Quando a Abominação sofre dano, reduza-o em 1d20. Se a Abominação marcar 1 ou menos Pontos de Vida em um ataque bem-sucedido contra ela, você ganha um Medo."
+      }
+    ]
+  },
+  "CORRUPTOR DOS REINOS EXTERIORES": {
+    "name": "CORRUPTOR DOS REINOS EXTERIORES",
+    "tier": "Tier 4 Suporte",
+    "description": "Uma massa mutável e sem forma, aparentemente feita de luz cromática.",
+    "motivestactics": "Confundir, distrair, sobrecarregar",
+    "difficulty": 19,
+    "thresholds": "27/47",
+    "hp": 4,
+    "stress": 3,
+    "atk": "+7",
+    "weapons": "Pseudópode corroído: Muito perto | 4d8+5 mágico",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Toque Destruidor de Vontade",
+        "type": "Passive",
+        "description": "Quando um PJ sofre dano do Corruptor, ele perde uma Esperança."
+      },
+      {
+        "title": "Disgorge Reality Flotsam",
+        "type": "Action",
+        "description": "Marque um Estresse para vomitar porções parcialmente digeridas de realidades consumidas em todos os alvos dentro do alcance de Perto. Os alvos devem ter sucesso em teste de Reação de Conhecimento ou marcar 2 Estresse."
+      }
+    ]
+  },
+  "SERVO DOS REINOS EXTERIORES": {
+    "name": "SERVO DOS REINOS EXTERIORES",
+    "tier": "Tier 4 Lacaio",
+    "description": "Uma forma vagamente humanóide desprovida de memória e identidade.",
+    "motivestactics": "Destruir, enojar, desorientar, intimidar",
+    "difficulty": 17,
+    "thresholds": "None",
+    "hp": 1,
+    "stress": 1,
+    "atk": "+3",
+    "weapons": "Garras e Dentes: Muito perto | 11 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Lacaio (13)",
+        "type": "Passive",
+        "description": "O Servo é derrotado quando sofre qualquer dano. Para cada 13 de dano que um PJ causa ao Servo, derrote um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso."
+      },
+      {
+        "title": "Ataque em Grupo",
+        "type": "Action",
+        "description": "Gaste um Medo para escolher um alvo e foco todos os Servos do Reino Externo dentro do alcance de Perto deles. Esses Lacaios se movem para o alcance Corpo a corpo do alvo e fazem uma jogada de ataque compartilhada. Em caso de sucesso, eles negociam 11 dano físico cada. Combine esse dano."
+      }
+    ]
+  },
+  "DRAGÃO VULCÂNICO: PREDADOR OBSIDIANO": {
+    "name": "DRAGÃO VULCÂNICO: PREDADOR OBSIDIANO",
+    "tier": "Tier 4 Solo",
+    "description": "Uma enorme criatura alada com escamas de obsidiana e garras incrivelmente afiadas.",
+    "motivestactics": "Defenda o covil, mergulhe com bombas, voe, cace, intimide",
+    "difficulty": 19,
+    "thresholds": "33/65",
+    "hp": 6,
+    "stress": 5,
+    "atk": "+8",
+    "weapons": "Garras de Obsidiana: Perto | 4d10+4 phy",
+    "experience": "Caçar de cima +5",
+    "features": [
+      {
+        "title": "Implacável (2)",
+        "type": "Passive",
+        "description": "O Predador Obsidiano pode ser colocado em foco até duas vezes por turno do MJ. Gaste Medo normalmente para foco."
+      },
+      {
+        "title": "Voar",
+        "type": "Passive",
+        "description": "Enquanto voa, o Predador Obsidiano ganha um bônus de +3 em sua dificuldade."
+      },
+      {
+        "title": "Escamas de Obsidiana",
+        "type": "Passive",
+        "description": "O Predador de Obsidiana é resistente a dano físico."
+      },
+      {
+        "title": "Avalanche Tail",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer um ataque contra todos os alvos dentro do alcance do Perto. Os alvos que o Predador Obsidiano consegue atingir recebem 4d6+4 dano físico e são empurrados de volta para o alcance Longe e Vulnerável até seu próximo lançamento com Esperança."
+      },
+      {
+        "title": "Dive-Bomb",
+        "type": "Action",
+        "description": "Se o Obsidian Predator estiver voando, marque um Estresse para escolher um ponto dentro do alcance do Longe. Vá até esse ponto e ataque todos os alvos dentro do alcance do Muito perto. Os alvos contra os quais o Predador Obsidiano consegue pegar 2d10+6 dano físico e devem marcar um Estresse e perder uma Esperança."
+      },
+      {
+        "title": "Erupting Rage (Phase Change)",
+        "type": "Reaction",
+        "description": "Quando o Obsidian Predator marcar seu último HP, substitua-o pelo Molten Scourge e imediatamente foco."
+      }
+    ]
+  },
+  "DRAGÃO VULCÂNICO: FLAGELO FUNDIDO": {
+    "name": "DRAGÃO VULCÂNICO: FLAGELO FUNDIDO",
+    "tier": "Tier 4 Solo",
+    "description": "Enfurecido por seus ferimentos, o dragão explode em lava derretida.",
+    "motivestactics": "Apagar com lava, incinerar, repelir Invasores, reposicionar",
+    "difficulty": 20,
+    "thresholds": "30/58",
+    "hp": 7,
+    "stress": 5,
+    "atk": "+9",
+    "weapons": "Garras revestidas de lava: Perto | 4d12+4 phy",
+    "experience": "Caçar de cima +5",
+    "features": [
+      {
+        "title": "Implacável (3)",
+        "type": "Passive",
+        "description": "O Flagelo Derretido pode ser colocado em foco até três vezes por turno do MJ. Gaste Medo normalmente para foco."
+      },
+      {
+        "title": "Escamas Rachadas",
+        "type": "Passive",
+        "description": "Quando o Flagelo Derretido sofre dano, role um número de d6s igual ao HP marcado. Para cada resultado de 4 ou superior, você ganha um Medo."
+      },
+      {
+        "title": "Shattering Might",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer um ataque contra um alvo dentro do alcance de Muito perto. Se obtiver sucesso, o alvo recebe 4d8+1 dano físico, perde uma Esperança e é empurrado de volta para o alcance de Perto. O Molten Scourge elimina um Estresse."
+      },
+      {
+        "title": "Erupção",
+        "type": "Action",
+        "description": "Gaste um Medo para fazer erupção de lava abaixo das escamas do Flagelo Derretido, enchendo a área dentro do alcance de Muito perto com lava derretida. Todos os alvos naquela área devem ter sucesso em um teste de Reação de Agilidade ou receber 4d6+6 dano físico e serem repelidos para o alcance de Perto. Esta área permanece lava. Quando uma criatura que não seja o Flagelo Derretido entra naquela área ou age dentro dela, ela deve marcar 6 HP."
+      },
+      {
+        "title": "Sopro Vulcânico",
+        "type": "Reaction",
+        "description": "Quando o Flagelo Derretido tomar dano maior, role um d10. Com um resultado de 8 ou superior, o Flagelo Derretido exala um fluxo de lava na frente deles dentro do alcance de Longe. Todos os alvos naquela área devem fazer um teste de Reação de Agilidade. Os alvos que falham pegam 2d10+4 dano físico, marcam 1d4 Estresse e são Vulnerável até eliminarem um Estresse. Os alvos bem-sucedidos recebem metade do dano e devem marcar um Estresse."
+      },
+      {
+        "title": "Respingo de Lava",
+        "type": "Reaction",
+        "description": "Quando o Flagelo Derretido tira dano severo de um ataque dentro do alcance de Muito perto, sangue derretido jorra do ferimento e causa 2d10+4 dano físico direto ao atacante."
+      },
+      {
+        "title": "Ashen Vengeance (Mudança de fase)",
+        "type": "Reaction",
+        "description": "Quando o Molten Scourge marcar seu último HP, substitua-os pelo Ashen Tyrant e imediatamente foco."
+      }
+    ]
+  },
+  "DRAGÃO VULCÂNICO: TIRANTO CINZENTO": {
+    "name": "DRAGÃO VULCÂNICO: TIRANTO CINZENTO",
+    "tier": "Tier 4 Solo",
+    "description": "Nenhum inimigo jamais teve a insolência de ferir o dragão dessa forma. À medida que a lava assenta, ela se transforma em cinzas como os antigos inimigos do dragão.",
+    "motivestactics": "Sufocar, voar, intimidar, matar ou ser morto",
+    "difficulty": 18,
+    "thresholds": "29/55",
+    "hp": 8,
+    "stress": 5,
+    "atk": "+10",
+    "weapons": "Garras e Dentes: Perto | 4d12+15 phy",
+    "experience": "Caçar de cima +5",
+    "features": [
+      {
+        "title": "Implacável (4)",
+        "type": "Passive",
+        "description": "O Ashen Tyrant pode ser colocado em foco até quatro vezes por turno do MJ. Gaste Medo normalmente para foco."
+      },
+      {
+        "title": "Encurralado",
+        "type": "Passive",
+        "description": "Marque um Estresse em vez de gastar um Medo para foco, o Ashen Tyrant."
+      },
+      {
+        "title": "Asas Feridas",
+        "type": "Passive",
+        "description": "Enquanto voa, o Ashen Tyrant ganha um bônus de +1 em sua dificuldade."
+      },
+      {
+        "title": "Cinzas às Cinzas",
+        "type": "Passive",
+        "description": "Quando um PJ falha enquanto está dentro do alcance de Perto do Ashen Tyrant, ele perde uma Esperança e você ganha um Medo. Se o PJ não puder perder uma Esperança, eles deverão marcar um HP."
+      },
+      {
+        "title": "Fúria Desesperada",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer um ataque contra todos os alvos dentro do alcance do Perto. Os alvos contra os quais o Ashen Tyrant consegue recebem 2d20+2 dano físico, são empurrados de volta para o alcance Perto de onde estavam e devem marcar um Estresse."
+      },
+      {
+        "title": "Ashen Cloud",
+        "type": "Action",
+        "description": "Gaste um Medo para quebrar o chão e levantar cinzas dentro do alcance do Longe. Enquanto estiver dentro da nuvem de cinzas, um alvo tem desvantagem em jogadas de ação. A nuvem de cinzas desaparece na próxima vez que um adversário for colocado em foco."
+      },
+      {
+        "title": "Golpe Apocalíptico",
+        "type": "Action",
+        "description": "Contagem regressiva (1d12). Gaste um Medo para ativar. Ele diminui quando um PJ rola com Medo. Quando é acionado, o Ashen Tyrant se debate, causando danos ambientais (como um terremoto, avalanche ou desabamento de paredes). Todos os alvos dentro do alcance Longe devem fazer um teste de Reação de Força. Os alvos que falharem recebem 2d10+10 dano físico e são Imobilizado pelos escombros até se libertarem com um teste de Força bem-sucedido. Os alvos bem-sucedidos sofrem metade do dano. Se o Ashen Tyrant for derrotado enquanto esta contagem regressiva estiver ativa, acione a contagem regressiva imediatamente como a destruição causada por seus estertores de morte."
+      }
+    ]
+  },
+  "ZUMBI PERFEITO": {
+    "name": "ZUMBI PERFEITO",
+    "tier": "Tier 4 Bruto",
+    "description": "Um zumbi imponente e musculoso com força e habilidade magicamente infundidas.",
+    "motivestactics": "Consumir, perseguir, mutilar, aterrorizar",
+    "difficulty": 20,
+    "thresholds": "40/70",
+    "hp": 9,
+    "stress": 4,
+    "atk": "+4",
+    "weapons": "Machado Grande: Muito perto | 4d12+15 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Aterrorizante",
+        "type": "Passive",
+        "description": "Quando o Zumbi faz um ataque bem-sucedido, todos os PJs dentro do alcance de Longe perdem uma Esperança e você ganha um Medo."
+      },
+      {
+        "title": "Medoalguma Presença",
+        "type": "Passive",
+        "description": "PJs não podem gastar Esperança para usar recursos contra o Zumbi."
+      },
+      {
+        "title": "Ataque Perfeito",
+        "type": "Action",
+        "description": "Marque um Estresse para fazer um ataque padrão contra todos os alvos dentro do alcance do Muito perto. Os alvos contra os quais o Zumbi tem sucesso são Vulnerável até o próximo descanso."
+      },
+      {
+        "title": "Oportunista Habilidoso",
+        "type": "Reaction",
+        "description": "Quando outro adversário causa dano a um alvo dentro do alcance Muito perto do Zumbi, você pode gastar um Medo para adicionar o dano de ataque padrão do Zumbi à jogada de dano."
+      }
+    ]
+  },
+  "LEGIÃO ZUMBI": {
+    "name": "LEGIÃO ZUMBI",
+    "tier": "Tier 4 Horda (3/CV)",
+    "description": "Um grande bando de mortos-vivos, ainda poderosos apesar da carne podre.",
+    "motivestactics": "Consumir cérebro, rasgar carne, cercar",
+    "difficulty": 17,
+    "thresholds": "25/45",
+    "hp": 8,
+    "stress": 5,
+    "atk": "+2",
+    "weapons": "Tentáculos: Perto | 4d6+10 phy",
+    "experience": "Nenhuma",
+    "features": [
+      {
+        "title": "Horda (2d6+5)",
+        "type": "Passive",
+        "description": "Quando a Legião marca metade ou mais de seu HP, seu ataque padrão causa 2d6+5 dano físico."
+      },
+      {
+        "title": "Inflexível",
+        "type": "Passive",
+        "description": "A Legião tem resistência a dano físico."
+      },
+      {
+        "title": "Implacável (2)",
+        "type": "Passive",
+        "description": "A Legião pode ser colocado em foco até duas vezes por turno do MJ. Gaste Medo normalmente para foco."
+      },
+      {
+        "title": "Oprimir",
+        "type": "Reaction",
+        "description": "Quando a Legião pega dano menor de um ataque dentro do alcance de Corpo a corpo, você pode marcar um Estresse para fazer um ataque padrão com vantagem contra o atacante."
+      }
+    ]
+  }
+}
