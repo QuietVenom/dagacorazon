@@ -4,6 +4,7 @@ import "./globals.css";
 import { LanguageProvider } from "@/lib/i18n";
 import { getCurrentLanguage } from "@/lib/i18n-server";
 import { htmlLang } from "@/lib/i18n-core";
+import { siteUrl } from "@/lib/site";
 import { SiteNav } from "@/components/site-nav";
 import { SiteFooter } from "@/components/site-footer";
 import { DiceRoller } from "@/components/dice-roller";
@@ -27,7 +28,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
+  metadataBase: new URL(siteUrl),
   title: "Dagacorazón — Homebrew de Daggerheart para LATAM",
   description:
     "Crea, comparte y juega contenido casero de Daggerheart en español y portugués: adversarios, colosos, entornos, equipo y mesa de juego.",
